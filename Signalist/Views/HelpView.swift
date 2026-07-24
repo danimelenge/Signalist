@@ -44,6 +44,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "hand.point.up.braille.fill",
+            iconColor: .teal,
+            title: "Convertir texto a Braille",
+            description: "Ve a la pestaña \"Braille\", elige el modo \"Texto → Braille\" y escribe cualquier texto. El resultado se muestra en celdas Braille Unicode, incluyendo mayúsculas y números."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .mint,
+            title: "Convertir Braille a texto",
+            description: "Cambia al modo \"Braille → Texto\" dentro de la pestaña Braille y escribe o pega los símbolos Braille para obtener el texto equivalente."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -117,6 +131,7 @@ struct HelpView: View {
                     }
 
                     morseReferenceCard
+                    brailleReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -158,7 +173,7 @@ struct HelpView: View {
         VStack(alignment: .leading, spacing: 10) {
 
             Label(
-                "Referencia rápida",
+                "Referencia rápida — Morse",
                 systemImage: "list.bullet.rectangle"
             )
             .font(.system(size: 14, weight: .semibold))
@@ -179,6 +194,38 @@ struct HelpView: View {
         // NOTE:
         // Frequently used Morse characters are intentionally kept
         // short to avoid visual clutter.
+    }
+
+    // MARK: - Braille Reference Card
+
+    /// Displays a compact Braille code reference, including how
+    /// capital letters and numbers are represented.
+    private var brailleReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Braille",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "A: ⠁   B: ⠃   C: ⠉   D: ⠙   E: ⠑\n⠠ antes de una letra = mayúscula\n⠼ antes de un número = modo numérico (ej. ⠼⠁ = \"1\")"
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Explains the two special signs (capital and number) since
+        // they aren't obvious from single-letter Braille cells alone.
     }
 }
 
