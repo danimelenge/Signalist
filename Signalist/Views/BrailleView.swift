@@ -13,11 +13,8 @@ struct BrailleView: View {
 
     // MARK: - Properties
 
-    /// ViewModel encargado de la lógica de conversión.
-    @StateObject private var viewModel = BrailleViewModel()
-
-    /// Preferencia de apariencia seleccionada por el usuario.
-    @AppStorage("appTheme") private var appTheme: AppTheme = .system
+    /// Recibido desde RootView; el ViewModel es propiedad del contenedor padre.
+    @ObservedObject var viewModel: BrailleViewModel
 
     // MARK: - Body
 
@@ -35,7 +32,6 @@ struct BrailleView: View {
         }
         .frame(minWidth: 520, minHeight: 640)
         .background(Color(nsColor: .windowBackgroundColor))
-        .preferredColorScheme(appTheme.colorScheme)
     }
 
     // MARK: - Header
@@ -260,22 +256,17 @@ struct BrailleView: View {
     // MARK: - FIXME
 
     // FIXME: Implementar soporte para caracteres acentuados (á, é, í, ó, ú, ñ).
-
-    // MARK: - NOTE
-
-    // NOTE: La apariencia se obtiene desde AppStorage para mantener la misma
-    // configuración de tema en toda la aplicación.
 }
 
 // MARK: - Preview
 
 #Preview {
-    BrailleView()
+    BrailleView(viewModel: BrailleViewModel())
 }
 
 // MARK: - Dark Preview
 
 #Preview("Dark") {
-    BrailleView()
+    BrailleView(viewModel: BrailleViewModel())
         .preferredColorScheme(.dark)
 }

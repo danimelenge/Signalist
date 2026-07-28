@@ -13,27 +13,8 @@ struct ContentView: View {
 
     // MARK: - ViewModel
 
-    /// Handles the Morse conversion logic and application state.
-    @StateObject private var viewModel = MorseViewModel()
-
-    // MARK: - App Storage
-
-    /// Stores the selected appearance theme.
-    @AppStorage("appTheme")
-    private var appTheme: AppTheme = .system
-
-    /// Indicates whether the user has already seen the What's New screen.
-    @AppStorage("hasSeenWhatsNew")
-    private var hasSeenWhatsNew: Bool = false
-
-    // MARK: - View State
-
-    @State private var showWhatsNew: Bool = false
-
-    // MARK: - Environment
-
-    @EnvironmentObject private var helpCenter: HelpCenter
-    @Environment(\.colorScheme) private var systemColorScheme
+    /// Recibido desde RootView; el ViewModel es propiedad del contenedor padre.
+    @ObservedObject var viewModel: MorseViewModel
 
     // MARK: - Body
 
@@ -51,87 +32,6 @@ struct ContentView: View {
         }
         .frame(minWidth: 520, minHeight: 640)
         .background(Color(nsColor: .windowBackgroundColor))
-        .preferredColorScheme(appTheme.colorScheme)
-
-        // MARK: Toolbar
-
-        .toolbar {
-            ToolbarItem(placement: .navigation) {
-                Spacer()
-            }
-
-            ToolbarItem(placement: .primaryAction) {
-                Button {
-                    viewModel.isSoundEnabled.toggle()
-                    if !viewModel.isSoundEnabled {
-                        viewModel.soundPlayer.stop()
-                    }
-                } label: {
-                    Image(systemName: viewModel.isSoundEnabled ? "speaker.wave.2.fill" : "speaker.slash.fill")
-                }
-                .help(viewModel.isSoundEnabled ? "Silenciar sonido" : "Activar sonido")
-            }
-
-            ToolbarItem(placement: .primaryAction) {
-                Button {
-                    showWhatsNew = true
-                } label: {
-                    Image(systemName: "sparkles")
-                }
-                .help("Ver novedades")
-            }
-
-            ToolbarItem(placement: .primaryAction) {
-                themeMenu
-            }
-        }
-
-        // MARK: Lifecycle
-
-        .onAppear {
-            if !hasSeenWhatsNew {
-                showWhatsNew = true
-            }
-
-            // TODO:
-            // Add additional initialization logic if needed in future versions.
-        }
-
-        // MARK: Sheet Presentation
-
-        .sheet(isPresented: $showWhatsNew) {
-            WhatsNewView(features: WhatsNewFeature.currentFeatures) {
-                hasSeenWhatsNew = true
-                showWhatsNew = false
-            }
-        }
-        .sheet(isPresented: $helpCenter.isShowingHelp) {
-            HelpView()
-        }
-    }
-
-    // MARK: - Theme Menu
-
-    /// Allows the user to change the application's appearance.
-    private var themeMenu: some View {
-        Menu {
-            ForEach(AppTheme.allCases) { theme in
-                Button {
-                    withAnimation(.easeInOut) {
-                        appTheme = theme
-                    }
-                } label: {
-                    Label(theme.rawValue, systemImage: theme.icon)
-
-                    if appTheme == theme {
-                        Image(systemName: "checkmark")
-                    }
-                }
-            }
-        } label: {
-            Image(systemName: appTheme.icon)
-        }
-        .help("Apariencia")
     }
 
     // MARK: - Header
@@ -330,9 +230,6 @@ struct ContentView: View {
 
             Button {
                 viewModel.copyOutputToClipboard()
-
-                // NOTE:
-                // Consider showing a confirmation toast after copying.
             } label: {
                 Label("Copiar resultado",
                       systemImage: "doc.on.doc")
@@ -346,10 +243,6 @@ struct ContentView: View {
                 withAnimation(.snappy) {
                     viewModel.clearAll()
                 }
-
-                // FIXME:
-                // Ask for confirmation before deleting if future versions
-                // include persistent history.
             } label: {
                 Label("Limpiar",
                       systemImage: "trash")
@@ -377,12 +270,10 @@ struct ContentView: View {
 // MARK: - Previews
 
 #Preview {
-    ContentView()
-        .environmentObject(HelpCenter())
+    ContentView(viewModel: MorseViewModel())
 }
 
 #Preview("Dark") {
-    ContentView()
-        .environmentObject(HelpCenter())
+    ContentView(viewModel: MorseViewModel())
         .preferredColorScheme(.dark)
 }
