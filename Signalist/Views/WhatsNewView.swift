@@ -7,26 +7,51 @@
 
 import SwiftUI
 
-// MARK: - What's New View
+// MARK: - Vista de Novedades
 
-/// Displays the list of new features available in the latest version
-/// of the application.
+/// Pantalla que muestra las novedades y características
+/// disponibles en la versión actual de Signalist.
 struct WhatsNewView: View {
 
-    // MARK: - Properties
+    // MARK: - Propiedades
 
-    /// Features displayed in the What's New screen.
+    /// Lista de funcionalidades que se mostrarán.
     let features: [WhatsNewFeature]
 
-    /// Action executed when the user dismisses the screen.
+    /// Ícono principal del encabezado.
+    let headerIcon: String
+
+    /// Acción ejecutada al pulsar el botón Continuar.
     let onContinue: () -> Void
+
+    /// Tema seleccionado por el usuario.
+    @AppStorage("appTheme")
+    private var appTheme: AppTheme = .system
+
+    // MARK: - Inicializador
+
+    /// Crea la vista de novedades.
+    ///
+    /// - Parameters:
+    ///   - features: Lista de características a mostrar.
+    ///   - headerIcon: SF Symbol del encabezado.
+    ///   - onContinue: Acción del botón Continuar.
+    init(
+        features: [WhatsNewFeature],
+        headerIcon: String = "dot.radiowaves.left.and.right",
+        onContinue: @escaping () -> Void
+    ) {
+        self.features = features
+        self.headerIcon = headerIcon
+        self.onContinue = onContinue
+    }
 
     // MARK: - Body
 
     var body: some View {
         VStack(spacing: 0) {
 
-            // MARK: Header
+            // MARK: Encabezado
 
             VStack(spacing: 16) {
 
@@ -40,16 +65,14 @@ struct WhatsNewView: View {
                             y: 4
                         )
 
-                    Image(systemName: "dot.radiowaves.left.and.right")
-                        .font(.system(size: 30, weight: .semibold))
+                    Image(systemName: headerIcon)
+                        .font(.system(size: 28, weight: .semibold))
                         .foregroundStyle(.white)
                 }
                 .padding(.top, 36)
 
                 Text("Novedades en Signalist")
-                    .font(.system(size: 26,
-                                  weight: .bold,
-                                  design: .rounded))
+                    .font(.system(size: 26, weight: .bold, design: .rounded))
 
                 Text("Todo lo que puedes hacer con la nueva versión")
                     .font(.subheadline)
@@ -57,22 +80,18 @@ struct WhatsNewView: View {
             }
             .padding(.bottom, 28)
 
-            // MARK: Feature List
+            // MARK: Lista de funcionalidades
 
             VStack(alignment: .leading, spacing: 22) {
-
                 ForEach(features) { feature in
                     FeatureRow(feature: feature)
                 }
-
-                // TODO:
-                // Support grouped feature categories in future releases.
             }
             .padding(.horizontal, 40)
 
             Spacer(minLength: 28)
 
-            // MARK: Continue Button
+            // MARK: Botón Continuar
 
             Button(action: onContinue) {
                 Text("Continuar")
@@ -83,57 +102,45 @@ struct WhatsNewView: View {
             .controlSize(.large)
             .padding(.horizontal, 40)
             .padding(.bottom, 32)
-
-            // NOTE:
-            // This screen is shown only the first time after installing
-            // or after a major application update.
         }
         .frame(width: 460)
         .background(Color(nsColor: .windowBackgroundColor))
-
-        // FIXME:
-        // Make the window width adaptive for different macOS screen sizes.
+        .preferredColorScheme(appTheme.colorScheme)
     }
 }
 
-// MARK: - Feature Row
+// MARK: - Fila de Funcionalidad
 
-/// Displays a single feature inside the What's New screen.
+/// Representa una característica individual dentro
+/// de la pantalla de novedades.
 private struct FeatureRow: View {
 
-    // MARK: - Properties
+    // MARK: - Propiedades
 
     let feature: WhatsNewFeature
 
     // MARK: - Body
 
     var body: some View {
-
         HStack(alignment: .top, spacing: 16) {
 
             Image(systemName: feature.icon)
-                .font(.system(size: 22, weight: .medium))
+                .font(.system(size: 20, weight: .medium))
                 .foregroundStyle(feature.iconColor)
-                .frame(width: 40, height: 40)
+                .frame(width: 24)
 
             VStack(alignment: .leading, spacing: 3) {
 
                 Text(feature.title)
                     .font(.system(size: 14, weight: .semibold))
+                    .foregroundStyle(.primary)
 
                 Text(feature.description)
                     .font(.system(size: 13))
                     .foregroundStyle(.secondary)
                     .fixedSize(horizontal: false, vertical: true)
-
-                // TODO:
-                // Support attributed text or markdown descriptions.
             }
         }
-
-        // NOTE:
-        // The row automatically adjusts its height based on the
-        // description length.
     }
 }
 
@@ -142,6 +149,14 @@ private struct FeatureRow: View {
 #Preview {
     WhatsNewView(
         features: WhatsNewFeature.currentFeatures,
+        onContinue: {}
+    )
+}
+
+#Preview("Braille icon") {
+    WhatsNewView(
+        features: WhatsNewFeature.currentFeatures,
+        headerIcon: "hand.point.up.braille.fill",
         onContinue: {}
     )
 }

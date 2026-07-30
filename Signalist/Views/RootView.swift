@@ -95,7 +95,10 @@ struct RootView: View {
         // MARK: Sheets
 
         .sheet(isPresented: $showWhatsNew) {
-            WhatsNewView(features: WhatsNewFeature.currentFeatures) {
+            WhatsNewView(
+                features: WhatsNewFeature.currentFeatures,
+                headerIcon: selectedTab == 0 ? "dot.radiowaves.left.and.right" : "hand.point.up.braille.fill"
+            ) {
                 hasSeenWhatsNew = true
                 showWhatsNew = false
             }
