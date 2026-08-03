@@ -16,103 +16,72 @@ struct RootView: View {
 
     // MARK: - Shared ViewModels
 
-    /// ViewModel compartido del conversor Morse.
     @StateObject private var morseViewModel = MorseViewModel()
-
-    /// ViewModel compartido del conversor Braille.
     @StateObject private var brailleViewModel = BrailleViewModel()
+    @StateObject private var natoViewModel = NatoViewModel()
 
     // MARK: - App Storage
 
-    /// Apariencia seleccionada por el usuario.
-    @AppStorage("appTheme")
-    private var appTheme: AppTheme = .system
-
-    /// Indica si el usuario ya visualizó la ventana de novedades.
-    @AppStorage("hasSeenWhatsNew")
-    private var hasSeenWhatsNew: Bool = false
+    @AppStorage("appTheme") private var appTheme: AppTheme = .system
+    @AppStorage("hasSeenWhatsNew") private var hasSeenWhatsNew: Bool = false
 
     // MARK: - View State
 
-    /// Controla la presentación de la ventana "What's New".
     @State private var showWhatsNew: Bool = false
-
-    /// Pestaña actualmente seleccionada.
     @State private var selectedTab: Int = 0
 
     // MARK: - Environment
 
-    /// Administrador encargado de mostrar la ventana de ayuda.
     @EnvironmentObject private var helpCenter: HelpCenter
 
     // MARK: - Body
 
     var body: some View {
         TabView(selection: $selectedTab) {
-
             ContentView(viewModel: morseViewModel)
                 .tabItem {
-                    Label(
-                        "Morse",
-                        systemImage: "dot.radiowaves.left.and.right"
-                    )
+                    Label("Morse", systemImage: "dot.radiowaves.left.and.right")
                 }
                 .tag(0)
 
             BrailleView(viewModel: brailleViewModel)
                 .tabItem {
-                    Label(
-                        "Braille",
-                        systemImage: "hand.point.up.braille.fill"
-                    )
+                    Label("Braille", systemImage: "hand.point.up.braille.fill")
                 }
                 .tag(1)
+
+            NatoView(viewModel: natoViewModel)
+                .tabItem {
+                    Label("NATO", systemImage: "antenna.radiowaves.left.and.right")
+                }
+                .tag(2)
         }
         .preferredColorScheme(appTheme.colorScheme)
 
-        // MARK: - Toolbar
+        // MARK: Toolbar
 
-        /// Barra de herramientas principal compartida por toda la aplicación.
         .toolbar {
-
             ToolbarItem(placement: .navigation) {
                 Spacer()
             }
 
-            // El control de sonido únicamente está disponible
-            // para el conversor Morse.
             if selectedTab == 0 {
-
                 ToolbarItem(placement: .primaryAction) {
-
                     Button {
-
                         morseViewModel.isSoundEnabled.toggle()
-
                         if !morseViewModel.isSoundEnabled {
                             morseViewModel.soundPlayer.stop()
                         }
-
                     } label: {
-
-                        Image(systemName:
-                                morseViewModel.isSoundEnabled
-                              ? "speaker.wave.2.fill"
-                              : "speaker.slash.fill")
+                        Image(systemName: morseViewModel.isSoundEnabled ? "speaker.wave.2.fill" : "speaker.slash.fill")
                     }
-                    .help(
-                        morseViewModel.isSoundEnabled
-                        ? "Silenciar sonido"
-                        : "Activar sonido"
-                    )
+                    .help(morseViewModel.isSoundEnabled ? "Silenciar sonido" : "Activar sonido")
                 }
             }
 
             ToolbarItem(placement: .primaryAction) {
-
                 Button {
                     showWhatsNew = true
-
                 } label: {
                     Image(systemName: "sparkles")
                 }
@@ -124,101 +93,67 @@ struct RootView: View {
             }
         }
 
-        // MARK: - Lifecycle
+        // MARK: Lifecycle
 
         .onAppear {
-
             if !hasSeenWhatsNew {
                 showWhatsNew = true
             }
         }
 
-        // MARK: - Sheets
+        // MARK: Sheets
 
         .sheet(isPresented: $showWhatsNew) {
-
             WhatsNewView(
                 features: WhatsNewFeature.currentFeatures,
-                headerIcon:
-                    selectedTab == 0
-                    ? "dot.radiowaves.left.and.right"
-                    : "hand.point.up.braille.fill"
+                headerIcon: headerIconForCurrentTab
             ) {
-
                 hasSeenWhatsNew = true
                 showWhatsNew = false
             }
         }
-
         .sheet(isPresented: $helpCenter.isShowingHelp) {
             HelpView()
         }
     }
 
+    // MARK: - Helpers
+
+    private var headerIconForCurrentTab: String {
+        switch selectedTab {
+        case 0: return "dot.radiowaves.left.and.right"
+        case 1: return "hand.point.up.braille.fill"
+        default: return "antenna.radiowaves.left.and.right"
+        }
+    }
+
     // MARK: - Theme Menu
 
-    /// Menú que permite cambiar la apariencia global
-    /// de la aplicación.
     private var themeMenu: some View {
-
         Menu {
-
             ForEach(AppTheme.allCases) { theme in
-
                 Button {
-
                     withAnimation(.easeInOut) {
                         appTheme = theme
                     }
-
                 } label: {
-
-                    Label(
-                        theme.rawValue,
-                        systemImage: theme.icon
-                    )
-
+                    Label(theme.rawValue, systemImage: theme.icon)
                     if appTheme == theme {
                         Image(systemName: "checkmark")
                     }
                 }
             }
-
         } label: {
             Image(systemName: appTheme.icon)
         }
         .help("Apariencia")
     }
-
-    // MARK: - TODO
-
-    // TODO: Agregar nuevas pestañas para futuros sistemas de codificación
-    // como ASCII, Binario, Base64, Hexadecimal y Código César.
-
-    // TODO: Permitir que la pestaña inicial pueda configurarse
-    // desde las preferencias de la aplicación.
-
-    // MARK: - FIXME
-
-    // FIXME: Si en el futuro se agregan más pestañas,
-    // reemplazar el uso de Int por un enum para mejorar la
-    // legibilidad y el mantenimiento del código.
-
-    // MARK: - NOTE
-
-    // NOTE: RootView actúa como contenedor principal de toda la aplicación.
-    // Comparte los ViewModels entre pestañas para conservar el estado
-    // mientras el usuario navega entre Morse y Braille.
 }
-
-// MARK: - Preview
 
 #Preview {
     RootView()
         .environmentObject(HelpCenter())
 }
-
-// MARK: - Dark Preview
 
 #Preview("Dark") {
     RootView()

@@ -14,6 +14,9 @@
 		1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA8E3011296D004E082C /* BrailleViewModel.swift */; };
 		1156FA93301129D3004E082C /* BrailleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA92301129D3004E082C /* BrailleView.swift */; };
 		1156FA9530112A16004E082C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA9430112A16004E082C /* RootView.swift */; };
+		11E12B7230211F32009D37D2 /* NatoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7130211F32009D37D2 /* NatoCode.swift */; };
+		11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7330211F7E009D37D2 /* NatoViewModel.swift */; };
+		11E12B7630211FF4009D37D2 /* NatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7530211FF4009D37D2 /* NatoView.swift */; };
 		11E57C483000373F006DE940 /* SignalistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C473000373F006DE940 /* SignalistApp.swift */; };
 		11E57C4A3000373F006DE940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C493000373F006DE940 /* ContentView.swift */; };
 		11E57C4C30003742006DE940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E57C4B30003742006DE940 /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 		1156FA8E3011296D004E082C /* BrailleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleViewModel.swift; sourceTree = "<group>"; };
 		1156FA92301129D3004E082C /* BrailleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleView.swift; sourceTree = "<group>"; };
 		1156FA9430112A16004E082C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		11E12B7130211F32009D37D2 /* NatoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoCode.swift; sourceTree = "<group>"; };
+		11E12B7330211F7E009D37D2 /* NatoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoViewModel.swift; sourceTree = "<group>"; };
+		11E12B7530211FF4009D37D2 /* NatoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoView.swift; sourceTree = "<group>"; };
 		11E57C443000373F006DE940 /* Signalist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signalist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E57C473000373F006DE940 /* SignalistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalistApp.swift; sourceTree = "<group>"; };
 		11E57C493000373F006DE940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 				11F27A533001900600950561 /* WhatsNewFeature.swift .swift */,
 				11431A313007E999009A4423 /* HelpCenter.swift .swift */,
 				1156FA8C301128D9004E082C /* BrailleCode.swift */,
+				11E12B7130211F32009D37D2 /* NatoCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -111,6 +118,7 @@
 			children = (
 				11E57C5D300038F0006DE940 /* MorseViewModel.swift */,
 				1156FA8E3011296D004E082C /* BrailleViewModel.swift */,
+				11E12B7330211F7E009D37D2 /* NatoViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -124,6 +132,7 @@
 				11431A333007E9D6009A4423 /* HelpView.swift */,
 				1156FA92301129D3004E082C /* BrailleView.swift */,
 				1156FA9430112A16004E082C /* RootView.swift */,
+				11E12B7530211FF4009D37D2 /* NatoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E12B7630211FF4009D37D2 /* NatoView.swift in Sources */,
+				11E12B7230211F32009D37D2 /* NatoCode.swift in Sources */,
 				1156FA8D301128D9004E082C /* BrailleCode.swift in Sources */,
 				11E57C4A3000373F006DE940 /* ContentView.swift in Sources */,
 				11E57C5E300038F0006DE940 /* MorseViewModel.swift in Sources */,
@@ -218,6 +229,7 @@
 				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
 				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
+				11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */,
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
 				11E57C58300037A3006DE940 /* MorseCode.swift in Sources */,
 				11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */,
