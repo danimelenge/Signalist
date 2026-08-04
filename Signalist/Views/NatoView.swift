@@ -8,10 +8,12 @@
 import SwiftUI
 
 /// Vista principal del conversor de Alfabeto Fonético NATO.
+/// Permite convertir texto ↔ Alfabeto Fonético NATO de forma bidireccional.
 struct NatoView: View {
 
     // MARK: - Properties
 
+    /// ViewModel encargado de la lógica de conversión.
     @ObservedObject var viewModel: NatoViewModel
 
     // MARK: - Body
@@ -34,15 +36,18 @@ struct NatoView: View {
 
     // MARK: - Header
 
+    /// Encabezado principal del conversor NATO.
     private var header: some View {
         VStack(spacing: 6) {
             ZStack {
                 Circle()
                     .fill(Theme.brandGradient)
                     .frame(width: 56, height: 56)
-                    .shadow(color: Theme.gradientEnd.opacity(0.35),
-                            radius: 10,
-                            y: 4)
+                    .shadow(
+                        color: Theme.gradientEnd.opacity(0.35),
+                        radius: 10,
+                        y: 4
+                    )
 
                 Image(systemName: "antenna.radiowaves.left.and.right")
                     .font(.system(size: 22, weight: .semibold))
@@ -63,6 +68,7 @@ struct NatoView: View {
 
     // MARK: - Conversion Mode Picker
 
+    /// Selector del sentido de conversión.
     private var modePicker: some View {
         Picker("Modo", selection: $viewModel.mode.animation(.snappy)) {
             ForEach(NatoConversionMode.allCases) { option in
@@ -76,13 +82,15 @@ struct NatoView: View {
 
     // MARK: - Input Card
 
+    /// Tarjeta donde el usuario escribe el texto
+    /// o las palabras del alfabeto fonético NATO.
     private var inputCard: some View {
         VStack(alignment: .leading, spacing: 10) {
 
             Label(
-                viewModel.mode == .textToNato ?
-                "Texto de entrada" :
-                "NATO de entrada",
+                viewModel.mode == .textToNato
+                ? "Texto de entrada"
+                : "NATO de entrada",
                 systemImage: "text.cursor"
             )
             .font(.headline)
@@ -99,8 +107,10 @@ struct NatoView: View {
                 )
                 .overlay(
                     RoundedRectangle(cornerRadius: 12)
-                        .strokeBorder(Color.primary.opacity(0.08),
-                                      lineWidth: 1)
+                        .strokeBorder(
+                            Color.primary.opacity(0.08),
+                            lineWidth: 1
+                        )
                 )
         }
         .padding(16)
@@ -109,6 +119,7 @@ struct NatoView: View {
 
     // MARK: - Swap Indicator
 
+    /// Indicador visual que representa el flujo de conversión.
     private var swapIndicator: some View {
         Image(systemName: "arrow.down")
             .font(.system(size: 16, weight: .semibold))
@@ -122,6 +133,7 @@ struct NatoView: View {
 
     // MARK: - Output Card
 
+    /// Tarjeta que muestra el resultado de la conversión.
     private var outputCard: some View {
         VStack(alignment: .leading, spacing: 10) {
 
@@ -134,8 +146,8 @@ struct NatoView: View {
                 } icon: {
                     Image(systemName:
                             viewModel.outputText.isEmpty
-                          ? "circle"
-                          : "checkmark.circle.fill")
+                            ? "circle"
+                            : "checkmark.circle.fill")
                         .font(.headline)
                         .foregroundStyle(
                             viewModel.outputText.isEmpty
@@ -143,11 +155,15 @@ struct NatoView: View {
                             : Color.green
                         )
                         .scaleEffect(
-                            viewModel.outputText.isEmpty ? 1 : 1.15
+                            viewModel.outputText.isEmpty
+                            ? 1
+                            : 1.15
                         )
                         .animation(
-                            .spring(response: 0.35,
-                                    dampingFraction: 0.5),
+                            .spring(
+                                response: 0.35,
+                                dampingFraction: 0.5
+                            ),
                             value: viewModel.outputText.isEmpty
                         )
                 }
@@ -185,11 +201,15 @@ struct NatoView: View {
             )
             .overlay(
                 RoundedRectangle(cornerRadius: 12)
-                    .strokeBorder(Color.primary.opacity(0.08),
-                                  lineWidth: 1)
+                    .strokeBorder(
+                        Color.primary.opacity(0.08),
+                        lineWidth: 1
+                    )
             )
-            .animation(.easeInOut(duration: 0.2),
-                       value: viewModel.outputText)
+            .animation(
+                .easeInOut(duration: 0.2),
+                value: viewModel.outputText
+            )
         }
         .padding(16)
         .background(cardBackground)
@@ -197,15 +217,19 @@ struct NatoView: View {
 
     // MARK: - Action Buttons
 
+    /// Botones para copiar el resultado
+    /// o limpiar el contenido del conversor.
     private var actionButtons: some View {
         HStack(spacing: 12) {
 
             Button {
                 viewModel.copyOutputToClipboard()
             } label: {
-                Label("Copiar resultado",
-                      systemImage: "doc.on.doc")
-                    .frame(maxWidth: .infinity)
+                Label(
+                    "Copiar resultado",
+                    systemImage: "doc.on.doc"
+                )
+                .frame(maxWidth: .infinity)
             }
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
@@ -216,9 +240,11 @@ struct NatoView: View {
                     viewModel.clearAll()
                 }
             } label: {
-                Label("Limpiar",
-                      systemImage: "trash")
-                    .frame(maxWidth: .infinity)
+                Label(
+                    "Limpiar",
+                    systemImage: "trash"
+                )
+                .frame(maxWidth: .infinity)
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
@@ -227,13 +253,36 @@ struct NatoView: View {
 
     // MARK: - Shared Styles
 
+    /// Estilo reutilizable para las tarjetas de la interfaz.
     private var cardBackground: some View {
         RoundedRectangle(cornerRadius: 16)
             .fill(.regularMaterial)
-            .shadow(color: .black.opacity(0.06),
-                    radius: 8,
-                    y: 2)
+            .shadow(
+                color: .black.opacity(0.06),
+                radius: 8,
+                y: 2
+            )
     }
+
+    // MARK: - TODO
+
+    // TODO: Agregar pronunciación mediante síntesis de voz para cada palabra
+    // del alfabeto fonético NATO.
+
+    // TODO: Permitir exportar el resultado como texto plano.
+
+    // MARK: - FIXME
+
+    // FIXME: Implementar soporte para caracteres acentuados (á, é, í, ó, ú, ñ)
+    // y símbolos especiales que aún no forman parte del diccionario NATO.
+
+    // FIXME: Optimizar el diseño para textos de salida muy largos.
+
+    // MARK: - NOTE
+
+    // NOTE: Esta vista comparte la misma estructura visual utilizada en
+    // MorseView y BrailleView para mantener una experiencia consistente
+    // en toda la aplicación.
 }
 
 // MARK: - Preview
@@ -241,6 +290,8 @@ struct NatoView: View {
 #Preview {
     NatoView(viewModel: NatoViewModel())
 }
+
+// MARK: - Dark Preview
 
 #Preview("Dark") {
     NatoView(viewModel: NatoViewModel())
