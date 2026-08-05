@@ -58,6 +58,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "antenna.radiowaves.left.and.right",
+            iconColor: .red,
+            title: "Convertir texto a NATO",
+            description: "Ve a la pestaña \"NATO\", elige el modo \"Texto → NATO\" y escribe cualquier texto. Cada letra y número se traduce a su palabra fonética (ej. \"A\" = \"Alfa\"). Los espacios entre palabras se representan con \"/\"."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .pink,
+            title: "Convertir NATO a texto",
+            description: "Cambia al modo \"NATO → Texto\" dentro de la pestaña NATO y escribe las palabras fonéticas separadas por espacio (ej. \"Hotel Oscar Lima Alfa\") para obtener el texto equivalente."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -132,6 +146,7 @@ struct HelpView: View {
 
                     morseReferenceCard
                     brailleReferenceCard
+                    natoReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -226,6 +241,37 @@ struct HelpView: View {
         // NOTE:
         // Explains the two special signs (capital and number) since
         // they aren't obvious from single-letter Braille cells alone.
+    }
+
+    // MARK: - NATO Reference Card
+
+    /// Displays a compact NATO phonetic alphabet reference.
+    private var natoReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — NATO",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "A: Alfa   B: Bravo   C: Charlie   D: Delta   E: Echo\nLos números también tienen palabra propia (ej. \"1\" = \"One\")."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Shows just the first few letters as a quick reminder;
+        // the full alphabet is available inside the app itself.
     }
 }
 
