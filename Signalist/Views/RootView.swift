@@ -19,6 +19,7 @@ struct RootView: View {
     @StateObject private var morseViewModel = MorseViewModel()
     @StateObject private var brailleViewModel = BrailleViewModel()
     @StateObject private var natoViewModel = NatoViewModel()
+    @StateObject private var binaryViewModel = BinaryViewModel()
 
     // MARK: - App Storage
 
@@ -38,46 +39,87 @@ struct RootView: View {
 
     var body: some View {
         TabView(selection: $selectedTab) {
+
+            // MARK: Morse
+
             ContentView(viewModel: morseViewModel)
                 .tabItem {
-                    Label("Morse", systemImage: "dot.radiowaves.left.and.right")
+                    Label(
+                        "Morse",
+                        systemImage: "dot.radiowaves.left.and.right"
+                    )
                 }
                 .tag(0)
 
+            // MARK: Braille
+
             BrailleView(viewModel: brailleViewModel)
                 .tabItem {
-                    Label("Braille", systemImage: "hand.point.up.braille.fill")
+                    Label(
+                        "Braille",
+                        systemImage: "hand.point.up.braille.fill"
+                    )
                 }
                 .tag(1)
 
+            // MARK: NATO
+
             NatoView(viewModel: natoViewModel)
                 .tabItem {
-                    Label("NATO", systemImage: "antenna.radiowaves.left.and.right")
+                    Label(
+                        "NATO",
+                        systemImage: "antenna.radiowaves.left.and.right"
+                    )
                 }
                 .tag(2)
+
+            // MARK: Binary
+
+            BinaryView(viewModel: binaryViewModel)
+                .tabItem {
+                    Label(
+                        "Binario",
+                        systemImage: "number"
+                    )
+                }
+                .tag(3)
         }
         .preferredColorScheme(appTheme.colorScheme)
 
-        // MARK: Toolbar
+        // MARK: - Toolbar
 
         .toolbar {
+
             ToolbarItem(placement: .navigation) {
                 Spacer()
             }
+
+            // MARK: Morse Sound
 
             if selectedTab == 0 {
                 ToolbarItem(placement: .primaryAction) {
                     Button {
                         morseViewModel.isSoundEnabled.toggle()
+
                         if !morseViewModel.isSoundEnabled {
                             morseViewModel.soundPlayer.stop()
                         }
                     } label: {
-                        Image(systemName: morseViewModel.isSoundEnabled ? "speaker.wave.2.fill" : "speaker.slash.fill")
+                        Image(
+                            systemName: morseViewModel.isSoundEnabled
+                            ? "speaker.wave.2.fill"
+                            : "speaker.slash.fill"
+                        )
                     }
-                    .help(morseViewModel.isSoundEnabled ? "Silenciar sonido" : "Activar sonido")
+                    .help(
+                        morseViewModel.isSoundEnabled
+                        ? "Silenciar sonido"
+                        : "Activar sonido"
+                    )
                 }
             }
+
+            // MARK: What's New
 
             ToolbarItem(placement: .primaryAction) {
                 Button {
@@ -88,12 +130,14 @@ struct RootView: View {
                 .help("Ver novedades")
             }
 
+            // MARK: Theme
+
             ToolbarItem(placement: .primaryAction) {
                 themeMenu
             }
         }
 
-        // MARK: Lifecycle
+        // MARK: - Lifecycle
 
         .onAppear {
             if !hasSeenWhatsNew {
@@ -101,7 +145,7 @@ struct RootView: View {
             }
         }
 
-        // MARK: Sheets
+        // MARK: - Sheets
 
         .sheet(isPresented: $showWhatsNew) {
             WhatsNewView(
@@ -112,6 +156,7 @@ struct RootView: View {
                 showWhatsNew = false
             }
         }
+
         .sheet(isPresented: $helpCenter.isShowingHelp) {
             HelpView()
         }
@@ -119,11 +164,23 @@ struct RootView: View {
 
     // MARK: - Helpers
 
+    /// Devuelve el SF Symbol correspondiente a la pestaña seleccionada.
     private var headerIconForCurrentTab: String {
         switch selectedTab {
-        case 0: return "dot.radiowaves.left.and.right"
-        case 1: return "hand.point.up.braille.fill"
-        default: return "antenna.radiowaves.left.and.right"
+        case 0:
+            return "dot.radiowaves.left.and.right"
+
+        case 1:
+            return "hand.point.up.braille.fill"
+
+        case 2:
+            return "antenna.radiowaves.left.and.right"
+
+        case 3:
+            return "number"
+
+        default:
+            return "number"
         }
     }
 
@@ -137,7 +194,11 @@ struct RootView: View {
                         appTheme = theme
                     }
                 } label: {
-                    Label(theme.rawValue, systemImage: theme.icon)
+                    Label(
+                        theme.rawValue,
+                        systemImage: theme.icon
+                    )
+
                     if appTheme == theme {
                         Image(systemName: "checkmark")
                     }
@@ -149,6 +210,8 @@ struct RootView: View {
         .help("Apariencia")
     }
 }
+
+// MARK: - Previews
 
 #Preview {
     RootView()

@@ -10,6 +10,9 @@
 		11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */; };
 		11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A313007E999009A4423 /* HelpCenter.swift .swift */; };
 		11431A343007E9D6009A4423 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A333007E9D6009A4423 /* HelpView.swift */; };
+		115525D730360B48007FC504 /* BinaryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115525D630360B48007FC504 /* BinaryCode.swift */; };
+		115525D930360B85007FC504 /* BinaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115525D830360B85007FC504 /* BinaryViewModel.swift */; };
+		115525DB30360BDB007FC504 /* BinaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115525DA30360BDB007FC504 /* BinaryView.swift */; };
 		1156FA8D301128D9004E082C /* BrailleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA8C301128D9004E082C /* BrailleCode.swift */; };
 		1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA8E3011296D004E082C /* BrailleViewModel.swift */; };
 		1156FA93301129D3004E082C /* BrailleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA92301129D3004E082C /* BrailleView.swift */; };
@@ -32,6 +35,9 @@
 		11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseSoundPlayer.swift; sourceTree = "<group>"; };
 		11431A313007E999009A4423 /* HelpCenter.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpCenter.swift .swift"; sourceTree = "<group>"; };
 		11431A333007E9D6009A4423 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		115525D630360B48007FC504 /* BinaryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCode.swift; sourceTree = "<group>"; };
+		115525D830360B85007FC504 /* BinaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryViewModel.swift; sourceTree = "<group>"; };
+		115525DA30360BDB007FC504 /* BinaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryView.swift; sourceTree = "<group>"; };
 		1156FA8C301128D9004E082C /* BrailleCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleCode.swift; sourceTree = "<group>"; };
 		1156FA8E3011296D004E082C /* BrailleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleViewModel.swift; sourceTree = "<group>"; };
 		1156FA92301129D3004E082C /* BrailleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleView.swift; sourceTree = "<group>"; };
@@ -109,6 +115,7 @@
 				11431A313007E999009A4423 /* HelpCenter.swift .swift */,
 				1156FA8C301128D9004E082C /* BrailleCode.swift */,
 				11E12B7130211F32009D37D2 /* NatoCode.swift */,
+				115525D630360B48007FC504 /* BinaryCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 				11E57C5D300038F0006DE940 /* MorseViewModel.swift */,
 				1156FA8E3011296D004E082C /* BrailleViewModel.swift */,
 				11E12B7330211F7E009D37D2 /* NatoViewModel.swift */,
+				115525D830360B85007FC504 /* BinaryViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -133,6 +141,7 @@
 				1156FA92301129D3004E082C /* BrailleView.swift */,
 				1156FA9430112A16004E082C /* RootView.swift */,
 				11E12B7530211FF4009D37D2 /* NatoView.swift */,
+				115525DA30360BDB007FC504 /* BinaryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,13 +231,16 @@
 				11E57C4A3000373F006DE940 /* ContentView.swift in Sources */,
 				11E57C5E300038F0006DE940 /* MorseViewModel.swift in Sources */,
 				11E57C6230003A13006DE940 /* Theme.swift in Sources */,
+				115525D930360B85007FC504 /* BinaryViewModel.swift in Sources */,
 				1156FA9530112A16004E082C /* RootView.swift in Sources */,
 				1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */,
 				11F27A563001905400950561 /* WhatsNewView.swift in Sources */,
 				11431A343007E9D6009A4423 /* HelpView.swift in Sources */,
+				115525DB30360BDB007FC504 /* BinaryView.swift in Sources */,
 				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
 				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
+				115525D730360B48007FC504 /* BinaryCode.swift in Sources */,
 				11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */,
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
 				11E57C58300037A3006DE940 /* MorseCode.swift in Sources */,
