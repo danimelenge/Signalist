@@ -7,35 +7,30 @@
 
 import SwiftUI
 
-/// Representa una característica o novedad mostrada
-/// en la pantalla "What's New" de Signalist.
+// MARK: - What's New Feature Model
+
+/// Represents a single feature entry displayed in the "What's New" screen.
 struct WhatsNewFeature: Identifiable {
 
     // MARK: - Properties
 
-    /// Identificador único para SwiftUI.
     let id = UUID()
-
-    /// Nombre del SF Symbol que representa la característica.
     let icon: String
-
-    /// Color utilizado para el icono.
     let iconColor: Color
-
-    /// Título principal de la novedad.
     let title: String
-
-    /// Descripción breve de la funcionalidad.
     let description: String
+
+    // TODO:
+    // Support localized titles and descriptions in future versions.
 }
 
 // MARK: - Current Features
 
 extension WhatsNewFeature {
 
-    /// Lista de funcionalidades disponibles en la versión actual
-    /// de Signalist. Se muestra automáticamente en la pantalla
-    /// "What's New".
+    /// The full list of features currently announced in the app.
+    /// This list is shown every time the user taps the sparkles (✨)
+    /// button, and automatically on first launch.
     static let currentFeatures: [WhatsNewFeature] = [
 
         WhatsNewFeature(
@@ -67,6 +62,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "number",
+            iconColor: .cyan,
+            title: "Nueva pestaña de Binario",
+            description: "Convierte texto a código binario de 8 bits y viceversa, desde la pestaña \"Binario\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -86,20 +88,21 @@ extension WhatsNewFeature {
             title: "Copiar con un clic",
             description: "Copia el resultado al portapapeles y pégalo donde lo necesites."
         )
+
+        // TODO:
+        // Add a new entry here each time a new feature or tab is shipped,
+        // so returning users see it the next time they open "Novedades".
     ]
 
-    // MARK: - TODO
+    // FIXME:
+    // This list is static and shows every feature ever added, regardless
+    // of when the user first installed the app. Consider adopting a
+    // version-based system (e.g. WhatsNewVersion) so only features from
+    // versions newer than the user's `lastSeenVersion` are shown
+    // automatically, instead of the full history every time.
 
-    // TODO: Mostrar únicamente las novedades agregadas desde la última versión instalada.
-
-    // MARK: - FIXME
-
-    // FIXME: Localizar títulos y descripciones para soportar múltiples idiomas.
-
-    // MARK: - NOTE
-
-    // NOTE: Esta lista se utiliza como fuente de datos para WhatsNewView.
-    // Al agregar una nueva funcionalidad a Signalist, se recomienda incluir
-    // aquí una nueva entrada para que los usuarios conozcan las novedades
-    // al actualizar la aplicación.
+    // NOTE:
+    // Icon colors are chosen to roughly match each feature's home screen
+    // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
+    // cyan/yellow = Binario) for visual consistency with HelpView.
 }

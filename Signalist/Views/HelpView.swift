@@ -72,6 +72,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "number",
+            iconColor: .cyan,
+            title: "Convertir texto a Binario",
+            description: "Ve a la pestaña \"Binario\", elige el modo \"Texto → Binario\" y escribe cualquier texto. Cada carácter se traduce a un byte de 8 bits (ej. \"A\" = \"01000001\"), separados por espacios."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .yellow,
+            title: "Convertir Binario a texto",
+            description: "Cambia al modo \"Binario → Texto\" dentro de la pestaña Binario y escribe los bytes separados por espacio (ej. \"01001000 01101111 01101100 01100001\") para obtener el texto equivalente."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -147,6 +161,7 @@ struct HelpView: View {
                     morseReferenceCard
                     brailleReferenceCard
                     natoReferenceCard
+                    binaryReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -272,6 +287,37 @@ struct HelpView: View {
         // NOTE:
         // Shows just the first few letters as a quick reminder;
         // the full alphabet is available inside the app itself.
+    }
+
+    // MARK: - Binary Reference Card
+
+    /// Displays a compact binary (ASCII) reference.
+    private var binaryReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Binario",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "A: 01000001   B: 01000010   a: 01100001\nCada carácter ocupa 8 bits (1 byte), separados por espacios."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Reminds the user that binary is case-sensitive since
+        // uppercase and lowercase letters map to different bytes.
     }
 }
 
