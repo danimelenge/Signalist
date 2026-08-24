@@ -17,6 +17,9 @@
 		1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA8E3011296D004E082C /* BrailleViewModel.swift */; };
 		1156FA93301129D3004E082C /* BrailleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA92301129D3004E082C /* BrailleView.swift */; };
 		1156FA9530112A16004E082C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA9430112A16004E082C /* RootView.swift */; };
+		11B4D5E8303CC9CB00013681 /* AsciiCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4D5E7303CC9CB00013681 /* AsciiCode.swift */; };
+		11B4D5EA303CCA0800013681 /* AsciiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */; };
+		11B4D5EC303CCA4D00013681 /* AsciiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4D5EB303CCA4D00013681 /* AsciiView.swift */; };
 		11E12B7230211F32009D37D2 /* NatoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7130211F32009D37D2 /* NatoCode.swift */; };
 		11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7330211F7E009D37D2 /* NatoViewModel.swift */; };
 		11E12B7630211FF4009D37D2 /* NatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7530211FF4009D37D2 /* NatoView.swift */; };
@@ -42,6 +45,9 @@
 		1156FA8E3011296D004E082C /* BrailleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleViewModel.swift; sourceTree = "<group>"; };
 		1156FA92301129D3004E082C /* BrailleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleView.swift; sourceTree = "<group>"; };
 		1156FA9430112A16004E082C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		11B4D5E7303CC9CB00013681 /* AsciiCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiCode.swift; sourceTree = "<group>"; };
+		11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiViewModel.swift; sourceTree = "<group>"; };
+		11B4D5EB303CCA4D00013681 /* AsciiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiView.swift; sourceTree = "<group>"; };
 		11E12B7130211F32009D37D2 /* NatoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoCode.swift; sourceTree = "<group>"; };
 		11E12B7330211F7E009D37D2 /* NatoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoViewModel.swift; sourceTree = "<group>"; };
 		11E12B7530211FF4009D37D2 /* NatoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoView.swift; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 				1156FA8C301128D9004E082C /* BrailleCode.swift */,
 				11E12B7130211F32009D37D2 /* NatoCode.swift */,
 				115525D630360B48007FC504 /* BinaryCode.swift */,
+				11B4D5E7303CC9CB00013681 /* AsciiCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,6 +134,7 @@
 				1156FA8E3011296D004E082C /* BrailleViewModel.swift */,
 				11E12B7330211F7E009D37D2 /* NatoViewModel.swift */,
 				115525D830360B85007FC504 /* BinaryViewModel.swift */,
+				11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 				1156FA9430112A16004E082C /* RootView.swift */,
 				11E12B7530211FF4009D37D2 /* NatoView.swift */,
 				115525DA30360BDB007FC504 /* BinaryView.swift */,
+				11B4D5EB303CCA4D00013681 /* AsciiView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -227,8 +236,10 @@
 			files = (
 				11E12B7630211FF4009D37D2 /* NatoView.swift in Sources */,
 				11E12B7230211F32009D37D2 /* NatoCode.swift in Sources */,
+				11B4D5EC303CCA4D00013681 /* AsciiView.swift in Sources */,
 				1156FA8D301128D9004E082C /* BrailleCode.swift in Sources */,
 				11E57C4A3000373F006DE940 /* ContentView.swift in Sources */,
+				11B4D5E8303CC9CB00013681 /* AsciiCode.swift in Sources */,
 				11E57C5E300038F0006DE940 /* MorseViewModel.swift in Sources */,
 				11E57C6230003A13006DE940 /* Theme.swift in Sources */,
 				115525D930360B85007FC504 /* BinaryViewModel.swift in Sources */,
@@ -236,6 +247,7 @@
 				1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */,
 				11F27A563001905400950561 /* WhatsNewView.swift in Sources */,
 				11431A343007E9D6009A4423 /* HelpView.swift in Sources */,
+				11B4D5EA303CCA0800013681 /* AsciiViewModel.swift in Sources */,
 				115525DB30360BDB007FC504 /* BinaryView.swift in Sources */,
 				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,

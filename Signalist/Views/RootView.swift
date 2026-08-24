@@ -9,35 +9,55 @@ import SwiftUI
 
 /// Vista raíz de Signalist.
 ///
-/// Administra las pestañas principales de la aplicación, el tema global,
-/// la barra de herramientas y la presentación de las vistas de ayuda
-/// y novedades.
+/// Administra las pestañas principales de la aplicación, los ViewModels
+/// compartidos, el tema global, la barra de herramientas y la presentación
+/// de las vistas de ayuda y novedades.
 struct RootView: View {
 
     // MARK: - Shared ViewModels
 
+    /// ViewModel encargado de la conversión Morse.
     @StateObject private var morseViewModel = MorseViewModel()
+
+    /// ViewModel encargado de la conversión Braille.
     @StateObject private var brailleViewModel = BrailleViewModel()
+
+    /// ViewModel encargado de la conversión NATO.
     @StateObject private var natoViewModel = NatoViewModel()
+
+    /// ViewModel encargado de la conversión Binaria.
     @StateObject private var binaryViewModel = BinaryViewModel()
+
+    /// ViewModel encargado de la conversión ASCII.
+    @StateObject private var asciiViewModel = AsciiViewModel()
 
     // MARK: - App Storage
 
-    @AppStorage("appTheme") private var appTheme: AppTheme = .system
-    @AppStorage("hasSeenWhatsNew") private var hasSeenWhatsNew: Bool = false
+    /// Preferencia de apariencia seleccionada por el usuario.
+    @AppStorage("appTheme")
+    private var appTheme: AppTheme = .system
+
+    /// Indica si el usuario ya visualizó la ventana de novedades.
+    @AppStorage("hasSeenWhatsNew")
+    private var hasSeenWhatsNew: Bool = false
 
     // MARK: - View State
 
+    /// Controla la presentación de la ventana de novedades.
     @State private var showWhatsNew: Bool = false
+
+    /// Índice de la pestaña actualmente seleccionada.
     @State private var selectedTab: Int = 0
 
     // MARK: - Environment
 
+    /// Centro de ayuda compartido por toda la aplicación.
     @EnvironmentObject private var helpCenter: HelpCenter
 
     // MARK: - Body
 
     var body: some View {
+
         TabView(selection: $selectedTab) {
 
             // MARK: Morse
@@ -83,6 +103,17 @@ struct RootView: View {
                     )
                 }
                 .tag(3)
+
+            // MARK: ASCII
+
+            AsciiView(viewModel: asciiViewModel)
+                .tabItem {
+                    Label(
+                        "ASCII",
+                        systemImage: "textformat.123"
+                    )
+                }
+                .tag(4)
         }
         .preferredColorScheme(appTheme.colorScheme)
 
@@ -90,12 +121,17 @@ struct RootView: View {
 
         .toolbar {
 
+            // MARK: Navigation Spacer
+
+            /// Empuja los elementos de la barra de herramientas
+            /// hacia el lado derecho de la ventana.
             ToolbarItem(placement: .navigation) {
                 Spacer()
             }
 
             // MARK: Morse Sound
 
+            /// Muestra el control de sonido únicamente en la pestaña Morse.
             if selectedTab == 0 {
                 ToolbarItem(placement: .primaryAction) {
                     Button {
@@ -121,6 +157,7 @@ struct RootView: View {
 
             // MARK: What's New
 
+            /// Abre la ventana con las novedades de Signalist.
             ToolbarItem(placement: .primaryAction) {
                 Button {
                     showWhatsNew = true
@@ -132,6 +169,7 @@ struct RootView: View {
 
             // MARK: Theme
 
+            /// Menú para cambiar la apariencia de la aplicación.
             ToolbarItem(placement: .primaryAction) {
                 themeMenu
             }
@@ -147,6 +185,7 @@ struct RootView: View {
 
         // MARK: - Sheets
 
+        /// Presenta la ventana de novedades.
         .sheet(isPresented: $showWhatsNew) {
             WhatsNewView(
                 features: WhatsNewFeature.currentFeatures,
@@ -157,6 +196,7 @@ struct RootView: View {
             }
         }
 
+        /// Presenta la ventana de ayuda.
         .sheet(isPresented: $helpCenter.isShowingHelp) {
             HelpView()
         }
@@ -165,8 +205,12 @@ struct RootView: View {
     // MARK: - Helpers
 
     /// Devuelve el SF Symbol correspondiente a la pestaña seleccionada.
+    ///
+    /// Este icono se utiliza como encabezado de la ventana de novedades
+    /// para mostrar visualmente qué sección está activa.
     private var headerIconForCurrentTab: String {
         switch selectedTab {
+
         case 0:
             return "dot.radiowaves.left.and.right"
 
@@ -179,16 +223,25 @@ struct RootView: View {
         case 3:
             return "number"
 
+        case 4:
+            return "textformat.123"
+
         default:
-            return "number"
+            return "dot.radiowaves.left.and.right"
         }
     }
 
     // MARK: - Theme Menu
 
+    /// Menú que permite cambiar la apariencia de Signalist.
+    ///
+    /// Las opciones disponibles son las definidas en `AppTheme`.
+    /// La selección se guarda mediante `AppStorage`.
     private var themeMenu: some View {
         Menu {
+
             ForEach(AppTheme.allCases) { theme in
+
                 Button {
                     withAnimation(.easeInOut) {
                         appTheme = theme
@@ -204,6 +257,7 @@ struct RootView: View {
                     }
                 }
             }
+
         } label: {
             Image(systemName: appTheme.icon)
         }
@@ -217,6 +271,8 @@ struct RootView: View {
     RootView()
         .environmentObject(HelpCenter())
 }
+
+// MARK: - Dark Preview
 
 #Preview("Dark") {
     RootView()
