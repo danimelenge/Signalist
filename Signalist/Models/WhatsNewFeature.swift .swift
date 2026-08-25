@@ -69,6 +69,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "textformat.123",
+            iconColor: .brown,
+            title: "Nueva pestaña de ASCII",
+            description: "Convierte texto a códigos ASCII decimales y viceversa, desde la pestaña \"ASCII\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -104,5 +111,6 @@ extension WhatsNewFeature {
     // NOTE:
     // Icon colors are chosen to roughly match each feature's home screen
     // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
-    // cyan/yellow = Binario) for visual consistency with HelpView.
+    // cyan/yellow = Binario, brown/gray = ASCII) for visual consistency
+    // with HelpView.
 }

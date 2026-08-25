@@ -86,6 +86,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "textformat.123",
+            iconColor: .brown,
+            title: "Convertir texto a ASCII",
+            description: "Ve a la pestaña \"ASCII\", elige el modo \"Texto → ASCII\" y escribe cualquier texto. Cada carácter se traduce a su código decimal (ej. \"A\" = \"65\"), separados por espacios."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .gray,
+            title: "Convertir ASCII a texto",
+            description: "Cambia al modo \"ASCII → Texto\" dentro de la pestaña ASCII y escribe los códigos decimales separados por espacio (ej. \"72 111 108 97\") para obtener el texto equivalente."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -162,6 +176,7 @@ struct HelpView: View {
                     brailleReferenceCard
                     natoReferenceCard
                     binaryReferenceCard
+                    asciiReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -318,6 +333,37 @@ struct HelpView: View {
         // NOTE:
         // Reminds the user that binary is case-sensitive since
         // uppercase and lowercase letters map to different bytes.
+    }
+
+    // MARK: - ASCII Reference Card
+
+    /// Displays a compact ASCII decimal code reference.
+    private var asciiReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — ASCII",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "A: 65   B: 66   a: 97   0: 48   Espacio: 32\nCada carácter se representa como un número decimal, separado por espacios."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // ASCII is also case-sensitive, like binary, since uppercase
+        // and lowercase letters map to different decimal codes.
     }
 }
 
