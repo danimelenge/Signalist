@@ -31,6 +31,9 @@ struct RootView: View {
     /// ViewModel encargado de la conversión ASCII.
     @StateObject private var asciiViewModel = AsciiViewModel()
 
+    /// ViewModel encargado de la conversión Unicode.
+    @StateObject private var unicodeViewModel = UnicodeViewModel()
+
     // MARK: - App Storage
 
     /// Preferencia de apariencia seleccionada por el usuario.
@@ -62,6 +65,8 @@ struct RootView: View {
 
             // MARK: Morse
 
+            /// Pestaña principal para convertir texto a Morse
+            /// y Morse a texto.
             ContentView(viewModel: morseViewModel)
                 .tabItem {
                     Label(
@@ -73,6 +78,8 @@ struct RootView: View {
 
             // MARK: Braille
 
+            /// Pestaña para convertir texto a Braille
+            /// y Braille a texto.
             BrailleView(viewModel: brailleViewModel)
                 .tabItem {
                     Label(
@@ -84,6 +91,8 @@ struct RootView: View {
 
             // MARK: NATO
 
+            /// Pestaña para convertir texto al alfabeto fonético NATO
+            /// y NATO a texto.
             NatoView(viewModel: natoViewModel)
                 .tabItem {
                     Label(
@@ -95,6 +104,8 @@ struct RootView: View {
 
             // MARK: Binary
 
+            /// Pestaña para convertir texto a código binario
+            /// y binario a texto.
             BinaryView(viewModel: binaryViewModel)
                 .tabItem {
                     Label(
@@ -106,6 +117,8 @@ struct RootView: View {
 
             // MARK: ASCII
 
+            /// Pestaña para convertir texto a códigos ASCII
+            /// y ASCII a texto.
             AsciiView(viewModel: asciiViewModel)
                 .tabItem {
                     Label(
@@ -114,6 +127,19 @@ struct RootView: View {
                     )
                 }
                 .tag(4)
+
+            // MARK: Unicode
+
+            /// Pestaña para convertir texto a códigos Unicode
+            /// y Unicode a texto.
+            UnicodeView(viewModel: unicodeViewModel)
+                .tabItem {
+                    Label(
+                        "Unicode",
+                        systemImage: "character.book.closed.fill"
+                    )
+                }
+                .tag(5)
         }
         .preferredColorScheme(appTheme.colorScheme)
 
@@ -209,25 +235,37 @@ struct RootView: View {
     /// Este icono se utiliza como encabezado de la ventana de novedades
     /// para mostrar visualmente qué sección está activa.
     private var headerIconForCurrentTab: String {
+
         switch selectedTab {
 
         case 0:
+            // Morse
             return "dot.radiowaves.left.and.right"
 
         case 1:
+            // Braille
             return "hand.point.up.braille.fill"
 
         case 2:
+            // NATO
             return "antenna.radiowaves.left.and.right"
 
         case 3:
+            // Binario
             return "number"
 
         case 4:
+            // ASCII
             return "textformat.123"
 
+        case 5:
+            // Unicode
+            return "character.book.closed.fill"
+
         default:
-            return "dot.radiowaves.left.and.right"
+            // FIXME: Mantener un icono válido como fallback
+            // en caso de que selectedTab tenga un valor inesperado.
+            return "character.book.closed.fill"
         }
     }
 
@@ -238,6 +276,7 @@ struct RootView: View {
     /// Las opciones disponibles son las definidas en `AppTheme`.
     /// La selección se guarda mediante `AppStorage`.
     private var themeMenu: some View {
+
         Menu {
 
             ForEach(AppTheme.allCases) { theme in

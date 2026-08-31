@@ -23,6 +23,9 @@
 		11E12B7230211F32009D37D2 /* NatoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7130211F32009D37D2 /* NatoCode.swift */; };
 		11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7330211F7E009D37D2 /* NatoViewModel.swift */; };
 		11E12B7630211FF4009D37D2 /* NatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7530211FF4009D37D2 /* NatoView.swift */; };
+		11E36D4F3045EB260078C01A /* UnicodeCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E36D4E3045EB260078C01A /* UnicodeCode.swift */; };
+		11E36D513045EB610078C01A /* UnicodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E36D503045EB610078C01A /* UnicodeViewModel.swift */; };
+		11E36D533045EBA60078C01A /* UnicodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E36D523045EBA60078C01A /* UnicodeView.swift */; };
 		11E57C483000373F006DE940 /* SignalistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C473000373F006DE940 /* SignalistApp.swift */; };
 		11E57C4A3000373F006DE940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C493000373F006DE940 /* ContentView.swift */; };
 		11E57C4C30003742006DE940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E57C4B30003742006DE940 /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 		11E12B7130211F32009D37D2 /* NatoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoCode.swift; sourceTree = "<group>"; };
 		11E12B7330211F7E009D37D2 /* NatoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoViewModel.swift; sourceTree = "<group>"; };
 		11E12B7530211FF4009D37D2 /* NatoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoView.swift; sourceTree = "<group>"; };
+		11E36D4E3045EB260078C01A /* UnicodeCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodeCode.swift; sourceTree = "<group>"; };
+		11E36D503045EB610078C01A /* UnicodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodeViewModel.swift; sourceTree = "<group>"; };
+		11E36D523045EBA60078C01A /* UnicodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodeView.swift; sourceTree = "<group>"; };
 		11E57C443000373F006DE940 /* Signalist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signalist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E57C473000373F006DE940 /* SignalistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalistApp.swift; sourceTree = "<group>"; };
 		11E57C493000373F006DE940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +129,7 @@
 				11E12B7130211F32009D37D2 /* NatoCode.swift */,
 				115525D630360B48007FC504 /* BinaryCode.swift */,
 				11B4D5E7303CC9CB00013681 /* AsciiCode.swift */,
+				11E36D4E3045EB260078C01A /* UnicodeCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -135,6 +142,7 @@
 				11E12B7330211F7E009D37D2 /* NatoViewModel.swift */,
 				115525D830360B85007FC504 /* BinaryViewModel.swift */,
 				11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */,
+				11E36D503045EB610078C01A /* UnicodeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 				11E12B7530211FF4009D37D2 /* NatoView.swift */,
 				115525DA30360BDB007FC504 /* BinaryView.swift */,
 				11B4D5EB303CCA4D00013681 /* AsciiView.swift */,
+				11E36D523045EBA60078C01A /* UnicodeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,9 +246,11 @@
 				11E12B7630211FF4009D37D2 /* NatoView.swift in Sources */,
 				11E12B7230211F32009D37D2 /* NatoCode.swift in Sources */,
 				11B4D5EC303CCA4D00013681 /* AsciiView.swift in Sources */,
+				11E36D513045EB610078C01A /* UnicodeViewModel.swift in Sources */,
 				1156FA8D301128D9004E082C /* BrailleCode.swift in Sources */,
 				11E57C4A3000373F006DE940 /* ContentView.swift in Sources */,
 				11B4D5E8303CC9CB00013681 /* AsciiCode.swift in Sources */,
+				11E36D4F3045EB260078C01A /* UnicodeCode.swift in Sources */,
 				11E57C5E300038F0006DE940 /* MorseViewModel.swift in Sources */,
 				11E57C6230003A13006DE940 /* Theme.swift in Sources */,
 				115525D930360B85007FC504 /* BinaryViewModel.swift in Sources */,
@@ -256,6 +267,7 @@
 				11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */,
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
 				11E57C58300037A3006DE940 /* MorseCode.swift in Sources */,
+				11E36D533045EBA60078C01A /* UnicodeView.swift in Sources */,
 				11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
