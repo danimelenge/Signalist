@@ -76,6 +76,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "character.book.closed.fill",
+            iconColor: .indigo,
+            title: "Nueva pestaña de Unicode",
+            description: "Convierte texto a puntos de código Unicode (incluyendo emojis) y viceversa, desde la pestaña \"Unicode\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -111,6 +118,6 @@ extension WhatsNewFeature {
     // NOTE:
     // Icon colors are chosen to roughly match each feature's home screen
     // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
-    // cyan/yellow = Binario, brown/gray = ASCII) for visual consistency
-    // with HelpView.
+    // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode)
+    // for visual consistency with HelpView.
 }

@@ -100,6 +100,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "character.book.closed.fill",
+            iconColor: .indigo,
+            title: "Convertir texto a Unicode",
+            description: "Ve a la pestaña \"Unicode\", elige el modo \"Texto → Unicode\" y escribe cualquier texto, incluyendo emojis. Cada carácter se traduce a su punto de código (ej. \"A\" = \"U+0041\"), separados por espacios."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .purple,
+            title: "Convertir Unicode a texto",
+            description: "Cambia al modo \"Unicode → Texto\" dentro de la pestaña Unicode y escribe los puntos de código separados por espacio (ej. \"U+0048 U+006F U+006C U+0061\") para obtener el texto equivalente."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -177,6 +191,7 @@ struct HelpView: View {
                     natoReferenceCard
                     binaryReferenceCard
                     asciiReferenceCard
+                    unicodeReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -364,6 +379,38 @@ struct HelpView: View {
         // NOTE:
         // ASCII is also case-sensitive, like binary, since uppercase
         // and lowercase letters map to different decimal codes.
+    }
+
+    // MARK: - Unicode Reference Card
+
+    /// Displays a compact Unicode code point reference.
+    private var unicodeReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Unicode",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "A: U+0041   a: U+0061   Espacio: U+0020\nTambién soporta emojis y símbolos fuera del rango ASCII (ej. 🎉 = U+1F389)."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Unlike ASCII/Binary, Unicode covers virtually every character
+        // and emoji, which is worth calling out since it's the broadest
+        // of the four numeric encodings offered in the app.
     }
 }
 
