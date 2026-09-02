@@ -34,6 +34,7 @@ struct UnicodeView: View {
 
     // MARK: - Header
 
+    /// Encabezado principal del conversor Unicode.
     private var header: some View {
         VStack(spacing: 6) {
             ZStack {
@@ -63,6 +64,7 @@ struct UnicodeView: View {
 
     // MARK: - Conversion Mode Picker
 
+    /// Selector del sentido de conversión.
     private var modePicker: some View {
         Picker("Modo", selection: $viewModel.mode.animation(.snappy)) {
             ForEach(UnicodeConversionMode.allCases) { option in
@@ -76,6 +78,7 @@ struct UnicodeView: View {
 
     // MARK: - Input Card
 
+    /// Tarjeta donde el usuario escribe el texto o los puntos de código Unicode.
     private var inputCard: some View {
         VStack(alignment: .leading, spacing: 10) {
 
@@ -105,10 +108,15 @@ struct UnicodeView: View {
         }
         .padding(16)
         .background(cardBackground)
+
+        // TODO:
+        // Considerar mostrar un placeholder de ejemplo (ej. "U+0048 U+006F")
+        // cuando el modo sea "Unicode → Texto", para guiar el formato esperado.
     }
 
     // MARK: - Swap Indicator
 
+    /// Indicador visual que representa el flujo de conversión.
     private var swapIndicator: some View {
         Image(systemName: "arrow.down")
             .font(.system(size: 16, weight: .semibold))
@@ -122,6 +130,7 @@ struct UnicodeView: View {
 
     // MARK: - Output Card
 
+    /// Tarjeta que muestra el resultado de la conversión.
     private var outputCard: some View {
         VStack(alignment: .leading, spacing: 10) {
 
@@ -193,10 +202,18 @@ struct UnicodeView: View {
         }
         .padding(16)
         .background(cardBackground)
+
+        // NOTE:
+        // El contador de "caracteres" cuenta el string resultante, no la
+        // cantidad de puntos de código Unicode originales — por ejemplo,
+        // un emoji compuesto por varios scalars puede producir varios
+        // tokens "U+XXXX" en el resultado, pero solo cuenta como parte
+        // de un string más largo.
     }
 
     // MARK: - Action Buttons
 
+    /// Botones para copiar el resultado o limpiar el contenido.
     private var actionButtons: some View {
         HStack(spacing: 12) {
 
@@ -227,6 +244,7 @@ struct UnicodeView: View {
 
     // MARK: - Shared Styles
 
+    /// Estilo reutilizable para las tarjetas de la interfaz.
     private var cardBackground: some View {
         RoundedRectangle(cornerRadius: 16)
             .fill(.regularMaterial)
@@ -234,6 +252,14 @@ struct UnicodeView: View {
                     radius: 8,
                     y: 2)
     }
+
+    // MARK: - FIXME
+
+    // FIXME: Esta vista no tiene su propio toolbar ni acceso a HelpCenter,
+    // a diferencia de como se manejaba antes en ContentView/BrailleView.
+    // Esto es intencional desde la refactorización a RootView, pero si en
+    // el futuro se agrega contenido específico de esta pestaña al toolbar
+    // (ej. un botón exclusivo de Unicode), debe añadirse en RootView, no aquí.
 }
 
 // MARK: - Preview
@@ -241,6 +267,8 @@ struct UnicodeView: View {
 #Preview {
     UnicodeView(viewModel: UnicodeViewModel())
 }
+
+// MARK: - Dark Preview
 
 #Preview("Dark") {
     UnicodeView(viewModel: UnicodeViewModel())
