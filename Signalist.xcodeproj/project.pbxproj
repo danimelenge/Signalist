@@ -33,6 +33,9 @@
 		11E57C58300037A3006DE940 /* MorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C57300037A3006DE940 /* MorseCode.swift */; };
 		11E57C5E300038F0006DE940 /* MorseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C5D300038F0006DE940 /* MorseViewModel.swift */; };
 		11E57C6230003A13006DE940 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C6130003A13006DE940 /* Theme.swift */; };
+		11F0484A3049E606003ECF7C /* Base64Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F048493049E606003ECF7C /* Base64Code.swift */; };
+		11F0484C3049E64B003ECF7C /* Base64ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */; };
+		11F0484E3049E683003ECF7C /* Base64View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0484D3049E683003ECF7C /* Base64View.swift */; };
 		11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F27A533001900600950561 /* WhatsNewFeature.swift .swift */; };
 		11F27A563001905400950561 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F27A553001905400950561 /* WhatsNewView.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +69,9 @@
 		11E57C57300037A3006DE940 /* MorseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCode.swift; sourceTree = "<group>"; };
 		11E57C5D300038F0006DE940 /* MorseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseViewModel.swift; sourceTree = "<group>"; };
 		11E57C6130003A13006DE940 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		11F048493049E606003ECF7C /* Base64Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64Code.swift; sourceTree = "<group>"; };
+		11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64ViewModel.swift; sourceTree = "<group>"; };
+		11F0484D3049E683003ECF7C /* Base64View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64View.swift; sourceTree = "<group>"; };
 		11F27A533001900600950561 /* WhatsNewFeature.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhatsNewFeature.swift .swift"; sourceTree = "<group>"; };
 		11F27A553001905400950561 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +136,7 @@
 				115525D630360B48007FC504 /* BinaryCode.swift */,
 				11B4D5E7303CC9CB00013681 /* AsciiCode.swift */,
 				11E36D4E3045EB260078C01A /* UnicodeCode.swift */,
+				11F048493049E606003ECF7C /* Base64Code.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,6 +150,7 @@
 				115525D830360B85007FC504 /* BinaryViewModel.swift */,
 				11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */,
 				11E36D503045EB610078C01A /* UnicodeViewModel.swift */,
+				11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 				115525DA30360BDB007FC504 /* BinaryView.swift */,
 				11B4D5EB303CCA4D00013681 /* AsciiView.swift */,
 				11E36D523045EBA60078C01A /* UnicodeView.swift */,
+				11F0484D3049E683003ECF7C /* Base64View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -244,10 +253,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E12B7630211FF4009D37D2 /* NatoView.swift in Sources */,
+				11F0484E3049E683003ECF7C /* Base64View.swift in Sources */,
 				11E12B7230211F32009D37D2 /* NatoCode.swift in Sources */,
 				11B4D5EC303CCA4D00013681 /* AsciiView.swift in Sources */,
 				11E36D513045EB610078C01A /* UnicodeViewModel.swift in Sources */,
 				1156FA8D301128D9004E082C /* BrailleCode.swift in Sources */,
+				11F0484C3049E64B003ECF7C /* Base64ViewModel.swift in Sources */,
 				11E57C4A3000373F006DE940 /* ContentView.swift in Sources */,
 				11B4D5E8303CC9CB00013681 /* AsciiCode.swift in Sources */,
 				11E36D4F3045EB260078C01A /* UnicodeCode.swift in Sources */,
@@ -259,6 +270,7 @@
 				11F27A563001905400950561 /* WhatsNewView.swift in Sources */,
 				11431A343007E9D6009A4423 /* HelpView.swift in Sources */,
 				11B4D5EA303CCA0800013681 /* AsciiViewModel.swift in Sources */,
+				11F0484A3049E606003ECF7C /* Base64Code.swift in Sources */,
 				115525DB30360BDB007FC504 /* BinaryView.swift in Sources */,
 				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,

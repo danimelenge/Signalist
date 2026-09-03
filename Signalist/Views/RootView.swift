@@ -34,6 +34,9 @@ struct RootView: View {
     /// ViewModel encargado de la conversión Unicode.
     @StateObject private var unicodeViewModel = UnicodeViewModel()
 
+    /// ViewModel encargado de la conversión Base64.
+    @StateObject private var base64ViewModel = Base64ViewModel()
+
     // MARK: - App Storage
 
     /// Preferencia de apariencia seleccionada por el usuario.
@@ -140,6 +143,19 @@ struct RootView: View {
                     )
                 }
                 .tag(5)
+
+            // MARK: Base64
+
+            /// Pestaña para convertir texto a Base64
+            /// y Base64 a texto.
+            Base64View(viewModel: base64ViewModel)
+                .tabItem {
+                    Label(
+                        "Base64",
+                        systemImage: "chevron.left.forwardslash.chevron.right"
+                    )
+                }
+                .tag(6)
         }
         .preferredColorScheme(appTheme.colorScheme)
 
@@ -263,9 +279,8 @@ struct RootView: View {
             return "character.book.closed.fill"
 
         default:
-            // FIXME: Mantener un icono válido como fallback
-            // en caso de que selectedTab tenga un valor inesperado.
-            return "character.book.closed.fill"
+            // Base64 / Fallback
+            return "chevron.left.forwardslash.chevron.right"
         }
     }
 
