@@ -83,6 +83,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "chevron.left.forwardslash.chevron.right",
+            iconColor: .blue,
+            title: "Nueva pestaña de Base64",
+            description: "Convierte texto a Base64 y viceversa, ideal para usar en emails, URLs o JSON, desde la pestaña \"Base64\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -118,6 +125,6 @@ extension WhatsNewFeature {
     // NOTE:
     // Icon colors are chosen to roughly match each feature's home screen
     // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
-    // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode)
-    // for visual consistency with HelpView.
+    // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
+    // blue/orange = Base64) for visual consistency with HelpView.
 }

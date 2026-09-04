@@ -114,6 +114,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "chevron.left.forwardslash.chevron.right",
+            iconColor: .blue,
+            title: "Convertir texto a Base64",
+            description: "Ve a la pestaña \"Base64\", elige el modo \"Texto → Base64\" y escribe cualquier texto. El resultado es una cadena Base64 lista para usar en emails, URLs o JSON."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .orange,
+            title: "Convertir Base64 a texto",
+            description: "Cambia al modo \"Base64 → Texto\" dentro de la pestaña Base64 y pega una cadena Base64 válida para obtener el texto original."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -192,6 +206,7 @@ struct HelpView: View {
                     binaryReferenceCard
                     asciiReferenceCard
                     unicodeReferenceCard
+                    base64ReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -410,7 +425,40 @@ struct HelpView: View {
         // NOTE:
         // Unlike ASCII/Binary, Unicode covers virtually every character
         // and emoji, which is worth calling out since it's the broadest
-        // of the four numeric encodings offered in the app.
+        // of the numeric encodings offered in the app.
+    }
+
+    // MARK: - Base64 Reference Card
+
+    /// Displays a compact Base64 example, clarifying that it works on
+    /// the whole text, not character by character like the other codes.
+    private var base64ReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Base64",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "\"Hola\" → \"SG9sYQ==\"\nA diferencia de los demás códigos, Base64 no se traduce letra por letra, sino sobre el texto completo."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Calling out that Base64 works on the full byte stream (not
+        // per-character) helps set the right mental model, since every
+        // other reference card in this screen is a letter-by-letter table.
     }
 }
 
