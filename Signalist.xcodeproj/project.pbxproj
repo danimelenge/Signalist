@@ -17,6 +17,9 @@
 		1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA8E3011296D004E082C /* BrailleViewModel.swift */; };
 		1156FA93301129D3004E082C /* BrailleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA92301129D3004E082C /* BrailleView.swift */; };
 		1156FA9530112A16004E082C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA9430112A16004E082C /* RootView.swift */; };
+		11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3DB30509815006074DB /* CaesarCode.swift */; };
+		11B3C3DE30509863006074DB /* CaesarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3DD30509863006074DB /* CaesarViewModel.swift */; };
+		11B3C3E0305098A0006074DB /* CaesarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3DF305098A0006074DB /* CaesarView.swift */; };
 		11B4D5E8303CC9CB00013681 /* AsciiCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4D5E7303CC9CB00013681 /* AsciiCode.swift */; };
 		11B4D5EA303CCA0800013681 /* AsciiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */; };
 		11B4D5EC303CCA4D00013681 /* AsciiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4D5EB303CCA4D00013681 /* AsciiView.swift */; };
@@ -51,6 +54,9 @@
 		1156FA8E3011296D004E082C /* BrailleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleViewModel.swift; sourceTree = "<group>"; };
 		1156FA92301129D3004E082C /* BrailleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleView.swift; sourceTree = "<group>"; };
 		1156FA9430112A16004E082C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		11B3C3DB30509815006074DB /* CaesarCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCode.swift; sourceTree = "<group>"; };
+		11B3C3DD30509863006074DB /* CaesarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarViewModel.swift; sourceTree = "<group>"; };
+		11B3C3DF305098A0006074DB /* CaesarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarView.swift; sourceTree = "<group>"; };
 		11B4D5E7303CC9CB00013681 /* AsciiCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiCode.swift; sourceTree = "<group>"; };
 		11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiViewModel.swift; sourceTree = "<group>"; };
 		11B4D5EB303CCA4D00013681 /* AsciiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiView.swift; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 				11B4D5E7303CC9CB00013681 /* AsciiCode.swift */,
 				11E36D4E3045EB260078C01A /* UnicodeCode.swift */,
 				11F048493049E606003ECF7C /* Base64Code.swift */,
+				11B3C3DB30509815006074DB /* CaesarCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +158,7 @@
 				11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */,
 				11E36D503045EB610078C01A /* UnicodeViewModel.swift */,
 				11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */,
+				11B3C3DD30509863006074DB /* CaesarViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -169,6 +177,7 @@
 				11B4D5EB303CCA4D00013681 /* AsciiView.swift */,
 				11E36D523045EBA60078C01A /* UnicodeView.swift */,
 				11F0484D3049E683003ECF7C /* Base64View.swift */,
+				11B3C3DF305098A0006074DB /* CaesarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -273,10 +282,13 @@
 				11F0484A3049E606003ECF7C /* Base64Code.swift in Sources */,
 				115525DB30360BDB007FC504 /* BinaryView.swift in Sources */,
 				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
+				11B3C3E0305098A0006074DB /* CaesarView.swift in Sources */,
+				11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
 				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
 				115525D730360B48007FC504 /* BinaryCode.swift in Sources */,
 				11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */,
+				11B3C3DE30509863006074DB /* CaesarViewModel.swift in Sources */,
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
 				11E57C58300037A3006DE940 /* MorseCode.swift in Sources */,
 				11E36D533045EBA60078C01A /* UnicodeView.swift in Sources */,

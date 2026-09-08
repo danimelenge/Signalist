@@ -37,6 +37,9 @@ struct RootView: View {
     /// ViewModel encargado de la conversión Base64.
     @StateObject private var base64ViewModel = Base64ViewModel()
 
+    /// ViewModel encargado del Cifrado César.
+    @StateObject private var caesarViewModel = CaesarViewModel()
+
     // MARK: - App Storage
 
     /// Preferencia de apariencia seleccionada por el usuario.
@@ -156,6 +159,19 @@ struct RootView: View {
                     )
                 }
                 .tag(6)
+
+            // MARK: Caesar
+
+            /// Pestaña para cifrar y descifrar texto con el
+            /// Cifrado César, con desplazamiento ajustable.
+            CaesarView(viewModel: caesarViewModel)
+                .tabItem {
+                    Label(
+                        "César",
+                        systemImage: "shield.lefthalf.filled"
+                    )
+                }
+                .tag(7)
         }
         .preferredColorScheme(appTheme.colorScheme)
 
@@ -278,9 +294,13 @@ struct RootView: View {
             // Unicode
             return "character.book.closed.fill"
 
-        default:
-            // Base64 / Fallback
+        case 6:
+            // Base64
             return "chevron.left.forwardslash.chevron.right"
+
+        default:
+            // César / Fallback
+            return "shield.lefthalf.filled"
         }
     }
 
