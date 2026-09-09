@@ -128,6 +128,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "shield.lefthalf.filled",
+            iconColor: .mint,
+            title: "Cifrar texto con César",
+            description: "Ve a la pestaña \"César\", elige el modo \"Texto → César\", ajusta el desplazamiento con el control deslizante (1-25) y escribe cualquier texto. Cada letra se desplaza esa cantidad de posiciones en el alfabeto."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .teal,
+            title: "Descifrar César a texto",
+            description: "Cambia al modo \"César → Texto\", usa el mismo desplazamiento con el que se cifró el mensaje y escribe el texto cifrado para recuperar el original."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -207,6 +221,7 @@ struct HelpView: View {
                     asciiReferenceCard
                     unicodeReferenceCard
                     base64ReferenceCard
+                    caesarReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -459,6 +474,39 @@ struct HelpView: View {
         // Calling out that Base64 works on the full byte stream (not
         // per-character) helps set the right mental model, since every
         // other reference card in this screen is a letter-by-letter table.
+    }
+
+    // MARK: - Caesar Reference Card
+
+    /// Displays a compact Caesar Cipher example, clarifying that the
+    /// same shift value is used for both ciphering and deciphering.
+    private var caesarReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — César",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "Con desplazamiento 3: \"Hola\" → \"Krod\"\nUsa el mismo número para cifrar y descifrar; los números y signos de puntuación no se modifican."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Unlike the other reference cards, Caesar has a configurable
+        // parameter (the shift), so the example calls out a specific
+        // shift value to make the transformation concrete.
     }
 }
 

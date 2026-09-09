@@ -90,6 +90,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "shield.lefthalf.filled",
+            iconColor: .mint,
+            title: "Nueva pestaña de César",
+            description: "Cifra y descifra texto con el Cifrado César, con un desplazamiento ajustable de 1 a 25, desde la pestaña \"César\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -126,5 +133,6 @@ extension WhatsNewFeature {
     // Icon colors are chosen to roughly match each feature's home screen
     // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
     // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
-    // blue/orange = Base64) for visual consistency with HelpView.
+    // blue/orange = Base64, mint/teal = César) for visual consistency
+    // with HelpView.
 }
