@@ -17,6 +17,9 @@
 		1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA8E3011296D004E082C /* BrailleViewModel.swift */; };
 		1156FA93301129D3004E082C /* BrailleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA92301129D3004E082C /* BrailleView.swift */; };
 		1156FA9530112A16004E082C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA9430112A16004E082C /* RootView.swift */; };
+		1164483D305321D800FD8E9F /* Rot13Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164483C305321D800FD8E9F /* Rot13Code.swift */; };
+		1164483F3053221B00FD8E9F /* Rot13ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */; };
+		116448413053229900FD8E9F /* Rot13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116448403053229900FD8E9F /* Rot13View.swift */; };
 		11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3DB30509815006074DB /* CaesarCode.swift */; };
 		11B3C3DE30509863006074DB /* CaesarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3DD30509863006074DB /* CaesarViewModel.swift */; };
 		11B3C3E0305098A0006074DB /* CaesarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3DF305098A0006074DB /* CaesarView.swift */; };
@@ -54,6 +57,9 @@
 		1156FA8E3011296D004E082C /* BrailleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleViewModel.swift; sourceTree = "<group>"; };
 		1156FA92301129D3004E082C /* BrailleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleView.swift; sourceTree = "<group>"; };
 		1156FA9430112A16004E082C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1164483C305321D800FD8E9F /* Rot13Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13Code.swift; sourceTree = "<group>"; };
+		1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13ViewModel.swift; sourceTree = "<group>"; };
+		116448403053229900FD8E9F /* Rot13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13View.swift; sourceTree = "<group>"; };
 		11B3C3DB30509815006074DB /* CaesarCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCode.swift; sourceTree = "<group>"; };
 		11B3C3DD30509863006074DB /* CaesarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarViewModel.swift; sourceTree = "<group>"; };
 		11B3C3DF305098A0006074DB /* CaesarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarView.swift; sourceTree = "<group>"; };
@@ -144,6 +150,7 @@
 				11E36D4E3045EB260078C01A /* UnicodeCode.swift */,
 				11F048493049E606003ECF7C /* Base64Code.swift */,
 				11B3C3DB30509815006074DB /* CaesarCode.swift */,
+				1164483C305321D800FD8E9F /* Rot13Code.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,6 +166,7 @@
 				11E36D503045EB610078C01A /* UnicodeViewModel.swift */,
 				11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */,
 				11B3C3DD30509863006074DB /* CaesarViewModel.swift */,
+				1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -178,6 +186,7 @@
 				11E36D523045EBA60078C01A /* UnicodeView.swift */,
 				11F0484D3049E683003ECF7C /* Base64View.swift */,
 				11B3C3DF305098A0006074DB /* CaesarView.swift */,
+				116448403053229900FD8E9F /* Rot13View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +292,7 @@
 				115525DB30360BDB007FC504 /* BinaryView.swift in Sources */,
 				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
 				11B3C3E0305098A0006074DB /* CaesarView.swift in Sources */,
+				1164483F3053221B00FD8E9F /* Rot13ViewModel.swift in Sources */,
 				11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
 				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
@@ -292,7 +302,9 @@
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
 				11E57C58300037A3006DE940 /* MorseCode.swift in Sources */,
 				11E36D533045EBA60078C01A /* UnicodeView.swift in Sources */,
+				116448413053229900FD8E9F /* Rot13View.swift in Sources */,
 				11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */,
+				1164483D305321D800FD8E9F /* Rot13Code.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

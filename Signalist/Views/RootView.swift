@@ -40,6 +40,9 @@ struct RootView: View {
     /// ViewModel encargado del Cifrado César.
     @StateObject private var caesarViewModel = CaesarViewModel()
 
+    /// ViewModel encargado de la conversión ROT13.
+    @StateObject private var rot13ViewModel = Rot13ViewModel()
+
     // MARK: - App Storage
 
     /// Preferencia de apariencia seleccionada por el usuario.
@@ -162,8 +165,8 @@ struct RootView: View {
 
             // MARK: Caesar
 
-            /// Pestaña para cifrar y descifrar texto con el
-            /// Cifrado César, con desplazamiento ajustable.
+            /// Pestaña para cifrar y descifrar texto mediante
+            /// el Cifrado César con desplazamiento ajustable.
             CaesarView(viewModel: caesarViewModel)
                 .tabItem {
                     Label(
@@ -172,6 +175,19 @@ struct RootView: View {
                     )
                 }
                 .tag(7)
+
+            // MARK: ROT13
+
+            /// Pestaña para convertir texto utilizando el
+            /// sistema de sustitución ROT13.
+            Rot13View(viewModel: rot13ViewModel)
+                .tabItem {
+                    Label(
+                        "ROT13",
+                        systemImage: "arrow.triangle.2.circlepath"
+                    )
+                }
+                .tag(8)
         }
         .preferredColorScheme(appTheme.colorScheme)
 
@@ -298,9 +314,18 @@ struct RootView: View {
             // Base64
             return "chevron.left.forwardslash.chevron.right"
 
-        default:
-            // César / Fallback
+        case 7:
+            // César
             return "shield.lefthalf.filled"
+
+        case 8:
+            // ROT13
+            return "arrow.triangle.2.circlepath"
+
+        default:
+            // FIXME: Mantener un icono válido como fallback
+            // en caso de recibir un índice de pestaña inesperado.
+            return "arrow.triangle.2.circlepath"
         }
     }
 
