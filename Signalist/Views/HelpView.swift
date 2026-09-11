@@ -142,6 +142,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "arrow.triangle.2.circlepath",
+            iconColor: .indigo,
+            title: "Convertir texto a ROT13",
+            description: "Ve a la pestaña \"ROT13\", elige el modo \"Texto → ROT13\" y escribe cualquier texto. Cada letra se desplaza siempre 13 posiciones, sin necesidad de configurar nada."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .cyan,
+            title: "Convertir ROT13 a texto",
+            description: "Cambia al modo \"ROT13 → Texto\" y escribe el texto cifrado. Como ROT13 es simétrico, aplicar la conversión una segunda vez siempre recupera el mensaje original."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -222,6 +236,7 @@ struct HelpView: View {
                     unicodeReferenceCard
                     base64ReferenceCard
                     caesarReferenceCard
+                    rot13ReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -507,6 +522,39 @@ struct HelpView: View {
         // Unlike the other reference cards, Caesar has a configurable
         // parameter (the shift), so the example calls out a specific
         // shift value to make the transformation concrete.
+    }
+
+    // MARK: - ROT13 Reference Card
+
+    /// Displays a compact ROT13 example, emphasizing that it is
+    /// symmetric (applying it twice restores the original text).
+    private var rot13ReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — ROT13",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "\"Hola\" → \"Ubyn\"\nEs un César con desplazamiento fijo de 13; aplicarlo dos veces devuelve el texto original."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Highlighting the symmetry property is the most useful thing
+        // to communicate about ROT13, since it's what distinguishes it
+        // from Caesar (which needs the same shift remembered separately).
     }
 }
 

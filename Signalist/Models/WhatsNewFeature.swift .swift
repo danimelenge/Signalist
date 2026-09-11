@@ -97,6 +97,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "arrow.triangle.2.circlepath",
+            iconColor: .indigo,
+            title: "Nueva pestaña de ROT13",
+            description: "Cifra y descifra texto con ROT13, el clásico desplazamiento fijo de 13 posiciones, desde la pestaña \"ROT13\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -133,6 +140,6 @@ extension WhatsNewFeature {
     // Icon colors are chosen to roughly match each feature's home screen
     // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
     // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
-    // blue/orange = Base64, mint/teal = César) for visual consistency
-    // with HelpView.
+    // blue/orange = Base64, mint/teal = César, indigo/cyan = ROT13)
+    // for visual consistency with HelpView.
 }
