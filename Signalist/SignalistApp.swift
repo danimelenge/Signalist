@@ -2,10 +2,13 @@
 //  SignalistApp.swift
 //  Signalist
 //
-//  Created by Daniel Melenge Rojas on 9/07/26.
-//
 
 import SwiftUI
+
+// NOTE:
+// Signalist no requiere conexión a internet. Todas las conversiones
+// (Morse, Braille, NATO, Binario, ASCII, Unicode, Base64, César, ROT13)
+// se ejecutan localmente con lógica pura de Swift, sin llamadas de red.
 
 @main
 struct SignalistApp: App {
