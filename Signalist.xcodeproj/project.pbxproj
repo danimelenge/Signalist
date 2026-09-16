@@ -42,6 +42,7 @@
 		11F0484A3049E606003ECF7C /* Base64Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F048493049E606003ECF7C /* Base64Code.swift */; };
 		11F0484C3049E64B003ECF7C /* Base64ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */; };
 		11F0484E3049E683003ECF7C /* Base64View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0484D3049E683003ECF7C /* Base64View.swift */; };
+		11F04960305B04AA0082220D /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0495F305B04AA0082220D /* MenuBarContentView.swift */; };
 		11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F27A533001900600950561 /* WhatsNewFeature.swift .swift */; };
 		11F27A563001905400950561 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F27A553001905400950561 /* WhatsNewView.swift */; };
 /* End PBXBuildFile section */
@@ -84,6 +85,7 @@
 		11F048493049E606003ECF7C /* Base64Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64Code.swift; sourceTree = "<group>"; };
 		11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64ViewModel.swift; sourceTree = "<group>"; };
 		11F0484D3049E683003ECF7C /* Base64View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64View.swift; sourceTree = "<group>"; };
+		11F0495F305B04AA0082220D /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
 		11F27A533001900600950561 /* WhatsNewFeature.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhatsNewFeature.swift .swift"; sourceTree = "<group>"; };
 		11F27A553001905400950561 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +189,7 @@
 				11F0484D3049E683003ECF7C /* Base64View.swift */,
 				11B3C3DF305098A0006074DB /* CaesarView.swift */,
 				116448403053229900FD8E9F /* Rot13View.swift */,
+				11F0495F305B04AA0082220D /* MenuBarContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				11431A343007E9D6009A4423 /* HelpView.swift in Sources */,
 				11B4D5EA303CCA0800013681 /* AsciiViewModel.swift in Sources */,
 				11F0484A3049E606003ECF7C /* Base64Code.swift in Sources */,
+				11F04960305B04AA0082220D /* MenuBarContentView.swift in Sources */,
 				115525DB30360BDB007FC504 /* BinaryView.swift in Sources */,
 				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
 				11B3C3E0305098A0006074DB /* CaesarView.swift in Sources */,
