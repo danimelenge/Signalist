@@ -45,6 +45,7 @@ struct MenuBarContentView: View {
             } label: {
                 Label("Salir de Signalist", systemImage: "power")
             }
+            .keyboardShortcut("q", modifiers: .command)
         }
         .padding(6)
 
