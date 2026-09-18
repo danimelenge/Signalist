@@ -42,6 +42,9 @@ struct RootView: View {
 
     /// ViewModel encargado de la conversión ROT13.
     @StateObject private var rot13ViewModel = Rot13ViewModel()
+    
+    /// ViewModel encargado de la conversión ROT47.
+        @StateObject private var rot47ViewModel = Rot47ViewModel()
 
     // MARK: - App Storage
 
@@ -188,8 +191,23 @@ struct RootView: View {
                     )
                 }
                 .tag(8)
+            
+            // MARK: ROT47
+
+                        /// Décima pestaña de Signalist para convertir texto
+                        /// utilizando el sistema de sustitución ROT47.
+                        Rot47View(viewModel: rot47ViewModel)
+                            .tabItem {
+                                Label(
+                                    "ROT47",
+                                    systemImage: "arrow.2.squarepath"
+                                )
+                            }
+                            .tag(9)
         }
         .preferredColorScheme(appTheme.colorScheme)
+        
+        
 
         // MARK: - Toolbar
 
