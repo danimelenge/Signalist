@@ -156,6 +156,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "arrow.2.squarepath",
+            iconColor: .pink,
+            title: "Convertir texto a ROT47",
+            description: "Ve a la pestaña \"ROT47\", elige el modo \"Texto → ROT47\" y escribe cualquier texto. A diferencia de ROT13, también transforma números y símbolos de puntuación, no solo letras."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .brown,
+            title: "Convertir ROT47 a texto",
+            description: "Cambia al modo \"ROT47 → Texto\" y escribe el texto cifrado. Como ROT47 también es simétrico, aplicarlo una segunda vez recupera el mensaje original."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -237,6 +251,7 @@ struct HelpView: View {
                     base64ReferenceCard
                     caesarReferenceCard
                     rot13ReferenceCard
+                    rot47ReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -555,6 +570,39 @@ struct HelpView: View {
         // Highlighting the symmetry property is the most useful thing
         // to communicate about ROT13, since it's what distinguishes it
         // from Caesar (which needs the same shift remembered separately).
+    }
+
+    // MARK: - ROT47 Reference Card
+
+    /// Displays a compact ROT47 example, clarifying that it covers a
+    /// wider range than ROT13 (letters, numbers and punctuation).
+    private var rot47ReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — ROT47",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "\"Hola123!\" → \"w~=2`ab6\"\nA diferencia de ROT13, también rota números y símbolos, no solo letras. También es simétrico."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // The most useful thing to communicate about ROT47 is how it
+        // differs from ROT13 (wider character range), since otherwise
+        // they can seem like the exact same feature to a new user.
     }
 }
 

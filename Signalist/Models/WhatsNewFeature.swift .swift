@@ -104,6 +104,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "arrow.2.squarepath",
+            iconColor: .pink,
+            title: "Nueva pestaña de ROT47",
+            description: "Cifra y descifra texto con ROT47, que además de letras también transforma números y símbolos, desde la pestaña \"ROT47\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -140,6 +147,6 @@ extension WhatsNewFeature {
     // Icon colors are chosen to roughly match each feature's home screen
     // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
     // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
-    // blue/orange = Base64, mint/teal = César, indigo/cyan = ROT13)
-    // for visual consistency with HelpView.
+    // blue/orange = Base64, mint/teal = César, indigo/cyan = ROT13,
+    // pink/brown = ROT47) for visual consistency with HelpView.
 }
