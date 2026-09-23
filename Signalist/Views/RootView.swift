@@ -45,6 +45,9 @@ struct RootView: View {
     
     /// ViewModel encargado de la conversión ROT47.
         @StateObject private var rot47ViewModel = Rot47ViewModel()
+    
+    /// ViewModel encargado de la conversión a banderas de Semáforo naval.
+    @StateObject private var semaphoreViewModel = SemaphoreViewModel()
 
     // MARK: - App Storage
 
@@ -204,6 +207,17 @@ struct RootView: View {
                                 )
                             }
                             .tag(9)
+            
+            // MARK: Semaphore
+
+            /// Pestaña para convertir texto a banderas de Semáforo naval
+            /// y Semáforo a texto.
+            SemaphoreView(viewModel: semaphoreViewModel)
+                .tabItem {
+                    Label("Semáforo", systemImage: "flag.2.crossed.fill")
+                }
+                .tag(10)
+        
         }
         .preferredColorScheme(appTheme.colorScheme)
         

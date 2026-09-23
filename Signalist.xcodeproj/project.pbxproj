@@ -29,6 +29,9 @@
 		11B4D5E8303CC9CB00013681 /* AsciiCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4D5E7303CC9CB00013681 /* AsciiCode.swift */; };
 		11B4D5EA303CCA0800013681 /* AsciiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */; };
 		11B4D5EC303CCA4D00013681 /* AsciiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4D5EB303CCA4D00013681 /* AsciiView.swift */; };
+		11D7F17830648040008737F1 /* SemaphoreCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D7F17730648040008737F1 /* SemaphoreCode.swift */; };
+		11D7F17A30648087008737F1 /* SemaphoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D7F17930648087008737F1 /* SemaphoreViewModel.swift */; };
+		11D7F17C306480D0008737F1 /* SemaphoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D7F17B306480D0008737F1 /* SemaphoreView.swift */; };
 		11E12B7230211F32009D37D2 /* NatoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7130211F32009D37D2 /* NatoCode.swift */; };
 		11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7330211F7E009D37D2 /* NatoViewModel.swift */; };
 		11E12B7630211FF4009D37D2 /* NatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E12B7530211FF4009D37D2 /* NatoView.swift */; };
@@ -73,6 +76,9 @@
 		11B4D5E7303CC9CB00013681 /* AsciiCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiCode.swift; sourceTree = "<group>"; };
 		11B4D5E9303CCA0800013681 /* AsciiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiViewModel.swift; sourceTree = "<group>"; };
 		11B4D5EB303CCA4D00013681 /* AsciiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiView.swift; sourceTree = "<group>"; };
+		11D7F17730648040008737F1 /* SemaphoreCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreCode.swift; sourceTree = "<group>"; };
+		11D7F17930648087008737F1 /* SemaphoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreViewModel.swift; sourceTree = "<group>"; };
+		11D7F17B306480D0008737F1 /* SemaphoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreView.swift; sourceTree = "<group>"; };
 		11E12B7130211F32009D37D2 /* NatoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoCode.swift; sourceTree = "<group>"; };
 		11E12B7330211F7E009D37D2 /* NatoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoViewModel.swift; sourceTree = "<group>"; };
 		11E12B7530211FF4009D37D2 /* NatoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoView.swift; sourceTree = "<group>"; };
@@ -160,6 +166,7 @@
 				11B3C3DB30509815006074DB /* CaesarCode.swift */,
 				1164483C305321D800FD8E9F /* Rot13Code.swift */,
 				11AD77A6305DA2E60027218C /* Rot47Code.swift */,
+				11D7F17730648040008737F1 /* SemaphoreCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +184,7 @@
 				11B3C3DD30509863006074DB /* CaesarViewModel.swift */,
 				1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */,
 				11AD77A8305DA3290027218C /* Rot47ViewModel.swift */,
+				11D7F17930648087008737F1 /* SemaphoreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 				116448403053229900FD8E9F /* Rot13View.swift */,
 				11F0495F305B04AA0082220D /* MenuBarContentView.swift */,
 				11AD77AA305DA3660027218C /* Rot47View.swift */,
+				11D7F17B306480D0008737F1 /* SemaphoreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,7 +320,9 @@
 				11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
 				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
+				11D7F17830648040008737F1 /* SemaphoreCode.swift in Sources */,
 				115525D730360B48007FC504 /* BinaryCode.swift in Sources */,
+				11D7F17C306480D0008737F1 /* SemaphoreView.swift in Sources */,
 				11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */,
 				11B3C3DE30509863006074DB /* CaesarViewModel.swift in Sources */,
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
@@ -320,6 +331,7 @@
 				116448413053229900FD8E9F /* Rot13View.swift in Sources */,
 				11AD77A9305DA3290027218C /* Rot47ViewModel.swift in Sources */,
 				11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */,
+				11D7F17A30648087008737F1 /* SemaphoreViewModel.swift in Sources */,
 				1164483D305321D800FD8E9F /* Rot13Code.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
