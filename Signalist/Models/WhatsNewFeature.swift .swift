@@ -111,6 +111,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "flag.2.crossed.fill",
+            iconColor: .red,
+            title: "Nueva pestaña de Semáforo",
+            description: "Convierte texto a banderas de Semáforo naval y viceversa, mostrando la posición de ambos brazos con flechas, desde la pestaña \"Semáforo\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -148,5 +155,6 @@ extension WhatsNewFeature {
     // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
     // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
     // blue/orange = Base64, mint/teal = César, indigo/cyan = ROT13,
-    // pink/brown = ROT47) for visual consistency with HelpView.
+    // pink/brown = ROT47, red/yellow = Semáforo) for visual consistency
+    // with HelpView.
 }

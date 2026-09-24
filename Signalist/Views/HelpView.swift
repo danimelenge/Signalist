@@ -170,6 +170,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "flag.2.crossed.fill",
+            iconColor: .red,
+            title: "Convertir texto a Semáforo",
+            description: "Ve a la pestaña \"Semáforo\", elige el modo \"Texto → Semáforo\" y escribe cualquier texto. Cada letra se muestra como un par de flechas que representan la posición del brazo derecho e izquierdo."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .yellow,
+            title: "Convertir Semáforo a texto",
+            description: "Cambia al modo \"Semáforo → Texto\" y escribe los pares de flechas separados por espacio (ej. \"→↘ ↑↗\") para obtener el texto equivalente."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -252,6 +266,7 @@ struct HelpView: View {
                     caesarReferenceCard
                     rot13ReferenceCard
                     rot47ReferenceCard
+                    semaphoreReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -603,6 +618,39 @@ struct HelpView: View {
         // The most useful thing to communicate about ROT47 is how it
         // differs from ROT13 (wider character range), since otherwise
         // they can seem like the exact same feature to a new user.
+    }
+
+    // MARK: - Semaphore Reference Card
+
+    /// Displays a compact Semaphore reference, explaining that each
+    /// letter is two arrows (right arm, left arm).
+    private var semaphoreReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Semáforo",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "A: →↘↓   B: →↓\nCada letra son dos flechas: primero el brazo derecho, luego el izquierdo. \"/\" separa palabras."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Since Semaphore output looks visually different from the other
+        // codes (arrows instead of characters), this card clarifies the
+        // reading order (right arm first, then left).
     }
 }
 
