@@ -45,6 +45,9 @@
 		11E57C58300037A3006DE940 /* MorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C57300037A3006DE940 /* MorseCode.swift */; };
 		11E57C5E300038F0006DE940 /* MorseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C5D300038F0006DE940 /* MorseViewModel.swift */; };
 		11E57C6230003A13006DE940 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C6130003A13006DE940 /* Theme.swift */; };
+		11EEAAAE3067237A009AC247 /* HieroglyphCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEAAAD3067237A009AC247 /* HieroglyphCode.swift */; };
+		11EEAAB0306723CA009AC247 /* HieroglyphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEAAAF306723CA009AC247 /* HieroglyphViewModel.swift */; };
+		11EEAAB23067240E009AC247 /* HieroglyphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEAAB13067240E009AC247 /* HieroglyphView.swift */; };
 		11F0484A3049E606003ECF7C /* Base64Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F048493049E606003ECF7C /* Base64Code.swift */; };
 		11F0484C3049E64B003ECF7C /* Base64ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */; };
 		11F0484E3049E683003ECF7C /* Base64View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0484D3049E683003ECF7C /* Base64View.swift */; };
@@ -94,6 +97,9 @@
 		11E57C57300037A3006DE940 /* MorseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCode.swift; sourceTree = "<group>"; };
 		11E57C5D300038F0006DE940 /* MorseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseViewModel.swift; sourceTree = "<group>"; };
 		11E57C6130003A13006DE940 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		11EEAAAD3067237A009AC247 /* HieroglyphCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HieroglyphCode.swift; sourceTree = "<group>"; };
+		11EEAAAF306723CA009AC247 /* HieroglyphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HieroglyphViewModel.swift; sourceTree = "<group>"; };
+		11EEAAB13067240E009AC247 /* HieroglyphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HieroglyphView.swift; sourceTree = "<group>"; };
 		11F048493049E606003ECF7C /* Base64Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64Code.swift; sourceTree = "<group>"; };
 		11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64ViewModel.swift; sourceTree = "<group>"; };
 		11F0484D3049E683003ECF7C /* Base64View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64View.swift; sourceTree = "<group>"; };
@@ -167,6 +173,7 @@
 				1164483C305321D800FD8E9F /* Rot13Code.swift */,
 				11AD77A6305DA2E60027218C /* Rot47Code.swift */,
 				11D7F17730648040008737F1 /* SemaphoreCode.swift */,
+				11EEAAAD3067237A009AC247 /* HieroglyphCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,6 +192,7 @@
 				1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */,
 				11AD77A8305DA3290027218C /* Rot47ViewModel.swift */,
 				11D7F17930648087008737F1 /* SemaphoreViewModel.swift */,
+				11EEAAAF306723CA009AC247 /* HieroglyphViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -208,6 +216,7 @@
 				11F0495F305B04AA0082220D /* MenuBarContentView.swift */,
 				11AD77AA305DA3660027218C /* Rot47View.swift */,
 				11D7F17B306480D0008737F1 /* SemaphoreView.swift */,
+				11EEAAB13067240E009AC247 /* HieroglyphView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +307,7 @@
 				11E36D513045EB610078C01A /* UnicodeViewModel.swift in Sources */,
 				1156FA8D301128D9004E082C /* BrailleCode.swift in Sources */,
 				11F0484C3049E64B003ECF7C /* Base64ViewModel.swift in Sources */,
+				11EEAAB0306723CA009AC247 /* HieroglyphViewModel.swift in Sources */,
 				11E57C4A3000373F006DE940 /* ContentView.swift in Sources */,
 				11AD77AB305DA3660027218C /* Rot47View.swift in Sources */,
 				11B4D5E8303CC9CB00013681 /* AsciiCode.swift in Sources */,
@@ -316,6 +326,7 @@
 				115525DB30360BDB007FC504 /* BinaryView.swift in Sources */,
 				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
 				11B3C3E0305098A0006074DB /* CaesarView.swift in Sources */,
+				11EEAAAE3067237A009AC247 /* HieroglyphCode.swift in Sources */,
 				1164483F3053221B00FD8E9F /* Rot13ViewModel.swift in Sources */,
 				11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
@@ -330,6 +341,7 @@
 				11E36D533045EBA60078C01A /* UnicodeView.swift in Sources */,
 				116448413053229900FD8E9F /* Rot13View.swift in Sources */,
 				11AD77A9305DA3290027218C /* Rot47ViewModel.swift in Sources */,
+				11EEAAB23067240E009AC247 /* HieroglyphView.swift in Sources */,
 				11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */,
 				11D7F17A30648087008737F1 /* SemaphoreViewModel.swift in Sources */,
 				1164483D305321D800FD8E9F /* Rot13Code.swift in Sources */,

@@ -48,6 +48,9 @@ struct RootView: View {
     
     /// ViewModel encargado de la conversión a banderas de Semáforo naval.
     @StateObject private var semaphoreViewModel = SemaphoreViewModel()
+    
+    /// ViewModel encargado de la conversión a Jeroglificos
+    @StateObject private var hieroglyphViewModel = HieroglyphViewModel()
 
     // MARK: - App Storage
 
@@ -217,6 +220,14 @@ struct RootView: View {
                     Label("Semáforo", systemImage: "flag.2.crossed.fill")
                 }
                 .tag(10)
+            
+            /// Pestaña para cifrar texto con símbolos jeroglíficos
+                        /// egipcios y descifrarlos de vuelta a texto.
+                        HieroglyphView(viewModel: hieroglyphViewModel)
+                            .tabItem {
+                                Label("Jeroglíficos", systemImage: "building.columns.fill")
+                            }
+                            .tag(11)
         
         }
         .preferredColorScheme(appTheme.colorScheme)
