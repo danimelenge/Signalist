@@ -184,6 +184,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "building.columns.fill",
+            iconColor: .orange,
+            title: "Cifrar texto con Jeroglíficos",
+            description: "Ve a la pestaña \"Jeroglíficos\", elige el modo \"Texto → Jeroglíficos\" y escribe cualquier texto. Cada letra se sustituye por un símbolo jeroglífico egipcio real, separados por espacio."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .brown,
+            title: "Descifrar Jeroglíficos a texto",
+            description: "Cambia al modo \"Jeroglíficos → Texto\" y escribe o pega los símbolos separados por espacio para recuperar el texto original."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -267,6 +281,7 @@ struct HelpView: View {
                     rot13ReferenceCard
                     rot47ReferenceCard
                     semaphoreReferenceCard
+                    hieroglyphReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -651,6 +666,41 @@ struct HelpView: View {
         // Since Semaphore output looks visually different from the other
         // codes (arrows instead of characters), this card clarifies the
         // reading order (right arm first, then left).
+    }
+
+    // MARK: - Hieroglyph Reference Card
+
+    /// Displays a note clarifying that this is a creative substitution
+    /// cipher using real hieroglyph symbols, not an academic Egyptian
+    /// transliteration system.
+    private var hieroglyphReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Jeroglíficos",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "Cada letra se sustituye por un símbolo real del bloque Unicode de jeroglíficos egipcios, separados por espacio.\nEs un cifrado creativo de Signalist, no una transliteración académica del egipcio antiguo."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // This disclaimer matters here more than in any other reference
+        // card: hieroglyphs carry real historical/academic weight, so
+        // it's important the user understands this is a fun cipher using
+        // authentic symbols, not a scholarly transliteration tool.
     }
 }
 

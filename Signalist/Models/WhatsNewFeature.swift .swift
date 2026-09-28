@@ -118,6 +118,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "building.columns.fill",
+            iconColor: .orange,
+            title: "Nueva pestaña de Jeroglíficos",
+            description: "Cifra texto con símbolos jeroglíficos egipcios reales y descífralo de vuelta, desde la pestaña \"Jeroglíficos\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -155,6 +162,6 @@ extension WhatsNewFeature {
     // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
     // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
     // blue/orange = Base64, mint/teal = César, indigo/cyan = ROT13,
-    // pink/brown = ROT47, red/yellow = Semáforo) for visual consistency
-    // with HelpView.
+    // pink/brown = ROT47, red/yellow = Semáforo, orange/brown = Jeroglíficos)
+    // for visual consistency with HelpView.
 }
