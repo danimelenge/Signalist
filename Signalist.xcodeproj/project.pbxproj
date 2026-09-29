@@ -17,6 +17,9 @@
 		1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA8E3011296D004E082C /* BrailleViewModel.swift */; };
 		1156FA93301129D3004E082C /* BrailleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA92301129D3004E082C /* BrailleView.swift */; };
 		1156FA9530112A16004E082C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156FA9430112A16004E082C /* RootView.swift */; };
+		11630271306C6414007A6A1C /* CuneiformCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11630270306C6414007A6A1C /* CuneiformCode.swift */; };
+		11630273306C6454007A6A1C /* CuneiformViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11630272306C6454007A6A1C /* CuneiformViewModel.swift */; };
+		11630275306C6492007A6A1C /* CuneiformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11630274306C6492007A6A1C /* CuneiformView.swift */; };
 		1164483D305321D800FD8E9F /* Rot13Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164483C305321D800FD8E9F /* Rot13Code.swift */; };
 		1164483F3053221B00FD8E9F /* Rot13ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */; };
 		116448413053229900FD8E9F /* Rot13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116448403053229900FD8E9F /* Rot13View.swift */; };
@@ -67,6 +70,9 @@
 		1156FA8E3011296D004E082C /* BrailleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleViewModel.swift; sourceTree = "<group>"; };
 		1156FA92301129D3004E082C /* BrailleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleView.swift; sourceTree = "<group>"; };
 		1156FA9430112A16004E082C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		11630270306C6414007A6A1C /* CuneiformCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuneiformCode.swift; sourceTree = "<group>"; };
+		11630272306C6454007A6A1C /* CuneiformViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuneiformViewModel.swift; sourceTree = "<group>"; };
+		11630274306C6492007A6A1C /* CuneiformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuneiformView.swift; sourceTree = "<group>"; };
 		1164483C305321D800FD8E9F /* Rot13Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13Code.swift; sourceTree = "<group>"; };
 		1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13ViewModel.swift; sourceTree = "<group>"; };
 		116448403053229900FD8E9F /* Rot13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13View.swift; sourceTree = "<group>"; };
@@ -174,6 +180,7 @@
 				11AD77A6305DA2E60027218C /* Rot47Code.swift */,
 				11D7F17730648040008737F1 /* SemaphoreCode.swift */,
 				11EEAAAD3067237A009AC247 /* HieroglyphCode.swift */,
+				11630270306C6414007A6A1C /* CuneiformCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +200,7 @@
 				11AD77A8305DA3290027218C /* Rot47ViewModel.swift */,
 				11D7F17930648087008737F1 /* SemaphoreViewModel.swift */,
 				11EEAAAF306723CA009AC247 /* HieroglyphViewModel.swift */,
+				11630272306C6454007A6A1C /* CuneiformViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -217,6 +225,7 @@
 				11AD77AA305DA3660027218C /* Rot47View.swift */,
 				11D7F17B306480D0008737F1 /* SemaphoreView.swift */,
 				11EEAAB13067240E009AC247 /* HieroglyphView.swift */,
+				11630274306C6492007A6A1C /* CuneiformView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +326,7 @@
 				115525D930360B85007FC504 /* BinaryViewModel.swift in Sources */,
 				1156FA9530112A16004E082C /* RootView.swift in Sources */,
 				1156FA8F3011296D004E082C /* BrailleViewModel.swift in Sources */,
+				11630275306C6492007A6A1C /* CuneiformView.swift in Sources */,
 				11AD77A7305DA2E60027218C /* Rot47Code.swift in Sources */,
 				11F27A563001905400950561 /* WhatsNewView.swift in Sources */,
 				11431A343007E9D6009A4423 /* HelpView.swift in Sources */,
@@ -327,6 +337,8 @@
 				1156FA93301129D3004E082C /* BrailleView.swift in Sources */,
 				11B3C3E0305098A0006074DB /* CaesarView.swift in Sources */,
 				11EEAAAE3067237A009AC247 /* HieroglyphCode.swift in Sources */,
+				11630271306C6414007A6A1C /* CuneiformCode.swift in Sources */,
+				11630273306C6454007A6A1C /* CuneiformViewModel.swift in Sources */,
 				1164483F3053221B00FD8E9F /* Rot13ViewModel.swift in Sources */,
 				11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,

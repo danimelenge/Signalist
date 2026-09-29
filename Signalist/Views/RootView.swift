@@ -51,6 +51,9 @@ struct RootView: View {
     
     /// ViewModel encargado de la conversión a Jeroglificos
     @StateObject private var hieroglyphViewModel = HieroglyphViewModel()
+    
+    /// ViewModel encargado de la conversión a Cuneiforme
+    @StateObject private var cuneiformViewModel = CuneiformViewModel()
 
     // MARK: - App Storage
 
@@ -221,6 +224,8 @@ struct RootView: View {
                 }
                 .tag(10)
             
+            // MARK: Hieroglyph
+            
             /// Pestaña para cifrar texto con símbolos jeroglíficos
                         /// egipcios y descifrarlos de vuelta a texto.
                         HieroglyphView(viewModel: hieroglyphViewModel)
@@ -228,6 +233,17 @@ struct RootView: View {
                                 Label("Jeroglíficos", systemImage: "building.columns.fill")
                             }
                             .tag(11)
+            
+            
+            // MARK: Cuneiform
+
+                        /// Pestaña para cifrar texto con signos cuneiformes
+                        /// sumerios y descifrarlos de vuelta a texto.
+                        CuneiformView(viewModel: cuneiformViewModel)
+                            .tabItem {
+                                Label("Cuneiforme", systemImage: "cube.fill")
+                            }
+                            .tag(12)
         
         }
         .preferredColorScheme(appTheme.colorScheme)
