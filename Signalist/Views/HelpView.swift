@@ -198,6 +198,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "cube.fill",
+            iconColor: .gray,
+            title: "Cifrar texto con Cuneiforme",
+            description: "Ve a la pestaña \"Cuneiforme\", elige el modo \"Texto → Cuneiforme\" y escribe cualquier texto. Cada letra se sustituye por un signo cuneiforme sumerio real, separados por espacio."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .indigo,
+            title: "Descifrar Cuneiforme a texto",
+            description: "Cambia al modo \"Cuneiforme → Texto\" y escribe o pega los signos separados por espacio para recuperar el texto original."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -282,6 +296,7 @@ struct HelpView: View {
                     rot47ReferenceCard
                     semaphoreReferenceCard
                     hieroglyphReferenceCard
+                    cuneiformReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -701,6 +716,40 @@ struct HelpView: View {
         // card: hieroglyphs carry real historical/academic weight, so
         // it's important the user understands this is a fun cipher using
         // authentic symbols, not a scholarly transliteration tool.
+    }
+
+    // MARK: - Cuneiform Reference Card
+
+    /// Displays a note clarifying that this is a creative substitution
+    /// cipher using real cuneiform signs, not an academic Sumerian or
+    /// Akkadian transliteration system.
+    private var cuneiformReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Cuneiforme",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "Cada letra se sustituye por un signo real del bloque Unicode cuneiforme, separados por espacio.\nEs un cifrado creativo de Signalist, no una transliteración académica del sumerio o acadio antiguos."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Same disclaimer rationale as Hieroglyphs: cuneiform carries
+        // real historical/academic weight, so this card clarifies it's
+        // a fun cipher using authentic symbols, not a scholarly tool.
     }
 }
 

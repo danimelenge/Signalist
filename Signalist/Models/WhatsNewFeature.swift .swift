@@ -125,6 +125,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "cube.fill",
+            iconColor: .gray,
+            title: "Nueva pestaña de Cuneiforme",
+            description: "Cifra texto con signos cuneiformes sumerios reales y descífralo de vuelta, desde la pestaña \"Cuneiforme\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -162,6 +169,6 @@ extension WhatsNewFeature {
     // (blue/indigo = Morse, teal/mint = Braille, red/pink = NATO,
     // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
     // blue/orange = Base64, mint/teal = César, indigo/cyan = ROT13,
-    // pink/brown = ROT47, red/yellow = Semáforo, orange/brown = Jeroglíficos)
-    // for visual consistency with HelpView.
+    // pink/brown = ROT47, red/yellow = Semáforo, orange/brown = Jeroglíficos,
+    // gray/indigo = Cuneiforme) for visual consistency with HelpView.
 }
