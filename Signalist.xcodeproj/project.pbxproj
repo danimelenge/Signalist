@@ -57,6 +57,9 @@
 		11F04960305B04AA0082220D /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0495F305B04AA0082220D /* MenuBarContentView.swift */; };
 		11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F27A533001900600950561 /* WhatsNewFeature.swift .swift */; };
 		11F27A563001905400950561 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F27A553001905400950561 /* WhatsNewView.swift */; };
+		11F64813306EB57A00304538 /* RuneCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F64812306EB57A00304538 /* RuneCode.swift */; };
+		11F64815306EB5CD00304538 /* RuneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F64814306EB5CD00304538 /* RuneViewModel.swift */; };
+		11F64817306EB60B00304538 /* RuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F64816306EB60B00304538 /* RuneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +115,9 @@
 		11F0495F305B04AA0082220D /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
 		11F27A533001900600950561 /* WhatsNewFeature.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhatsNewFeature.swift .swift"; sourceTree = "<group>"; };
 		11F27A553001905400950561 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
+		11F64812306EB57A00304538 /* RuneCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneCode.swift; sourceTree = "<group>"; };
+		11F64814306EB5CD00304538 /* RuneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneViewModel.swift; sourceTree = "<group>"; };
+		11F64816306EB60B00304538 /* RuneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +187,7 @@
 				11D7F17730648040008737F1 /* SemaphoreCode.swift */,
 				11EEAAAD3067237A009AC247 /* HieroglyphCode.swift */,
 				11630270306C6414007A6A1C /* CuneiformCode.swift */,
+				11F64812306EB57A00304538 /* RuneCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +208,7 @@
 				11D7F17930648087008737F1 /* SemaphoreViewModel.swift */,
 				11EEAAAF306723CA009AC247 /* HieroglyphViewModel.swift */,
 				11630272306C6454007A6A1C /* CuneiformViewModel.swift */,
+				11F64814306EB5CD00304538 /* RuneViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +234,7 @@
 				11D7F17B306480D0008737F1 /* SemaphoreView.swift */,
 				11EEAAB13067240E009AC247 /* HieroglyphView.swift */,
 				11630274306C6492007A6A1C /* CuneiformView.swift */,
+				11F64816306EB60B00304538 /* RuneView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -347,15 +356,18 @@
 				115525D730360B48007FC504 /* BinaryCode.swift in Sources */,
 				11D7F17C306480D0008737F1 /* SemaphoreView.swift in Sources */,
 				11E12B7430211F7E009D37D2 /* NatoViewModel.swift in Sources */,
+				11F64815306EB5CD00304538 /* RuneViewModel.swift in Sources */,
 				11B3C3DE30509863006074DB /* CaesarViewModel.swift in Sources */,
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
 				11E57C58300037A3006DE940 /* MorseCode.swift in Sources */,
 				11E36D533045EBA60078C01A /* UnicodeView.swift in Sources */,
+				11F64813306EB57A00304538 /* RuneCode.swift in Sources */,
 				116448413053229900FD8E9F /* Rot13View.swift in Sources */,
 				11AD77A9305DA3290027218C /* Rot47ViewModel.swift in Sources */,
 				11EEAAB23067240E009AC247 /* HieroglyphView.swift in Sources */,
 				11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */,
 				11D7F17A30648087008737F1 /* SemaphoreViewModel.swift in Sources */,
+				11F64817306EB60B00304538 /* RuneView.swift in Sources */,
 				1164483D305321D800FD8E9F /* Rot13Code.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

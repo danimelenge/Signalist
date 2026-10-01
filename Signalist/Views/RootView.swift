@@ -54,6 +54,9 @@ struct RootView: View {
     
     /// ViewModel encargado de la conversión a Cuneiforme
     @StateObject private var cuneiformViewModel = CuneiformViewModel()
+    
+    /// ViewModel encargado de la conversión al alfabeto rúnico Elder Futhark.
+    @StateObject private var runeViewModel = RuneViewModel()
 
     // MARK: - App Storage
 
@@ -244,6 +247,18 @@ struct RootView: View {
                                 Label("Cuneiforme", systemImage: "cube.fill")
                             }
                             .tag(12)
+            
+            
+            // MARK: Rune
+
+                       /// Pestaña para convertir texto al alfabeto rúnico
+                       /// Elder Futhark y viceversa.
+                       RuneView(viewModel: runeViewModel)
+                           .tabItem {
+                               Label("Runas", systemImage: "mountain.2.fill")
+                           }
+                           .tag(13)
+                   
         
         }
         .preferredColorScheme(appTheme.colorScheme)
