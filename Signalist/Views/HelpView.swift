@@ -212,6 +212,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "mountain.2.fill",
+            iconColor: .blue,
+            title: "Convertir texto a Runas",
+            description: "Ve a la pestaña \"Runas\", elige el modo \"Texto → Runas\" y escribe cualquier texto. Cada letra se traduce a su runa del alfabeto Elder Futhark, sin espacios entre letras."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .teal,
+            title: "Convertir Runas a texto",
+            description: "Cambia al modo \"Runas → Texto\" y escribe o pega las runas para obtener el texto equivalente."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -297,6 +311,7 @@ struct HelpView: View {
                     semaphoreReferenceCard
                     hieroglyphReferenceCard
                     cuneiformReferenceCard
+                    runeReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -750,6 +765,42 @@ struct HelpView: View {
         // Same disclaimer rationale as Hieroglyphs: cuneiform carries
         // real historical/academic weight, so this card clarifies it's
         // a fun cipher using authentic symbols, not a scholarly tool.
+    }
+
+    // MARK: - Rune Reference Card
+
+    /// Displays a compact Elder Futhark reference, clarifying that
+    /// runes are written without spaces between letters, and noting
+    /// which letters are approximated since the Futhark has only
+    /// 24 original runes.
+    private var runeReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Runas",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "A: ᚨ   B: ᛒ   F: ᚠ   R: ᚱ\nSe escriben sin espacios entre letras. C, Q, V, X, Y se aproximan a la runa de sonido más cercano, ya que el Futhark original solo tiene 24 runas."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Unlike Hieroglyphs/Cuneiform, Runes are a real, widely
+        // recognized transliteration (not a Signalist-invented cipher),
+        // so this card focuses on practical usage notes instead of a
+        // disclaimer about authenticity.
     }
 }
 

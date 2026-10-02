@@ -132,6 +132,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "mountain.2.fill",
+            iconColor: .blue,
+            title: "Nueva pestaña de Runas",
+            description: "Convierte texto al alfabeto rúnico Elder Futhark, el verdadero alfabeto germánico antiguo, desde la pestaña \"Runas\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -170,5 +177,6 @@ extension WhatsNewFeature {
     // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
     // blue/orange = Base64, mint/teal = César, indigo/cyan = ROT13,
     // pink/brown = ROT47, red/yellow = Semáforo, orange/brown = Jeroglíficos,
-    // gray/indigo = Cuneiforme) for visual consistency with HelpView.
+    // gray/indigo = Cuneiforme, blue/teal = Runas) for visual consistency
+    // with HelpView.
 }
