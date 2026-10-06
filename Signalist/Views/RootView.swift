@@ -57,6 +57,9 @@ struct RootView: View {
     
     /// ViewModel encargado de la conversión al alfabeto rúnico Elder Futhark.
     @StateObject private var runeViewModel = RuneViewModel()
+    
+    /// ViewModel encargado de la conversión al alfabeto Ogham irlandés.
+        @StateObject private var oghamViewModel = OghamViewModel()
 
     // MARK: - App Storage
 
@@ -258,6 +261,17 @@ struct RootView: View {
                                Label("Runas", systemImage: "mountain.2.fill")
                            }
                            .tag(13)
+            
+            
+            // MARK: Ogham
+
+                        /// Pestaña para convertir texto al antiguo alfabeto
+                        /// Ogham irlandés y viceversa.
+                        OghamView(viewModel: oghamViewModel)
+                            .tabItem {
+                                Label("Ogham", systemImage: "tree.fill")
+                            }
+                            .tag(14)
                    
         
         }
