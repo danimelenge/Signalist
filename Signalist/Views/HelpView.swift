@@ -226,6 +226,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "tree.fill",
+            iconColor: .green,
+            title: "Convertir texto a Ogham",
+            description: "Ve a la pestaña \"Ogham\", elige el modo \"Texto → Ogham\" y escribe cualquier texto. Cada letra se traduce a su trazo del antiguo alfabeto irlandés, sin espacios entre letras."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .mint,
+            title: "Convertir Ogham a texto",
+            description: "Cambia al modo \"Ogham → Texto\" y escribe o pega los trazos para obtener el texto equivalente."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -312,6 +326,7 @@ struct HelpView: View {
                     hieroglyphReferenceCard
                     cuneiformReferenceCard
                     runeReferenceCard
+                    oghamReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -801,6 +816,41 @@ struct HelpView: View {
         // recognized transliteration (not a Signalist-invented cipher),
         // so this card focuses on practical usage notes instead of a
         // disclaimer about authenticity.
+    }
+
+    // MARK: - Ogham Reference Card
+
+    /// Displays a compact Ogham reference, clarifying that it's written
+    /// without spaces between letters, and noting which letters are
+    /// approximated since the original Ogham has only 20 letters.
+    private var oghamReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Ogham",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "A: ᚐ   B: ᚁ   C: ᚉ   S: ᚄ\nSe escribe sin espacios entre letras. K, V, W, J/Y, X/Z se aproximan a la letra de sonido más cercano, ya que el Ogham original solo tiene 20 letras."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Same rationale as Runes: Ogham is a real, recognized ancient
+        // Irish alphabet (not a Signalist-invented cipher), so this card
+        // focuses on practical usage notes rather than an authenticity
+        // disclaimer.
     }
 }
 

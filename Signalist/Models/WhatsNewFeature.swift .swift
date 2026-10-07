@@ -139,6 +139,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "tree.fill",
+            iconColor: .green,
+            title: "Nueva pestaña de Ogham",
+            description: "Convierte texto al antiguo alfabeto Ogham irlandés, desde la pestaña \"Ogham\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -177,6 +184,6 @@ extension WhatsNewFeature {
     // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
     // blue/orange = Base64, mint/teal = César, indigo/cyan = ROT13,
     // pink/brown = ROT47, red/yellow = Semáforo, orange/brown = Jeroglíficos,
-    // gray/indigo = Cuneiforme, blue/teal = Runas) for visual consistency
-    // with HelpView.
+    // gray/indigo = Cuneiforme, blue/teal = Runas, green/mint = Ogham)
+    // for visual consistency with HelpView.
 }
