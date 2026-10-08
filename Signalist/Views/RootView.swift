@@ -60,6 +60,9 @@ struct RootView: View {
     
     /// ViewModel encargado de la conversión al alfabeto Ogham irlandés.
         @StateObject private var oghamViewModel = OghamViewModel()
+    
+    /// ViewModel encargado de la conversión de números a numerales mayas.
+    @StateObject private var mayaViewModel = MayaViewModel()
 
     // MARK: - App Storage
 
@@ -272,6 +275,17 @@ struct RootView: View {
                                 Label("Ogham", systemImage: "tree.fill")
                             }
                             .tag(14)
+            
+            
+            // MARK: Maya
+
+            /// Pestaña para convertir números a numerales mayas (base 20)
+            /// y viceversa.
+            MayaView(viewModel: mayaViewModel)
+                .tabItem {
+                    Label("Maya", systemImage: "sun.max.fill")
+                }
+                .tag(15)
                    
         
         }

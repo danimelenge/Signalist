@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1115AF92307841E0006D5754 /* MayaCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1115AF91307841E0006D5754 /* MayaCode.swift */; };
+		1115AF9430784225006D5754 /* MayaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1115AF9330784225006D5754 /* MayaViewModel.swift */; };
+		1115AF9630784295006D5754 /* MayaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1115AF9530784295006D5754 /* MayaView.swift */; };
 		11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */; };
 		11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A313007E999009A4423 /* HelpCenter.swift .swift */; };
 		11431A343007E9D6009A4423 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A333007E9D6009A4423 /* HelpView.swift */; };
@@ -66,6 +69,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1115AF91307841E0006D5754 /* MayaCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaCode.swift; sourceTree = "<group>"; };
+		1115AF9330784225006D5754 /* MayaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaViewModel.swift; sourceTree = "<group>"; };
+		1115AF9530784295006D5754 /* MayaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaView.swift; sourceTree = "<group>"; };
 		11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseSoundPlayer.swift; sourceTree = "<group>"; };
 		11431A313007E999009A4423 /* HelpCenter.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpCenter.swift .swift"; sourceTree = "<group>"; };
 		11431A333007E9D6009A4423 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
@@ -195,6 +201,7 @@
 				11630270306C6414007A6A1C /* CuneiformCode.swift */,
 				11F64812306EB57A00304538 /* RuneCode.swift */,
 				119C8DE63075858800DC39BB /* OghamCode.swift */,
+				1115AF91307841E0006D5754 /* MayaCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,6 +224,7 @@
 				11630272306C6454007A6A1C /* CuneiformViewModel.swift */,
 				11F64814306EB5CD00304538 /* RuneViewModel.swift */,
 				119C8DE8307585CA00DC39BB /* OghamViewModel.swift */,
+				1115AF9330784225006D5754 /* MayaViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 				11630274306C6492007A6A1C /* CuneiformView.swift */,
 				11F64816306EB60B00304538 /* RuneView.swift */,
 				119C8DEA3075866E00DC39BB /* OghamView.swift */,
+				1115AF9530784295006D5754 /* MayaView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -372,10 +381,13 @@
 				11E57C483000373F006DE940 /* SignalistApp.swift in Sources */,
 				11E57C58300037A3006DE940 /* MorseCode.swift in Sources */,
 				11E36D533045EBA60078C01A /* UnicodeView.swift in Sources */,
+				1115AF9630784295006D5754 /* MayaView.swift in Sources */,
+				1115AF92307841E0006D5754 /* MayaCode.swift in Sources */,
 				11F64813306EB57A00304538 /* RuneCode.swift in Sources */,
 				116448413053229900FD8E9F /* Rot13View.swift in Sources */,
 				11AD77A9305DA3290027218C /* Rot47ViewModel.swift in Sources */,
 				11EEAAB23067240E009AC247 /* HieroglyphView.swift in Sources */,
+				1115AF9430784225006D5754 /* MayaViewModel.swift in Sources */,
 				11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */,
 				11D7F17A30648087008737F1 /* SemaphoreViewModel.swift in Sources */,
 				11F64817306EB60B00304538 /* RuneView.swift in Sources */,
