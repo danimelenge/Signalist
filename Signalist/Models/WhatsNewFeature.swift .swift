@@ -146,6 +146,13 @@ extension WhatsNewFeature {
         ),
 
         WhatsNewFeature(
+            icon: "sun.max.fill",
+            iconColor: .yellow,
+            title: "Nueva pestaña de Maya",
+            description: "Convierte números a numerales mayas de base 20, dibujados con puntos, barras y conchas, y viceversa, desde la pestaña \"Maya\"."
+        ),
+
+        WhatsNewFeature(
             icon: "speaker.wave.2.fill",
             iconColor: .orange,
             title: "Sonido Morse",
@@ -184,6 +191,6 @@ extension WhatsNewFeature {
     // cyan/yellow = Binario, brown/gray = ASCII, indigo/purple = Unicode,
     // blue/orange = Base64, mint/teal = César, indigo/cyan = ROT13,
     // pink/brown = ROT47, red/yellow = Semáforo, orange/brown = Jeroglíficos,
-    // gray/indigo = Cuneiforme, blue/teal = Runas, green/mint = Ogham)
-    // for visual consistency with HelpView.
+    // gray/indigo = Cuneiforme, blue/teal = Runas, green/mint = Ogham,
+    // yellow/orange = Maya) for visual consistency with HelpView.
 }

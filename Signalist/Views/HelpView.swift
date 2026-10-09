@@ -240,6 +240,20 @@ struct HelpView: View {
         ),
 
         HelpSection(
+            icon: "sun.max.fill",
+            iconColor: .yellow,
+            title: "Convertir número a Maya",
+            description: "Ve a la pestaña \"Maya\", elige el modo \"Número → Maya\" y escribe uno o varios números (ej. \"2026\"). Se dibujan como numerales mayas apilados en vertical. Esta pestaña solo convierte números, no letras."
+        ),
+
+        HelpSection(
+            icon: "arrow.left.arrow.right",
+            iconColor: .orange,
+            title: "Convertir Maya a número",
+            description: "Cambia al modo \"Maya → Número\" y pega los numerales mayas, separando cada número con \"/\" para recuperar el valor decimal."
+        ),
+
+        HelpSection(
             icon: "doc.on.doc",
             iconColor: .green,
             title: "Copiar el resultado",
@@ -327,6 +341,7 @@ struct HelpView: View {
                     cuneiformReferenceCard
                     runeReferenceCard
                     oghamReferenceCard
+                    mayaReferenceCard
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 20)
@@ -851,6 +866,40 @@ struct HelpView: View {
         // Irish alphabet (not a Signalist-invented cipher), so this card
         // focuses on practical usage notes rather than an authenticity
         // disclaimer.
+    }
+
+    // MARK: - Maya Reference Card
+
+    /// Displays a compact Maya numeral reference, explaining the three
+    /// basic shapes and that the system is positional (base 20).
+    private var mayaReferenceCard: some View {
+
+        VStack(alignment: .leading, spacing: 10) {
+
+            Label(
+                "Referencia rápida — Maya",
+                systemImage: "list.bullet.rectangle"
+            )
+            .font(.system(size: 14, weight: .semibold))
+
+            Text(
+                "Concha = 0   Punto (•) = 1   Barra (▬) = 5\n6 = ▬ + •   19 = 3 barras + 4 puntos\nSistema de base 20: 2026 = 5·400 + 1·20 + 6, o sea tres numerales (5, 1, 6) apilados de arriba hacia abajo. Solo convierte números, no letras."
+            )
+            .font(.system(.footnote, design: .monospaced))
+            .foregroundStyle(.secondary)
+            .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color.primary.opacity(0.05))
+        )
+
+        // NOTE:
+        // Unlike every other tab, Maya converts numbers rather than
+        // letters, because Maya hieroglyphic writing isn't encoded in
+        // Unicode. This card makes that limit explicit so it doesn't
+        // surprise users who expect to type words.
     }
 }
 
