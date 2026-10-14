@@ -1,0 +1,6 @@
+{
+  "theme": {
+    "color": { "standard-green": "#2E9E83" },
+    "typography": { "html-font": "system-ui, -apple-system, 'SF Pro Text', sans-serif" }
+  }
+}
