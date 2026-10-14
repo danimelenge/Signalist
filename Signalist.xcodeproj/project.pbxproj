@@ -54,6 +54,7 @@
 		11E57C58300037A3006DE940 /* MorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C57300037A3006DE940 /* MorseCode.swift */; };
 		11E57C5E300038F0006DE940 /* MorseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C5D300038F0006DE940 /* MorseViewModel.swift */; };
 		11E57C6230003A13006DE940 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E57C6130003A13006DE940 /* Theme.swift */; };
+		11E69487307F346900B25BA8 /* Signalist.docc in Sources */ = {isa = PBXBuildFile; fileRef = 11E69486307F346900B25BA8 /* Signalist.docc */; };
 		11EEAAAE3067237A009AC247 /* HieroglyphCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEAAAD3067237A009AC247 /* HieroglyphCode.swift */; };
 		11EEAAB0306723CA009AC247 /* HieroglyphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEAAAF306723CA009AC247 /* HieroglyphViewModel.swift */; };
 		11EEAAB23067240E009AC247 /* HieroglyphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEAAB13067240E009AC247 /* HieroglyphView.swift */; };
@@ -118,6 +119,7 @@
 		11E57C57300037A3006DE940 /* MorseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCode.swift; sourceTree = "<group>"; };
 		11E57C5D300038F0006DE940 /* MorseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseViewModel.swift; sourceTree = "<group>"; };
 		11E57C6130003A13006DE940 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		11E69486307F346900B25BA8 /* Signalist.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Signalist.docc; sourceTree = "<group>"; };
 		11EEAAAD3067237A009AC247 /* HieroglyphCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HieroglyphCode.swift; sourceTree = "<group>"; };
 		11EEAAAF306723CA009AC247 /* HieroglyphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HieroglyphViewModel.swift; sourceTree = "<group>"; };
 		11EEAAB13067240E009AC247 /* HieroglyphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HieroglyphView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		11E57C3B3000373E006DE940 = {
 			isa = PBXGroup;
 			children = (
+				11E69486307F346900B25BA8 /* Signalist.docc */,
 				11E57C463000373F006DE940 /* Signalist */,
 				11E57C453000373F006DE940 /* Products */,
 			);
@@ -371,6 +374,7 @@
 				1164483F3053221B00FD8E9F /* Rot13ViewModel.swift in Sources */,
 				11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
+				11E69487307F346900B25BA8 /* Signalist.docc in Sources */,
 				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
 				11D7F17830648040008737F1 /* SemaphoreCode.swift in Sources */,
 				115525D730360B48007FC504 /* BinaryCode.swift in Sources */,
