@@ -1,0 +1,11 @@
+@Tutorials(name: "Signalist") {
+    @Intro(title: "Crea un conversor") {
+        Añade una pestaña nueva siguiendo el patrón Model, ViewModel y View.
+    }
+
+    @Chapter(name: "Un conversor nuevo") {
+        Construye un conversor de ejemplo (inversión de texto) de punta a punta.
+
+        @TutorialReference(tutorial: "doc:AddConverter")
+    }
+}

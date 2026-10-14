@@ -677,7 +677,7 @@ struct HelpView: View {
             .font(.system(size: 14, weight: .semibold))
 
             Text(
-                "\"Hola123!\" → \"w~=2`ab6\"\nA diferencia de ROT13, también rota números y símbolos, no solo letras. También es simétrico."
+                "\"Hola123!\" → \"w@=2`abP\"\nA diferencia de ROT13, también rota números y símbolos, no solo letras. También es simétrico."
             )
             .font(.system(.footnote, design: .monospaced))
             .foregroundStyle(.secondary)

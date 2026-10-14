@@ -1,0 +1,24 @@
+@Tutorial(time: 15) {
+    @Intro(title: "Agregar un conversor") {
+        Crea un conversor de ejemplo siguiendo la arquitectura de Signalist.
+    }
+
+    @Section(title: "Modelo y ViewModel") {
+        @ContentAndMedia {
+            La lógica pura vive en el modelo; el estado reactivo, en el ViewModel.
+        }
+
+        @Steps {
+            @Step {
+                Crea el modelo, sin dependencias de UI.
+
+                @Code(name: "ReverseCode.swift", file: "reverse-step1.swift")
+            }
+            @Step {
+                Crea el ViewModel con Combine y *debounce* de 150 ms.
+
+                @Code(name: "ReverseViewModel.swift", file: "reverse-step2.swift")
+            }
+        }
+    }
+}
