@@ -27,6 +27,20 @@ enum ConversionMode: String, CaseIterable, Identifiable {
 
 /// Encargado de codificar y decodificar texto utilizando el alfabeto
 /// internacional de código Morse.
+///
+/// ``MorseCode`` es lógica pura, sin dependencias de UI. Todos sus
+/// métodos son estáticos.
+///
+/// ```swift
+/// MorseCode.encode("SOS")          // "... --- ..."
+/// MorseCode.decode("... --- ...")  // "SOS"
+/// ```
+///
+/// ## Topics
+///
+/// ### Convertir
+/// - ``encode(_:)``
+/// - ``decode(_:)``
 struct MorseCode {
 
     // MARK: - Morse Dictionary

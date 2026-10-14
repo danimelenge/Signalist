@@ -11,6 +11,19 @@ import Foundation
 
 /// Convierte texto usando el Cifrado César, un cifrado de sustitución
 /// que desplaza cada letra un número fijo de posiciones en el alfabeto.
+///
+/// ```swift
+/// CaesarCode.encode("Hola", shift: 3)  // "Krod"
+/// CaesarCode.decode("Krod", shift: 3)  // "Hola"
+/// ```
+///
+/// - Note: Usa el mismo desplazamiento (1–25) para cifrar y descifrar.
+///
+/// ## Topics
+///
+/// ### Convertir
+/// - ``encode(_:shift:)``
+/// - ``decode(_:shift:)``
 struct CaesarCode {
 
     // MARK: - Encode (Texto → Cifrado)

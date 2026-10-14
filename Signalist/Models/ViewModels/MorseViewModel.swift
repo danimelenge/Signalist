@@ -9,6 +9,15 @@ import Foundation
 import Combine
 import AppKit
 
+/// Estado y lógica reactiva de la pestaña Morse.
+///
+/// Combina ``inputText`` y ``mode`` con Combine, espera 150 ms (*debounce*)
+/// y publica el resultado en ``outputText``.
+///
+/// ```swift
+/// let vm = MorseViewModel()
+/// vm.inputText = "SOS"   // tras 150 ms: vm.outputText == "... --- ..."
+/// ```
 @MainActor
 final class MorseViewModel: ObservableObject {
     @Published var inputText: String = ""
