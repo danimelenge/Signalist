@@ -12,6 +12,22 @@ import Foundation
 /// Convierte números decimales a numerales mayas (sistema posicional
 /// de base 20) y viceversa, usando el bloque Unicode "Mayan Numerals"
 /// (U+1D2E0–U+1D2F3, dígitos del 0 al 19).
+///
+/// Solo convierte números: la escritura glífica maya no está codificada
+/// en Unicode.
+///
+/// ```swift
+/// MayaCode.encode("2026") // tres numerales: 5, 1 y 6 (5·400 + 1·20 + 6)
+/// ```
+///
+/// - Note: Varios números se separan con `/`.
+///
+/// ## Topics
+///
+/// ### Convertir
+/// - ``encode(_:)``
+/// - ``decode(_:)``
+/// - ``digitGroups(in:)``
 struct MayaCode {
 
     // MARK: - Constants
@@ -145,6 +161,7 @@ struct MayaCode {
 
 // MARK: - Conversion Mode
 
+/// Modos de conversión de la pestaña Maya.
 enum MayaConversionMode: String, CaseIterable, Identifiable {
     case textToMaya = "Número → Maya"
     case mayaToText = "Maya → Número"
