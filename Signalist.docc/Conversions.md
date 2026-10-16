@@ -18,7 +18,7 @@ Las 16 pestañas de Signalist, con un ejemplo comprobado de cada una.
 | Base64 | `Hola` | `SG9sYQ==` |
 | César (desplazamiento 3) | `Hola` | `Krod` |
 | ROT13 | `Hola` | `Ubyn` |
-| ROT47 | `Hola123!` | ``w@=2`abP`` |
+| ROT47 | `Hola` | `w@=2` |
 
 Braille, NATO, Semáforo, Runas (Elder Futhark) y Ogham completan el resto de transliteraciones reales.
 
