@@ -6,6 +6,8 @@
     @Chapter(name: "Un conversor nuevo") {
         Construye un conversor de ejemplo (inversión de texto) de punta a punta.
 
+        @Image(source: "signalist-icon", alt: "Icono de Signalist.")
+
         @TutorialReference(tutorial: "doc:AddConverter")
     }
 }
