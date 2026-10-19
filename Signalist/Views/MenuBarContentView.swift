@@ -41,6 +41,19 @@ struct MenuBarContentView: View {
             Divider()
 
             Button {
+                NSApp.activate(ignoringOtherApps: true)
+                // Ventura (13) en adelante: la escena Settings responde a showSettingsWindow:.
+                // El async deja que el menú se cierre antes de abrir la ventana.
+                DispatchQueue.main.async {
+                    NSApp.sendAction(Selector(("showSettingsWindow:")), to: nil, from: nil)
+                }
+            } label: {
+                Label("Ajustes…", systemImage: "gearshape")
+            }
+            .keyboardShortcut(",", modifiers: .command)
+            Divider()
+
+            Button {
                 NSApplication.shared.terminate(nil)
             } label: {
                 Label("Salir de Signalist", systemImage: "power")

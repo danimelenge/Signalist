@@ -61,5 +61,13 @@ struct SignalistApp: App {
             MenuBarContentView()
         }
         .menuBarExtraStyle(.menu)
+
+        // MARK: Settings
+
+        /// Ventana de Ajustes. Al declarar esta escena, macOS agrega
+        /// «Ajustes…» al menú de la app y habilita ⌘, automáticamente.
+        Settings {
+            SettingsView()
+        }
     }
 }
