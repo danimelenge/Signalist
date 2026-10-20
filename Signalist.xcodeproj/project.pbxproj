@@ -12,7 +12,7 @@
 		1115AF9630784295006D5754 /* MayaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1115AF9530784295006D5754 /* MayaView.swift */; };
 		111A39BD308670A7002F29FF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111A39BC308670A7002F29FF /* SettingsView.swift */; };
 		11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */; };
-		11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A313007E999009A4423 /* HelpCenter.swift .swift */; };
+		11431A323007E999009A4423 /* HelpCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A313007E999009A4423 /* HelpCenter.swift */; };
 		11431A343007E9D6009A4423 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11431A333007E9D6009A4423 /* HelpView.swift */; };
 		115525D730360B48007FC504 /* BinaryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115525D630360B48007FC504 /* BinaryCode.swift */; };
 		115525D930360B85007FC504 /* BinaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115525D830360B85007FC504 /* BinaryViewModel.swift */; };
@@ -63,7 +63,7 @@
 		11F0484C3049E64B003ECF7C /* Base64ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */; };
 		11F0484E3049E683003ECF7C /* Base64View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0484D3049E683003ECF7C /* Base64View.swift */; };
 		11F04960305B04AA0082220D /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0495F305B04AA0082220D /* MenuBarContentView.swift */; };
-		11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F27A533001900600950561 /* WhatsNewFeature.swift .swift */; };
+		11F27A543001900700950561 /* WhatsNewFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F27A533001900600950561 /* WhatsNewFeature.swift */; };
 		11F27A563001905400950561 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F27A553001905400950561 /* WhatsNewView.swift */; };
 		11F64813306EB57A00304538 /* RuneCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F64812306EB57A00304538 /* RuneCode.swift */; };
 		11F64815306EB5CD00304538 /* RuneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F64814306EB5CD00304538 /* RuneViewModel.swift */; };
@@ -76,7 +76,7 @@
 		1115AF9530784295006D5754 /* MayaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaView.swift; sourceTree = "<group>"; };
 		111A39BC308670A7002F29FF /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseSoundPlayer.swift; sourceTree = "<group>"; };
-		11431A313007E999009A4423 /* HelpCenter.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpCenter.swift .swift"; sourceTree = "<group>"; };
+		11431A313007E999009A4423 /* HelpCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpCenter.swift"; sourceTree = "<group>"; };
 		11431A333007E9D6009A4423 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		115525D630360B48007FC504 /* BinaryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCode.swift; sourceTree = "<group>"; };
 		115525D830360B85007FC504 /* BinaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryViewModel.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64ViewModel.swift; sourceTree = "<group>"; };
 		11F0484D3049E683003ECF7C /* Base64View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64View.swift; sourceTree = "<group>"; };
 		11F0495F305B04AA0082220D /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
-		11F27A533001900600950561 /* WhatsNewFeature.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhatsNewFeature.swift .swift"; sourceTree = "<group>"; };
+		11F27A533001900600950561 /* WhatsNewFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhatsNewFeature.swift"; sourceTree = "<group>"; };
 		11F27A553001905400950561 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
 		11F64812306EB57A00304538 /* RuneCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneCode.swift; sourceTree = "<group>"; };
 		11F64814306EB5CD00304538 /* RuneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneViewModel.swift; sourceTree = "<group>"; };
@@ -190,8 +190,8 @@
 			children = (
 				11E57C5C3000380B006DE940 /* ViewModels */,
 				11E57C57300037A3006DE940 /* MorseCode.swift */,
-				11F27A533001900600950561 /* WhatsNewFeature.swift .swift */,
-				11431A313007E999009A4423 /* HelpCenter.swift .swift */,
+				11F27A533001900600950561 /* WhatsNewFeature.swift */,
+				11431A313007E999009A4423 /* HelpCenter.swift */,
 				1156FA8C301128D9004E082C /* BrailleCode.swift */,
 				11E12B7130211F32009D37D2 /* NatoCode.swift */,
 				115525D630360B48007FC504 /* BinaryCode.swift */,
@@ -378,7 +378,7 @@
 				11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */,
 				11409159300FF8A900CCF799 /* MorseSoundPlayer.swift in Sources */,
 				11E69487307F346900B25BA8 /* Signalist.docc in Sources */,
-				11F27A543001900700950561 /* WhatsNewFeature.swift .swift in Sources */,
+				11F27A543001900700950561 /* WhatsNewFeature.swift in Sources */,
 				11D7F17830648040008737F1 /* SemaphoreCode.swift in Sources */,
 				115525D730360B48007FC504 /* BinaryCode.swift in Sources */,
 				11D7F17C306480D0008737F1 /* SemaphoreView.swift in Sources */,
@@ -396,7 +396,7 @@
 				11AD77A9305DA3290027218C /* Rot47ViewModel.swift in Sources */,
 				11EEAAB23067240E009AC247 /* HieroglyphView.swift in Sources */,
 				1115AF9430784225006D5754 /* MayaViewModel.swift in Sources */,
-				11431A323007E999009A4423 /* HelpCenter.swift .swift in Sources */,
+				11431A323007E999009A4423 /* HelpCenter.swift in Sources */,
 				11D7F17A30648087008737F1 /* SemaphoreViewModel.swift in Sources */,
 				11F64817306EB60B00304538 /* RuneView.swift in Sources */,
 				1164483D305321D800FD8E9F /* Rot13Code.swift in Sources */,
