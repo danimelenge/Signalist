@@ -911,10 +911,10 @@ private struct HelpSection: Identifiable {
     // MARK: - Properties
 
     let id = UUID()
-    let icon: String
-    let iconColor: Color
-    let title: String
-    let description: String
+        let icon: String
+        let iconColor: Color
+        let title: LocalizedStringKey        // antes: String
+        let description: LocalizedStringKey  // antes: String
 
     // TODO:
     // Support localized help content in future versions.

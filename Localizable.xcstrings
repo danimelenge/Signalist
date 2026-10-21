@@ -1,0 +1,3526 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "\"Hola\" → \"SG9sYQ==\"\nA diferencia de los demás códigos, Base64 no se traduce letra por letra, sino sobre el texto completo." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" ➔ \"SG9sYQ==\"\nUnlike other codes, Base64 is not translated letter by letter, but over the entire text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" → \"SG9sYQ==\"\nA diferencia de los demás códigos, Base64 no se traduce letra por letra, sino sobre el texto completo."
+          }
+        }
+      }
+    },
+    "\"Hola\" → \"Ubyn\"\nEs un César con desplazamiento fijo de 13; aplicarlo dos veces devuelve el texto original." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" ➔ \"Ubyn\"\nIt is a Caesar cipher with a fixed shift of 13; applying it twice returns the original text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" → \"Ubyn\"\nEs un César con desplazamiento fijo de 13; aplicarlo dos veces devuelve el texto original."
+          }
+        }
+      }
+    },
+    "\"Hola123!\" → \"w@=2`abP\"\nA diferencia de ROT13, también rota números y símbolos, no solo letras. También es simétrico." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola123!\" ➔ \"w@=2abP\"`\nUnlike ROT13, it also rotates numbers and symbols, not just letters. It is also symmetric."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola123!\" → \"w@=2`abP\"\nA diferencia de ROT13, también rota números y símbolos, no solo letras. También es simétrico."
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        }
+      }
+    },
+    "%lld caracteres" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld characters"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld caracteres"
+          }
+        }
+      }
+    },
+    "A: •−   B: −•••   C: −•−•   D: −••   E: •\nS: •••   O: −−−   (SOS = ••• −−− •••)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ·— B: —··· C: —·—· D: —·· E: ·\nS: ··· O: ——— (SOS = ··· ——— ···)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: •−   B: −•••   C: −•−•   D: −••   E: •\nS: •••   O: −−−   (SOS = ••• −−− •••)"
+          }
+        }
+      }
+    },
+    "A: →↘↓   B: →↓\nCada letra son dos flechas: primero el brazo derecho, luego el izquierdo. \"/\" separa palabras." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ↗↘ B: ↗↓\nEach letter consists of two arrows: first the right arm, then the..."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: →↘↓   B: →↓\nCada letra son dos flechas: primero el brazo derecho, luego el izquierdo. \"/\" separa palabras."
+          }
+        }
+      }
+    },
+    "A: ⠁   B: ⠃   C: ⠉   D: ⠙   E: ⠑\n⠠ antes de una letra = mayúscula\n⠼ antes de un número = modo numérico (ej. ⠼⠁ = \"1\")" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ⠁ B: ⠃ C: ⠉ D: ⠙ E: ⠑\n⠠ before a letter = uppercase\n⠼ before a number = number mode (e.g., ⠼⠁ = \"1\")"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ⠁   B: ⠃   C: ⠉   D: ⠙   E: ⠑\n⠠ antes de una letra = mayúscula\n⠼ antes de un número = modo numérico (ej. ⠼⠁ = \"1\")"
+          }
+        }
+      }
+    },
+    "A: 65   B: 66   a: 97   0: 48   Espacio: 32\nCada carácter se representa como un número decimal, separado por espacios." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 65 B: 66 a: 97 0: 48 Space: 32\nEach character is represented as a decimal number, separated by spaces."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 65   B: 66   a: 97   0: 48   Espacio: 32\nCada carácter se representa como un número decimal, separado por espacios."
+          }
+        }
+      }
+    },
+    "A: 01000001   B: 01000010   a: 01100001\nCada carácter ocupa 8 bits (1 byte), separados por espacios." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 01000001 B: 01000010 a: 01100001\nEach character occupies 8 bits (1 byte), separated by spaces."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 01000001   B: 01000010   a: 01100001\nCada carácter ocupa 8 bits (1 byte), separados por espacios."
+          }
+        }
+      }
+    },
+    "A: Alfa   B: Bravo   C: Charlie   D: Delta   E: Echo\nLos números también tienen palabra propia (ej. \"1\" = \"One\")." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: Alfa B: Bravo C: Charlie D: Delta E: Echo\nNumbers also have their own code word (e.g., \"1\" = \"One\")."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: Alfa   B: Bravo   C: Charlie   D: Delta   E: Echo\nLos números también tienen palabra propia (ej. \"1\" = \"One\")."
+          }
+        }
+      }
+    },
+    "A: U+0041   a: U+0061   Espacio: U+0020\nTambién soporta emojis y símbolos fuera del rango ASCII (ej. 🎉 = U+1F389)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: U+0041 a: U+0061 Space: U+0020\nAlso supports emojis and non-ASCII symbols (e.g. 🎉 = U+1F389)."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: U+0041   a: U+0061   Espacio: U+0020\nTambién soporta emojis y símbolos fuera del rango ASCII (ej. 🎉 = U+1F389)."
+          }
+        }
+      }
+    },
+    "A: ᚐ   B: ᚁ   C: ᚉ   S: ᚄ\nSe escribe sin espacios entre letras. K, V, W, J/Y, X/Z se aproximan a la letra de sonido más cercano, ya que el Ogham original solo tiene 20 letras." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ⠚ B: ⠇ C: ⠎ S: ⠞\nWritten without spaces between letters. K, V, W, J/Y, X/Z approximate the letter with the closest sound, as the original Ogham only has 20 letters."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ᚐ   B: ᚁ   C: ᚉ   S: ᚄ\nSe escribe sin espacios entre letras. K, V, W, J/Y, X/Z se aproximan a la letra de sonido más cercano, ya que el Ogham original solo tiene 20 letras."
+          }
+        }
+      }
+    },
+    "A: ᚨ   B: ᛒ   F: ᚠ   R: ᚱ\nSe escriben sin espacios entre letras. C, Q, V, X, Y se aproximan a la runa de sonido más cercano, ya que el Futhark original solo tiene 24 runas." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ᚠ B: ᛒ F: ᚠ R: ᚱ\nWritten without spaces between letters. C, Q, V, X, Y approximate the rune with the closest sound, as the original Futhark only has 24 runes."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ᚨ   B: ᛒ   F: ᚠ   R: ᚱ\nSe escriben sin espacios entre letras. C, Q, V, X, Y se aproximan a la runa de sonido más cercano, ya que el Futhark original solo tiene 24 runas."
+          }
+        }
+      }
+    },
+    "Abrir Signalist" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Signalist"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir Signalist"
+          }
+        }
+      }
+    },
+    "Acerca de" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de"
+          }
+        }
+      }
+    },
+    "Activar sonido" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable sound (o \"Turn sound on\")"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activar sonido"
+          }
+        }
+      }
+    },
+    "Ajustes…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings..."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes…"
+          }
+        }
+      }
+    },
+    "Apariencia" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appearance"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apariencia"
+          }
+        }
+      }
+    },
+    "ASCII" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII"
+          }
+        }
+      }
+    },
+    "ASCII de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input ASCII"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII de entrada"
+          }
+        }
+      }
+    },
+    "Ayuda de Signalist" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist Help"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayuda de Signalist"
+          }
+        }
+      }
+    },
+    "Base64" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64"
+          }
+        }
+      }
+    },
+    "Base64 de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Base64"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64 de entrada"
+          }
+        }
+      }
+    },
+    "Binario" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binary"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binario"
+          }
+        }
+      }
+    },
+    "Binario de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Binary"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binario de entrada"
+          }
+        }
+      }
+    },
+    "Braille" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braille"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braille"
+          }
+        }
+      }
+    },
+    "Braille de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Braille"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braille de entrada"
+          }
+        }
+      }
+    },
+    "Cada letra se sustituye por un signo real del bloque Unicode cuneiforme, separados por espacio.\nEs un cifrado creativo de Signalist, no una transliteración académica del sumerio o acadio antiguos." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Each letter is replaced by a real sign from the Cuneiform Unicode block, separated by space.\nIt is a creative Signalist cipher, not an academic transliteration of Ancient Sumerian or Akkadian."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada letra se sustituye por un signo real del bloque Unicode cuneiforme, separados por espacio.\nEs un cifrado creativo de Signalist, no una transliteración académica del sumerio o acadio antiguos."
+          }
+        }
+      }
+    },
+    "Cada letra se sustituye por un símbolo real del bloque Unicode de jeroglíficos egipcios, separados por espacio.\nEs un cifrado creativo de Signalist, no una transliteración académica del egipcio antiguo." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Each letter is replaced by a real symbol from the Egyptian Hieroglyphs Unicode block, separated by space.\nIt is a creative Signalist cipher, not an academic transliteration of Ancient Egyptian."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada letra se sustituye por un símbolo real del bloque Unicode de jeroglíficos egipcios, separados por espacio.\nEs un cifrado creativo de Signalist, no una transliteración académica del egipcio antiguo."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"ASCII → Texto\" dentro de la pestaña ASCII y escribe los códigos decimales separados por espacio (ej. \"72 111 108 97\") para obtener el texto equivalente." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"ASCII ➔ Text\" mode within the ASCII tab and type the decimal codes separated by space (e.g., \"72 111 108 97\") to get the equivalent text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"ASCII → Texto\" dentro de la pestaña ASCII y escribe los códigos decimales separados por espacio (ej. \"72 111 108 97\") para obtener el texto equivalente."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Base64 → Texto\" dentro de la pestaña Base64 y pega una cadena Base64 válida para obtener el texto original." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Base64 ➔ Text\" mode within the Base64 tab and paste a valid Base64 string to get the original text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Base64 → Texto\" dentro de la pestaña Base64 y pega una cadena Base64 válida para obtener el texto original."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Binario → Texto\" dentro de la pestaña Binario y escribe los bytes separados por espacio (ej. \"01001000 01101111 01101100 01100001\") para obtener el texto equivalente." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Binary ➔ Text\" mode within the Binary tab and type the bytes separated by space (e.g., \"01001000 01101111 01101100 01100001\") to get the equivalent text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Binario → Texto\" dentro de la pestaña Binario y escribe los bytes separados por espacio (ej. \"01001000 01101111 01101100 01100001\") para obtener el texto equivalente."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Braille → Texto\" dentro de la pestaña Braille y escribe o pega los símbolos Braille para obtener el texto equivalente." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Braille ➔ Text\" mode within the Braille tab and type or paste the Braille symbols to get the equivalent text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Braille → Texto\" dentro de la pestaña Braille y escribe o pega los símbolos Braille para obtener el texto equivalente."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"César → Texto\", usa el mismo desplazamiento con el que se cifró el mensaje y escribe el texto cifrado para recuperar el original." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Caesar ➔ Text\" mode, use the same shift that was used to encrypt the message, and type the encrypted text to recover the original."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"César → Texto\", usa el mismo desplazamiento con el que se cifró el mensaje y escribe el texto cifrado para recuperar el original."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Cuneiforme → Texto\" y escribe o pega los signos separados por espacio para recuperar el texto original." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Cuneiform ➔ Text\" mode and type or paste the signs separated by space to recover the original text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Cuneiforme → Texto\" y escribe o pega los signos separados por espacio para recuperar el texto original."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Jeroglíficos → Texto\" y escribe o pega los símbolos separados por espacio para recuperar el texto original." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Hieroglyphs ➔ Text\" mode and type or paste the symbols separated by space to recover the original text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Jeroglíficos → Texto\" y escribe o pega los símbolos separados por espacio para recuperar el texto original."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Maya → Número\" y pega los numerales mayas, separando cada número con \"/\" para recuperar el valor decimal." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Mayan ➔ Number\" mode and paste the Mayan numerals, separating each number with \"/\" to recover the decimal value."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Maya → Número\" y pega los numerales mayas, separando cada número con \"/\" para recuperar el valor decimal."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Morse → Texto\". Escribe el código separando cada letra con un espacio y cada palabra con \" / \" (espacio, barra, espacio)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Morse ➔ Text\" mode. Type the code separating each letter with a space and each word with \" / \" (space, slash, space)."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Morse → Texto\". Escribe el código separando cada letra con un espacio y cada palabra con \" / \" (espacio, barra, espacio)."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"NATO → Texto\" dentro de la pestaña NATO y escribe las palabras fonéticas separadas por espacio (ej. \"Hotel Oscar Lima Alfa\") para obtener el texto equivalente." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"NATO ➔ Text\" mode within the NATO tab and type the phonetic words separated by space (e.g., \"Hotel Oscar Lima Alfa\") to get the equivalent text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"NATO → Texto\" dentro de la pestaña NATO y escribe las palabras fonéticas separadas por espacio (ej. \"Hotel Oscar Lima Alfa\") para obtener el texto equivalente."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Ogham → Texto\" y escribe o pega los trazos para obtener el texto equivalente." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Ogham ➔ Text\" mode and type or paste the strokes to get the equivalent text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Ogham → Texto\" y escribe o pega los trazos para obtener el texto equivalente."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"ROT13 → Texto\" y escribe el texto cifrado. Como ROT13 es simétrico, aplicar la conversión una segunda vez siempre recupera el mensaje original." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"ROT13 ➔ Text\" mode and type the encrypted text. Since ROT13 is symmetric, applying the conversion a second time always recovers the original message."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"ROT13 → Texto\" y escribe el texto cifrado. Como ROT13 es simétrico, aplicar la conversión una segunda vez siempre recupera el mensaje original."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"ROT47 → Texto\" y escribe el texto cifrado. Como ROT47 también es simétrico, aplicarlo una segunda vez recupera el mensaje original." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"ROT47 ➔ Text\" mode and type the encrypted text. Since ROT47 is also symmetric, applying it a second time recovers the original message."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"ROT47 → Texto\" y escribe el texto cifrado. Como ROT47 también es simétrico, aplicarlo una segunda vez recupera el mensaje original."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Runas → Texto\" y escribe o pega las runas para obtener el texto equivalente." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Runes ➔ Text\" mode and type or paste the runes to get the equivalent text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Runas → Texto\" y escribe o pega las runas para obtener el texto equivalente."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Semáforo → Texto\" y escribe los pares de flechas separados por espacio (ej. \"→↘ ↑↗\") para obtener el texto equivalente." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Semaphore ➔ Text\" mode and type the arrow pairs separated by space (e.g., \"➔↘ ↗↗\") to get the equivalent text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Semáforo → Texto\" y escribe los pares de flechas separados por espacio (ej. \"→↘ ↑↗\") para obtener el texto equivalente."
+          }
+        }
+      }
+    },
+    "Cambia al modo \"Unicode → Texto\" dentro de la pestaña Unicode y escribe los puntos de código separados por espacio (ej. \"U+0048 U+006F U+006C U+0061\") para obtener el texto equivalente." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch to the \"Unicode ➔ Text\" mode within the Unicode tab and type the code points separated by space (e.g., \"U+0048 U+006F U+006C U+0061\") to get the equivalent text."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia al modo \"Unicode → Texto\" dentro de la pestaña Unicode y escribe los puntos de código separados por espacio (ej. \"U+0048 U+006F U+006C U+0061\") para obtener el texto equivalente."
+          }
+        }
+      }
+    },
+    "Cambiar apariencia" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change appearance"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar apariencia"
+          }
+        }
+      }
+    },
+    "César" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caesar"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "César"
+          }
+        }
+      }
+    },
+    "César de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Caesar"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "César de entrada"
+          }
+        }
+      }
+    },
+    "Cifra letras, números y símbolos con un giro de 47" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypts letters, numbers, and symbols with a rotation of 47"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra letras, números y símbolos con un giro de 47"
+          }
+        }
+      }
+    },
+    "Cifra texto con signos cuneiformes sumerios" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypts text using Sumerian cuneiform signs"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra texto con signos cuneiformes sumerios"
+          }
+        }
+      }
+    },
+    "Cifra texto con signos cuneiformes sumerios reales y descífralo de vuelta, desde la pestaña \"Cuneiforme\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypt text using real Sumerian cuneiform signs and decrypt it back, from the \"Cuneiform\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra texto con signos cuneiformes sumerios reales y descífralo de vuelta, desde la pestaña \"Cuneiforme\"."
+          }
+        }
+      }
+    },
+    "Cifra texto con símbolos jeroglíficos egipcios" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypts text with Egyptian hieroglyphic symbols"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra texto con símbolos jeroglíficos egipcios"
+          }
+        }
+      }
+    },
+    "Cifra texto con símbolos jeroglíficos egipcios reales y descífralo de vuelta, desde la pestaña \"Jeroglíficos\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypt text using real Egyptian hieroglyphic symbols and decrypt it back, from the \"Hieroglyphs\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra texto con símbolos jeroglíficos egipcios reales y descífralo de vuelta, desde la pestaña \"Jeroglíficos\"."
+          }
+        }
+      }
+    },
+    "Cifra texto con un desplazamiento fijo de 13" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypts text with a fixed shift of 13"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra texto con un desplazamiento fijo de 13"
+          }
+        }
+      }
+    },
+    "Cifra texto desplazando letras del alfabeto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypts text by shifting letters of the alphabet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra texto desplazando letras del alfabeto"
+          }
+        }
+      }
+    },
+    "Cifra y descifra texto con el Cifrado César, con un desplazamiento ajustable de 1 a 25, desde la pestaña \"César\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypts and decrypts text with the Caesar Cipher, with an adjustable shift from 1 to 25, from the \"Caesar\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra y descifra texto con el Cifrado César, con un desplazamiento ajustable de 1 a 25, desde la pestaña \"César\"."
+          }
+        }
+      }
+    },
+    "Cifra y descifra texto con ROT13, el clásico desplazamiento fijo de 13 posiciones, desde la pestaña \"ROT13\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypts and decrypts text with ROT13, the classic fixed shift of 13 positions, from the \"ROT13\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra y descifra texto con ROT13, el clásico desplazamiento fijo de 13 posiciones, desde la pestaña \"ROT13\"."
+          }
+        }
+      }
+    },
+    "Cifra y descifra texto con ROT47, que además de letras también transforma números y símbolos, desde la pestaña \"ROT47\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypts and decrypts text using ROT47, which in addition to letters also transforms numbers and symbols, from the \"ROT47\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifra y descifra texto con ROT47, que además de letras también transforma números y símbolos, desde la pestaña \"ROT47\"."
+          }
+        }
+      }
+    },
+    "Cifrar texto con César" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypt text using Caesar"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifrar texto con César"
+          }
+        }
+      }
+    },
+    "Cifrar texto con Cuneiforme" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypt text using Cuneiform"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifrar texto con Cuneiforme"
+          }
+        }
+      }
+    },
+    "Cifrar texto con Jeroglíficos" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encrypt text using Hieroglyphs"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cifrar texto con Jeroglíficos"
+          }
+        }
+      }
+    },
+    "Código Morse de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Morse code"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Código Morse de entrada"
+          }
+        }
+      }
+    },
+    "Con desplazamiento 3: \"Hola\" → \"Krod\"\nUsa el mismo número para cifrar y descifrar; los números y signos de puntuación no se modifican." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With shift 3: \"Hola\" ➔ \"Krod\"\nUse the same number to encrypt and decrypt; numbers and punctuation marks are not modified."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con desplazamiento 3: \"Hola\" → \"Krod\"\nUsa el mismo número para cifrar y descifrar; los números y signos de puntuación no se modifican."
+          }
+        }
+      }
+    },
+    "Concha = 0   Punto (•) = 1   Barra (▬) = 5\n6 = ▬ + •   19 = 3 barras + 4 puntos\nSistema de base 20: 2026 = 5·400 + 1·20 + 6, o sea tres numerales (5, 1, 6) apilados de arriba hacia abajo. Solo convierte números, no letras." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shell = 0 Dot (·) = 1 Bar (–) = 5\n6 = ·– 19 = 3 bars + 4 dots\nBase-20 system; 2026 = 5·400 + 1·20 + 6, i.e., three numerals (5, 1, 6) stacked top to bottom. Converts numbers only, not letters."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concha = 0   Punto (•) = 1   Barra (▬) = 5\n6 = ▬ + •   19 = 3 barras + 4 puntos\nSistema de base 20: 2026 = 5·400 + 1·20 + 6, o sea tres numerales (5, 1, 6) apilados de arriba hacia abajo. Solo convierte números, no letras."
+          }
+        }
+      }
+    },
+    "Continuar" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
+        }
+      }
+    },
+    "Conversión instantánea" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instant conversion"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversión instantánea"
+          }
+        }
+      }
+    },
+    "Conversor de texto con 16 códigos y alfabetos.\nFunciona sin conexión." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text converter with 16 codes and alphabets. Works offline."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversor de texto con 16 códigos y alfabetos.\nFunciona sin conexión."
+          }
+        }
+      }
+    },
+    "Convertir ASCII a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert ASCII to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir ASCII a texto"
+          }
+        }
+      }
+    },
+    "Convertir Base64 a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert Base64 to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir Base64 a texto"
+          }
+        }
+      }
+    },
+    "Convertir Binario a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert Binary to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir Binario a texto"
+          }
+        }
+      }
+    },
+    "Convertir Braille a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert Braille to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir Braille a texto"
+          }
+        }
+      }
+    },
+    "Convertir Maya a número" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert Mayan to number"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir Maya a número"
+          }
+        }
+      }
+    },
+    "Convertir Morse a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert Morse to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir Morse a texto"
+          }
+        }
+      }
+    },
+    "Convertir NATO a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert NATO to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir NATO a texto"
+          }
+        }
+      }
+    },
+    "Convertir número a Maya" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert number to Mayan"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir número a Maya"
+          }
+        }
+      }
+    },
+    "Convertir Ogham a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert Ogham to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir Ogham a texto"
+          }
+        }
+      }
+    },
+    "Convertir ROT13 a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert ROT13 to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir ROT13 a texto"
+          }
+        }
+      }
+    },
+    "Convertir ROT47 a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert ROT47 to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir ROT47 a texto"
+          }
+        }
+      }
+    },
+    "Convertir Runas a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert Runes to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir Runas a texto"
+          }
+        }
+      }
+    },
+    "Convertir Semáforo a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert Semaphore to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir Semáforo a texto"
+          }
+        }
+      }
+    },
+    "Convertir texto a ASCII" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to ASCII"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a ASCII"
+          }
+        }
+      }
+    },
+    "Convertir texto a Base64" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to Base64"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a Base64"
+          }
+        }
+      }
+    },
+    "Convertir texto a Binario" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to Binary"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a Binario"
+          }
+        }
+      }
+    },
+    "Convertir texto a Braille" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to Braille"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a Braille"
+          }
+        }
+      }
+    },
+    "Convertir texto a Morse" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to Morse"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a Morse"
+          }
+        }
+      }
+    },
+    "Convertir texto a NATO" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to NATO"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a NATO"
+          }
+        }
+      }
+    },
+    "Convertir texto a Ogham" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to Ogham"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a Ogham"
+          }
+        }
+      }
+    },
+    "Convertir texto a ROT13" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to ROT13"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a ROT13"
+          }
+        }
+      }
+    },
+    "Convertir texto a ROT47" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to ROT47"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a ROT47"
+          }
+        }
+      }
+    },
+    "Convertir texto a Runas" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to Runes"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a Runas"
+          }
+        }
+      }
+    },
+    "Convertir texto a Semáforo" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to Semaphore"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a Semáforo"
+          }
+        }
+      }
+    },
+    "Convertir texto a Unicode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert text to Unicode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir texto a Unicode"
+          }
+        }
+      }
+    },
+    "Convertir Unicode a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convert Unicode to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convertir Unicode a texto"
+          }
+        }
+      }
+    },
+    "Convierte de texto a Morse o de Morse a texto con un solo toque." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to Morse or Morse to text with a single tap."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte de texto a Morse o de Morse a texto con un solo toque."
+          }
+        }
+      }
+    },
+    "Convierte números a numerales mayas (base 20)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts numbers to Mayan numerals (base 20)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte números a numerales mayas (base 20)"
+          }
+        }
+      }
+    },
+    "Convierte números a numerales mayas de base 20, dibujados con puntos, barras y conchas, y viceversa, desde la pestaña \"Maya\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts numbers to base-20 Mayan numerals, drawn with dots, bars, and shells, and vice versa, from the \"Mayan\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte números a numerales mayas de base 20, dibujados con puntos, barras y conchas, y viceversa, desde la pestaña \"Maya\"."
+          }
+        }
+      }
+    },
+    "Convierte texto a banderas de semáforo naval" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to flag semaphore"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a banderas de semáforo naval"
+          }
+        }
+      }
+    },
+    "Convierte texto a banderas de Semáforo naval y viceversa, mostrando la posición de ambos brazos con flechas, desde la pestaña \"Semáforo\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to naval Semaphore flags and vice versa, showing the position of both arms with arrows, from the \"Semaphore\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a banderas de Semáforo naval y viceversa, mostrando la posición de ambos brazos con flechas, desde la pestaña \"Semáforo\"."
+          }
+        }
+      }
+    },
+    "Convierte texto a Base64 al instante" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to Base64 instantly"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a Base64 al instantev"
+          }
+        }
+      }
+    },
+    "Convierte texto a Base64 y viceversa, ideal para usar en emails, URLs o JSON, desde la pestaña \"Base64\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to Base64 and vice versa, ideal for use in emails, URLs, or JSON, from the \"Base64\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a Base64 y viceversa, ideal para usar en emails, URLs o JSON, desde la pestaña \"Base64\"."
+          }
+        }
+      }
+    },
+    "Convierte texto a Braille Unicode al instante" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to Unicode Braille instantly"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a Braille Unicode al instante"
+          }
+        }
+      }
+    },
+    "Convierte texto a Braille Unicode y viceversa, incluyendo mayúsculas y números, desde la pestaña \"Braille\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to Unicode Braille and vice versa, including uppercase letters and numbers, from the \"Braille\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a Braille Unicode y viceversa, incluyendo mayúsculas y números, desde la pestaña \"Braille\"."
+          }
+        }
+      }
+    },
+    "Convierte texto a código binario al instante" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to binary code instantly"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a código binario al instante"
+          }
+        }
+      }
+    },
+    "Convierte texto a código binario de 8 bits y viceversa, desde la pestaña \"Binario\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to 8-bit binary code and vice versa, from the \"Binary\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a código binario de 8 bits y viceversa, desde la pestaña \"Binario\"."
+          }
+        }
+      }
+    },
+    "Convierte texto a código Morse al instante" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to Morse code instantly"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a código Morse al instante"
+          }
+        }
+      }
+    },
+    "Convierte texto a códigos ASCII al instante" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to ASCII codes instantly"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a códigos ASCII al instante"
+          }
+        }
+      }
+    },
+    "Convierte texto a códigos ASCII decimales y viceversa, desde la pestaña \"ASCII\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to decimal ASCII codes and vice versa, from the \"ASCII\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a códigos ASCII decimales y viceversa, desde la pestaña \"ASCII\"."
+          }
+        }
+      }
+    },
+    "Convierte texto a puntos de código Unicode (incluyendo emojis) y viceversa, desde la pestaña \"Unicode\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to Unicode code points (including emojis) and vice versa, from the \"Unicode\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a puntos de código Unicode (incluyendo emojis) y viceversa, desde la pestaña \"Unicode\"."
+          }
+        }
+      }
+    },
+    "Convierte texto a puntos de código Unicode al instante" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to Unicode code points instantly"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto a puntos de código Unicode al instante"
+          }
+        }
+      }
+    },
+    "Convierte texto al alfabeto fonético NATO" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to NATO phonetic alphabet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto al alfabeto fonético NATO"
+          }
+        }
+      }
+    },
+    "Convierte texto al alfabeto fonético NATO (Alfa, Bravo, Charlie...) y viceversa, desde la pestaña \"NATO\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to the NATO phonetic alphabet (Alfa, Bravo, Charlie...) and vice versa, from the \"NATO\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto al alfabeto fonético NATO (Alfa, Bravo, Charlie...) y viceversa, desde la pestaña \"NATO\"."
+          }
+        }
+      }
+    },
+    "Convierte texto al alfabeto rúnico Elder Futhark" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to Elder Futhark runic alphabet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto al alfabeto rúnico Elder Futhark"
+          }
+        }
+      }
+    },
+    "Convierte texto al alfabeto rúnico Elder Futhark, el verdadero alfabeto germánico antiguo, desde la pestaña \"Runas\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to the Elder Futhark runic alphabet, the true ancient Germanic alphabet, from the \"Runes\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto al alfabeto rúnico Elder Futhark, el verdadero alfabeto germánico antiguo, desde la pestaña \"Runas\"."
+          }
+        }
+      }
+    },
+    "Convierte texto al antiguo alfabeto Ogham irlandés" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to the ancient Irish Ogham alphabet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto al antiguo alfabeto Ogham irlandés"
+          }
+        }
+      }
+    },
+    "Convierte texto al antiguo alfabeto Ogham irlandés, desde la pestaña \"Ogham\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converts text to the ancient Irish Ogham alphabet, from the \"Ogham\" tab."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Convierte texto al antiguo alfabeto Ogham irlandés, desde la pestaña \"Ogham\"."
+          }
+        }
+      }
+    },
+    "Copia el resultado al portapapeles y pégalo donde lo necesites." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy the result to the clipboard and paste it wherever you need it."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia el resultado al portapapeles y pégalo donde lo necesites."
+          }
+        }
+      }
+    },
+    "Copiar con un clic" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One-click copy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar con un clic"
+          }
+        }
+      }
+    },
+    "Copiar el resultado" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy result"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar el resultado"
+          }
+        }
+      }
+    },
+    "Copiar resultado" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy result"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar resultado"
+          }
+        }
+      }
+    },
+    "Cuneiforme" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuneiform"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuneiforme"
+          }
+        }
+      }
+    },
+    "Cuneiforme de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Cuneiform"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuneiforme de entrada"
+          }
+        }
+      }
+    },
+    "Descifrar César a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decrypt Caesar to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descifrar César a texto"
+          }
+        }
+      }
+    },
+    "Descifrar Cuneiforme a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decrypt Cuneiform to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descifrar Cuneiforme a texto"
+          }
+        }
+      }
+    },
+    "Descifrar Jeroglíficos a texto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decrypt Hieroglyphs to text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descifrar Jeroglíficos a texto"
+          }
+        }
+      }
+    },
+    "Desde el ícono de sol/luna en la barra de herramientas puedes elegir Sistema, Claro u Oscuro." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "From the sun/moon icon in the toolbar you can choose System, Light, or Dark."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desde el ícono de sol/luna en la barra de herramientas puedes elegir Sistema, Claro u Oscuro."
+          }
+        }
+      }
+    },
+    "Desplazamiento" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shift"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desplazamiento"
+          }
+        }
+      }
+    },
+    "Doble dirección" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bi-directional (o \"Two-way\")"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doble dirección"
+          }
+        }
+      }
+    },
+    "El ícono de destellos (✨) en la barra de herramientas muestra la lista completa de funciones de Signalist en cualquier momento." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The sparkle icon (✨) in the toolbar displays the complete list of Signalist features at any time."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El ícono de destellos (✨) en la barra de herramientas muestra la lista completa de funciones de Signalist en cualquier momento."
+          }
+        }
+      }
+    },
+    "Elige el modo \"Texto → Morse\", escribe cualquier texto en el campo de entrada y el código Morse aparecerá automáticamente en \"Resultado\". Los espacios entre palabras se representan con \"/\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose the \"Text ➔ Morse\" mode, type any text in the input field, and the Morse code will automatically appear in \"Result\". Spaces between words are represented with \"/\"."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige el modo \"Texto → Morse\", escribe cualquier texto en el campo de entrada y el código Morse aparecerá automáticamente en \"Resultado\". Los espacios entre palabras se representan con \"/\"."
+          }
+        }
+      }
+    },
+    "Elige tu apariencia favorita o deja que Signalist siga al sistema." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose your favorite appearance or let Signalist match the system."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige tu apariencia favorita o deja que Signalist siga al sistema."
+          }
+        }
+      }
+    },
+    "Escribe texto y obtén el código Morse al instante, sin botones extra." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type text and get Morse code instantly, with no extra buttons."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribe texto y obtén el código Morse al instante, sin botones extra."
+          }
+        }
+      }
+    },
+    "Escucha el código Morse mientras lo generas, con tonos reales de radiotelegrafía. Silencia el audio cuando quieras desde la barra de herramientas." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listen to Morse code while you generate it, with real radiotelegraphy tones. Mute the audio whenever you want from the toolbar."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escucha el código Morse mientras lo generas, con tonos reales de radiotelegrafía. Silencia el audio cuando quieras desde la barra de herramientas."
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
+          }
+        }
+      }
+    },
+    "Jeroglíficos" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hieroglyphs"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeroglíficos"
+          }
+        }
+      }
+    },
+    "Jeroglíficos de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Hieroglyphs"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeroglíficos de entrada"
+          }
+        }
+      }
+    },
+    "Limpiar" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limpiar"
+          }
+        }
+      }
+    },
+    "Listo" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo "
+          }
+        }
+      }
+    },
+    "Maya" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mayan"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maya"
+          }
+        }
+      }
+    },
+    "Modo" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo"
+          }
+        }
+      }
+    },
+    "Modo claro y oscuro" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light and Dark mode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo claro y oscuro"
+          }
+        }
+      }
+    },
+    "Morse" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morse"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morse"
+          }
+        }
+      }
+    },
+    "Mostrar novedades de nuevo" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show What's New again"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar novedades de nuevo"
+          }
+        }
+      }
+    },
+    "NATO" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NATO"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NATO"
+          }
+        }
+      }
+    },
+    "NATO de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input NATO"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NATO de entrada"
+          }
+        }
+      }
+    },
+    "Novedades en Signalist" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What's New in Signalist"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novedades en Signalist"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de ASCII" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New ASCII tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de ASCII"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Base64" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Base64 tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Base64"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Binario" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Binary tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Binario"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Braille" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Braille tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Braille"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de César" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Caesar tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de César"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Cuneiforme" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Cuneiform tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Cuneiforme"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Jeroglíficos" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Hieroglyphs tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Jeroglíficos"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Maya" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Mayan tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Maya"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de NATO" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New NATO tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de NATO"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Ogham" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Ogham tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Ogham"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de ROT13" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New ROT13 tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de ROT13"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de ROT47" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New ROT47 tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de ROT47"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Runas" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Runes tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Runas"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Semáforo" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Semaphore tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Semáforo"
+          }
+        }
+      }
+    },
+    "Nueva pestaña de Unicode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Unicode tab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña de Unicode"
+          }
+        }
+      }
+    },
+    "Numerales mayas de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Mayan Numerals"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Numerales mayas de entrada"
+          }
+        }
+      }
+    },
+    "Números de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Numbers"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Números de entrada"
+          }
+        }
+      }
+    },
+    "Ogham" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogham"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogham"
+          }
+        }
+      }
+    },
+    "Ogham de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Ogham"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogham de entrada"
+          }
+        }
+      }
+    },
+    "Referencia rápida — ASCII" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — ASCII"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — ASCII"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Base64" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Base64"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Base64"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Binario" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Binary"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Binario"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Braille" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Braille"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Braille"
+          }
+        }
+      }
+    },
+    "Referencia rápida — César" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Caesar"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — César"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Cuneiforme" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Cuneiform"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Cuneiforme"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Jeroglíficos" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Hieroglyphs"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Jeroglíficos"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Maya" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Mayan"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Maya"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Morse" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Morse"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Morse"
+          }
+        }
+      }
+    },
+    "Referencia rápida — NATO" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — NATO"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — NATO"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Ogham" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Ogham"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Ogham"
+          }
+        }
+      }
+    },
+    "Referencia rápida — ROT13" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — ROT13"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — ROT13"
+          }
+        }
+      }
+    },
+    "Referencia rápida — ROT47" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — ROT47"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — ROT47"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Runas" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Runes"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Runas"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Semáforo" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Semaphore"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Semáforo"
+          }
+        }
+      }
+    },
+    "Referencia rápida — Unicode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick reference — Unicode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Referencia rápida — Unicode"
+          }
+        }
+      }
+    },
+    "Reproducir sonido" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play sound"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reproducir sonido"
+          }
+        }
+      }
+    },
+    "Resultado" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Result"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resultado"
+          }
+        }
+      }
+    },
+    "ROT13" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13"
+          }
+        }
+      }
+    },
+    "ROT13 de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input ROT13"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13 de entrada"
+          }
+        }
+      }
+    },
+    "ROT47" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47"
+          }
+        }
+      }
+    },
+    "ROT47 de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input ROT47"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47 de entrada"
+          }
+        }
+      }
+    },
+    "Runas" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runes"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runas"
+          }
+        }
+      }
+    },
+    "Runas de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Runes"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runas de entrada"
+          }
+        }
+      }
+    },
+    "Salir de Signalist" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit Signalist"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salir de Signalist"
+          }
+        }
+      }
+    },
+    "Semáforo" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semaphore"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semáforo"
+          }
+        }
+      }
+    },
+    "Semáforo de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Semaphore"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semáforo de entrada"
+          }
+        }
+      }
+    },
+    "Signalist" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist"
+          }
+        }
+      }
+    },
+    "Signalist Help" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist Help"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist Help"
+          }
+        }
+      }
+    },
+    "Silenciar sonido" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mute sound "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silenciar sonido "
+          }
+        }
+      }
+    },
+    "Sonido Morse" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morse Sound"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonido Morse"
+          }
+        }
+      }
+    },
+    "Texto de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto de entrada"
+          }
+        }
+      }
+    },
+    "Todo lo que necesitas saber para usar la app" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything you need to know to use the app"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo lo que necesitas saber para usar la app"
+          }
+        }
+      }
+    },
+    "Todo lo que puedes hacer con la nueva versión" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything you can do with the new version"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo lo que puedes hacer con la nueva versión"
+          }
+        }
+      }
+    },
+    "Traer al frente" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bring All to Front"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traer al frente"
+          }
+        }
+      }
+    },
+    "Unicode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode"
+          }
+        }
+      }
+    },
+    "Unicode de entrada" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input Unicode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode de entrada"
+          }
+        }
+      }
+    },
+    "Usa el botón \"Copiar resultado\" para llevar el texto convertido al portapapeles y pegarlo donde lo necesites." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the \"Copy result\" button to copy the converted text to the clipboard and paste it wherever you need it."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa el botón \"Copiar resultado\" para llevar el texto convertido al portapapeles y pegarlo donde lo necesites."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"ASCII\", elige el modo \"Texto → ASCII\" y escribe cualquier texto. Cada carácter se traduce a su código decimal (ej. \"A\" = \"65\"), separados por espacios." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"ASCII\" tab, choose the \"Text ➔ ASCII\" mode, and type any text. Each character is translated into its decimal code (e.g., \"A\" = \"65\"), separated by spaces"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"ASCII\", elige el modo \"Texto → ASCII\" y escribe cualquier texto. Cada carácter se traduce a su código decimal (ej. \"A\" = \"65\"), separados por espacios."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Base64\", elige el modo \"Texto → Base64\" y escribe cualquier texto. El resultado es una cadena Base64 lista para usar en emails, URLs o JSON." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Base64\" tab, choose the \"Text ➔ Base64\" mode, and type any text. The result is a Base64 string ready for use in emails, URLs, or JSON."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Base64\", elige el modo \"Texto → Base64\" y escribe cualquier texto. El resultado es una cadena Base64 lista para usar en emails, URLs o JSON."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Binario\", elige el modo \"Texto → Binario\" y escribe cualquier texto. Cada carácter se traduce a un byte de 8 bits (ej. \"A\" = \"01000001\"), separados por espacios." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Binary\" tab, choose the \"Text ➔ Binary\" mode, and type any text. Each character is translated into an 8-bit byte (e.g., \"A\" = \"01000001\"), separated by spaces."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Binario\", elige el modo \"Texto → Binario\" y escribe cualquier texto. Cada carácter se traduce a un byte de 8 bits (ej. \"A\" = \"01000001\"), separados por espacios."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Braille\", elige el modo \"Texto → Braille\" y escribe cualquier texto. El resultado se muestra en celdas Braille Unicode, incluyendo mayúsculas y números." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Braille\" tab, choose the \"Text ➔ Braille\" mode, and type any text. The result is displayed in Unicode Braille cells, including uppercase letters and numbers."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Braille\", elige el modo \"Texto → Braille\" y escribe cualquier texto. El resultado se muestra en celdas Braille Unicode, incluyendo mayúsculas y números."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"César\", elige el modo \"Texto → César\", ajusta el desplazamiento con el control deslizante (1-25) y escribe cualquier texto. Cada letra se desplaza esa cantidad de posiciones en el alfabeto." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Caesar\" tab, choose the \"Text ➔ Caesar\" mode, adjust the shift using the slider (1-25), and type any text. Each letter is shifted by that number of positions in the alphabet."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"César\", elige el modo \"Texto → César\", ajusta el desplazamiento con el control deslizante (1-25) y escribe cualquier texto. Cada letra se desplaza esa cantidad de posiciones en el alfabeto."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Cuneiforme\", elige el modo \"Texto → Cuneiforme\" y escribe cualquier texto. Cada letra se sustituye por un signo cuneiforme sumerio real, separados por espacio." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Cuneiform\" tab, choose the \"Text ➔ Cuneiform\" mode, and type any text. Each letter is replaced by a real Sumerian cuneiform sign, separated by space."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Cuneiforme\", elige el modo \"Texto → Cuneiforme\" y escribe cualquier texto. Cada letra se sustituye por un signo cuneiforme sumerio real, separados por espacio."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Jeroglíficos\", elige el modo \"Texto → Jeroglíficos\" y escribe cualquier texto. Cada letra se sustituye por un símbolo jeroglífico egipcio real, separados por espacio." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Hieroglyphs\" tab, choose the \"Text ➔ Hieroglyphs\" mode, and type any text. Each letter is replaced by a real Egyptian hieroglyphic symbol, separated by space."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Jeroglíficos\", elige el modo \"Texto → Jeroglíficos\" y escribe cualquier texto. Cada letra se sustituye por un símbolo jeroglífico egipcio real, separados por espacio."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Maya\", elige el modo \"Número → Maya\" y escribe uno o varios números (ej. \"2026\"). Se dibujan como numerales mayas apilados en vertical. Esta pestaña solo convierte números, no letras." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Mayan\" tab, choose the \"Number ➔ Mayan\" mode, and type one or several numbers (e.g., \"2026\"). They are drawn as vertically stacked Mayan numerals. This tab only converts numbers, not letters."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Maya\", elige el modo \"Número → Maya\" y escribe uno o varios números (ej. \"2026\"). Se dibujan como numerales mayas apilados en vertical. Esta pestaña solo convierte números, no letras."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"NATO\", elige el modo \"Texto → NATO\" y escribe cualquier texto. Cada letra y número se traduce a su palabra fonética (ej. \"A\" = \"Alfa\"). Los espacios entre palabras se representan con \"/\"." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"NATO\" tab, choose the \"Text ➔ NATO\" mode, and type any text. Each letter and number is translated into its phonetic word (e.g., \"A\" = \"Alfa\"). Spaces between words are represented with \"/\"."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"NATO\", elige el modo \"Texto → NATO\" y escribe cualquier texto. Cada letra y número se traduce a su palabra fonética (ej. \"A\" = \"Alfa\"). Los espacios entre palabras se representan con \"/\"."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Ogham\", elige el modo \"Texto → Ogham\" y escribe cualquier texto. Cada letra se traduce a su trazo del antiguo alfabeto irlandés, sin espacios entre letras." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Ogham\" tab, choose the \"Text ➔ Ogham\" mode, and type any text. Each letter is translated into its stroke from the ancient Irish alphabet, with no spaces between letters."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Ogham\", elige el modo \"Texto → Ogham\" y escribe cualquier texto. Cada letra se traduce a su trazo del antiguo alfabeto irlandés, sin espacios entre letras."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"ROT13\", elige el modo \"Texto → ROT13\" y escribe cualquier texto. Cada letra se desplaza siempre 13 posiciones, sin necesidad de configurar nada." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"ROT13\" tab, choose the \"Text ➔ ROT13\" mode, and type any text. Each letter is always shifted by 13 positions, with no configuration needed."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"ROT13\", elige el modo \"Texto → ROT13\" y escribe cualquier texto. Cada letra se desplaza siempre 13 posiciones, sin necesidad de configurar nada."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"ROT47\", elige el modo \"Texto → ROT47\" y escribe cualquier texto. A diferencia de ROT13, también transforma números y símbolos de puntuación, no solo letras." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"ROT47\" tab, choose the \"Text ➔ ROT47\" mode, and type any text. Unlike ROT13, it also transforms numbers and punctuation symbols, not just letters."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"ROT47\", elige el modo \"Texto → ROT47\" y escribe cualquier texto. A diferencia de ROT13, también transforma números y símbolos de puntuación, no solo letras."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Runas\", elige el modo \"Texto → Runas\" y escribe cualquier texto. Cada letra se traduce a su runa del alfabeto Elder Futhark, sin espacios entre letras." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Runes\" tab, choose the \"Text ➔ Runes\" mode, and type any text. Each letter is translated into its Elder Futhark rune, with no spaces between letters."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Runas\", elige el modo \"Texto → Runas\" y escribe cualquier texto. Cada letra se traduce a su runa del alfabeto Elder Futhark, sin espacios entre letras."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Semáforo\", elige el modo \"Texto → Semáforo\" y escribe cualquier texto. Cada letra se muestra como un par de flechas que representan la posición del brazo derecho e izquierdo." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Semaphore\" tab, choose the \"Text ➔ Semaphore\" mode, and type any text. Each letter is displayed as a pair of arrows representing the right and left arm positions."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Semáforo\", elige el modo \"Texto → Semáforo\" y escribe cualquier texto. Cada letra se muestra como un par de flechas que representan la posición del brazo derecho e izquierdo."
+          }
+        }
+      }
+    },
+    "Ve a la pestaña \"Unicode\", elige el modo \"Texto → Unicode\" y escribe cualquier texto, incluyendo emojis. Cada carácter se traduce a su punto de código (ej. \"A\" = \"U+0041\"), separados por espacios." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to the \"Unicode\" tab, choose the \"Text ➔ Unicode\" mode, and type any text, including emojis. Each character is translated into its code point (e.g., \"A\" = \"U+0041\"), separated by spaces."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ve a la pestaña \"Unicode\", elige el modo \"Texto → Unicode\" y escribe cualquier texto, incluyendo emojis. Cada carácter se traduce a su punto de código (ej. \"A\" = \"U+0041\"), separados por espacios."
+          }
+        }
+      }
+    },
+    "Ver novedades" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View What's New"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver novedades"
+          }
+        }
+      }
+    },
+    "Vuelve a mostrar la ventana de novedades la próxima vez que abras Signalist." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shows the What's New window again the next time you open Signalist."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vuelve a mostrar la ventana de novedades la próxima vez que abras Signalist."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
