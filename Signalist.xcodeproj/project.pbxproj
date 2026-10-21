@@ -33,6 +33,7 @@
 		11AD77A7305DA2E60027218C /* Rot47Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD77A6305DA2E60027218C /* Rot47Code.swift */; };
 		11AD77A9305DA3290027218C /* Rot47ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD77A8305DA3290027218C /* Rot47ViewModel.swift */; };
 		11AD77AB305DA3660027218C /* Rot47View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD77AA305DA3660027218C /* Rot47View.swift */; };
+		11B08F9330890AEC007811EA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 11B08F9230890AEC007811EA /* Localizable.xcstrings */; };
 		11B3C3DC30509815006074DB /* CaesarCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3DB30509815006074DB /* CaesarCode.swift */; };
 		11B3C3DE30509863006074DB /* CaesarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3DD30509863006074DB /* CaesarViewModel.swift */; };
 		11B3C3E0305098A0006074DB /* CaesarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3C3DF305098A0006074DB /* CaesarView.swift */; };
@@ -76,7 +77,7 @@
 		1115AF9530784295006D5754 /* MayaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaView.swift; sourceTree = "<group>"; };
 		111A39BC308670A7002F29FF /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		11409158300FF8A900CCF799 /* MorseSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseSoundPlayer.swift; sourceTree = "<group>"; };
-		11431A313007E999009A4423 /* HelpCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpCenter.swift"; sourceTree = "<group>"; };
+		11431A313007E999009A4423 /* HelpCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenter.swift; sourceTree = "<group>"; };
 		11431A333007E9D6009A4423 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		115525D630360B48007FC504 /* BinaryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCode.swift; sourceTree = "<group>"; };
 		115525D830360B85007FC504 /* BinaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryViewModel.swift; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		11AD77A6305DA2E60027218C /* Rot47Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot47Code.swift; sourceTree = "<group>"; };
 		11AD77A8305DA3290027218C /* Rot47ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot47ViewModel.swift; sourceTree = "<group>"; };
 		11AD77AA305DA3660027218C /* Rot47View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot47View.swift; sourceTree = "<group>"; };
+		11B08F9230890AEC007811EA /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		11B3C3DB30509815006074DB /* CaesarCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCode.swift; sourceTree = "<group>"; };
 		11B3C3DD30509863006074DB /* CaesarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarViewModel.swift; sourceTree = "<group>"; };
 		11B3C3DF305098A0006074DB /* CaesarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarView.swift; sourceTree = "<group>"; };
@@ -129,7 +131,7 @@
 		11F0484B3049E64B003ECF7C /* Base64ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64ViewModel.swift; sourceTree = "<group>"; };
 		11F0484D3049E683003ECF7C /* Base64View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64View.swift; sourceTree = "<group>"; };
 		11F0495F305B04AA0082220D /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
-		11F27A533001900600950561 /* WhatsNewFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhatsNewFeature.swift"; sourceTree = "<group>"; };
+		11F27A533001900600950561 /* WhatsNewFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewFeature.swift; sourceTree = "<group>"; };
 		11F27A553001905400950561 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
 		11F64812306EB57A00304538 /* RuneCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneCode.swift; sourceTree = "<group>"; };
 		11F64814306EB5CD00304538 /* RuneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneViewModel.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		11E57C3B3000373E006DE940 = {
 			isa = PBXGroup;
 			children = (
+				11B08F9230890AEC007811EA /* Localizable.xcstrings */,
 				11E69486307F346900B25BA8 /* Signalist.docc */,
 				11E57C463000373F006DE940 /* Signalist */,
 				11E57C453000373F006DE940 /* Products */,
@@ -314,6 +317,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 11E57C3B3000373E006DE940;
 			productRefGroup = 11E57C453000373F006DE940 /* Products */;
@@ -332,6 +336,7 @@
 			files = (
 				11E57C4F30003742006DE940 /* Preview Assets.xcassets in Resources */,
 				11E57C4C30003742006DE940 /* Assets.xcassets in Resources */,
+				11B08F9330890AEC007811EA /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
