@@ -3185,22 +3185,6 @@
         }
       }
     },
-    "Traer al frente" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bring All to Front"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Traer al frente"
-          }
-        }
-      }
-    },
     "Unicode" : {
       "localizations" : {
         "en" : {
