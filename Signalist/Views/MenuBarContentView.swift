@@ -34,14 +34,6 @@ struct MenuBarContentView: View {
 
             Button {
                 NSApp.activate(ignoringOtherApps: true)
-            } label: {
-                Label("Traer al frente", systemImage: "arrow.up.forward.app")
-            }
-
-            Divider()
-
-            Button {
-                NSApp.activate(ignoringOtherApps: true)
                 // Ventura (13) en adelante: la escena Settings responde a showSettingsWindow:.
                 // El async deja que el menú se cierre antes de abrir la ventana.
                 DispatchQueue.main.async {
@@ -51,6 +43,7 @@ struct MenuBarContentView: View {
                 Label("Ajustes…", systemImage: "gearshape")
             }
             .keyboardShortcut(",", modifiers: .command)
+
             Divider()
 
             Button {
