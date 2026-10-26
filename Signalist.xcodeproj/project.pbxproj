@@ -28,6 +28,22 @@
 		1164483F3053221B00FD8E9F /* Rot13ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */; };
 		116448413053229900FD8E9F /* Rot13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116448403053229900FD8E9F /* Rot13View.swift */; };
 		11798F49308FDD2500CC314E /* SignalistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11798F48308FDD2500CC314E /* SignalistTests.swift */; };
+		C0DE7E570000B00000000000 /* AsciiCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570000A00000000000 /* AsciiCodeTests.swift */; };
+		C0DE7E570001B00000000000 /* Base64CodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570001A00000000000 /* Base64CodeTests.swift */; };
+		C0DE7E570002B00000000000 /* BinaryCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570002A00000000000 /* BinaryCodeTests.swift */; };
+		C0DE7E570003B00000000000 /* BrailleCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570003A00000000000 /* BrailleCodeTests.swift */; };
+		C0DE7E570004B00000000000 /* CaesarCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570004A00000000000 /* CaesarCodeTests.swift */; };
+		C0DE7E570005B00000000000 /* CuneiformCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570005A00000000000 /* CuneiformCodeTests.swift */; };
+		C0DE7E570006B00000000000 /* HieroglyphCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570006A00000000000 /* HieroglyphCodeTests.swift */; };
+		C0DE7E570007B00000000000 /* MayaCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570007A00000000000 /* MayaCodeTests.swift */; };
+		C0DE7E570008B00000000000 /* MorseCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570008A00000000000 /* MorseCodeTests.swift */; };
+		C0DE7E570009B00000000000 /* NatoCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E570009A00000000000 /* NatoCodeTests.swift */; };
+		C0DE7E57000AB00000000000 /* OghamCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E57000AA00000000000 /* OghamCodeTests.swift */; };
+		C0DE7E57000BB00000000000 /* Rot13CodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E57000BA00000000000 /* Rot13CodeTests.swift */; };
+		C0DE7E57000CB00000000000 /* Rot47CodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E57000CA00000000000 /* Rot47CodeTests.swift */; };
+		C0DE7E57000DB00000000000 /* RuneCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E57000DA00000000000 /* RuneCodeTests.swift */; };
+		C0DE7E57000EB00000000000 /* SemaphoreCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E57000EA00000000000 /* SemaphoreCodeTests.swift */; };
+		C0DE7E57000FB00000000000 /* UnicodeCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7E57000FA00000000000 /* UnicodeCodeTests.swift */; };
 		119C8DE73075858800DC39BB /* OghamCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C8DE63075858800DC39BB /* OghamCode.swift */; };
 		119C8DE9307585CA00DC39BB /* OghamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C8DE8307585CA00DC39BB /* OghamViewModel.swift */; };
 		119C8DEB3075866E00DC39BB /* OghamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C8DEA3075866E00DC39BB /* OghamView.swift */; };
@@ -105,6 +121,22 @@
 		116448403053229900FD8E9F /* Rot13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13View.swift; sourceTree = "<group>"; };
 		11798F46308FDD2400CC314E /* SignalistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11798F48308FDD2500CC314E /* SignalistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalistTests.swift; sourceTree = "<group>"; };
+		C0DE7E570000A00000000000 /* AsciiCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsciiCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E570001A00000000000 /* Base64CodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64CodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E570002A00000000000 /* BinaryCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E570003A00000000000 /* BrailleCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrailleCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E570004A00000000000 /* CaesarCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E570005A00000000000 /* CuneiformCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuneiformCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E570006A00000000000 /* HieroglyphCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HieroglyphCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E570007A00000000000 /* MayaCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E570008A00000000000 /* MorseCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E570009A00000000000 /* NatoCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E57000AA00000000000 /* OghamCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OghamCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E57000BA00000000000 /* Rot13CodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13CodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E57000CA00000000000 /* Rot47CodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot47CodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E57000DA00000000000 /* RuneCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E57000EA00000000000 /* SemaphoreCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreCodeTests.swift; sourceTree = "<group>"; };
+		C0DE7E57000FA00000000000 /* UnicodeCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodeCodeTests.swift; sourceTree = "<group>"; };
 		119C8DE63075858800DC39BB /* OghamCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OghamCode.swift; sourceTree = "<group>"; };
 		119C8DE8307585CA00DC39BB /* OghamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OghamViewModel.swift; sourceTree = "<group>"; };
 		119C8DEA3075866E00DC39BB /* OghamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OghamView.swift; sourceTree = "<group>"; };
@@ -173,6 +205,22 @@
 			isa = PBXGroup;
 			children = (
 				11798F48308FDD2500CC314E /* SignalistTests.swift */,
+				C0DE7E570000A00000000000 /* AsciiCodeTests.swift */,
+				C0DE7E570001A00000000000 /* Base64CodeTests.swift */,
+				C0DE7E570002A00000000000 /* BinaryCodeTests.swift */,
+				C0DE7E570003A00000000000 /* BrailleCodeTests.swift */,
+				C0DE7E570004A00000000000 /* CaesarCodeTests.swift */,
+				C0DE7E570005A00000000000 /* CuneiformCodeTests.swift */,
+				C0DE7E570006A00000000000 /* HieroglyphCodeTests.swift */,
+				C0DE7E570007A00000000000 /* MayaCodeTests.swift */,
+				C0DE7E570008A00000000000 /* MorseCodeTests.swift */,
+				C0DE7E570009A00000000000 /* NatoCodeTests.swift */,
+				C0DE7E57000AA00000000000 /* OghamCodeTests.swift */,
+				C0DE7E57000BA00000000000 /* Rot13CodeTests.swift */,
+				C0DE7E57000CA00000000000 /* Rot47CodeTests.swift */,
+				C0DE7E57000DA00000000000 /* RuneCodeTests.swift */,
+				C0DE7E57000EA00000000000 /* SemaphoreCodeTests.swift */,
+				C0DE7E57000FA00000000000 /* UnicodeCodeTests.swift */,
 			);
 			path = SignalistTests;
 			sourceTree = "<group>";
@@ -408,6 +456,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				11798F49308FDD2500CC314E /* SignalistTests.swift in Sources */,
+				C0DE7E570000B00000000000 /* AsciiCodeTests.swift in Sources */,
+				C0DE7E570001B00000000000 /* Base64CodeTests.swift in Sources */,
+				C0DE7E570002B00000000000 /* BinaryCodeTests.swift in Sources */,
+				C0DE7E570003B00000000000 /* BrailleCodeTests.swift in Sources */,
+				C0DE7E570004B00000000000 /* CaesarCodeTests.swift in Sources */,
+				C0DE7E570005B00000000000 /* CuneiformCodeTests.swift in Sources */,
+				C0DE7E570006B00000000000 /* HieroglyphCodeTests.swift in Sources */,
+				C0DE7E570007B00000000000 /* MayaCodeTests.swift in Sources */,
+				C0DE7E570008B00000000000 /* MorseCodeTests.swift in Sources */,
+				C0DE7E570009B00000000000 /* NatoCodeTests.swift in Sources */,
+				C0DE7E57000AB00000000000 /* OghamCodeTests.swift in Sources */,
+				C0DE7E57000BB00000000000 /* Rot13CodeTests.swift in Sources */,
+				C0DE7E57000CB00000000000 /* Rot47CodeTests.swift in Sources */,
+				C0DE7E57000DB00000000000 /* RuneCodeTests.swift in Sources */,
+				C0DE7E57000EB00000000000 /* SemaphoreCodeTests.swift in Sources */,
+				C0DE7E57000FB00000000000 /* UnicodeCodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
