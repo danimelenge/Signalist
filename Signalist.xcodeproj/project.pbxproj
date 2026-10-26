@@ -27,6 +27,7 @@
 		1164483D305321D800FD8E9F /* Rot13Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164483C305321D800FD8E9F /* Rot13Code.swift */; };
 		1164483F3053221B00FD8E9F /* Rot13ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */; };
 		116448413053229900FD8E9F /* Rot13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116448403053229900FD8E9F /* Rot13View.swift */; };
+		11798F49308FDD2500CC314E /* SignalistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11798F48308FDD2500CC314E /* SignalistTests.swift */; };
 		119C8DE73075858800DC39BB /* OghamCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C8DE63075858800DC39BB /* OghamCode.swift */; };
 		119C8DE9307585CA00DC39BB /* OghamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C8DE8307585CA00DC39BB /* OghamViewModel.swift */; };
 		119C8DEB3075866E00DC39BB /* OghamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C8DEA3075866E00DC39BB /* OghamView.swift */; };
@@ -71,6 +72,16 @@
 		11F64817306EB60B00304538 /* RuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F64816306EB60B00304538 /* RuneView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		11798F4A308FDD2500CC314E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11E57C3C3000373E006DE940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11E57C433000373E006DE940;
+			remoteInfo = Signalist;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1115AF91307841E0006D5754 /* MayaCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaCode.swift; sourceTree = "<group>"; };
 		1115AF9330784225006D5754 /* MayaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaViewModel.swift; sourceTree = "<group>"; };
@@ -92,6 +103,8 @@
 		1164483C305321D800FD8E9F /* Rot13Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13Code.swift; sourceTree = "<group>"; };
 		1164483E3053221B00FD8E9F /* Rot13ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13ViewModel.swift; sourceTree = "<group>"; };
 		116448403053229900FD8E9F /* Rot13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rot13View.swift; sourceTree = "<group>"; };
+		11798F46308FDD2400CC314E /* SignalistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11798F48308FDD2500CC314E /* SignalistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalistTests.swift; sourceTree = "<group>"; };
 		119C8DE63075858800DC39BB /* OghamCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OghamCode.swift; sourceTree = "<group>"; };
 		119C8DE8307585CA00DC39BB /* OghamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OghamViewModel.swift; sourceTree = "<group>"; };
 		119C8DEA3075866E00DC39BB /* OghamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OghamView.swift; sourceTree = "<group>"; };
@@ -139,6 +152,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		11798F43308FDD2400CC314E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11E57C413000373E006DE940 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,12 +169,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11798F47308FDD2500CC314E /* SignalistTests */ = {
+			isa = PBXGroup;
+			children = (
+				11798F48308FDD2500CC314E /* SignalistTests.swift */,
+			);
+			path = SignalistTests;
+			sourceTree = "<group>";
+		};
 		11E57C3B3000373E006DE940 = {
 			isa = PBXGroup;
 			children = (
 				11B08F9230890AEC007811EA /* Localizable.xcstrings */,
 				11E69486307F346900B25BA8 /* Signalist.docc */,
 				11E57C463000373F006DE940 /* Signalist */,
+				11798F47308FDD2500CC314E /* SignalistTests */,
 				11E57C453000373F006DE940 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				11E57C443000373F006DE940 /* Signalist.app */,
+				11798F46308FDD2400CC314E /* SignalistTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,6 +308,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		11798F45308FDD2400CC314E /* SignalistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11798F4E308FDD2500CC314E /* Build configuration list for PBXNativeTarget "SignalistTests" */;
+			buildPhases = (
+				11798F42308FDD2400CC314E /* Sources */,
+				11798F43308FDD2400CC314E /* Frameworks */,
+				11798F44308FDD2400CC314E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11798F4B308FDD2500CC314E /* PBXTargetDependency */,
+			);
+			name = SignalistTests;
+			productName = SignalistTests;
+			productReference = 11798F46308FDD2400CC314E /* SignalistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		11E57C433000373E006DE940 /* Signalist */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11E57C5330003742006DE940 /* Build configuration list for PBXNativeTarget "Signalist" */;
@@ -305,6 +353,10 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					11798F45308FDD2400CC314E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 11E57C433000373E006DE940;
+					};
 					11E57C433000373E006DE940 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -325,11 +377,19 @@
 			projectRoot = "";
 			targets = (
 				11E57C433000373E006DE940 /* Signalist */,
+				11798F45308FDD2400CC314E /* SignalistTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		11798F44308FDD2400CC314E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11E57C423000373E006DE940 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +403,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		11798F42308FDD2400CC314E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11798F49308FDD2500CC314E /* SignalistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11E57C403000373E006DE940 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,7 +479,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		11798F4B308FDD2500CC314E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11E57C433000373E006DE940 /* Signalist */;
+			targetProxy = 11798F4A308FDD2500CC314E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		11798F4C308FDD2500CC314E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N76MC3BF5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Melenge.SignalistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signalist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Signalist";
+			};
+			name = Debug;
+		};
+		11798F4D308FDD2500CC314E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N76MC3BF5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Melenge.SignalistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signalist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Signalist";
+			};
+			name = Release;
+		};
 		11E57C5130003742006DE940 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -587,6 +697,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		11798F4E308FDD2500CC314E /* Build configuration list for PBXNativeTarget "SignalistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11798F4C308FDD2500CC314E /* Debug */,
+				11798F4D308FDD2500CC314E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		11E57C3F3000373E006DE940 /* Build configuration list for PBXProject "Signalist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
