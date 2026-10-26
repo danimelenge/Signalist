@@ -54,8 +54,18 @@ struct RuneCode {
 
     // MARK: - Reverse Dictionary
 
+    /// Letras que comparten símbolo con otra y solo lo "aproximan por sonido".
+    /// En la decodificación gana siempre la letra original del símbolo.
+    private static let approximatedLetters: Set<Character> = ["c", "q", "v", "x", "y"]
+
     private static let reverseDictionary: [Character: Character] = {
-        Dictionary(uniqueKeysWithValues: letterDictionary.map { ($1, $0) })
+        // `Dictionary(uniqueKeysWithValues:)` se cae si hay símbolos repetidos
+        // (varias letras comparten símbolo), así que se construye a mano.
+        var dict: [Character: Character] = [:]
+        for (letter, symbol) in letterDictionary where !approximatedLetters.contains(letter) {
+            dict[symbol] = letter
+        }
+        return dict
     }()
 
     // MARK: - Encode (Texto → Runas)
