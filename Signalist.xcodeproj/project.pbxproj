@@ -418,6 +418,7 @@
 				en,
 				Base,
 				es,
+				"pt-PT",
 			);
 			mainGroup = 11E57C3B3000373E006DE940;
 			productRefGroup = 11E57C453000373F006DE940 /* Products */;
