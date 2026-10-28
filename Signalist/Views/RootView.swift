@@ -424,6 +424,34 @@ struct RootView: View {
             // ROT13
             return "arrow.triangle.2.circlepath"
 
+        case 9:
+            // ROT47
+            return "arrow.2.squarepath"
+
+        case 10:
+            // Semáforo
+            return "flag.2.crossed.fill"
+
+        case 11:
+            // Jeroglíficos
+            return "building.columns.fill"
+
+        case 12:
+            // Cuneiforme
+            return "cube.fill"
+
+        case 13:
+            // Runas
+            return "mountain.2.fill"
+
+        case 14:
+            // Ogham
+            return "tree.fill"
+
+        case 15:
+            // Maya
+            return "sun.max.fill"
+
         default:
             // FIXME: Mantener un icono válido como fallback
             // en caso de recibir un índice de pestaña inesperado.
