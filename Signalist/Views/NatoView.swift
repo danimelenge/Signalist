@@ -53,6 +53,7 @@ struct NatoView: View {
                     .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(.white)
             }
+            .accessibilityHidden(true)
 
             Text("NATO")
                 .font(.system(size: 28,
@@ -64,6 +65,7 @@ struct NatoView: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.top, 8)
+        .converterHeaderAccessibility()
     }
 
     // MARK: - Conversion Mode Picker
@@ -78,6 +80,7 @@ struct NatoView: View {
         }
         .pickerStyle(.segmented)
         .frame(maxWidth: 360)
+        .converterModePickerAccessibility()
     }
 
     // MARK: - Input Card
@@ -97,6 +100,9 @@ struct NatoView: View {
             .foregroundStyle(.primary)
 
             TextEditor(text: $viewModel.inputText)
+                .converterInputAccessibility(
+                    title: viewModel.mode == .textToNato ? "Texto de entrada" : "NATO de entrada"
+                )
                 .font(.system(.body, design: .monospaced))
                 .scrollContentBackground(.hidden)
                 .frame(height: 110)
@@ -129,6 +135,7 @@ struct NatoView: View {
                 Circle()
                     .fill(Color.primary.opacity(0.06))
             )
+            .accessibilityHidden(true)
     }
 
     // MARK: - Output Card
@@ -159,13 +166,10 @@ struct NatoView: View {
                             ? 1
                             : 1.15
                         )
-                        .animation(
-                            .spring(
-                                response: 0.35,
-                                dampingFraction: 0.5
-                            ),
-                            value: viewModel.outputText.isEmpty
-                        )
+                        .motionSafeAnimation(
+                        .spring(response: 0.35, dampingFraction: 0.5),
+                        value: viewModel.outputText.isEmpty
+                    )
                 }
 
                 Spacer()
@@ -206,10 +210,8 @@ struct NatoView: View {
                         lineWidth: 1
                     )
             )
-            .animation(
-                .easeInOut(duration: 0.2),
-                value: viewModel.outputText
-            )
+            .motionSafeAnimation(.easeInOut(duration: 0.2),
+                       value: viewModel.outputText)
         }
         .padding(16)
         .background(cardBackground)
@@ -234,6 +236,7 @@ struct NatoView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .disabled(viewModel.outputText.isEmpty)
+            .converterCopyButtonAccessibility()
 
             Button(role: .destructive) {
                 withAnimation(.snappy) {
@@ -248,6 +251,7 @@ struct NatoView: View {
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .converterClearButtonAccessibility()
         }
     }
 

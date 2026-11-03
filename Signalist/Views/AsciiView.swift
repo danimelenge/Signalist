@@ -59,6 +59,7 @@ struct AsciiView: View {
                     .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(.white)
             }
+            .accessibilityHidden(true)
 
             Text("ASCII")
                 .font(
@@ -74,6 +75,7 @@ struct AsciiView: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.top, 8)
+        .converterHeaderAccessibility()
     }
 
     // MARK: - Conversion Mode Picker
@@ -95,6 +97,7 @@ struct AsciiView: View {
         }
         .pickerStyle(.segmented)
         .frame(maxWidth: 360)
+        .converterModePickerAccessibility()
     }
 
     // MARK: - Input Card
@@ -116,6 +119,9 @@ struct AsciiView: View {
             .foregroundStyle(.primary)
 
             TextEditor(text: $viewModel.inputText)
+                .converterInputAccessibility(
+                    title: viewModel.mode == .textToAscii ? "Texto de entrada" : "ASCII de entrada"
+                )
                 .font(.system(.body, design: .monospaced))
                 .scrollContentBackground(.hidden)
                 .frame(height: 110)
@@ -151,6 +157,7 @@ struct AsciiView: View {
                 Circle()
                     .fill(Color.primary.opacity(0.06))
             )
+            .accessibilityHidden(true)
     }
 
     // MARK: - Output Card
@@ -186,11 +193,8 @@ struct AsciiView: View {
                         ? 1
                         : 1.15
                     )
-                    .animation(
-                        .spring(
-                            response: 0.35,
-                            dampingFraction: 0.5
-                        ),
+                    .motionSafeAnimation(
+                        .spring(response: 0.35, dampingFraction: 0.5),
                         value: viewModel.outputText.isEmpty
                     )
                 }
@@ -238,10 +242,8 @@ struct AsciiView: View {
                         lineWidth: 1
                     )
             )
-            .animation(
-                .easeInOut(duration: 0.2),
-                value: viewModel.outputText
-            )
+            .motionSafeAnimation(.easeInOut(duration: 0.2),
+                       value: viewModel.outputText)
         }
         .padding(16)
         .background(cardBackground)
@@ -270,6 +272,7 @@ struct AsciiView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .disabled(viewModel.outputText.isEmpty)
+            .converterCopyButtonAccessibility()
 
             // MARK: Clear Button
 
@@ -286,6 +289,7 @@ struct AsciiView: View {
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .converterClearButtonAccessibility()
         }
     }
 

@@ -49,6 +49,7 @@ struct UnicodeView: View {
                     .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(.white)
             }
+            .accessibilityHidden(true)
 
             Text("Unicode")
                 .font(.system(size: 28,
@@ -60,6 +61,7 @@ struct UnicodeView: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.top, 8)
+        .converterHeaderAccessibility()
     }
 
     // MARK: - Conversion Mode Picker
@@ -74,6 +76,7 @@ struct UnicodeView: View {
         }
         .pickerStyle(.segmented)
         .frame(maxWidth: 360)
+        .converterModePickerAccessibility()
     }
 
     // MARK: - Input Card
@@ -92,6 +95,9 @@ struct UnicodeView: View {
             .foregroundStyle(.primary)
 
             TextEditor(text: $viewModel.inputText)
+                .converterInputAccessibility(
+                    title: viewModel.mode == .textToUnicode ? "Texto de entrada" : "Unicode de entrada"
+                )
                 .font(.system(.body, design: .monospaced))
                 .scrollContentBackground(.hidden)
                 .frame(height: 110)
@@ -126,6 +132,7 @@ struct UnicodeView: View {
                 Circle()
                     .fill(Color.primary.opacity(0.06))
             )
+            .accessibilityHidden(true)
     }
 
     // MARK: - Output Card
@@ -154,9 +161,8 @@ struct UnicodeView: View {
                         .scaleEffect(
                             viewModel.outputText.isEmpty ? 1 : 1.15
                         )
-                        .animation(
-                            .spring(response: 0.35,
-                                    dampingFraction: 0.5),
+                        .motionSafeAnimation(
+                            .spring(response: 0.35, dampingFraction: 0.5),
                             value: viewModel.outputText.isEmpty
                         )
                 }
@@ -197,7 +203,7 @@ struct UnicodeView: View {
                     .strokeBorder(Color.primary.opacity(0.08),
                                   lineWidth: 1)
             )
-            .animation(.easeInOut(duration: 0.2),
+            .motionSafeAnimation(.easeInOut(duration: 0.2),
                        value: viewModel.outputText)
         }
         .padding(16)
@@ -227,6 +233,7 @@ struct UnicodeView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .disabled(viewModel.outputText.isEmpty)
+            .converterCopyButtonAccessibility()
 
             Button(role: .destructive) {
                 withAnimation(.snappy) {
@@ -239,6 +246,7 @@ struct UnicodeView: View {
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .converterClearButtonAccessibility()
         }
     }
 

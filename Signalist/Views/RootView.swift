@@ -328,6 +328,11 @@ struct RootView: View {
                         ? "Silenciar sonido"
                         : "Activar sonido"
                     )
+                    .accessibilityLabel(
+                        morseViewModel.isSoundEnabled
+                        ? "Silenciar sonido"
+                        : "Activar sonido"
+                    )
                 }
             }
 
@@ -341,6 +346,7 @@ struct RootView: View {
                     Image(systemName: "sparkles")
                 }
                 .help("Ver novedades")
+                .accessibilityLabel("Ver novedades")
             }
 
             // MARK: Theme
@@ -491,6 +497,7 @@ struct RootView: View {
             Image(systemName: appTheme.icon)
         }
         .help("Apariencia")
+        .accessibilityLabel("Apariencia")
     }
 }
 

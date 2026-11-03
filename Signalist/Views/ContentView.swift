@@ -53,6 +53,7 @@ struct ContentView: View {
                     .font(.system(size: 24, weight: .semibold))
                     .foregroundStyle(.white)
             }
+            .accessibilityHidden(true)
 
             Text("Signalist")
                 .font(.system(size: 28,
@@ -64,6 +65,7 @@ struct ContentView: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.top, 8)
+        .converterHeaderAccessibility()
     }
 
     // MARK: - Conversion Mode Picker
@@ -78,6 +80,7 @@ struct ContentView: View {
         }
         .pickerStyle(.segmented)
         .frame(maxWidth: 360)
+        .converterModePickerAccessibility()
     }
 
     // MARK: - Input Card
@@ -96,6 +99,9 @@ struct ContentView: View {
             .foregroundStyle(.primary)
 
             TextEditor(text: $viewModel.inputText)
+                .converterInputAccessibility(
+                    title: viewModel.mode == .textToMorse ? "Texto de entrada" : "Código Morse de entrada"
+                )
                 .font(.system(.body, design: .monospaced))
                 .scrollContentBackground(.hidden)
                 .frame(height: 110)
@@ -128,6 +134,7 @@ struct ContentView: View {
                 Circle()
                     .fill(Color.primary.opacity(0.06))
             )
+            .accessibilityHidden(true)
     }
 
     // MARK: - Output Card
@@ -157,9 +164,8 @@ struct ContentView: View {
                         .scaleEffect(
                             viewModel.outputText.isEmpty ? 1.0 : 1.15
                         )
-                        .animation(
-                            .spring(response: 0.35,
-                                    dampingFraction: 0.5),
+                        .motionSafeAnimation(
+                            .spring(response: 0.35, dampingFraction: 0.5),
                             value: viewModel.outputText.isEmpty
                         )
                 }
@@ -175,6 +181,7 @@ struct ContentView: View {
                     .buttonStyle(.plain)
                     .foregroundStyle(.blue)
                     .help("Reproducir sonido")
+                    .accessibilityLabel("Reproducir sonido")
                 }
 
                 if !viewModel.outputText.isEmpty {
@@ -213,10 +220,8 @@ struct ContentView: View {
                         lineWidth: 1
                     )
             )
-            .animation(
-                .easeInOut(duration: 0.2),
-                value: viewModel.outputText
-            )
+            .motionSafeAnimation(.easeInOut(duration: 0.2),
+                       value: viewModel.outputText)
         }
         .padding(16)
         .background(cardBackground)
@@ -238,6 +243,7 @@ struct ContentView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .disabled(viewModel.outputText.isEmpty)
+            .converterCopyButtonAccessibility()
 
             Button(role: .destructive) {
                 withAnimation(.snappy) {
@@ -250,6 +256,7 @@ struct ContentView: View {
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .converterClearButtonAccessibility()
         }
     }
 

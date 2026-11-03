@@ -51,6 +51,7 @@ struct SemaphoreView: View {
                     .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(.white)
             }
+            .accessibilityHidden(true)
 
             Text("Semáforo")
                 .font(.system(size: 28,
@@ -62,6 +63,7 @@ struct SemaphoreView: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.top, 8)
+        .converterHeaderAccessibility()
     }
 
     // MARK: - Conversion Mode Picker
@@ -76,6 +78,7 @@ struct SemaphoreView: View {
         }
         .pickerStyle(.segmented)
         .frame(maxWidth: 360)
+        .converterModePickerAccessibility()
     }
 
     // MARK: - Input Card
@@ -94,6 +97,9 @@ struct SemaphoreView: View {
             .foregroundStyle(.primary)
 
             TextEditor(text: $viewModel.inputText)
+                .converterInputAccessibility(
+                    title: viewModel.mode == .textToSemaphore ? "Texto de entrada" : "Semáforo de entrada"
+                )
                 .font(.system(.body, design: .monospaced))
                 .scrollContentBackground(.hidden)
                 .frame(height: 110)
@@ -124,6 +130,7 @@ struct SemaphoreView: View {
                 Circle()
                     .fill(Color.primary.opacity(0.06))
             )
+            .accessibilityHidden(true)
     }
 
     // MARK: - Output Card
@@ -152,9 +159,8 @@ struct SemaphoreView: View {
                         .scaleEffect(
                             viewModel.outputText.isEmpty ? 1 : 1.15
                         )
-                        .animation(
-                            .spring(response: 0.35,
-                                    dampingFraction: 0.5),
+                        .motionSafeAnimation(
+                            .spring(response: 0.35, dampingFraction: 0.5),
                             value: viewModel.outputText.isEmpty
                         )
                 }
@@ -195,7 +201,7 @@ struct SemaphoreView: View {
                     .strokeBorder(Color.primary.opacity(0.08),
                                   lineWidth: 1)
             )
-            .animation(.easeInOut(duration: 0.2),
+            .motionSafeAnimation(.easeInOut(duration: 0.2),
                        value: viewModel.outputText)
         }
         .padding(16)
@@ -223,6 +229,7 @@ struct SemaphoreView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .disabled(viewModel.outputText.isEmpty)
+            .converterCopyButtonAccessibility()
 
             Button(role: .destructive) {
                 withAnimation(.snappy) {
@@ -235,6 +242,7 @@ struct SemaphoreView: View {
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .converterClearButtonAccessibility()
         }
     }
 
