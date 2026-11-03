@@ -52,6 +52,7 @@ struct MayaView: View {
                     .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(.white)
             }
+            .accessibilityHidden(true)
 
             Text("Maya")
                 .font(.system(size: 28,
@@ -63,6 +64,7 @@ struct MayaView: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.top, 8)
+        .converterHeaderAccessibility()
     }
 
     // MARK: - Conversion Mode Picker
@@ -77,6 +79,7 @@ struct MayaView: View {
         }
         .pickerStyle(.segmented)
         .frame(maxWidth: 360)
+        .converterModePickerAccessibility()
     }
 
     // MARK: - Input Card
@@ -95,6 +98,9 @@ struct MayaView: View {
             .foregroundStyle(.primary)
 
             TextEditor(text: $viewModel.inputText)
+                .converterInputAccessibility(
+                    title: viewModel.mode == .textToMaya ? "Números de entrada" : "Numerales mayas de entrada"
+                )
                 .font(.system(.body, design: .monospaced))
                 .scrollContentBackground(.hidden)
                 .frame(height: 110)
@@ -125,6 +131,7 @@ struct MayaView: View {
                 Circle()
                     .fill(Color.primary.opacity(0.06))
             )
+            .accessibilityHidden(true)
     }
 
     // MARK: - Output Card
@@ -153,9 +160,8 @@ struct MayaView: View {
                         .scaleEffect(
                             viewModel.outputText.isEmpty ? 1 : 1.15
                         )
-                        .animation(
-                            .spring(response: 0.35,
-                                    dampingFraction: 0.5),
+                        .motionSafeAnimation(
+                            .spring(response: 0.35, dampingFraction: 0.5),
                             value: viewModel.outputText.isEmpty
                         )
                 }
@@ -182,6 +188,8 @@ struct MayaView: View {
                                         MayaGlyphView(value: digit)
                                     }
                                 }
+                                .accessibilityElement(children: .ignore)
+                                .accessibilityLabel("Numeral maya: \(decimalValue(of: digits))")
                             }
                         }
                         .padding(12)
@@ -215,7 +223,7 @@ struct MayaView: View {
                     .strokeBorder(Color.primary.opacity(0.08),
                                   lineWidth: 1)
             )
-            .animation(.easeInOut(duration: 0.2),
+            .motionSafeAnimation(.easeInOut(duration: 0.2),
                        value: viewModel.outputText)
         }
         .padding(16)
@@ -245,6 +253,7 @@ struct MayaView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .disabled(viewModel.outputText.isEmpty)
+            .converterCopyButtonAccessibility()
 
             Button(role: .destructive) {
                 withAnimation(.snappy) {
@@ -257,7 +266,16 @@ struct MayaView: View {
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .converterClearButtonAccessibility()
         }
+    }
+
+    // MARK: - Accessibility Helpers
+
+    /// Valor decimal de un numeral maya (dígitos en base 20, de mayor a menor).
+    /// Se usa para que VoiceOver lea el número en vez de describir puntos y barras.
+    private func decimalValue(of digits: [Int]) -> Int {
+        digits.reduce(0) { $0 * 20 + $1 }
     }
 
     // MARK: - Shared Styles

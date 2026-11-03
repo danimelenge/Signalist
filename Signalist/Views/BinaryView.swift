@@ -60,6 +60,7 @@ struct BinaryView: View {
                     .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(.white)
             }
+            .accessibilityHidden(true)
 
             Text("Binario")
                 .font(
@@ -75,6 +76,7 @@ struct BinaryView: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.top, 8)
+        .converterHeaderAccessibility()
     }
 
     // MARK: - Conversion Mode Picker
@@ -96,6 +98,7 @@ struct BinaryView: View {
         }
         .pickerStyle(.segmented)
         .frame(maxWidth: 360)
+        .converterModePickerAccessibility()
     }
 
     // MARK: - Input Card
@@ -117,6 +120,9 @@ struct BinaryView: View {
             .foregroundStyle(.primary)
 
             TextEditor(text: $viewModel.inputText)
+                .converterInputAccessibility(
+                    title: viewModel.mode == .textToBinary ? "Texto de entrada" : "Binario de entrada"
+                )
                 .font(.system(.body, design: .monospaced))
                 .scrollContentBackground(.hidden)
                 .frame(height: 110)
@@ -152,6 +158,7 @@ struct BinaryView: View {
                 Circle()
                     .fill(Color.primary.opacity(0.06))
             )
+            .accessibilityHidden(true)
     }
 
     // MARK: - Output Card
@@ -189,11 +196,8 @@ struct BinaryView: View {
                         ? 1
                         : 1.15
                     )
-                    .animation(
-                        .spring(
-                            response: 0.35,
-                            dampingFraction: 0.5
-                        ),
+                    .motionSafeAnimation(
+                        .spring(response: 0.35, dampingFraction: 0.5),
                         value: viewModel.outputText.isEmpty
                     )
                 }
@@ -245,10 +249,8 @@ struct BinaryView: View {
                         lineWidth: 1
                     )
             )
-            .animation(
-                .easeInOut(duration: 0.2),
-                value: viewModel.outputText
-            )
+            .motionSafeAnimation(.easeInOut(duration: 0.2),
+                       value: viewModel.outputText)
         }
         .padding(16)
         .background(cardBackground)
@@ -277,6 +279,7 @@ struct BinaryView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .disabled(viewModel.outputText.isEmpty)
+            .converterCopyButtonAccessibility()
 
             // MARK: Clear Button
 
@@ -293,6 +296,7 @@ struct BinaryView: View {
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .converterClearButtonAccessibility()
         }
     }
 

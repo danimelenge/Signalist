@@ -51,6 +51,7 @@ struct OghamView: View {
                     .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(.white)
             }
+            .accessibilityHidden(true)
 
             Text("Ogham")
                 .font(.system(size: 28,
@@ -62,6 +63,7 @@ struct OghamView: View {
                 .foregroundStyle(.secondary)
         }
         .padding(.top, 8)
+        .converterHeaderAccessibility()
     }
 
     // MARK: - Conversion Mode Picker
@@ -76,6 +78,7 @@ struct OghamView: View {
         }
         .pickerStyle(.segmented)
         .frame(maxWidth: 360)
+        .converterModePickerAccessibility()
     }
 
     // MARK: - Input Card
@@ -94,6 +97,9 @@ struct OghamView: View {
             .foregroundStyle(.primary)
 
             TextEditor(text: $viewModel.inputText)
+                .converterInputAccessibility(
+                    title: viewModel.mode == .textToOgham ? "Texto de entrada" : "Ogham de entrada"
+                )
                 .font(.system(.body, design: .monospaced))
                 .scrollContentBackground(.hidden)
                 .frame(height: 110)
@@ -124,6 +130,7 @@ struct OghamView: View {
                 Circle()
                     .fill(Color.primary.opacity(0.06))
             )
+            .accessibilityHidden(true)
     }
 
     // MARK: - Output Card
@@ -152,9 +159,8 @@ struct OghamView: View {
                         .scaleEffect(
                             viewModel.outputText.isEmpty ? 1 : 1.15
                         )
-                        .animation(
-                            .spring(response: 0.35,
-                                    dampingFraction: 0.5),
+                        .motionSafeAnimation(
+                            .spring(response: 0.35, dampingFraction: 0.5),
                             value: viewModel.outputText.isEmpty
                         )
                 }
@@ -195,7 +201,7 @@ struct OghamView: View {
                     .strokeBorder(Color.primary.opacity(0.08),
                                   lineWidth: 1)
             )
-            .animation(.easeInOut(duration: 0.2),
+            .motionSafeAnimation(.easeInOut(duration: 0.2),
                        value: viewModel.outputText)
         }
         .padding(16)
@@ -222,6 +228,7 @@ struct OghamView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .disabled(viewModel.outputText.isEmpty)
+            .converterCopyButtonAccessibility()
 
             Button(role: .destructive) {
                 withAnimation(.snappy) {
@@ -234,6 +241,7 @@ struct OghamView: View {
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .converterClearButtonAccessibility()
         }
     }
 
