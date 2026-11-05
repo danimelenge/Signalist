@@ -421,6 +421,7 @@
 				en,
 				Base,
 				es,
+				fr,
 				"pt-PT",
 			);
 			mainGroup = 11E57C3B3000373E006DE940;
