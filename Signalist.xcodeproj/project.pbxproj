@@ -420,6 +420,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 				es,
 				fr,
 				it,
