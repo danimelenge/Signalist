@@ -26,6 +26,23 @@ enum AppTheme: String, CaseIterable, Identifiable {
         rawValue
     }
 
+    // MARK: - Localized Name
+
+    /// Localized label shown in the UI.
+    /// `rawValue` stays in Spanish because it is persisted with AppStorage.
+    var localizedName: LocalizedStringKey {
+        switch self {
+        case .system:
+            return "Sistema"
+
+        case .light:
+            return "Claro"
+
+        case .dark:
+            return "Oscuro"
+        }
+    }
+
     // MARK: - Appearance
 
     /// Returns the corresponding SwiftUI color scheme.
