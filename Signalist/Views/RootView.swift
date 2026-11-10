@@ -483,7 +483,7 @@ struct RootView: View {
                     }
                 } label: {
                     Label(
-                        theme.rawValue,
+                        theme.localizedName,
                         systemImage: theme.icon
                     )
 

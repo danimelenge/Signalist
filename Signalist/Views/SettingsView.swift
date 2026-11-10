@@ -46,7 +46,7 @@ private struct GeneralSettingsView: View {
         Form {
             Picker("Apariencia", selection: $appTheme) {
                 ForEach(AppTheme.allCases) { theme in
-                    Label(theme.rawValue, systemImage: theme.icon)
+                    Label(theme.localizedName, systemImage: theme.icon)
                         .tag(theme)
                 }
             }
