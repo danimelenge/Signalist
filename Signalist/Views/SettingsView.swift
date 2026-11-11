@@ -44,28 +44,31 @@ private struct GeneralSettingsView: View {
 
     var body: some View {
         Form {
-            // Título fijo encima de las opciones: así el diseño es idéntico en
-            // todos los idiomas (antes, con "Appearance" en inglés, macOS
-            // colocaba el título y las opciones en una sola fila).
-            VStack(alignment: .leading, spacing: 6) {
-                Text("Apariencia")
+            // Título fijo encima de las opciones y radio group vertical explícito:
+            // así el diseño es idéntico en todos los idiomas (con ".inline",
+            // macOS lo ponía en una sola fila cuando el título era corto,
+            // como "Appearance" en inglés).
+            Section {
+                VStack(alignment: .leading, spacing: 6) {
+                    Text("Apariencia")
 
-                Picker("Apariencia", selection: $appTheme) {
-                    ForEach(AppTheme.allCases) { theme in
-                        Label(theme.localizedName, systemImage: theme.icon)
-                            .tag(theme)
+                    Picker("Apariencia", selection: $appTheme) {
+                        ForEach(AppTheme.allCases) { theme in
+                            Label(theme.localizedName, systemImage: theme.icon)
+                                .tag(theme)
+                        }
                     }
+                    .pickerStyle(.radioGroup)
+                    .labelsHidden()
                 }
-                .pickerStyle(.inline)
-                .labelsHidden()
             }
 
-            Divider()
-
-            Button("Mostrar novedades de nuevo") {
-                hasSeenWhatsNew = false
+            Section {
+                Button("Mostrar novedades de nuevo") {
+                    hasSeenWhatsNew = false
+                }
+                .help("Vuelve a mostrar la ventana de novedades la próxima vez que abras Signalist.")
             }
-            .help("Vuelve a mostrar la ventana de novedades la próxima vez que abras Signalist.")
         }
         .formStyle(.grouped)
         .padding(.horizontal, 8)
