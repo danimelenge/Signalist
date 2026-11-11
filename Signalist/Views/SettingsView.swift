@@ -44,13 +44,21 @@ private struct GeneralSettingsView: View {
 
     var body: some View {
         Form {
-            Picker("Apariencia", selection: $appTheme) {
-                ForEach(AppTheme.allCases) { theme in
-                    Label(theme.localizedName, systemImage: theme.icon)
-                        .tag(theme)
+            // Título fijo encima de las opciones: así el diseño es idéntico en
+            // todos los idiomas (antes, con "Appearance" en inglés, macOS
+            // colocaba el título y las opciones en una sola fila).
+            VStack(alignment: .leading, spacing: 6) {
+                Text("Apariencia")
+
+                Picker("Apariencia", selection: $appTheme) {
+                    ForEach(AppTheme.allCases) { theme in
+                        Label(theme.localizedName, systemImage: theme.icon)
+                            .tag(theme)
+                    }
                 }
+                .pickerStyle(.inline)
+                .labelsHidden()
             }
-            .pickerStyle(.inline)
 
             Divider()
 
