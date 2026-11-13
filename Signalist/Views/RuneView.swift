@@ -72,7 +72,7 @@ struct RuneView: View {
     private var modePicker: some View {
         Picker("Modo", selection: $viewModel.mode.animation(.snappy)) {
             ForEach(RuneConversionMode.allCases) { option in
-                Text(option.rawValue)
+                Text(LocalizedStringKey(option.rawValue))
                     .tag(option)
             }
         }

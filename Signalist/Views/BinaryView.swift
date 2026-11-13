@@ -92,7 +92,7 @@ struct BinaryView: View {
             selection: $viewModel.mode.animation(.snappy)
         ) {
             ForEach(BinaryConversionMode.allCases) { option in
-                Text(option.rawValue)
+                Text(LocalizedStringKey(option.rawValue))
                     .tag(option)
             }
         }

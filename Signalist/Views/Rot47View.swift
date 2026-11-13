@@ -72,7 +72,7 @@ struct Rot47View: View {
     private var modePicker: some View {
         Picker("Modo", selection: $viewModel.mode.animation(.snappy)) {
             ForEach(Rot47ConversionMode.allCases) { option in
-                Text(option.rawValue)
+                Text(LocalizedStringKey(option.rawValue))
                     .tag(option)
             }
         }
