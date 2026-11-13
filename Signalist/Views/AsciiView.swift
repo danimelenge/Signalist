@@ -91,7 +91,7 @@ struct AsciiView: View {
             selection: $viewModel.mode.animation(.snappy)
         ) {
             ForEach(AsciiConversionMode.allCases) { option in
-                Text(option.rawValue)
+                Text(LocalizedStringKey(option.rawValue))
                     .tag(option)
             }
         }

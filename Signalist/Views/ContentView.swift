@@ -74,7 +74,7 @@ struct ContentView: View {
     private var modePicker: some View {
         Picker("Modo", selection: $viewModel.mode.animation(.snappy)) {
             ForEach(ConversionMode.allCases) { option in
-                Text(option.rawValue)
+                Text(LocalizedStringKey(option.rawValue))
                     .tag(option)
             }
         }
