@@ -11910,6 +11910,7 @@
       }
     },
     "Texto → ASCII" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -11962,6 +11963,7 @@
       }
     },
     "ASCII → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12014,6 +12016,7 @@
       }
     },
     "Texto → Base64" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12066,6 +12069,7 @@
       }
     },
     "Base64 → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12118,6 +12122,7 @@
       }
     },
     "Texto → Binario" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12170,6 +12175,7 @@
       }
     },
     "Binario → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12222,6 +12228,7 @@
       }
     },
     "Texto → Braille" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12274,6 +12281,7 @@
       }
     },
     "Braille → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12326,6 +12334,7 @@
       }
     },
     "Texto → César" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12378,6 +12387,7 @@
       }
     },
     "César → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12430,6 +12440,7 @@
       }
     },
     "Texto → Cuneiforme" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12482,6 +12493,7 @@
       }
     },
     "Cuneiforme → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12534,6 +12546,7 @@
       }
     },
     "Texto → Jeroglíficos" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12586,6 +12599,7 @@
       }
     },
     "Jeroglíficos → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12638,6 +12652,7 @@
       }
     },
     "Número → Maya" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12690,6 +12705,7 @@
       }
     },
     "Maya → Número" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12742,6 +12758,7 @@
       }
     },
     "Texto → Morse" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12794,6 +12811,7 @@
       }
     },
     "Morse → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12846,6 +12864,7 @@
       }
     },
     "Texto → NATO" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12898,6 +12917,7 @@
       }
     },
     "NATO → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -12950,6 +12970,7 @@
       }
     },
     "Texto → Ogham" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13002,6 +13023,7 @@
       }
     },
     "Ogham → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13054,6 +13076,7 @@
       }
     },
     "Texto → ROT13" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13106,6 +13129,7 @@
       }
     },
     "ROT13 → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13158,6 +13182,7 @@
       }
     },
     "Texto → ROT47" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13210,6 +13235,7 @@
       }
     },
     "ROT47 → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13262,6 +13288,7 @@
       }
     },
     "Texto → Runas" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13314,6 +13341,7 @@
       }
     },
     "Runas → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13366,6 +13394,7 @@
       }
     },
     "Texto → Semáforo" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13418,6 +13447,7 @@
       }
     },
     "Semáforo → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13470,6 +13500,7 @@
       }
     },
     "Texto → Unicode" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -13522,6 +13553,7 @@
       }
     },
     "Unicode → Texto" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
