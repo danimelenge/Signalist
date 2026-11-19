@@ -56,6 +56,12 @@
             "state" : "translated",
             "value" : "\"Hola\" → \"SG9sYQ==\"\nI motsetning til andre koder konverterer ikke Base64 bokstav for bokstav, men hele teksten."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" → \"SG9sYQ==\"\nW przeciwieństwie do innych kodów Base64 nie konwertuje litera po literze, lecz cały tekst."
+          }
         }
       }
     },
@@ -113,6 +119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "\"Hola\" → \"Ubyn\"\nDet er en Caesar-chiffer med fast forskyvning på 13; brukt to ganger får du tilbake originalteksten."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" → \"Ubyn\"\nTo szyfr Cezara ze stałym przesunięciem o 13; zastosowany dwukrotnie przywraca oryginalny tekst."
           }
         }
       }
@@ -172,6 +184,12 @@
             "state" : "translated",
             "value" : "\"Hola123!\" → \"w@=2`abP\"\nI motsetning til ROT13 roterer den også sifre og symboler, ikke bare bokstaver. Den er også symmetrisk."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola123!\" → \"w@=2`abP\"\nW przeciwieństwie do ROT13 obraca także cyfry i symbole, nie tylko litery. Jest również symetryczny."
+          }
         }
       }
     },
@@ -226,6 +244,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -288,6 +312,12 @@
             "state" : "translated",
             "value" : "%lld tegn"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Znaków: %lld"
+          }
         }
       }
     },
@@ -342,6 +372,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: •−   B: −•••   C: −•−•   D: −••   E: •\nS: •••   O: −−−   (SOS = ••• −−− •••)"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: •−   B: −•••   C: −•−•   D: −••   E: •\nS: •••   O: −−−   (SOS = ••• −−− •••)"
@@ -404,6 +440,12 @@
             "state" : "translated",
             "value" : "A: →↘↓   B: →↓\nHver bokstav består av to piler: først høyre arm, så venstre. \"/\" skiller ord."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: →↘↓   B: →↓\nKażda litera to dwie strzałki: najpierw prawe ramię, potem lewe. \"/\" oddziela wyrazy."
+          }
         }
       }
     },
@@ -461,6 +503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: ⠁   B: ⠃   C: ⠉   D: ⠙   E: ⠑\n⠠ foran en bokstav = stor bokstav\n⠼ foran et tall = tallmodus (f.eks. ⠼⠁ = \"1\")"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ⠁   B: ⠃   C: ⠉   D: ⠙   E: ⠑\n⠠ przed literą = wielka litera\n⠼ przed liczbą = tryb liczbowy (np. ⠼⠁ = \"1\")"
           }
         }
       }
@@ -520,6 +568,12 @@
             "state" : "translated",
             "value" : "A: 65   B: 66   a: 97   0: 48   Mellomrom: 32\nHvert tegn representeres av et desimaltall, atskilt med mellomrom."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 65   B: 66   a: 97   0: 48   Spacja: 32\nKażdy znak jest reprezentowany przez liczbę dziesiętną, oddzielone spacjami."
+          }
         }
       }
     },
@@ -577,6 +631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: 01000001   B: 01000010   a: 01100001\nHvert tegn bruker 8 biter (1 byte), atskilt med mellomrom."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 01000001   B: 01000010   a: 01100001\nKażdy znak zajmuje 8 bitów (1 bajt), oddzielone spacjami."
           }
         }
       }
@@ -636,6 +696,12 @@
             "state" : "translated",
             "value" : "A: Alfa   B: Bravo   C: Charlie   D: Delta   E: Echo\nSifre har også egne ord (f.eks. \"1\" = \"One\")."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: Alfa   B: Bravo   C: Charlie   D: Delta   E: Echo\nCyfry też mają własne słowa (np. \"1\" = \"One\")."
+          }
         }
       }
     },
@@ -693,6 +759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: U+0041   a: U+0061   Mellomrom: U+0020\nStøtter også emojier og symboler utenfor ASCII-området (f.eks. 🎉 = U+1F389)."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: U+0041   a: U+0061   Spacja: U+0020\nObsługuje także emoji i symbole spoza zakresu ASCII (np. 🎉 = U+1F389)."
           }
         }
       }
@@ -752,6 +824,12 @@
             "state" : "translated",
             "value" : "A: ᚐ   B: ᚁ   C: ᚉ   S: ᚄ\nSkrives uten mellomrom mellom bokstavene. K, V, W, J/Y, X/Z tilnærmes med bokstaven som høres nærmest, siden den opprinnelige Ogham bare har 20 bokstaver."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ᚐ   B: ᚁ   C: ᚉ   S: ᚄ\nPisze się bez spacji między literami. K, V, W, J/Y, X/Z są przybliżane najbliższą brzmieniowo literą, ponieważ oryginalny Ogham ma tylko 20 liter."
+          }
         }
       }
     },
@@ -809,6 +887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: ᚨ   B: ᛒ   F: ᚠ   R: ᚱ\nSkrives uten mellomrom mellom bokstavene. C, Q, V, X, Y tilnærmes med runen som høres nærmest, siden det opprinnelige futharken bare har 24 runer."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ᚨ   B: ᛒ   F: ᚠ   R: ᚱ\nPisze się bez spacji między literami. C, Q, V, X, Y są przybliżane najbliższą brzmieniowo runą, ponieważ oryginalny futhark ma tylko 24 runy."
           }
         }
       }
@@ -868,6 +952,12 @@
             "state" : "translated",
             "value" : "Åpne Signalist"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otwórz Signalist"
+          }
         }
       }
     },
@@ -925,6 +1015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Om"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informacje"
           }
         }
       }
@@ -984,6 +1080,12 @@
             "state" : "translated",
             "value" : "Slå på lyd"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Włącz dźwięk"
+          }
         }
       }
     },
@@ -1041,6 +1143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Innstillinger…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawienia…"
           }
         }
       }
@@ -1100,6 +1208,12 @@
             "state" : "translated",
             "value" : "Utseende"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wygląd"
+          }
         }
       }
     },
@@ -1154,6 +1268,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ASCII"
@@ -1216,6 +1336,12 @@
             "state" : "translated",
             "value" : "ASCII-inndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście ASCII"
+          }
         }
       }
     },
@@ -1274,6 +1400,12 @@
             "state" : "translated",
             "value" : "Signalist-hjelp"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc Signalist"
+          }
         }
       }
     },
@@ -1328,6 +1460,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Base64"
@@ -1390,6 +1528,12 @@
             "state" : "translated",
             "value" : "Base64-inndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście Base64"
+          }
         }
       }
     },
@@ -1447,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Binær"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binarny"
           }
         }
       }
@@ -1506,6 +1656,12 @@
             "state" : "translated",
             "value" : "Binær inndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście binarne"
+          }
         }
       }
     },
@@ -1560,6 +1716,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braille"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Braille"
@@ -1622,6 +1784,12 @@
             "state" : "translated",
             "value" : "Braille-inndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście Braille"
+          }
         }
       }
     },
@@ -1679,6 +1847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hver bokstav erstattes av et ekte tegn fra Unicode-blokken for kileskrift, atskilt med mellomrom.\nDette er en kreativ kryptering fra Signalist, ikke en formell translitterasjon av gammelsumerisk eller akkadisk."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Każda litera jest zastępowana prawdziwym znakiem z bloku Unicode pisma klinowego, oddzielonym spacjami.\nTo kreatywny szyfr Signalist, a nie formalna transliteracja staro-sumeryjskiego ani akadyjskiego."
           }
         }
       }
@@ -1738,6 +1912,12 @@
             "state" : "translated",
             "value" : "Hver bokstav erstattes av et ekte symbol fra Unicode-blokken for egyptiske hieroglyfer, atskilt med mellomrom.\nDette er en kreativ kryptering fra Signalist, ikke en formell translitterasjon av gammelegyptisk."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Każda litera jest zastępowana prawdziwym symbolem z bloku Unicode hieroglifów egipskich, oddzielonym spacjami.\nTo kreatywny szyfr Signalist, a nie formalna transliteracja staroegipskiego."
+          }
         }
       }
     },
@@ -1795,6 +1975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bytt til modusen \"ASCII → Tekst\" i ASCII-fanen og skriv desimalkodene atskilt med mellomrom (f.eks. \"72 111 108 97\") for å få den tilsvarende teksten."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"ASCII → Tekst\" w karcie ASCII i wpisz kody dziesiętne oddzielone spacjami (np. \"72 111 108 97\"), aby otrzymać odpowiedni tekst."
           }
         }
       }
@@ -1854,6 +2040,12 @@
             "state" : "translated",
             "value" : "Bytt til modusen \"Base64 → Tekst\" i Base64-fanen og lim inn en gyldig Base64-streng for å få originalteksten."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Base64 → Tekst\" w karcie Base64 i wklej poprawny ciąg Base64, aby otrzymać oryginalny tekst."
+          }
         }
       }
     },
@@ -1911,6 +2103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bytt til modusen \"Binær → Tekst\" i Binær-fanen og skriv bytene atskilt med mellomrom (f.eks. \"01001000 01101111 01101100 01100001\") for å få den tilsvarende teksten."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Binarny → Tekst\" w karcie Binarny i wpisz bajty oddzielone spacjami (np. \"01001000 01101111 01101100 01100001\"), aby otrzymać odpowiedni tekst."
           }
         }
       }
@@ -1970,6 +2168,12 @@
             "state" : "translated",
             "value" : "Bytt til modusen \"Braille → Tekst\" i Braille-fanen og skriv eller lim inn Braille-symbolene for å få den tilsvarende teksten."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Braille → Tekst\" w karcie Braille i wpisz lub wklej symbole Braille’a, aby otrzymać odpowiedni tekst."
+          }
         }
       }
     },
@@ -2027,6 +2231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bytt til modusen \"Caesar → Tekst\", bruk den samme forskyvningen som meldingen ble kryptert med og skriv den krypterte teksten for å gjenopprette originalen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Cezar → Tekst\", użyj tego samego przesunięcia, którym zaszyfrowano wiadomość, i wpisz zaszyfrowany tekst, aby odzyskać oryginał."
           }
         }
       }
@@ -2086,6 +2296,12 @@
             "state" : "translated",
             "value" : "Bytt til modusen \"Kileskrift → Tekst\" og skriv eller lim inn tegnene atskilt med mellomrom for å gjenopprette originalteksten."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Pismo klinowe → Tekst\" i wpisz lub wklej znaki oddzielone spacjami, aby odzyskać oryginalny tekst."
+          }
         }
       }
     },
@@ -2143,6 +2359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bytt til modusen \"Hieroglyfer → Tekst\" og skriv eller lim inn symbolene atskilt med mellomrom for å gjenopprette originalteksten."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Hieroglify → Tekst\" i wpisz lub wklej symbole oddzielone spacjami, aby odzyskać oryginalny tekst."
           }
         }
       }
@@ -2202,6 +2424,12 @@
             "state" : "translated",
             "value" : "Bytt til modusen \"Maya → Tall\" og lim inn mayatallene, med hvert tall atskilt med \"/\", for å gjenopprette desimalverdien."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Maya → Liczba\" i wklej cyfry majańskie, każdą liczbę oddzieloną znakiem \"/\", aby odzyskać wartość dziesiętną."
+          }
         }
       }
     },
@@ -2259,6 +2487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bytt til modusen \"Morse → Tekst\". Skriv koden, med hver bokstav atskilt med et mellomrom og hvert ord med \" / \" (mellomrom, skråstrek, mellomrom)."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Morse → Tekst\". Wpisz kod, oddzielając każdą literę spacją, a każdy wyraz znakiem \" / \" (spacja, ukośnik, spacja)."
           }
         }
       }
@@ -2318,6 +2552,12 @@
             "state" : "translated",
             "value" : "Bytt til modusen \"NATO → Tekst\" i NATO-fanen og skriv staveordene atskilt med mellomrom (f.eks. \"Hotel Oscar Lima Alfa\") for å få den tilsvarende teksten."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"NATO → Tekst\" w karcie NATO i wpisz słowa literujące oddzielone spacjami (np. \"Hotel Oscar Lima Alfa\"), aby otrzymać odpowiedni tekst."
+          }
         }
       }
     },
@@ -2375,6 +2615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bytt til modusen \"Ogham → Tekst\" og skriv eller lim inn strekene for å få den tilsvarende teksten."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Ogham → Tekst\" i wpisz lub wklej kreski, aby otrzymać odpowiedni tekst."
           }
         }
       }
@@ -2434,6 +2680,12 @@
             "state" : "translated",
             "value" : "Bytt til modusen \"ROT13 → Tekst\" og skriv den krypterte teksten. Siden ROT13 er symmetrisk, gir en ny bruk alltid den opprinnelige meldingen."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"ROT13 → Tekst\" i wpisz zaszyfrowany tekst. Ponieważ ROT13 jest symetryczny, ponowne zastosowanie zawsze zwraca oryginalną wiadomość."
+          }
         }
       }
     },
@@ -2491,6 +2743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bytt til modusen \"ROT47 → Tekst\" og skriv den krypterte teksten. Siden ROT47 også er symmetrisk, gir en ny bruk den opprinnelige meldingen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"ROT47 → Tekst\" i wpisz zaszyfrowany tekst. Ponieważ ROT47 też jest symetryczny, ponowne zastosowanie zwraca oryginalną wiadomość."
           }
         }
       }
@@ -2550,6 +2808,12 @@
             "state" : "translated",
             "value" : "Bytt til modusen \"Runer → Tekst\" og skriv eller lim inn runene for å få den tilsvarende teksten."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Runy → Tekst\" i wpisz lub wklej runy, aby otrzymać odpowiedni tekst."
+          }
         }
       }
     },
@@ -2607,6 +2871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bytt til modusen \"Semafor → Tekst\" og skriv pilparene atskilt med mellomrom (f.eks. \"→↘ ↑↗\") for å få den tilsvarende teksten."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Semafor → Tekst\" i wpisz pary strzałek oddzielone spacjami (np. \"→↘ ↑↗\"), aby otrzymać odpowiedni tekst."
           }
         }
       }
@@ -2666,6 +2936,12 @@
             "state" : "translated",
             "value" : "Bytt til modusen \"Unicode → Tekst\" i Unicode-fanen og skriv kodepunktene atskilt med mellomrom (f.eks. \"U+0048 U+006F U+006C U+0061\") for å få den tilsvarende teksten."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przełącz na tryb \"Unicode → Tekst\" w karcie Unicode i wpisz punkty kodowe oddzielone spacjami (np. \"U+0048 U+006F U+006C U+0061\"), aby otrzymać odpowiedni tekst."
+          }
         }
       }
     },
@@ -2723,6 +2999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Endre utseende"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmień wygląd"
           }
         }
       }
@@ -2782,6 +3064,12 @@
             "state" : "translated",
             "value" : "Caesar"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cezar"
+          }
         }
       }
     },
@@ -2839,6 +3127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Caesar-inndata"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście Cezara"
           }
         }
       }
@@ -2898,6 +3192,12 @@
             "state" : "translated",
             "value" : "Krypterer bokstaver, sifre og symboler med en rotasjon på 47"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruje litery, cyfry i symbole z obrotem 47"
+          }
         }
       }
     },
@@ -2955,6 +3255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypterer tekst med sumeriske kileskrifttegn"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruje tekst sumeryjskimi znakami pisma klinowego"
           }
         }
       }
@@ -3014,6 +3320,12 @@
             "state" : "translated",
             "value" : "Krypter tekst med ekte sumeriske kileskrifttegn og dekrypter den igjen, i fanen \"Kileskrift\"."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruj tekst prawdziwymi sumeryjskimi znakami pisma klinowego i odszyfruj go z powrotem, w karcie \"Pismo klinowe\"."
+          }
         }
       }
     },
@@ -3071,6 +3383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypterer tekst med egyptiske hieroglyfer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruje tekst egipskimi hieroglifami"
           }
         }
       }
@@ -3130,6 +3448,12 @@
             "state" : "translated",
             "value" : "Krypter tekst med ekte egyptiske hieroglyfer og dekrypter den igjen, i fanen \"Hieroglyfer\"."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruj tekst prawdziwymi hieroglifami egipskimi i odszyfruj go z powrotem, w karcie \"Hieroglify\"."
+          }
         }
       }
     },
@@ -3187,6 +3511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypterer tekst med en fast forskyvning på 13"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruje tekst ze stałym przesunięciem o 13"
           }
         }
       }
@@ -3246,6 +3576,12 @@
             "state" : "translated",
             "value" : "Krypterer tekst ved å forskyve bokstavene i alfabetet"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruje tekst, przesuwając litery alfabetu"
+          }
         }
       }
     },
@@ -3303,6 +3639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypter og dekrypter tekst med Caesar-chifferet, med justerbar forskyvning fra 1 til 25, i fanen \"Caesar\"."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruj i odszyfrowuj tekst szyfrem Cezara z regulowanym przesunięciem od 1 do 25, w karcie \"Cezar\"."
           }
         }
       }
@@ -3362,6 +3704,12 @@
             "state" : "translated",
             "value" : "Krypter og dekrypter tekst med ROT13, den klassiske faste forskyvningen på 13 posisjoner, i fanen \"ROT13\"."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruj i odszyfrowuj tekst za pomocą ROT13, klasycznego stałego przesunięcia o 13 pozycji, w karcie \"ROT13\"."
+          }
         }
       }
     },
@@ -3419,6 +3767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypter og dekrypter tekst med ROT47, som i tillegg til bokstaver også konverterer sifre og symboler, i fanen \"ROT47\"."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szyfruj i odszyfrowuj tekst za pomocą ROT47, który oprócz liter konwertuje także cyfry i symbole, w karcie \"ROT47\"."
           }
         }
       }
@@ -3478,6 +3832,12 @@
             "state" : "translated",
             "value" : "Krypter tekst med Caesar"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaszyfruj tekst szyfrem Cezara"
+          }
         }
       }
     },
@@ -3535,6 +3895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypter tekst til kileskrift"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaszyfruj tekst pismem klinowym"
           }
         }
       }
@@ -3594,6 +3960,12 @@
             "state" : "translated",
             "value" : "Krypter tekst til hieroglyfer"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaszyfruj tekst hieroglifami"
+          }
         }
       }
     },
@@ -3651,6 +4023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morsekode-inndata"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście alfabetu Morse’a"
           }
         }
       }
@@ -3710,6 +4088,12 @@
             "state" : "translated",
             "value" : "Med forskyvning 3: \"Hola\" → \"Krod\"\nBruk det samme tallet til å kryptere og dekryptere; sifre og skilletegn endres ikke."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Z przesunięciem 3: \"Hola\" → \"Krod\"\nUżyj tej samej liczby do szyfrowania i odszyfrowywania; cyfry i znaki interpunkcyjne nie zmieniają się."
+          }
         }
       }
     },
@@ -3767,6 +4151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snegl = 0   Prikk (•) = 1   Strek (▬) = 5\n6 = ▬ + •   19 = 3 streker + 4 prikker\nTallsystem med grunntall 20: 2026 = 5·400 + 1·20 + 6, altså tre sifre (5, 1, 6) stablet ovenfra og ned. Konverterer bare tall, ikke bokstaver."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muszla = 0   Kropka (•) = 1   Kreska (▬) = 5\n6 = ▬ + •   19 = 3 kreski + 4 kropki\nSystem pozycyjny o podstawie 20: 2026 = 5·400 + 1·20 + 6, czyli trzy cyfry (5, 1, 6) ułożone od góry do dołu. Konwertuje tylko liczby, nie litery."
           }
         }
       }
@@ -3826,6 +4216,12 @@
             "state" : "translated",
             "value" : "Fortsett"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalej"
+          }
         }
       }
     },
@@ -3883,6 +4279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Umiddelbar konvertering"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natychmiastowa konwersja"
           }
         }
       }
@@ -3942,6 +4344,12 @@
             "state" : "translated",
             "value" : "Tekstkonverterer med 16 koder og alfabeter.\nFungerer uten nett."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwerter tekstu z 16 kodami i alfabetami.\nDziała offline."
+          }
         }
       }
     },
@@ -3999,6 +4407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter ASCII til tekst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj ASCII na tekst"
           }
         }
       }
@@ -4058,6 +4472,12 @@
             "state" : "translated",
             "value" : "Konverter Base64 til tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj Base64 na tekst"
+          }
         }
       }
     },
@@ -4115,6 +4535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter binærkode til tekst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj kod binarny na tekst"
           }
         }
       }
@@ -4174,6 +4600,12 @@
             "state" : "translated",
             "value" : "Konverter Braille til tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj Braille na tekst"
+          }
         }
       }
     },
@@ -4231,6 +4663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter Maya til tall"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj Maya na liczbę"
           }
         }
       }
@@ -4290,6 +4728,12 @@
             "state" : "translated",
             "value" : "Konverter morsekode til tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj alfabet Morse’a na tekst"
+          }
         }
       }
     },
@@ -4347,6 +4791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter NATO til tekst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj NATO na tekst"
           }
         }
       }
@@ -4406,6 +4856,12 @@
             "state" : "translated",
             "value" : "Konverter tall til Maya"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj liczbę na Maya"
+          }
         }
       }
     },
@@ -4463,6 +4919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter Ogham til tekst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj Ogham na tekst"
           }
         }
       }
@@ -4522,6 +4984,12 @@
             "state" : "translated",
             "value" : "Konverter ROT13 til tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj ROT13 na tekst"
+          }
         }
       }
     },
@@ -4579,6 +5047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter ROT47 til tekst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj ROT47 na tekst"
           }
         }
       }
@@ -4638,6 +5112,12 @@
             "state" : "translated",
             "value" : "Konverter runer til tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj runy na tekst"
+          }
         }
       }
     },
@@ -4695,6 +5175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter semafor til tekst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj semafor na tekst"
           }
         }
       }
@@ -4754,6 +5240,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til ASCII"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na ASCII"
+          }
         }
       }
     },
@@ -4811,6 +5303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til Base64"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na Base64"
           }
         }
       }
@@ -4870,6 +5368,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til binærkode"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na kod binarny"
+          }
         }
       }
     },
@@ -4927,6 +5431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til Braille"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na Braille"
           }
         }
       }
@@ -4986,6 +5496,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til morsekode"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na alfabet Morse’a"
+          }
         }
       }
     },
@@ -5043,6 +5559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til NATO"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na NATO"
           }
         }
       }
@@ -5102,6 +5624,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til Ogham"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na Ogham"
+          }
         }
       }
     },
@@ -5159,6 +5687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til ROT13"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na ROT13"
           }
         }
       }
@@ -5218,6 +5752,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til ROT47"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na ROT47"
+          }
         }
       }
     },
@@ -5275,6 +5815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til runer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na runy"
           }
         }
       }
@@ -5334,6 +5880,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til semafor"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na semafor"
+          }
         }
       }
     },
@@ -5391,6 +5943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til Unicode"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj tekst na Unicode"
           }
         }
       }
@@ -5450,6 +6008,12 @@
             "state" : "translated",
             "value" : "Konverter Unicode til tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuj Unicode na tekst"
+          }
         }
       }
     },
@@ -5507,6 +6071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til morsekode eller morsekode til tekst, med ett enkelt trykk."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na alfabet Morse’a lub alfabet Morse’a na tekst jednym dotknięciem."
           }
         }
       }
@@ -5566,6 +6136,12 @@
             "state" : "translated",
             "value" : "Konverterer tall til mayatall (grunntall 20)"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje liczby na cyfry majańskie (podstawa 20)"
+          }
         }
       }
     },
@@ -5623,6 +6199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tall til mayatall med grunntall 20, tegnet med prikker, streker og sneglehus, og omvendt, i fanen \"Maya\"."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje liczby na cyfry majańskie o podstawie 20, rysowane kropkami, kreskami i muszlami, i odwrotnie, w karcie \"Maya\"."
           }
         }
       }
@@ -5682,6 +6264,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til flagg i marinesemafor"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na flagi semafora morskiego"
+          }
         }
       }
     },
@@ -5739,6 +6327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til flagg i marinesemafor og omvendt, og viser med piler posisjonen til begge armene, i fanen \"Semafor\"."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na flagi semafora morskiego i odwrotnie, pokazując strzałkami położenie obu ramion, w karcie \"Semafor\"."
           }
         }
       }
@@ -5798,6 +6392,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til Base64 umiddelbart"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natychmiast konwertuje tekst na Base64"
+          }
         }
       }
     },
@@ -5855,6 +6455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til Base64 og omvendt, ideelt for e-post, nettadresser eller JSON, i fanen \"Base64\"."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na Base64 i odwrotnie, idealne do e-maili, adresów URL lub JSON, w karcie \"Base64\"."
           }
         }
       }
@@ -5914,6 +6520,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til Unicode-Braille umiddelbart"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natychmiast konwertuje tekst na Braille Unicode"
+          }
         }
       }
     },
@@ -5971,6 +6583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til Unicode-Braille og omvendt, inkludert store bokstaver og tall, i fanen \"Braille\"."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na Braille Unicode i odwrotnie, wraz z wielkimi literami i liczbami, w karcie \"Braille\"."
           }
         }
       }
@@ -6030,6 +6648,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til binærkode umiddelbart"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natychmiast konwertuje tekst na kod binarny"
+          }
         }
       }
     },
@@ -6087,6 +6711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til 8-bits binærkode og omvendt, i fanen \"Binær\"."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na 8-bitowy kod binarny i odwrotnie, w karcie \"Binarny\"."
           }
         }
       }
@@ -6146,6 +6776,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til morsekode umiddelbart"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natychmiast konwertuje tekst na alfabet Morse’a"
+          }
         }
       }
     },
@@ -6203,6 +6839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til ASCII-koder umiddelbart"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natychmiast konwertuje tekst na kody ASCII"
           }
         }
       }
@@ -6262,6 +6904,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til desimale ASCII-koder og omvendt, i fanen \"ASCII\"."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na dziesiętne kody ASCII i odwrotnie, w karcie \"ASCII\"."
+          }
         }
       }
     },
@@ -6319,6 +6967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til Unicode-kodepunkter (inkludert emojier) og omvendt, i fanen \"Unicode\"."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na punkty kodowe Unicode (łącznie z emoji) i odwrotnie, w karcie \"Unicode\"."
           }
         }
       }
@@ -6378,6 +7032,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til Unicode-kodepunkter umiddelbart"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natychmiast konwertuje tekst na punkty kodowe Unicode"
+          }
         }
       }
     },
@@ -6435,6 +7095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til NATOs stavealfabet"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na alfabet literowania NATO"
           }
         }
       }
@@ -6494,6 +7160,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til NATOs stavealfabet (Alfa, Bravo, Charlie...) og omvendt, i fanen \"NATO\"."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na alfabet literowania NATO (Alfa, Bravo, Charlie...) i odwrotnie, w karcie \"NATO\"."
+          }
         }
       }
     },
@@ -6551,6 +7223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til runealfabetet Elder Futhark"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na alfabet runiczny Elder Futhark"
           }
         }
       }
@@ -6610,6 +7288,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til runealfabetet Elder Futhark, det ekte gammelgermanske alfabetet, i fanen \"Runer\"."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na alfabet runiczny Elder Futhark, prawdziwy dawny alfabet germański, w karcie \"Runy\"."
+          }
         }
       }
     },
@@ -6667,6 +7351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til det gamle irske alfabetet Ogham"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na starożytny irlandzki alfabet Ogham"
           }
         }
       }
@@ -6726,6 +7416,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til det gamle irske alfabetet Ogham, i fanen \"Ogham\"."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konwertuje tekst na starożytny irlandzki alfabet Ogham, w karcie \"Ogham\"."
+          }
         }
       }
     },
@@ -6783,6 +7479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopier resultatet til utklippstavlen og lim det inn der du trenger det."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skopiuj wynik do schowka i wklej go tam, gdzie go potrzebujesz."
           }
         }
       }
@@ -6842,6 +7544,12 @@
             "state" : "translated",
             "value" : "Kopier med ett klikk"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiuj jednym kliknięciem"
+          }
         }
       }
     },
@@ -6899,6 +7607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopier resultatet"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiuj wynik"
           }
         }
       }
@@ -6958,6 +7672,12 @@
             "state" : "translated",
             "value" : "Kopier resultatet"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiuj wynik"
+          }
         }
       }
     },
@@ -7015,6 +7735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kileskrift"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pismo klinowe"
           }
         }
       }
@@ -7074,6 +7800,12 @@
             "state" : "translated",
             "value" : "Kileskriftinndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście pisma klinowego"
+          }
         }
       }
     },
@@ -7131,6 +7863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dekrypter Caesar til tekst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odszyfruj Cezara na tekst"
           }
         }
       }
@@ -7190,6 +7928,12 @@
             "state" : "translated",
             "value" : "Dekrypter kileskrift til tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odszyfruj pismo klinowe na tekst"
+          }
         }
       }
     },
@@ -7247,6 +7991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dekrypter hieroglyfer til tekst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odszyfruj hieroglify na tekst"
           }
         }
       }
@@ -7306,6 +8056,12 @@
             "state" : "translated",
             "value" : "Med sol/måne-ikonet i verktøylinjen kan du velge System, Lys eller Mørk."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikoną słońca/księżyca na pasku narzędzi możesz wybrać System, Jasny lub Ciemny."
+          }
         }
       }
     },
@@ -7363,6 +8119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forskyvning"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przesunięcie"
           }
         }
       }
@@ -7422,6 +8184,12 @@
             "state" : "translated",
             "value" : "Begge retninger"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oba kierunki"
+          }
         }
       }
     },
@@ -7479,6 +8247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gnistikonet (✨) i verktøylinjen viser når som helst hele listen over Signalists funksjoner."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikona iskry (✨) na pasku narzędzi w każdej chwili pokazuje pełną listę funkcji Signalist."
           }
         }
       }
@@ -7538,6 +8312,12 @@
             "state" : "translated",
             "value" : "Velg modusen \"Tekst → Morse\", skriv inn hvilken som helst tekst i inndatafeltet, så vises morsekoden automatisk under \"Resultat\". Mellomrom mellom ord vises som \"/\"."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz tryb \"Tekst → Morse\", wpisz dowolny tekst w polu wejściowym, a kod Morse’a pojawi się automatycznie pod \"Wynik\". Spacje między wyrazami są pokazywane jako \"/\"."
+          }
         }
       }
     },
@@ -7595,6 +8375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg ønsket utseende, eller la Signalist følge systemet."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz preferowany wygląd lub pozwól, by Signalist podążał za systemem."
           }
         }
       }
@@ -7654,6 +8440,12 @@
             "state" : "translated",
             "value" : "Skriv tekst og få morsekoden med en gang, uten ekstra knapper."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisz tekst i natychmiast otrzymaj kod Morse’a, bez dodatkowych przycisków."
+          }
         }
       }
     },
@@ -7711,6 +8503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hør morsekoden mens den genereres, med ekte radiotelegrafitoner. Slå av lyden når som helst fra verktøylinjen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Słuchaj kodu Morse’a w trakcie generowania, z prawdziwymi tonami radiotelegrafii. Wycisz dźwięk w dowolnej chwili z paska narzędzi."
           }
         }
       }
@@ -7770,6 +8568,12 @@
             "state" : "translated",
             "value" : "Generelt"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogólne"
+          }
         }
       }
     },
@@ -7827,6 +8631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hieroglyfer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hieroglify"
           }
         }
       }
@@ -7886,6 +8696,12 @@
             "state" : "translated",
             "value" : "Hieroglyfinndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście hieroglifów"
+          }
         }
       }
     },
@@ -7943,6 +8759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tøm"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyczyść"
           }
         }
       }
@@ -8002,6 +8824,12 @@
             "state" : "translated",
             "value" : "Ferdig"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gotowe"
+          }
         }
       }
     },
@@ -8056,6 +8884,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maya"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maya"
@@ -8118,6 +8952,12 @@
             "state" : "translated",
             "value" : "Modus"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryb"
+          }
         }
       }
     },
@@ -8176,6 +9016,12 @@
             "state" : "translated",
             "value" : "Lys og mørk modus"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryb jasny i ciemny"
+          }
         }
       }
     },
@@ -8230,6 +9076,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morse"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morse"
@@ -8292,6 +9144,12 @@
             "state" : "translated",
             "value" : "Vis nyheter igjen"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokaż nowości ponownie"
+          }
         }
       }
     },
@@ -8346,6 +9204,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NATO"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "NATO"
@@ -8408,6 +9272,12 @@
             "state" : "translated",
             "value" : "NATO-inndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście NATO"
+          }
         }
       }
     },
@@ -8465,6 +9335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nyheter i Signalist"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowości w Signalist"
           }
         }
       }
@@ -8524,6 +9400,12 @@
             "state" : "translated",
             "value" : "Ny fane for ASCII"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: ASCII"
+          }
         }
       }
     },
@@ -8581,6 +9463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane for Base64"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Base64"
           }
         }
       }
@@ -8640,6 +9528,12 @@
             "state" : "translated",
             "value" : "Ny fane for Binær"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Binarny"
+          }
         }
       }
     },
@@ -8697,6 +9591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane for Braille"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Braille"
           }
         }
       }
@@ -8756,6 +9656,12 @@
             "state" : "translated",
             "value" : "Ny fane for Caesar"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Cezar"
+          }
         }
       }
     },
@@ -8813,6 +9719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane for Kileskrift"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Pismo klinowe"
           }
         }
       }
@@ -8872,6 +9784,12 @@
             "state" : "translated",
             "value" : "Ny fane for Hieroglyfer"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Hieroglify"
+          }
         }
       }
     },
@@ -8929,6 +9847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane for Maya"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Maya"
           }
         }
       }
@@ -8988,6 +9912,12 @@
             "state" : "translated",
             "value" : "Ny fane for NATO"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: NATO"
+          }
         }
       }
     },
@@ -9045,6 +9975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane for Ogham"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Ogham"
           }
         }
       }
@@ -9104,6 +10040,12 @@
             "state" : "translated",
             "value" : "Ny fane for ROT13"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: ROT13"
+          }
         }
       }
     },
@@ -9161,6 +10103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane for ROT47"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: ROT47"
           }
         }
       }
@@ -9220,6 +10168,12 @@
             "state" : "translated",
             "value" : "Ny fane for Runer"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Runy"
+          }
         }
       }
     },
@@ -9277,6 +10231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane for Semafor"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Semafor"
           }
         }
       }
@@ -9336,6 +10296,12 @@
             "state" : "translated",
             "value" : "Ny fane for Unicode"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowa karta: Unicode"
+          }
         }
       }
     },
@@ -9393,6 +10359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inndata for mayatall"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście cyfr majańskich"
           }
         }
       }
@@ -9452,6 +10424,12 @@
             "state" : "translated",
             "value" : "Tallinndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście liczb"
+          }
         }
       }
     },
@@ -9506,6 +10484,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogham"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ogham"
@@ -9568,6 +10552,12 @@
             "state" : "translated",
             "value" : "Ogham-inndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście Ogham"
+          }
         }
       }
     },
@@ -9625,6 +10615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreferanse — ASCII"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — ASCII"
           }
         }
       }
@@ -9684,6 +10680,12 @@
             "state" : "translated",
             "value" : "Hurtigreferanse — Base64"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Base64"
+          }
         }
       }
     },
@@ -9741,6 +10743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreferanse — Binær"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Binarny"
           }
         }
       }
@@ -9800,6 +10808,12 @@
             "state" : "translated",
             "value" : "Hurtigreferanse — Braille"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Braille"
+          }
         }
       }
     },
@@ -9857,6 +10871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreferanse — Caesar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Cezar"
           }
         }
       }
@@ -9916,6 +10936,12 @@
             "state" : "translated",
             "value" : "Hurtigreferanse — Kileskrift"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Pismo klinowe"
+          }
         }
       }
     },
@@ -9973,6 +10999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreferanse — Hieroglyfer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Hieroglify"
           }
         }
       }
@@ -10032,6 +11064,12 @@
             "state" : "translated",
             "value" : "Hurtigreferanse — Maya"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Maya"
+          }
         }
       }
     },
@@ -10089,6 +11127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreferanse — Morse"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Morse"
           }
         }
       }
@@ -10148,6 +11192,12 @@
             "state" : "translated",
             "value" : "Hurtigreferanse — NATO"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — NATO"
+          }
         }
       }
     },
@@ -10205,6 +11255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreferanse — Ogham"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Ogham"
           }
         }
       }
@@ -10264,6 +11320,12 @@
             "state" : "translated",
             "value" : "Hurtigreferanse — ROT13"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — ROT13"
+          }
         }
       }
     },
@@ -10321,6 +11383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreferanse — ROT47"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — ROT47"
           }
         }
       }
@@ -10380,6 +11448,12 @@
             "state" : "translated",
             "value" : "Hurtigreferanse — Runer"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Runy"
+          }
         }
       }
     },
@@ -10437,6 +11511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreferanse — Semafor"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Semafor"
           }
         }
       }
@@ -10496,6 +11576,12 @@
             "state" : "translated",
             "value" : "Hurtigreferanse — Unicode"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrócona instrukcja — Unicode"
+          }
         }
       }
     },
@@ -10553,6 +11639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spill av lyd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odtwórz dźwięk"
           }
         }
       }
@@ -10612,6 +11704,12 @@
             "state" : "translated",
             "value" : "Resultat"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wynik"
+          }
         }
       }
     },
@@ -10666,6 +11764,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT13"
@@ -10728,6 +11832,12 @@
             "state" : "translated",
             "value" : "ROT13-inndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście ROT13"
+          }
         }
       }
     },
@@ -10782,6 +11892,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT47"
@@ -10844,6 +11960,12 @@
             "state" : "translated",
             "value" : "ROT47-inndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście ROT47"
+          }
         }
       }
     },
@@ -10901,6 +12023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Runer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runy"
           }
         }
       }
@@ -10960,6 +12088,12 @@
             "state" : "translated",
             "value" : "Runeinndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście run"
+          }
         }
       }
     },
@@ -11018,6 +12152,12 @@
             "state" : "translated",
             "value" : "Avslutt Signalist"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakończ Signalist"
+          }
         }
       }
     },
@@ -11072,6 +12212,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semafor"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semafor"
@@ -11134,6 +12280,12 @@
             "state" : "translated",
             "value" : "Semaforinndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście semafora"
+          }
         }
       }
     },
@@ -11188,6 +12340,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Signalist"
@@ -11250,6 +12408,12 @@
             "state" : "translated",
             "value" : "Signalist-hjelp"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc Signalist"
+          }
         }
       }
     },
@@ -11307,6 +12471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slå av lyd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wycisz dźwięk"
           }
         }
       }
@@ -11366,6 +12536,12 @@
             "state" : "translated",
             "value" : "Morselyd"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dźwięk Morse’a"
+          }
         }
       }
     },
@@ -11423,6 +12599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekstinndata"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście tekstu"
           }
         }
       }
@@ -11482,6 +12664,12 @@
             "state" : "translated",
             "value" : "Alt du trenger å vite for å bruke appen"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystko, co musisz wiedzieć, aby korzystać z aplikacji"
+          }
         }
       }
     },
@@ -11540,6 +12728,12 @@
             "state" : "translated",
             "value" : "Alt du kan gjøre med den nye versjonen"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystko, co możesz zrobić w nowej wersji"
+          }
         }
       }
     },
@@ -11594,6 +12788,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unicode"
@@ -11656,6 +12856,12 @@
             "state" : "translated",
             "value" : "Unicode-inndata"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wejście Unicode"
+          }
         }
       }
     },
@@ -11713,6 +12919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bruk knappen \"Kopier resultatet\" for å legge den konverterte teksten på utklippstavlen og lime den inn der du trenger den."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Użyj przycisku \"Kopiuj wynik\", aby skopiować przekonwertowany tekst do schowka i wkleić go tam, gdzie go potrzebujesz."
           }
         }
       }
@@ -11772,6 +12984,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"ASCII\", velg modusen \"Tekst → ASCII\" og skriv inn hvilken som helst tekst. Hvert tegn oversettes til sin desimalkode (f.eks. \"A\" = \"65\"), atskilt med mellomrom."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"ASCII\", wybierz tryb \"Tekst → ASCII\" i wpisz dowolny tekst. Każdy znak jest tłumaczony na swój kod dziesiętny (np. \"A\" = \"65\"), oddzielone spacjami."
+          }
         }
       }
     },
@@ -11829,6 +13047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Base64\", velg modusen \"Tekst → Base64\" og skriv inn hvilken som helst tekst. Resultatet er en Base64-streng klar for e-post, nettadresser eller JSON."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Base64\", wybierz tryb \"Tekst → Base64\" i wpisz dowolny tekst. Wynikiem jest ciąg Base64 gotowy do e-maili, adresów URL lub JSON."
           }
         }
       }
@@ -11888,6 +13112,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Binær\", velg modusen \"Tekst → Binær\" og skriv inn hvilken som helst tekst. Hvert tegn oversettes til en 8-bits byte (f.eks. \"A\" = \"01000001\"), atskilt med mellomrom."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Binarny\", wybierz tryb \"Tekst → Binarny\" i wpisz dowolny tekst. Każdy znak jest tłumaczony na 8-bitowy bajt (np. \"A\" = \"01000001\"), oddzielone spacjami."
+          }
         }
       }
     },
@@ -11945,6 +13175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Braille\", velg modusen \"Tekst → Braille\" og skriv inn hvilken som helst tekst. Resultatet vises i Unicode-Braille-celler, inkludert store bokstaver og tall."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Braille\", wybierz tryb \"Tekst → Braille\" i wpisz dowolny tekst. Wynik jest pokazywany w komórkach Braille Unicode, wraz z wielkimi literami i liczbami."
           }
         }
       }
@@ -12004,6 +13240,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Caesar\", velg modusen \"Tekst → Caesar\", juster forskyvningen med glidebryteren (1–25) og skriv inn hvilken som helst tekst. Hver bokstav forskyves så mange posisjoner i alfabetet."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Cezar\", wybierz tryb \"Tekst → Cezar\", ustaw przesunięcie suwakiem (1–25) i wpisz dowolny tekst. Każda litera jest przesuwana o tyle pozycji w alfabecie."
+          }
         }
       }
     },
@@ -12061,6 +13303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Kileskrift\", velg modusen \"Tekst → Kileskrift\" og skriv inn hvilken som helst tekst. Hver bokstav erstattes av et ekte sumerisk kileskrifttegn, atskilt med mellomrom."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Pismo klinowe\", wybierz tryb \"Tekst → Pismo klinowe\" i wpisz dowolny tekst. Każda litera jest zastępowana prawdziwym sumeryjskim znakiem pisma klinowego, oddzielonym spacjami."
           }
         }
       }
@@ -12120,6 +13368,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Hieroglyfer\", velg modusen \"Tekst → Hieroglyfer\" og skriv inn hvilken som helst tekst. Hver bokstav erstattes av et ekte egyptisk hieroglyfsymbol, atskilt med mellomrom."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Hieroglify\", wybierz tryb \"Tekst → Hieroglify\" i wpisz dowolny tekst. Każda litera jest zastępowana prawdziwym symbolem hieroglifu egipskiego, oddzielonym spacjami."
+          }
         }
       }
     },
@@ -12177,6 +13431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Maya\", velg modusen \"Tall → Maya\" og skriv inn ett eller flere tall (f.eks. \"2026\"). De tegnes som vertikalt stablede mayatall. Denne fanen konverterer bare tall, ikke bokstaver."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Maya\", wybierz tryb \"Liczba → Maya\" i wpisz jedną lub więcej liczb (np. \"2026\"). Są rysowane jako pionowo ułożone cyfry majańskie. Ta karta konwertuje tylko liczby, nie litery."
           }
         }
       }
@@ -12236,6 +13496,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"NATO\", velg modusen \"Tekst → NATO\" og skriv inn hvilken som helst tekst. Hver bokstav og hvert siffer oversettes til sitt staveord (f.eks. \"A\" = \"Alfa\"). Mellomrom mellom ord vises som \"/\"."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"NATO\", wybierz tryb \"Tekst → NATO\" i wpisz dowolny tekst. Każda litera i cyfra jest tłumaczona na swoje słowo literujące (np. \"A\" = \"Alfa\"). Spacje między wyrazami są pokazywane jako \"/\"."
+          }
         }
       }
     },
@@ -12293,6 +13559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Ogham\", velg modusen \"Tekst → Ogham\" og skriv inn hvilken som helst tekst. Hver bokstav oversettes til sitt tegn i det gamle irske alfabetet, uten mellomrom mellom bokstavene."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Ogham\", wybierz tryb \"Tekst → Ogham\" i wpisz dowolny tekst. Każda litera jest tłumaczona na swój znak starożytnego alfabetu irlandzkiego, bez spacji między literami."
           }
         }
       }
@@ -12352,6 +13624,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"ROT13\", velg modusen \"Tekst → ROT13\" og skriv inn hvilken som helst tekst. Hver bokstav forskyves alltid 13 posisjoner, uten noe å konfigurere."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"ROT13\", wybierz tryb \"Tekst → ROT13\" i wpisz dowolny tekst. Każda litera jest zawsze przesuwana o 13 pozycji, bez żadnej konfiguracji."
+          }
         }
       }
     },
@@ -12409,6 +13687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"ROT47\", velg modusen \"Tekst → ROT47\" og skriv inn hvilken som helst tekst. I motsetning til ROT13 konverterer den også sifre og skilletegn, ikke bare bokstaver."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"ROT47\", wybierz tryb \"Tekst → ROT47\" i wpisz dowolny tekst. W przeciwieństwie do ROT13 konwertuje także cyfry i znaki interpunkcyjne, nie tylko litery."
           }
         }
       }
@@ -12468,6 +13752,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Runer\", velg modusen \"Tekst → Runer\" og skriv inn hvilken som helst tekst. Hver bokstav oversettes til sin rune i alfabetet Elder Futhark, uten mellomrom mellom bokstavene."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Runy\", wybierz tryb \"Tekst → Runy\" i wpisz dowolny tekst. Każda litera jest tłumaczona na swoją runę alfabetu Elder Futhark, bez spacji między literami."
+          }
         }
       }
     },
@@ -12525,6 +13815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Semafor\", velg modusen \"Tekst → Semafor\" og skriv inn hvilken som helst tekst. Hver bokstav vises som et pilpar som representerer posisjonen til høyre og venstre arm."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Semafor\", wybierz tryb \"Tekst → Semafor\" i wpisz dowolny tekst. Każda litera jest pokazywana jako para strzałek przedstawiająca położenie prawego i lewego ramienia."
           }
         }
       }
@@ -12584,6 +13880,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Unicode\", velg modusen \"Tekst → Unicode\" og skriv inn hvilken som helst tekst, også emojier. Hvert tegn oversettes til sitt kodepunkt (f.eks. \"A\" = \"U+0041\"), atskilt med mellomrom."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do karty \"Unicode\", wybierz tryb \"Tekst → Unicode\" i wpisz dowolny tekst, także emoji. Każdy znak jest tłumaczony na swój punkt kodowy (np. \"A\" = \"U+0041\"), oddzielone spacjami."
+          }
         }
       }
     },
@@ -12641,6 +13943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vis nyheter"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokaż nowości"
           }
         }
       }
@@ -12700,6 +14008,12 @@
             "state" : "translated",
             "value" : "Viser nyhetsvinduet igjen neste gang du åpner Signalist."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ponownie pokazuje okno nowości przy następnym otwarciu Signalist."
+          }
         }
       }
     },
@@ -12757,6 +14071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverteringsmodus"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryb konwersji"
           }
         }
       }
@@ -12816,6 +14136,12 @@
             "state" : "translated",
             "value" : "Velg om du konverterer tekst til kode eller kode til tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz, czy konwertujesz tekst na kod, czy kod na tekst"
+          }
         }
       }
     },
@@ -12873,6 +14199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv eller lim inn innholdet som skal konverteres her. Resultatet oppdateres umiddelbart."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisz lub wklej tutaj treść do konwersji. Wynik aktualizuje się natychmiast."
           }
         }
       }
@@ -12932,6 +14264,12 @@
             "state" : "translated",
             "value" : "Kopierer resultatet til utklippstavlen"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiuje wynik do schowka"
+          }
         }
       }
     },
@@ -12989,6 +14327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tømmer den inntastede teksten og resultatet"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czyści wpisany tekst i wynik"
           }
         }
       }
@@ -13048,6 +14392,12 @@
             "state" : "translated",
             "value" : "%lld posisjoner"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pozycje: %lld"
+          }
         }
       }
     },
@@ -13106,6 +14456,12 @@
             "state" : "translated",
             "value" : "Mayatall: %lld"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cyfra majańska: %lld"
+          }
         }
       }
     },
@@ -13160,6 +14516,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "System"
@@ -13222,6 +14584,12 @@
             "state" : "translated",
             "value" : "Lys"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jasny"
+          }
         }
       }
     },
@@ -13280,6 +14648,12 @@
             "state" : "translated",
             "value" : "Mørk"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciemny"
+          }
         }
       }
     },
@@ -13335,6 +14709,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → ASCII"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → ASCII"
@@ -13398,6 +14778,12 @@
             "state" : "translated",
             "value" : "ASCII → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII → Tekst"
+          }
         }
       }
     },
@@ -13453,6 +14839,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Base64"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Base64"
@@ -13516,6 +14908,12 @@
             "state" : "translated",
             "value" : "Base64 → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64 → Tekst"
+          }
         }
       }
     },
@@ -13574,6 +14972,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Binær"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Binarny"
           }
         }
       }
@@ -13634,6 +15038,12 @@
             "state" : "translated",
             "value" : "Binær → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binarny → Tekst"
+          }
         }
       }
     },
@@ -13689,6 +15099,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Braille"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Braille"
@@ -13752,6 +15168,12 @@
             "state" : "translated",
             "value" : "Braille → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braille → Tekst"
+          }
         }
       }
     },
@@ -13810,6 +15232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Caesar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Cezar"
           }
         }
       }
@@ -13870,6 +15298,12 @@
             "state" : "translated",
             "value" : "Caesar → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cezar → Tekst"
+          }
         }
       }
     },
@@ -13928,6 +15362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Kileskrift"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Pismo klinowe"
           }
         }
       }
@@ -13988,6 +15428,12 @@
             "state" : "translated",
             "value" : "Kileskrift → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pismo klinowe → Tekst"
+          }
         }
       }
     },
@@ -14046,6 +15492,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Hieroglyfer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Hieroglify"
           }
         }
       }
@@ -14106,6 +15558,12 @@
             "state" : "translated",
             "value" : "Hieroglyfer → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hieroglify → Tekst"
+          }
         }
       }
     },
@@ -14164,6 +15622,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tall → Maya"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liczba → Maya"
           }
         }
       }
@@ -14224,6 +15688,12 @@
             "state" : "translated",
             "value" : "Maya → Tall"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maya → Liczba"
+          }
         }
       }
     },
@@ -14279,6 +15749,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Morse"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Morse"
@@ -14342,6 +15818,12 @@
             "state" : "translated",
             "value" : "Morse → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morse → Tekst"
+          }
         }
       }
     },
@@ -14397,6 +15879,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → NATO"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → NATO"
@@ -14460,6 +15948,12 @@
             "state" : "translated",
             "value" : "NATO → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NATO → Tekst"
+          }
         }
       }
     },
@@ -14515,6 +16009,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Ogham"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Ogham"
@@ -14578,6 +16078,12 @@
             "state" : "translated",
             "value" : "Ogham → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogham → Tekst"
+          }
         }
       }
     },
@@ -14633,6 +16139,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → ROT13"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → ROT13"
@@ -14696,6 +16208,12 @@
             "state" : "translated",
             "value" : "ROT13 → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13 → Tekst"
+          }
         }
       }
     },
@@ -14751,6 +16269,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → ROT47"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → ROT47"
@@ -14814,6 +16338,12 @@
             "state" : "translated",
             "value" : "ROT47 → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47 → Tekst"
+          }
         }
       }
     },
@@ -14872,6 +16402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Runer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Runy"
           }
         }
       }
@@ -14932,6 +16468,12 @@
             "state" : "translated",
             "value" : "Runer → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runy → Tekst"
+          }
         }
       }
     },
@@ -14987,6 +16529,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Semafor"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst → Semafor"
@@ -15050,6 +16598,12 @@
             "state" : "translated",
             "value" : "Semafor → Tekst"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semafor → Tekst"
+          }
         }
       }
     },
@@ -15109,6 +16663,12 @@
             "state" : "translated",
             "value" : "Tekst → Unicode"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst → Unicode"
+          }
         }
       }
     },
@@ -15164,6 +16724,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode → Tekst"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unicode → Tekst"
