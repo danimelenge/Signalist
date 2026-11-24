@@ -68,6 +68,12 @@
             "state" : "translated",
             "value" : "\"Hola\" → \"SG9sYQ==\"\nI modsætning til andre koder konverterer Base64 ikke bogstav for bogstav, men hele teksten."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" → \"SG9sYQ==\"\nToisin kuin muut koodit, Base64 ei muunna kirjain kirjaimelta, vaan koko tekstin."
+          }
         }
       }
     },
@@ -137,6 +143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "\"Hola\" → \"Ubyn\"\nDet er en Cæsar-chiffer med fast forskydning på 13; anvendt to gange får du den oprindelige tekst tilbage."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" → \"Ubyn\"\nSe on Caesar-salaus kiinteällä 13:n siirrolla; kahdesti käytettynä saat alkuperäisen tekstin takaisin."
           }
         }
       }
@@ -208,6 +220,12 @@
             "state" : "translated",
             "value" : "\"Hola123!\" → \"w@=2`abP\"\nI modsætning til ROT13 roterer den også cifre og symboler, ikke kun bogstaver. Den er også symmetrisk."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola123!\" → \"w@=2`abP\"\nToisin kuin ROT13, se kiertää myös numerot ja symbolit, ei vain kirjaimia. Se on myös symmetrinen."
+          }
         }
       }
     },
@@ -274,6 +292,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -348,6 +372,12 @@
             "state" : "translated",
             "value" : "%lld tegn"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld merkkiä"
+          }
         }
       }
     },
@@ -414,6 +444,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: •−   B: −•••   C: −•−•   D: −••   E: •\nS: •••   O: −−−   (SOS = ••• −−− •••)"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: •−   B: −•••   C: −•−•   D: −••   E: •\nS: •••   O: −−−   (SOS = ••• −−− •••)"
@@ -488,6 +524,12 @@
             "state" : "translated",
             "value" : "A: →↘↓   B: →↓\nHvert bogstav består af to pile: først højre arm, derefter venstre. \"/\" adskiller ord."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: →↘↓   B: →↓\nJokainen kirjain koostuu kahdesta nuolesta: ensin oikea käsi, sitten vasen. \"/\" erottaa sanat."
+          }
         }
       }
     },
@@ -557,6 +599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: ⠁   B: ⠃   C: ⠉   D: ⠙   E: ⠑\n⠠ før et bogstav = stort bogstav\n⠼ før et tal = taltilstand (f.eks. ⠼⠁ = \"1\")"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ⠁   B: ⠃   C: ⠉   D: ⠙   E: ⠑\n⠠ kirjaimen edessä = isokirjain\n⠼ luvun edessä = lukutila (esim. ⠼⠁ = \"1\")"
           }
         }
       }
@@ -628,6 +676,12 @@
             "state" : "translated",
             "value" : "A: 65   B: 66   a: 97   0: 48   Mellemrum: 32\nHvert tegn repræsenteres af et decimaltal, adskilt af mellemrum."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 65   B: 66   a: 97   0: 48   Välilyönti: 32\nJokainen merkki esitetään desimaaliluvulla, erotettuna välilyönneillä."
+          }
         }
       }
     },
@@ -697,6 +751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: 01000001   B: 01000010   a: 01100001\nHvert tegn fylder 8 bit (1 byte), adskilt af mellemrum."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 01000001   B: 01000010   a: 01100001\nJokainen merkki vie 8 bittiä (1 tavu), erotettuna välilyönneillä."
           }
         }
       }
@@ -768,6 +828,12 @@
             "state" : "translated",
             "value" : "A: Alfa   B: Bravo   C: Charlie   D: Delta   E: Echo\nCifre har også deres egne ord (f.eks. \"1\" = \"One\")."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: Alfa   B: Bravo   C: Charlie   D: Delta   E: Echo\nNumeroillakin on omat sanansa (esim. \"1\" = \"One\")."
+          }
         }
       }
     },
@@ -837,6 +903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: U+0041   a: U+0061   Mellemrum: U+0020\nUnderstøtter også emojis og symboler uden for ASCII-området (f.eks. 🎉 = U+1F389)."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: U+0041   a: U+0061   Välilyönti: U+0020\nTukee myös emojeja ja ASCII-alueen ulkopuolisia symboleja (esim. 🎉 = U+1F389)."
           }
         }
       }
@@ -908,6 +980,12 @@
             "state" : "translated",
             "value" : "A: ᚐ   B: ᚁ   C: ᚉ   S: ᚄ\nSkrives uden mellemrum mellem bogstaverne. K, V, W, J/Y, X/Z tilnærmes med det bogstav, der lyder tættest på, fordi det oprindelige Ogham kun har 20 bogstaver."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ᚐ   B: ᚁ   C: ᚉ   S: ᚄ\nKirjoitetaan ilman välilyöntejä kirjainten välissä. K, V, W, J/Y, X/Z approksimoidaan äänteellisesti lähimmällä kirjaimella, koska alkuperäisessä Ogham-aakkostossa on vain 20 kirjainta."
+          }
         }
       }
     },
@@ -977,6 +1055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: ᚨ   B: ᛒ   F: ᚠ   R: ᚱ\nSkrives uden mellemrum mellem bogstaverne. C, Q, V, X, Y tilnærmes med den rune, der lyder tættest på, fordi det oprindelige futhark kun har 24 runer."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ᚨ   B: ᛒ   F: ᚠ   R: ᚱ\nKirjoitetaan ilman välilyöntejä kirjainten välissä. C, Q, V, X, Y approksimoidaan äänteellisesti lähimmällä riimulla, koska alkuperäisessä futhark-aakkostossa on vain 24 riimua."
           }
         }
       }
@@ -1048,6 +1132,12 @@
             "state" : "translated",
             "value" : "Åbn Signalist"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa Signalist"
+          }
         }
       }
     },
@@ -1117,6 +1207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Om"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tietoja"
           }
         }
       }
@@ -1188,6 +1284,12 @@
             "state" : "translated",
             "value" : "Slå lyd til"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota ääni käyttöön"
+          }
         }
       }
     },
@@ -1257,6 +1359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Indstillinger…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset…"
           }
         }
       }
@@ -1328,6 +1436,12 @@
             "state" : "translated",
             "value" : "Udseende"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulkoasu"
+          }
         }
       }
     },
@@ -1394,6 +1508,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ASCII"
@@ -1468,6 +1588,12 @@
             "state" : "translated",
             "value" : "ASCII-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII-syöte"
+          }
         }
       }
     },
@@ -1538,6 +1664,12 @@
             "state" : "translated",
             "value" : "Signalist-hjælp"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist-ohje"
+          }
         }
       }
     },
@@ -1604,6 +1736,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Base64"
@@ -1678,6 +1816,12 @@
             "state" : "translated",
             "value" : "Base64-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64-syöte"
+          }
         }
       }
     },
@@ -1747,6 +1891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Binær"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binääri"
           }
         }
       }
@@ -1818,6 +1968,12 @@
             "state" : "translated",
             "value" : "Binært input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binäärisyöte"
+          }
         }
       }
     },
@@ -1884,6 +2040,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braille"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Braille"
@@ -1958,6 +2120,12 @@
             "state" : "translated",
             "value" : "Braille-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braille-syöte"
+          }
         }
       }
     },
@@ -2027,6 +2195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvert bogstav erstattes af et ægte tegn fra Unicode-blokken for kileskrift, adskilt af mellemrum.\nDet er en kreativ kryptering fra Signalist, ikke en formel translitteration af gammelsumerisk eller akkadisk."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jokainen kirjain korvataan oikealla merkillä Unicoden nuolenpääkirjoituksen lohkosta, erotettuna välilyönneillä.\nTämä on Signalistin luova salaus, ei muodollinen translitterointi muinaissumerista tai akkadista."
           }
         }
       }
@@ -2098,6 +2272,12 @@
             "state" : "translated",
             "value" : "Hvert bogstav erstattes af et ægte symbol fra Unicode-blokken for egyptiske hieroglyffer, adskilt af mellemrum.\nDet er en kreativ kryptering fra Signalist, ikke en formel translitteration af gammelegyptisk."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jokainen kirjain korvataan oikealla symbolilla Unicoden egyptiläisten hieroglyfien lohkosta, erotettuna välilyönneillä.\nTämä on Signalistin luova salaus, ei muodollinen translitterointi muinaisegyptistä."
+          }
         }
       }
     },
@@ -2167,6 +2347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift til tilstanden \"ASCII → Tekst\" i ASCII-fanen og skriv decimalkoderne adskilt af mellemrum (f.eks. \"72 111 108 97\") for at få den tilsvarende tekst."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"ASCII → Teksti\" välilehdellä \"ASCII\" ja kirjoita desimaalikoodit välilyönneillä erotettuina (esim. \"72 111 108 97\") saadaksesi vastaavan tekstin."
           }
         }
       }
@@ -2238,6 +2424,12 @@
             "state" : "translated",
             "value" : "Skift til tilstanden \"Base64 → Tekst\" i Base64-fanen og indsæt en gyldig Base64-streng for at få den oprindelige tekst."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Base64 → Teksti\" välilehdellä \"Base64\" ja liitä kelvollinen Base64-merkkijono saadaksesi alkuperäisen tekstin."
+          }
         }
       }
     },
@@ -2307,6 +2499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift til tilstanden \"Binær → Tekst\" i Binær-fanen og skriv bytes adskilt af mellemrum (f.eks. \"01001000 01101111 01101100 01100001\") for at få den tilsvarende tekst."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Binääri → Teksti\" välilehdellä \"Binääri\" ja kirjoita tavut välilyönneillä erotettuina (esim. \"01001000 01101111 01101100 01100001\") saadaksesi vastaavan tekstin."
           }
         }
       }
@@ -2378,6 +2576,12 @@
             "state" : "translated",
             "value" : "Skift til tilstanden \"Braille → Tekst\" i Braille-fanen og skriv eller indsæt Braille-symbolerne for at få den tilsvarende tekst."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Braille → Teksti\" välilehdellä \"Braille\" ja kirjoita tai liitä Braille-symbolit saadaksesi vastaavan tekstin."
+          }
         }
       }
     },
@@ -2447,6 +2651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift til tilstanden \"Cæsar → Tekst\", brug den samme forskydning, som beskeden blev krypteret med, og skriv den krypterede tekst for at gendanne originalen."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Caesar → Teksti\", käytä samaa siirtoa, jolla viesti salattiin, ja kirjoita salattu teksti palauttaaksesi alkuperäisen."
           }
         }
       }
@@ -2518,6 +2728,12 @@
             "state" : "translated",
             "value" : "Skift til tilstanden \"Kileskrift → Tekst\" og skriv eller indsæt tegnene adskilt af mellemrum for at gendanne den oprindelige tekst."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Nuolenpääkirjoitus → Teksti\" ja kirjoita tai liitä merkit välilyönneillä erotettuina palauttaaksesi alkuperäisen tekstin."
+          }
         }
       }
     },
@@ -2587,6 +2803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift til tilstanden \"Hieroglyffer → Tekst\" og skriv eller indsæt symbolerne adskilt af mellemrum for at gendanne den oprindelige tekst."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Hieroglyfit → Teksti\" ja kirjoita tai liitä symbolit välilyönneillä erotettuina palauttaaksesi alkuperäisen tekstin."
           }
         }
       }
@@ -2658,6 +2880,12 @@
             "state" : "translated",
             "value" : "Skift til tilstanden \"Maya → Tal\" og indsæt mayatallene, hvor hvert tal er adskilt af \"/\", for at gendanne decimalværdien."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Maya → Luku\" ja liitä maya-numerot, joissa kukin luku on erotettu merkillä \"/\", palauttaaksesi desimaaliarvon."
+          }
         }
       }
     },
@@ -2727,6 +2955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift til tilstanden \"Morse → Tekst\". Skriv koden, med hvert bogstav adskilt af et mellemrum og hvert ord af \" / \" (mellemrum, skråstreg, mellemrum)."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Morse → Teksti\". Kirjoita koodi niin, että jokainen kirjain on erotettu välilyönnillä ja jokainen sana merkinnällä \" / \" (välilyönti, vinoviiva, välilyönti)."
           }
         }
       }
@@ -2798,6 +3032,12 @@
             "state" : "translated",
             "value" : "Skift til tilstanden \"NATO → Tekst\" i NATO-fanen og skriv staveordene adskilt af mellemrum (f.eks. \"Hotel Oscar Lima Alfa\") for at få den tilsvarende tekst."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"NATO → Teksti\" välilehdellä \"NATO\" ja kirjoita tavaussanat välilyönneillä erotettuina (esim. \"Hotel Oscar Lima Alfa\") saadaksesi vastaavan tekstin."
+          }
         }
       }
     },
@@ -2867,6 +3107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift til tilstanden \"Ogham → Tekst\" og skriv eller indsæt stregerne for at få den tilsvarende tekst."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Ogham → Teksti\" ja kirjoita tai liitä viivat saadaksesi vastaavan tekstin."
           }
         }
       }
@@ -2938,6 +3184,12 @@
             "state" : "translated",
             "value" : "Skift til tilstanden \"ROT13 → Tekst\" og skriv den krypterede tekst. Da ROT13 er symmetrisk, giver en ny anvendelse altid den oprindelige besked."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"ROT13 → Teksti\" ja kirjoita salattu teksti. Koska ROT13 on symmetrinen, sen käyttäminen uudelleen antaa aina alkuperäisen viestin."
+          }
         }
       }
     },
@@ -3007,6 +3259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift til tilstanden \"ROT47 → Tekst\" og skriv den krypterede tekst. Da ROT47 også er symmetrisk, giver en ny anvendelse den oprindelige besked."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"ROT47 → Teksti\" ja kirjoita salattu teksti. Koska ROT47 on myös symmetrinen, sen käyttäminen uudelleen antaa alkuperäisen viestin."
           }
         }
       }
@@ -3078,6 +3336,12 @@
             "state" : "translated",
             "value" : "Skift til tilstanden \"Runer → Tekst\" og skriv eller indsæt runerne for at få den tilsvarende tekst."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Riimut → Teksti\" ja kirjoita tai liitä riimut saadaksesi vastaavan tekstin."
+          }
         }
       }
     },
@@ -3147,6 +3411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift til tilstanden \"Semafor → Tekst\" og skriv pilepar adskilt af mellemrum (f.eks. \"→↘ ↑↗\") for at få den tilsvarende tekst."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Semafori → Teksti\" ja kirjoita nuolipareja välilyönneillä erotettuina (esim. \"→↘ ↑↗\") saadaksesi vastaavan tekstin."
           }
         }
       }
@@ -3218,6 +3488,12 @@
             "state" : "translated",
             "value" : "Skift til tilstanden \"Unicode → Tekst\" i Unicode-fanen og skriv kodepunkterne adskilt af mellemrum (f.eks. \"U+0048 U+006F U+006C U+0061\") for at få den tilsvarende tekst."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tilaan \"Unicode → Teksti\" välilehdellä \"Unicode\" ja kirjoita koodipisteet välilyönneillä erotettuina (esim. \"U+0048 U+006F U+006C U+0061\") saadaksesi vastaavan tekstin."
+          }
         }
       }
     },
@@ -3287,6 +3563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skift udseende"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda ulkoasu"
           }
         }
       }
@@ -3358,6 +3640,12 @@
             "state" : "translated",
             "value" : "Cæsar"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caesar"
+          }
         }
       }
     },
@@ -3427,6 +3715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cæsar-input"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caesar-syöte"
           }
         }
       }
@@ -3498,6 +3792,12 @@
             "state" : "translated",
             "value" : "Krypterer bogstaver, cifre og symboler med en rotation på 47"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa kirjaimet, numerot ja symbolit 47:n kierrolla"
+          }
         }
       }
     },
@@ -3567,6 +3867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypterer tekst med sumeriske kileskrifttegn"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa tekstin sumerilaisilla nuolenpääkirjoitusmerkeillä"
           }
         }
       }
@@ -3638,6 +3944,12 @@
             "state" : "translated",
             "value" : "Krypter tekst med ægte sumeriske kileskrifttegn og dekrypter den igen, i fanen \"Kileskrift\"."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa teksti oikeilla sumerilaisilla nuolenpääkirjoitusmerkeillä ja pura se takaisin, välilehdellä \"Nuolenpääkirjoitus\"."
+          }
         }
       }
     },
@@ -3707,6 +4019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypterer tekst med egyptiske hieroglyffer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa tekstin egyptiläisillä hieroglyfeillä"
           }
         }
       }
@@ -3778,6 +4096,12 @@
             "state" : "translated",
             "value" : "Krypter tekst med ægte egyptiske hieroglyffer og dekrypter den igen, i fanen \"Hieroglyffer\"."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa teksti oikeilla egyptiläisillä hieroglyfeillä ja pura se takaisin, välilehdellä \"Hieroglyfit\"."
+          }
         }
       }
     },
@@ -3847,6 +4171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypterer tekst med en fast forskydning på 13"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa tekstin kiinteällä 13:n siirrolla"
           }
         }
       }
@@ -3918,6 +4248,12 @@
             "state" : "translated",
             "value" : "Krypterer tekst ved at forskyde alfabetets bogstaver"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa tekstin siirtämällä aakkosten kirjaimia"
+          }
         }
       }
     },
@@ -3987,6 +4323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypter og dekrypter tekst med Cæsar-chifferet, med justerbar forskydning fra 1 til 25, i fanen \"Cæsar\"."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa ja pura teksti Caesar-salauksella, säädettävällä siirrolla 1–25, välilehdellä \"Caesar\"."
           }
         }
       }
@@ -4058,6 +4400,12 @@
             "state" : "translated",
             "value" : "Krypter og dekrypter tekst med ROT13, den klassiske faste forskydning på 13 positioner, i fanen \"ROT13\"."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa ja pura teksti ROT13:lla, klassisella kiinteällä 13 paikan siirrolla, välilehdellä \"ROT13\"."
+          }
         }
       }
     },
@@ -4127,6 +4475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypter og dekrypter tekst med ROT47, som ud over bogstaver også konverterer cifre og symboler, i fanen \"ROT47\"."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa ja pura teksti ROT47:llä, joka kirjainten lisäksi muuntaa myös numerot ja symbolit, välilehdellä \"ROT47\"."
           }
         }
       }
@@ -4198,6 +4552,12 @@
             "state" : "translated",
             "value" : "Krypter tekst med Cæsar"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa teksti Caesarilla"
+          }
         }
       }
     },
@@ -4267,6 +4627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krypter tekst til kileskrift"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa teksti nuolenpääkirjoitukseksi"
           }
         }
       }
@@ -4338,6 +4704,12 @@
             "state" : "translated",
             "value" : "Krypter tekst til hieroglyffer"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salaa teksti hieroglyfeiksi"
+          }
         }
       }
     },
@@ -4407,6 +4779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morsekode-input"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morsekoodisyöte"
           }
         }
       }
@@ -4478,6 +4856,12 @@
             "state" : "translated",
             "value" : "Med forskydning 3: \"Hola\" → \"Krod\"\nBrug det samme tal til at kryptere og dekryptere; cifre og tegnsætning ændres ikke."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirrolla 3: \"Hola\" → \"Krod\"\nKäytä samaa lukua salaamiseen ja purkamiseen; numerot ja välimerkit eivät muutu."
+          }
         }
       }
     },
@@ -4547,6 +4931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snegl = 0   Prik (•) = 1   Streg (▬) = 5\n6 = ▬ + •   19 = 3 streger + 4 prikker\nTalsystem med grundtal 20: 2026 = 5·400 + 1·20 + 6, altså tre cifre (5, 1, 6) stablet oppefra og ned. Konverterer kun tal, ikke bogstaver."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpukka = 0   Piste (•) = 1   Viiva (▬) = 5\n6 = ▬ + •   19 = 3 viivaa + 4 pistettä\n20-kantainen lukujärjestelmä: 2026 = 5·400 + 1·20 + 6, eli kolme numeroa (5, 1, 6) pinottuna ylhäältä alas. Muuntaa vain lukuja, ei kirjaimia."
           }
         }
       }
@@ -4618,6 +5008,12 @@
             "state" : "translated",
             "value" : "Fortsæt"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka"
+          }
         }
       }
     },
@@ -4687,6 +5083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Øjeblikkelig konvertering"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välitön muunnos"
           }
         }
       }
@@ -4758,6 +5160,12 @@
             "state" : "translated",
             "value" : "Tekstkonverter med 16 koder og alfabeter.\nFungerer offline."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekstimuunnin 16 koodilla ja aakkostolla.\nToimii ilman verkkoyhteyttä."
+          }
         }
       }
     },
@@ -4827,6 +5235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter ASCII til tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna ASCII tekstiksi"
           }
         }
       }
@@ -4898,6 +5312,12 @@
             "state" : "translated",
             "value" : "Konverter Base64 til tekst"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna Base64 tekstiksi"
+          }
         }
       }
     },
@@ -4967,6 +5387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter binærkode til tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna binäärikoodi tekstiksi"
           }
         }
       }
@@ -5038,6 +5464,12 @@
             "state" : "translated",
             "value" : "Konverter Braille til tekst"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna Braille tekstiksi"
+          }
         }
       }
     },
@@ -5107,6 +5539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter Maya til tal"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna Maya luvuksi"
           }
         }
       }
@@ -5178,6 +5616,12 @@
             "state" : "translated",
             "value" : "Konverter morsekode til tekst"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna morsekoodi tekstiksi"
+          }
         }
       }
     },
@@ -5247,6 +5691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter NATO til tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna NATO tekstiksi"
           }
         }
       }
@@ -5318,6 +5768,12 @@
             "state" : "translated",
             "value" : "Konverter tal til Maya"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna luku Mayaksi"
+          }
         }
       }
     },
@@ -5387,6 +5843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter Ogham til tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna Ogham tekstiksi"
           }
         }
       }
@@ -5458,6 +5920,12 @@
             "state" : "translated",
             "value" : "Konverter ROT13 til tekst"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna ROT13 tekstiksi"
+          }
         }
       }
     },
@@ -5527,6 +5995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter ROT47 til tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna ROT47 tekstiksi"
           }
         }
       }
@@ -5598,6 +6072,12 @@
             "state" : "translated",
             "value" : "Konverter runer til tekst"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna riimut tekstiksi"
+          }
         }
       }
     },
@@ -5667,6 +6147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter semafor til tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna semafori tekstiksi"
           }
         }
       }
@@ -5738,6 +6224,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til ASCII"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti muotoon ASCII"
+          }
         }
       }
     },
@@ -5807,6 +6299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til Base64"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti muotoon Base64"
           }
         }
       }
@@ -5878,6 +6376,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til binærkode"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti binäärikoodiksi"
+          }
         }
       }
     },
@@ -5947,6 +6451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til Braille"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti muotoon Braille"
           }
         }
       }
@@ -6018,6 +6528,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til morsekode"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti morsekoodiksi"
+          }
         }
       }
     },
@@ -6087,6 +6603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til NATO"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti muotoon NATO"
           }
         }
       }
@@ -6158,6 +6680,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til Ogham"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti muotoon Ogham"
+          }
         }
       }
     },
@@ -6227,6 +6755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til ROT13"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti muotoon ROT13"
           }
         }
       }
@@ -6298,6 +6832,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til ROT47"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti muotoon ROT47"
+          }
         }
       }
     },
@@ -6367,6 +6907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til runer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti riimuiksi"
           }
         }
       }
@@ -6438,6 +6984,12 @@
             "state" : "translated",
             "value" : "Konverter tekst til semafor"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti semaforiksi"
+          }
         }
       }
     },
@@ -6507,6 +7059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverter tekst til Unicode"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna teksti muotoon Unicode"
           }
         }
       }
@@ -6578,6 +7136,12 @@
             "state" : "translated",
             "value" : "Konverter Unicode til tekst"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunna Unicode tekstiksi"
+          }
         }
       }
     },
@@ -6647,6 +7211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til morsekode eller morsekode til tekst, med ét enkelt tryk."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin morsekoodiksi tai morsekoodin tekstiksi yhdellä napautuksella."
           }
         }
       }
@@ -6718,6 +7288,12 @@
             "state" : "translated",
             "value" : "Konverterer tal til mayatal (grundtal 20)"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa luvut maya-numeroiksi (20-kantainen)"
+          }
         }
       }
     },
@@ -6787,6 +7363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tal til mayatal med grundtal 20, tegnet med prikker, streger og snegle, og omvendt, i fanen \"Maya\"."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa luvut 20-kantaisiksi maya-numeroiksi, piirrettyinä pisteillä, viivoilla ja simpukoilla, ja päinvastoin, välilehdellä \"Maya\"."
           }
         }
       }
@@ -6858,6 +7440,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til flag i marinesemafor"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin merisemaforin lipuiksi"
+          }
         }
       }
     },
@@ -6927,6 +7515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til flag i marinesemafor og omvendt og viser med pile placeringen af begge arme, i fanen \"Semafor\"."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin merisemaforin lipuiksi ja päinvastoin ja näyttää nuolilla molempien käsien asennon, välilehdellä \"Semafori\"."
           }
         }
       }
@@ -6998,6 +7592,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til Base64 øjeblikkeligt"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin välittömästi Base64-muotoon"
+          }
         }
       }
     },
@@ -7067,6 +7667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til Base64 og omvendt, ideelt til e-mails, URL’er eller JSON, i fanen \"Base64\"."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin Base64-muotoon ja päinvastoin, ihanteellinen sähköposteihin, URL-osoitteisiin tai JSONiin, välilehdellä \"Base64\"."
           }
         }
       }
@@ -7138,6 +7744,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til Unicode-Braille øjeblikkeligt"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin välittömästi Unicode-Brailleksi"
+          }
         }
       }
     },
@@ -7207,6 +7819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til Unicode-Braille og omvendt, inklusive store bogstaver og tal, i fanen \"Braille\"."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin Unicode-Brailleksi ja päinvastoin, isot kirjaimet ja numerot mukaan lukien, välilehdellä \"Braille\"."
           }
         }
       }
@@ -7278,6 +7896,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til binærkode øjeblikkeligt"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin välittömästi binäärikoodiksi"
+          }
         }
       }
     },
@@ -7347,6 +7971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til 8-bit binærkode og omvendt, i fanen \"Binær\"."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin 8-bittiseksi binäärikoodiksi ja päinvastoin, välilehdellä \"Binääri\"."
           }
         }
       }
@@ -7418,6 +8048,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til morsekode øjeblikkeligt"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin välittömästi morsekoodiksi"
+          }
         }
       }
     },
@@ -7487,6 +8123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til ASCII-koder øjeblikkeligt"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin välittömästi ASCII-koodeiksi"
           }
         }
       }
@@ -7558,6 +8200,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til decimale ASCII-koder og omvendt, i fanen \"ASCII\"."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin desimaalisiksi ASCII-koodeiksi ja päinvastoin, välilehdellä \"ASCII\"."
+          }
         }
       }
     },
@@ -7627,6 +8275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til Unicode-kodepunkter (inklusive emojis) og omvendt, i fanen \"Unicode\"."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin Unicode-koodipisteiksi (emojit mukaan lukien) ja päinvastoin, välilehdellä \"Unicode\"."
           }
         }
       }
@@ -7698,6 +8352,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til Unicode-kodepunkter øjeblikkeligt"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin välittömästi Unicode-koodipisteiksi"
+          }
         }
       }
     },
@@ -7767,6 +8427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til NATO-stavealfabetet"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin NATOn tavausaakkostoksi"
           }
         }
       }
@@ -7838,6 +8504,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til NATO-stavealfabetet (Alfa, Bravo, Charlie...) og omvendt, i fanen \"NATO\"."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin NATOn tavausaakkostoksi (Alfa, Bravo, Charlie...) ja päinvastoin, välilehdellä \"NATO\"."
+          }
         }
       }
     },
@@ -7907,6 +8579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til runealfabetet Elder Futhark"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin Elder Futhark -riimuaakkostoksi"
           }
         }
       }
@@ -7978,6 +8656,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til runealfabetet Elder Futhark, det ægte gammelgermanske alfabet, i fanen \"Runer\"."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin Elder Futhark -riimuaakkostoksi, todelliseksi muinaisgermaaniseksi aakkostoksi, välilehdellä \"Riimut\"."
+          }
         }
       }
     },
@@ -8047,6 +8731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverterer tekst til det gamle irske alfabet Ogham"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin muinaiseksi irlantilaiseksi Ogham-aakkostoksi"
           }
         }
       }
@@ -8118,6 +8808,12 @@
             "state" : "translated",
             "value" : "Konverterer tekst til det gamle irske alfabet Ogham, i fanen \"Ogham\"."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muuntaa tekstin muinaiseksi irlantilaiseksi Ogham-aakkostoksi, välilehdellä \"Ogham\"."
+          }
         }
       }
     },
@@ -8187,6 +8883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopiér resultatet til udklipsholderen, og indsæt det, hvor du har brug for det."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi tulos leikepöydälle ja liitä se mihin tarvitset."
           }
         }
       }
@@ -8258,6 +8960,12 @@
             "state" : "translated",
             "value" : "Kopiér med ét klik"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi yhdellä napsautuksella"
+          }
         }
       }
     },
@@ -8327,6 +9035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopiér resultatet"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi tulos"
           }
         }
       }
@@ -8398,6 +9112,12 @@
             "state" : "translated",
             "value" : "Kopiér resultatet"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi tulos"
+          }
         }
       }
     },
@@ -8467,6 +9187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kileskrift"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuolenpääkirjoitus"
           }
         }
       }
@@ -8538,6 +9264,12 @@
             "state" : "translated",
             "value" : "Kileskrift-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuolenpääkirjoitussyöte"
+          }
         }
       }
     },
@@ -8607,6 +9339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dekrypter Cæsar til tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pura Caesar tekstiksi"
           }
         }
       }
@@ -8678,6 +9416,12 @@
             "state" : "translated",
             "value" : "Dekrypter kileskrift til tekst"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pura nuolenpääkirjoitus tekstiksi"
+          }
         }
       }
     },
@@ -8747,6 +9491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dekrypter hieroglyffer til tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pura hieroglyfit tekstiksi"
           }
         }
       }
@@ -8818,6 +9568,12 @@
             "state" : "translated",
             "value" : "Med sol/måne-ikonet på værktøjslinjen kan du vælge System, Lys eller Mørk."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Työkalupalkin aurinko/kuu-kuvakkeella voit valita Järjestelmä, Vaalea tai Tumma."
+          }
         }
       }
     },
@@ -8887,6 +9643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forskydning"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirto"
           }
         }
       }
@@ -8958,6 +9720,12 @@
             "state" : "translated",
             "value" : "Begge retninger"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Molemmat suunnat"
+          }
         }
       }
     },
@@ -9027,6 +9795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gnist-ikonet (✨) på værktøjslinjen viser når som helst den fulde liste over Signalists funktioner."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Työkalupalkin kipinäkuvake (✨) näyttää milloin tahansa Signalistin kaikkien toimintojen luettelon."
           }
         }
       }
@@ -9098,6 +9872,12 @@
             "state" : "translated",
             "value" : "Vælg tilstanden \"Tekst → Morse\", skriv en vilkårlig tekst i inputfeltet, så vises morsekoden automatisk under \"Resultat\". Mellemrum mellem ord vises som \"/\"."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse tila \"Teksti → Morse\", kirjoita mikä tahansa teksti syötekenttään, niin morsekoodi ilmestyy automaattisesti kohtaan \"Tulos\". Sanojen väliset välilyönnit näytetään merkillä \"/\"."
+          }
         }
       }
     },
@@ -9167,6 +9947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vælg dit foretrukne udseende, eller lad Signalist følge systemet."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse haluamasi ulkoasu tai anna Signalistin seurata järjestelmää."
           }
         }
       }
@@ -9238,6 +10024,12 @@
             "state" : "translated",
             "value" : "Skriv tekst og få morsekoden med det samme, uden ekstra knapper."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita teksti ja saat morsekoodin heti, ilman ylimääräisiä painikkeita."
+          }
         }
       }
     },
@@ -9307,6 +10099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lyt til morsekoden, mens den genereres, med ægte radiotelegrafitoner. Slå lyden fra når som helst fra værktøjslinjen."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuuntele morsekoodia sitä luotaessa, oikeilla radiotelegrafiäänillä. Mykistä ääni milloin tahansa työkalupalkista."
           }
         }
       }
@@ -9378,6 +10176,12 @@
             "state" : "translated",
             "value" : "Generelt"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yleiset"
+          }
         }
       }
     },
@@ -9447,6 +10251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hieroglyffer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hieroglyfit"
           }
         }
       }
@@ -9518,6 +10328,12 @@
             "state" : "translated",
             "value" : "Hieroglyf-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hieroglyfisyöte"
+          }
         }
       }
     },
@@ -9587,6 +10403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ryd"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyhjennä"
           }
         }
       }
@@ -9658,6 +10480,12 @@
             "state" : "translated",
             "value" : "Færdig"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
+          }
         }
       }
     },
@@ -9724,6 +10552,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maya"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maya"
@@ -9798,6 +10632,12 @@
             "state" : "translated",
             "value" : "Tilstand"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tila"
+          }
         }
       }
     },
@@ -9868,6 +10708,12 @@
             "state" : "translated",
             "value" : "Lys og mørk tilstand"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaalea ja tumma tila"
+          }
         }
       }
     },
@@ -9934,6 +10780,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morse"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morse"
@@ -10008,6 +10860,12 @@
             "state" : "translated",
             "value" : "Vis nyheder igen"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä uutuudet uudelleen"
+          }
         }
       }
     },
@@ -10074,6 +10932,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NATO"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "NATO"
@@ -10148,6 +11012,12 @@
             "state" : "translated",
             "value" : "NATO-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NATO-syöte"
+          }
         }
       }
     },
@@ -10217,6 +11087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nyheder i Signalist"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uutta Signalistissa"
           }
         }
       }
@@ -10288,6 +11164,12 @@
             "state" : "translated",
             "value" : "Ny fane: ASCII"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: ASCII"
+          }
         }
       }
     },
@@ -10357,6 +11239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane: Base64"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Base64"
           }
         }
       }
@@ -10428,6 +11316,12 @@
             "state" : "translated",
             "value" : "Ny fane: Binær"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Binääri"
+          }
         }
       }
     },
@@ -10497,6 +11391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane: Braille"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Braille"
           }
         }
       }
@@ -10568,6 +11468,12 @@
             "state" : "translated",
             "value" : "Ny fane: Cæsar"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Caesar"
+          }
         }
       }
     },
@@ -10637,6 +11543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane: Kileskrift"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Nuolenpääkirjoitus"
           }
         }
       }
@@ -10708,6 +11620,12 @@
             "state" : "translated",
             "value" : "Ny fane: Hieroglyffer"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Hieroglyfit"
+          }
         }
       }
     },
@@ -10777,6 +11695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane: Maya"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Maya"
           }
         }
       }
@@ -10848,6 +11772,12 @@
             "state" : "translated",
             "value" : "Ny fane: NATO"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: NATO"
+          }
         }
       }
     },
@@ -10917,6 +11847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane: Ogham"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Ogham"
           }
         }
       }
@@ -10988,6 +11924,12 @@
             "state" : "translated",
             "value" : "Ny fane: ROT13"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: ROT13"
+          }
         }
       }
     },
@@ -11057,6 +11999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane: ROT47"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: ROT47"
           }
         }
       }
@@ -11128,6 +12076,12 @@
             "state" : "translated",
             "value" : "Ny fane: Runer"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Riimut"
+          }
         }
       }
     },
@@ -11197,6 +12151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ny fane: Semafor"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Semafori"
           }
         }
       }
@@ -11268,6 +12228,12 @@
             "state" : "translated",
             "value" : "Ny fane: Unicode"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi välilehti: Unicode"
+          }
         }
       }
     },
@@ -11337,6 +12303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Input af mayatal"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maya-numeroiden syöte"
           }
         }
       }
@@ -11408,6 +12380,12 @@
             "state" : "translated",
             "value" : "Tal-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukusyöte"
+          }
         }
       }
     },
@@ -11474,6 +12452,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogham"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ogham"
@@ -11548,6 +12532,12 @@
             "state" : "translated",
             "value" : "Ogham-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogham-syöte"
+          }
         }
       }
     },
@@ -11617,6 +12607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreference — ASCII"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — ASCII"
           }
         }
       }
@@ -11688,6 +12684,12 @@
             "state" : "translated",
             "value" : "Hurtigreference — Base64"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Base64"
+          }
         }
       }
     },
@@ -11757,6 +12759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreference — Binær"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Binääri"
           }
         }
       }
@@ -11828,6 +12836,12 @@
             "state" : "translated",
             "value" : "Hurtigreference — Braille"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Braille"
+          }
         }
       }
     },
@@ -11897,6 +12911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreference — Cæsar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Caesar"
           }
         }
       }
@@ -11968,6 +12988,12 @@
             "state" : "translated",
             "value" : "Hurtigreference — Kileskrift"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Nuolenpääkirjoitus"
+          }
         }
       }
     },
@@ -12037,6 +13063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreference — Hieroglyffer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Hieroglyfit"
           }
         }
       }
@@ -12108,6 +13140,12 @@
             "state" : "translated",
             "value" : "Hurtigreference — Maya"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Maya"
+          }
         }
       }
     },
@@ -12177,6 +13215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreference — Morse"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Morse"
           }
         }
       }
@@ -12248,6 +13292,12 @@
             "state" : "translated",
             "value" : "Hurtigreference — NATO"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — NATO"
+          }
         }
       }
     },
@@ -12317,6 +13367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreference — Ogham"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Ogham"
           }
         }
       }
@@ -12388,6 +13444,12 @@
             "state" : "translated",
             "value" : "Hurtigreference — ROT13"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — ROT13"
+          }
         }
       }
     },
@@ -12457,6 +13519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreference — ROT47"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — ROT47"
           }
         }
       }
@@ -12528,6 +13596,12 @@
             "state" : "translated",
             "value" : "Hurtigreference — Runer"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Riimut"
+          }
         }
       }
     },
@@ -12597,6 +13671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hurtigreference — Semafor"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Semafori"
           }
         }
       }
@@ -12668,6 +13748,12 @@
             "state" : "translated",
             "value" : "Hurtigreference — Unicode"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaopas — Unicode"
+          }
         }
       }
     },
@@ -12737,6 +13823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Afspil lyd"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toista ääni"
           }
         }
       }
@@ -12808,6 +13900,12 @@
             "state" : "translated",
             "value" : "Resultat"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tulos"
+          }
         }
       }
     },
@@ -12874,6 +13972,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT13"
@@ -12948,6 +14052,12 @@
             "state" : "translated",
             "value" : "ROT13-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13-syöte"
+          }
         }
       }
     },
@@ -13014,6 +14124,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT47"
@@ -13088,6 +14204,12 @@
             "state" : "translated",
             "value" : "ROT47-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47-syöte"
+          }
         }
       }
     },
@@ -13157,6 +14279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Runer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riimut"
           }
         }
       }
@@ -13228,6 +14356,12 @@
             "state" : "translated",
             "value" : "Rune-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riimusyöte"
+          }
         }
       }
     },
@@ -13297,6 +14431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Afslut Signalist"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta Signalist"
           }
         }
       }
@@ -13368,6 +14508,12 @@
             "state" : "translated",
             "value" : "Semafor"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semafori"
+          }
         }
       }
     },
@@ -13438,6 +14584,12 @@
             "state" : "translated",
             "value" : "Semafor-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semaforisyöte"
+          }
         }
       }
     },
@@ -13504,6 +14656,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Signalist"
@@ -13578,6 +14736,12 @@
             "state" : "translated",
             "value" : "Signalist-hjælp"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist-ohje"
+          }
         }
       }
     },
@@ -13647,6 +14811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slå lyd fra"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mykistä ääni"
           }
         }
       }
@@ -13718,6 +14888,12 @@
             "state" : "translated",
             "value" : "Morselyd"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morseääni"
+          }
         }
       }
     },
@@ -13787,6 +14963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst-input"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekstisyöte"
           }
         }
       }
@@ -13858,6 +15040,12 @@
             "state" : "translated",
             "value" : "Alt, hvad du skal vide for at bruge appen"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki, mitä tarvitset sovelluksen käyttöön"
+          }
         }
       }
     },
@@ -13928,6 +15116,12 @@
             "state" : "translated",
             "value" : "Alt, hvad du kan gøre med den nye version"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki, mitä voit tehdä uudella versiolla"
+          }
         }
       }
     },
@@ -13994,6 +15188,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unicode"
@@ -14068,6 +15268,12 @@
             "state" : "translated",
             "value" : "Unicode-input"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode-syöte"
+          }
         }
       }
     },
@@ -14137,6 +15343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brug knappen \"Kopiér resultatet\" til at lægge den konverterede tekst i udklipsholderen og indsætte den, hvor du har brug for den."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä painiketta \"Kopioi tulos\" kopioidaksesi muunnetun tekstin leikepöydälle ja liittääksesi sen mihin tarvitset."
           }
         }
       }
@@ -14208,6 +15420,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"ASCII\", vælg tilstanden \"Tekst → ASCII\" og skriv en vilkårlig tekst. Hvert tegn oversættes til sin decimalkode (f.eks. \"A\" = \"65\"), adskilt af mellemrum."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"ASCII\", valitse tila \"Teksti → ASCII\" ja kirjoita mikä tahansa teksti. Jokainen merkki käännetään desimaalikoodikseen (esim. \"A\" = \"65\"), erotettuna välilyönneillä."
+          }
         }
       }
     },
@@ -14277,6 +15495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Base64\", vælg tilstanden \"Tekst → Base64\" og skriv en vilkårlig tekst. Resultatet er en Base64-streng klar til e-mails, URL’er eller JSON."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Base64\", valitse tila \"Teksti → Base64\" ja kirjoita mikä tahansa teksti. Tuloksena on Base64-merkkijono, valmiina sähköposteihin, URL-osoitteisiin tai JSONiin."
           }
         }
       }
@@ -14348,6 +15572,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Binær\", vælg tilstanden \"Tekst → Binær\" og skriv en vilkårlig tekst. Hvert tegn oversættes til en 8-bit byte (f.eks. \"A\" = \"01000001\"), adskilt af mellemrum."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Binääri\", valitse tila \"Teksti → Binääri\" ja kirjoita mikä tahansa teksti. Jokainen merkki käännetään 8-bittiseksi tavuksi (esim. \"A\" = \"01000001\"), erotettuna välilyönneillä."
+          }
         }
       }
     },
@@ -14417,6 +15647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Braille\", vælg tilstanden \"Tekst → Braille\" og skriv en vilkårlig tekst. Resultatet vises i Unicode-Braille-celler, inklusive store bogstaver og tal."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Braille\", valitse tila \"Teksti → Braille\" ja kirjoita mikä tahansa teksti. Tulos näytetään Unicode-Braille-soluina, isot kirjaimet ja numerot mukaan lukien."
           }
         }
       }
@@ -14488,6 +15724,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Cæsar\", vælg tilstanden \"Tekst → Cæsar\", juster forskydningen med skyderen (1–25) og skriv en vilkårlig tekst. Hvert bogstav forskydes med dette antal positioner i alfabetet."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Caesar\", valitse tila \"Teksti → Caesar\", säädä siirto liukusäätimellä (1–25) ja kirjoita mikä tahansa teksti. Jokaista kirjainta siirretään näin monta paikkaa aakkostossa."
+          }
         }
       }
     },
@@ -14557,6 +15799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Kileskrift\", vælg tilstanden \"Tekst → Kileskrift\" og skriv en vilkårlig tekst. Hvert bogstav erstattes af et ægte sumerisk kileskrifttegn, adskilt af mellemrum."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Nuolenpääkirjoitus\", valitse tila \"Teksti → Nuolenpääkirjoitus\" ja kirjoita mikä tahansa teksti. Jokainen kirjain korvataan oikealla sumerilaisella nuolenpääkirjoitusmerkillä, erotettuna välilyönneillä."
           }
         }
       }
@@ -14628,6 +15876,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Hieroglyffer\", vælg tilstanden \"Tekst → Hieroglyffer\" og skriv en vilkårlig tekst. Hvert bogstav erstattes af et ægte egyptisk hieroglyfsymbol, adskilt af mellemrum."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Hieroglyfit\", valitse tila \"Teksti → Hieroglyfit\" ja kirjoita mikä tahansa teksti. Jokainen kirjain korvataan oikealla egyptiläisellä hieroglyfisymbolilla, erotettuna välilyönneillä."
+          }
         }
       }
     },
@@ -14697,6 +15951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Maya\", vælg tilstanden \"Tal → Maya\" og skriv et eller flere tal (f.eks. \"2026\"). De tegnes som lodret stablede mayatal. Denne fane konverterer kun tal, ikke bogstaver."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Maya\", valitse tila \"Luku → Maya\" ja kirjoita yksi tai useampi luku (esim. \"2026\"). Ne piirretään pystysuoraan pinottuina maya-numeroina. Tämä välilehti muuntaa vain lukuja, ei kirjaimia."
           }
         }
       }
@@ -14768,6 +16028,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"NATO\", vælg tilstanden \"Tekst → NATO\" og skriv en vilkårlig tekst. Hvert bogstav og ciffer oversættes til sit staveord (f.eks. \"A\" = \"Alfa\"). Mellemrum mellem ord vises som \"/\"."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"NATO\", valitse tila \"Teksti → NATO\" ja kirjoita mikä tahansa teksti. Jokainen kirjain ja numero käännetään tavaussanakseen (esim. \"A\" = \"Alfa\"). Sanojen väliset välilyönnit näytetään merkillä \"/\"."
+          }
         }
       }
     },
@@ -14837,6 +16103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Ogham\", vælg tilstanden \"Tekst → Ogham\" og skriv en vilkårlig tekst. Hvert bogstav oversættes til sit tegn i det gamle irske alfabet, uden mellemrum mellem bogstaverne."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Ogham\", valitse tila \"Teksti → Ogham\" ja kirjoita mikä tahansa teksti. Jokainen kirjain käännetään muinaisen irlantilaisen aakkoston merkiksi, ilman välilyöntejä kirjainten välissä."
           }
         }
       }
@@ -14908,6 +16180,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"ROT13\", vælg tilstanden \"Tekst → ROT13\" og skriv en vilkårlig tekst. Hvert bogstav forskydes altid 13 positioner, uden noget at konfigurere."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"ROT13\", valitse tila \"Teksti → ROT13\" ja kirjoita mikä tahansa teksti. Jokaista kirjainta siirretään aina 13 paikkaa, mitään ei tarvitse määrittää."
+          }
         }
       }
     },
@@ -14977,6 +16255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"ROT47\", vælg tilstanden \"Tekst → ROT47\" og skriv en vilkårlig tekst. I modsætning til ROT13 konverterer den også cifre og tegnsætning, ikke kun bogstaver."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"ROT47\", valitse tila \"Teksti → ROT47\" ja kirjoita mikä tahansa teksti. Toisin kuin ROT13, se muuntaa myös numerot ja välimerkit, ei vain kirjaimia."
           }
         }
       }
@@ -15048,6 +16332,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Runer\", vælg tilstanden \"Tekst → Runer\" og skriv en vilkårlig tekst. Hvert bogstav oversættes til sin rune i alfabetet Elder Futhark, uden mellemrum mellem bogstaverne."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Riimut\", valitse tila \"Teksti → Riimut\" ja kirjoita mikä tahansa teksti. Jokainen kirjain käännetään Elder Futhark -aakkoston riimuksi, ilman välilyöntejä kirjainten välissä."
+          }
         }
       }
     },
@@ -15117,6 +16407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå til fanen \"Semafor\", vælg tilstanden \"Tekst → Semafor\" og skriv en vilkårlig tekst. Hvert bogstav vises som et pilepar, der repræsenterer placeringen af højre og venstre arm."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Semafori\", valitse tila \"Teksti → Semafori\" ja kirjoita mikä tahansa teksti. Jokainen kirjain näytetään nuolipariksi, joka esittää oikean ja vasemman käden asennon."
           }
         }
       }
@@ -15188,6 +16484,12 @@
             "state" : "translated",
             "value" : "Gå til fanen \"Unicode\", vælg tilstanden \"Tekst → Unicode\" og skriv en vilkårlig tekst, også emojis. Hvert tegn oversættes til sit kodepunkt (f.eks. \"A\" = \"U+0041\"), adskilt af mellemrum."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry välilehdelle \"Unicode\", valitse tila \"Teksti → Unicode\" ja kirjoita mikä tahansa teksti, myös emojeja. Jokainen merkki käännetään koodipisteekseen (esim. \"A\" = \"U+0041\"), erotettuna välilyönneillä."
+          }
         }
       }
     },
@@ -15257,6 +16559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vis nyheder"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä uutuudet"
           }
         }
       }
@@ -15328,6 +16636,12 @@
             "state" : "translated",
             "value" : "Viser nyhedsvinduet igen, næste gang du åbner Signalist."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näyttää uutuusikkunan uudelleen, kun seuraavan kerran avaat Signalistin."
+          }
         }
       }
     },
@@ -15397,6 +16711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konverteringstilstand"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muunnostila"
           }
         }
       }
@@ -15468,6 +16788,12 @@
             "state" : "translated",
             "value" : "Vælg, om du konverterer tekst til kode eller kode til tekst"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse, muunnatko tekstin koodiksi vai koodin tekstiksi"
+          }
         }
       }
     },
@@ -15537,6 +16863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv eller indsæt det indhold, der skal konverteres, her. Resultatet opdateres med det samme."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita tai liitä muunnettava sisältö tähän. Tulos päivittyy heti."
           }
         }
       }
@@ -15608,6 +16940,12 @@
             "state" : "translated",
             "value" : "Kopierer resultatet til udklipsholderen"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi tuloksen leikepöydälle"
+          }
         }
       }
     },
@@ -15677,6 +17015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rydder den indtastede tekst og resultatet"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyhjentää kirjoitetun tekstin ja tuloksen"
           }
         }
       }
@@ -15748,6 +17092,12 @@
             "state" : "translated",
             "value" : "%lld positioner"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paikat: %lld"
+          }
         }
       }
     },
@@ -15817,6 +17167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mayatal: %lld"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maya-numero: %lld"
           }
         }
       }
@@ -15888,6 +17244,12 @@
             "state" : "translated",
             "value" : "System"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Järjestelmä"
+          }
         }
       }
     },
@@ -15958,6 +17320,12 @@
             "state" : "translated",
             "value" : "Lys"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaalea"
+          }
         }
       }
     },
@@ -16027,6 +17395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mørk"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tumma"
           }
         }
       }
@@ -16099,6 +17473,12 @@
             "state" : "translated",
             "value" : "Tekst → ASCII"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → ASCII"
+          }
         }
       }
     },
@@ -16169,6 +17549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ASCII → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII → Teksti"
           }
         }
       }
@@ -16241,6 +17627,12 @@
             "state" : "translated",
             "value" : "Tekst → Base64"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Base64"
+          }
         }
       }
     },
@@ -16311,6 +17703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Base64 → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64 → Teksti"
           }
         }
       }
@@ -16383,6 +17781,12 @@
             "state" : "translated",
             "value" : "Tekst → Binær"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Binääri"
+          }
         }
       }
     },
@@ -16453,6 +17857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Binær → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binääri → Teksti"
           }
         }
       }
@@ -16525,6 +17935,12 @@
             "state" : "translated",
             "value" : "Tekst → Braille"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Braille"
+          }
         }
       }
     },
@@ -16595,6 +18011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Braille → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braille → Teksti"
           }
         }
       }
@@ -16667,6 +18089,12 @@
             "state" : "translated",
             "value" : "Tekst → Cæsar"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Caesar"
+          }
         }
       }
     },
@@ -16737,6 +18165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cæsar → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caesar → Teksti"
           }
         }
       }
@@ -16809,6 +18243,12 @@
             "state" : "translated",
             "value" : "Tekst → Kileskrift"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Nuolenpääkirjoitus"
+          }
         }
       }
     },
@@ -16879,6 +18319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kileskrift → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuolenpääkirjoitus → Teksti"
           }
         }
       }
@@ -16951,6 +18397,12 @@
             "state" : "translated",
             "value" : "Tekst → Hieroglyffer"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Hieroglyfit"
+          }
         }
       }
     },
@@ -17021,6 +18473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hieroglyffer → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hieroglyfit → Teksti"
           }
         }
       }
@@ -17093,6 +18551,12 @@
             "state" : "translated",
             "value" : "Tal → Maya"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luku → Maya"
+          }
         }
       }
     },
@@ -17163,6 +18627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maya → Tal"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maya → Luku"
           }
         }
       }
@@ -17235,6 +18705,12 @@
             "state" : "translated",
             "value" : "Tekst → Morse"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Morse"
+          }
         }
       }
     },
@@ -17305,6 +18781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morse → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morse → Teksti"
           }
         }
       }
@@ -17377,6 +18859,12 @@
             "state" : "translated",
             "value" : "Tekst → NATO"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → NATO"
+          }
         }
       }
     },
@@ -17447,6 +18935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "NATO → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NATO → Teksti"
           }
         }
       }
@@ -17519,6 +19013,12 @@
             "state" : "translated",
             "value" : "Tekst → Ogham"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Ogham"
+          }
         }
       }
     },
@@ -17589,6 +19089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ogham → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogham → Teksti"
           }
         }
       }
@@ -17661,6 +19167,12 @@
             "state" : "translated",
             "value" : "Tekst → ROT13"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → ROT13"
+          }
         }
       }
     },
@@ -17731,6 +19243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT13 → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13 → Teksti"
           }
         }
       }
@@ -17803,6 +19321,12 @@
             "state" : "translated",
             "value" : "Tekst → ROT47"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → ROT47"
+          }
         }
       }
     },
@@ -17873,6 +19397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT47 → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47 → Teksti"
           }
         }
       }
@@ -17945,6 +19475,12 @@
             "state" : "translated",
             "value" : "Tekst → Runer"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Riimut"
+          }
         }
       }
     },
@@ -18015,6 +19551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Runer → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riimut → Teksti"
           }
         }
       }
@@ -18087,6 +19629,12 @@
             "state" : "translated",
             "value" : "Tekst → Semafor"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Semafori"
+          }
         }
       }
     },
@@ -18157,6 +19705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semafor → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semafori → Teksti"
           }
         }
       }
@@ -18229,6 +19783,12 @@
             "state" : "translated",
             "value" : "Tekst → Unicode"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti → Unicode"
+          }
         }
       }
     },
@@ -18299,6 +19859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unicode → Tekst"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode → Teksti"
           }
         }
       }
