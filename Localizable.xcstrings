@@ -74,6 +74,12 @@
             "state" : "translated",
             "value" : "\"Hola\" → \"SG9sYQ==\"\nToisin kuin muut koodit, Base64 ei muunna kirjain kirjaimelta, vaan koko tekstin."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" → \"SG9sYQ==\"\nВ отличие от других кодов, Base64 преобразует не буква за буквой, а весь текст целиком."
+          }
         }
       }
     },
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "\"Hola\" → \"Ubyn\"\nSe on Caesar-salaus kiinteällä 13:n siirrolla; kahdesti käytettynä saat alkuperäisen tekstin takaisin."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola\" → \"Ubyn\"\nЭто шифр Цезаря с фиксированным сдвигом 13; применённый дважды, он возвращает исходный текст."
           }
         }
       }
@@ -226,6 +238,12 @@
             "state" : "translated",
             "value" : "\"Hola123!\" → \"w@=2`abP\"\nToisin kuin ROT13, se kiertää myös numerot ja symbolit, ei vain kirjaimia. Se on myös symmetrinen."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Hola123!\" → \"w@=2`abP\"\nВ отличие от ROT13, он вращает также цифры и символы, а не только буквы. Он тоже симметричен."
+          }
         }
       }
     },
@@ -298,6 +316,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -378,6 +402,12 @@
             "state" : "translated",
             "value" : "%lld merkkiä"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Символов: %lld"
+          }
         }
       }
     },
@@ -450,6 +480,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: •−   B: −•••   C: −•−•   D: −••   E: •\nS: •••   O: −−−   (SOS = ••• −−− •••)"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: •−   B: −•••   C: −•−•   D: −••   E: •\nS: •••   O: −−−   (SOS = ••• −−− •••)"
@@ -530,6 +566,12 @@
             "state" : "translated",
             "value" : "A: →↘↓   B: →↓\nJokainen kirjain koostuu kahdesta nuolesta: ensin oikea käsi, sitten vasen. \"/\" erottaa sanat."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: →↘↓   B: →↓\nКаждая буква — это две стрелки: сначала правая рука, затем левая. \"/\" разделяет слова."
+          }
         }
       }
     },
@@ -605,6 +647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: ⠁   B: ⠃   C: ⠉   D: ⠙   E: ⠑\n⠠ kirjaimen edessä = isokirjain\n⠼ luvun edessä = lukutila (esim. ⠼⠁ = \"1\")"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ⠁   B: ⠃   C: ⠉   D: ⠙   E: ⠑\n⠠ перед буквой = заглавная буква\n⠼ перед числом = числовой режим (напр. ⠼⠁ = \"1\")"
           }
         }
       }
@@ -682,6 +730,12 @@
             "state" : "translated",
             "value" : "A: 65   B: 66   a: 97   0: 48   Välilyönti: 32\nJokainen merkki esitetään desimaaliluvulla, erotettuna välilyönneillä."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 65   B: 66   a: 97   0: 48   Пробел: 32\nКаждый символ представлен десятичным числом; числа разделяются пробелами."
+          }
         }
       }
     },
@@ -757,6 +811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: 01000001   B: 01000010   a: 01100001\nJokainen merkki vie 8 bittiä (1 tavu), erotettuna välilyönneillä."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: 01000001   B: 01000010   a: 01100001\nКаждый символ занимает 8 бит (1 байт); байты разделяются пробелами."
           }
         }
       }
@@ -834,6 +894,12 @@
             "state" : "translated",
             "value" : "A: Alfa   B: Bravo   C: Charlie   D: Delta   E: Echo\nNumeroillakin on omat sanansa (esim. \"1\" = \"One\")."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: Alfa   B: Bravo   C: Charlie   D: Delta   E: Echo\nУ цифр тоже есть свои слова (напр. \"1\" = \"One\")."
+          }
         }
       }
     },
@@ -909,6 +975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: U+0041   a: U+0061   Välilyönti: U+0020\nTukee myös emojeja ja ASCII-alueen ulkopuolisia symboleja (esim. 🎉 = U+1F389)."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: U+0041   a: U+0061   Пробел: U+0020\nПоддерживает также эмодзи и символы за пределами диапазона ASCII (напр. 🎉 = U+1F389)."
           }
         }
       }
@@ -986,6 +1058,12 @@
             "state" : "translated",
             "value" : "A: ᚐ   B: ᚁ   C: ᚉ   S: ᚄ\nKirjoitetaan ilman välilyöntejä kirjainten välissä. K, V, W, J/Y, X/Z approksimoidaan äänteellisesti lähimmällä kirjaimella, koska alkuperäisessä Ogham-aakkostossa on vain 20 kirjainta."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ᚐ   B: ᚁ   C: ᚉ   S: ᚄ\nПишется без пробелов между буквами. K, V, W, J/Y, X/Z заменяются ближайшей по звучанию буквой, так как в исходном огаме всего 20 букв."
+          }
         }
       }
     },
@@ -1061,6 +1139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A: ᚨ   B: ᛒ   F: ᚠ   R: ᚱ\nKirjoitetaan ilman välilyöntejä kirjainten välissä. C, Q, V, X, Y approksimoidaan äänteellisesti lähimmällä riimulla, koska alkuperäisessä futhark-aakkostossa on vain 24 riimua."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A: ᚨ   B: ᛒ   F: ᚠ   R: ᚱ\nПишется без пробелов между буквами. C, Q, V, X, Y заменяются ближайшей по звучанию руной, так как в исходном старшем футарке всего 24 руны."
           }
         }
       }
@@ -1138,6 +1222,12 @@
             "state" : "translated",
             "value" : "Avaa Signalist"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть Signalist"
+          }
         }
       }
     },
@@ -1213,6 +1303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tietoja"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О программе"
           }
         }
       }
@@ -1290,6 +1386,12 @@
             "state" : "translated",
             "value" : "Ota ääni käyttöön"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включить звук"
+          }
         }
       }
     },
@@ -1365,6 +1467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Asetukset…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки…"
           }
         }
       }
@@ -1442,6 +1550,12 @@
             "state" : "translated",
             "value" : "Ulkoasu"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оформление"
+          }
         }
       }
     },
@@ -1514,6 +1628,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ASCII"
@@ -1594,6 +1714,12 @@
             "state" : "translated",
             "value" : "ASCII-syöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод ASCII"
+          }
         }
       }
     },
@@ -1670,6 +1796,12 @@
             "state" : "translated",
             "value" : "Signalist-ohje"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Справка Signalist"
+          }
         }
       }
     },
@@ -1742,6 +1874,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Base64"
@@ -1822,6 +1960,12 @@
             "state" : "translated",
             "value" : "Base64-syöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод Base64"
+          }
         }
       }
     },
@@ -1897,6 +2041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Binääri"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Двоичный"
           }
         }
       }
@@ -1974,6 +2124,12 @@
             "state" : "translated",
             "value" : "Binäärisyöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Двоичный ввод"
+          }
         }
       }
     },
@@ -2046,6 +2202,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Braille"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Braille"
@@ -2126,6 +2288,12 @@
             "state" : "translated",
             "value" : "Braille-syöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод Брайля"
+          }
         }
       }
     },
@@ -2201,6 +2369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jokainen kirjain korvataan oikealla merkillä Unicoden nuolenpääkirjoituksen lohkosta, erotettuna välilyönneillä.\nTämä on Signalistin luova salaus, ei muodollinen translitterointi muinaissumerista tai akkadista."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каждая буква заменяется настоящим символом из блока клинописи Unicode; символы разделяются пробелами.\nЭто творческий шифр Signalist, а не формальная транслитерация древнешумерского или аккадского языка."
           }
         }
       }
@@ -2278,6 +2452,12 @@
             "state" : "translated",
             "value" : "Jokainen kirjain korvataan oikealla symbolilla Unicoden egyptiläisten hieroglyfien lohkosta, erotettuna välilyönneillä.\nTämä on Signalistin luova salaus, ei muodollinen translitterointi muinaisegyptistä."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каждая буква заменяется настоящим символом из блока египетских иероглифов Unicode; символы разделяются пробелами.\nЭто творческий шифр Signalist, а не формальная транслитерация древнеегипетского языка."
+          }
         }
       }
     },
@@ -2353,6 +2533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda tilaan \"ASCII → Teksti\" välilehdellä \"ASCII\" ja kirjoita desimaalikoodit välilyönneillä erotettuina (esim. \"72 111 108 97\") saadaksesi vastaavan tekstin."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"ASCII → Текст\" на вкладке \"ASCII\" и введите десятичные коды через пробел (напр. \"72 111 108 97\"), чтобы получить соответствующий текст."
           }
         }
       }
@@ -2430,6 +2616,12 @@
             "state" : "translated",
             "value" : "Vaihda tilaan \"Base64 → Teksti\" välilehdellä \"Base64\" ja liitä kelvollinen Base64-merkkijono saadaksesi alkuperäisen tekstin."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Base64 → Текст\" на вкладке \"Base64\" и вставьте допустимую строку Base64, чтобы получить исходный текст."
+          }
         }
       }
     },
@@ -2505,6 +2697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda tilaan \"Binääri → Teksti\" välilehdellä \"Binääri\" ja kirjoita tavut välilyönneillä erotettuina (esim. \"01001000 01101111 01101100 01100001\") saadaksesi vastaavan tekstin."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Двоичный → Текст\" на вкладке \"Двоичный\" и введите байты через пробел (напр. \"01001000 01101111 01101100 01100001\"), чтобы получить соответствующий текст."
           }
         }
       }
@@ -2582,6 +2780,12 @@
             "state" : "translated",
             "value" : "Vaihda tilaan \"Braille → Teksti\" välilehdellä \"Braille\" ja kirjoita tai liitä Braille-symbolit saadaksesi vastaavan tekstin."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Брайль → Текст\" на вкладке \"Брайль\" и введите или вставьте символы Брайля, чтобы получить соответствующий текст."
+          }
         }
       }
     },
@@ -2657,6 +2861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda tilaan \"Caesar → Teksti\", käytä samaa siirtoa, jolla viesti salattiin, ja kirjoita salattu teksti palauttaaksesi alkuperäisen."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Цезарь → Текст\", используйте тот же сдвиг, которым шифровалось сообщение, и введите зашифрованный текст, чтобы восстановить оригинал."
           }
         }
       }
@@ -2734,6 +2944,12 @@
             "state" : "translated",
             "value" : "Vaihda tilaan \"Nuolenpääkirjoitus → Teksti\" ja kirjoita tai liitä merkit välilyönneillä erotettuina palauttaaksesi alkuperäisen tekstin."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Клинопись → Текст\" и введите или вставьте символы через пробел, чтобы восстановить исходный текст."
+          }
         }
       }
     },
@@ -2809,6 +3025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda tilaan \"Hieroglyfit → Teksti\" ja kirjoita tai liitä symbolit välilyönneillä erotettuina palauttaaksesi alkuperäisen tekstin."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Иероглифы → Текст\" и введите или вставьте символы через пробел, чтобы восстановить исходный текст."
           }
         }
       }
@@ -2886,6 +3108,12 @@
             "state" : "translated",
             "value" : "Vaihda tilaan \"Maya → Luku\" ja liitä maya-numerot, joissa kukin luku on erotettu merkillä \"/\", palauttaaksesi desimaaliarvon."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Майя → Число\" и вставьте цифры майя, разделяя числа знаком \"/\", чтобы восстановить десятичное значение."
+          }
         }
       }
     },
@@ -2961,6 +3189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda tilaan \"Morse → Teksti\". Kirjoita koodi niin, että jokainen kirjain on erotettu välilyönnillä ja jokainen sana merkinnällä \" / \" (välilyönti, vinoviiva, välilyönti)."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Морзе → Текст\". Введите код, разделяя буквы пробелом, а слова — \" / \" (пробел, косая черта, пробел)."
           }
         }
       }
@@ -3038,6 +3272,12 @@
             "state" : "translated",
             "value" : "Vaihda tilaan \"NATO → Teksti\" välilehdellä \"NATO\" ja kirjoita tavaussanat välilyönneillä erotettuina (esim. \"Hotel Oscar Lima Alfa\") saadaksesi vastaavan tekstin."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"НАТО → Текст\" на вкладке \"НАТО\" и введите слова фонетического алфавита через пробел (напр. \"Hotel Oscar Lima Alfa\"), чтобы получить соответствующий текст."
+          }
         }
       }
     },
@@ -3113,6 +3353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda tilaan \"Ogham → Teksti\" ja kirjoita tai liitä viivat saadaksesi vastaavan tekstin."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Огам → Текст\" и введите или вставьте черты, чтобы получить соответствующий текст."
           }
         }
       }
@@ -3190,6 +3436,12 @@
             "state" : "translated",
             "value" : "Vaihda tilaan \"ROT13 → Teksti\" ja kirjoita salattu teksti. Koska ROT13 on symmetrinen, sen käyttäminen uudelleen antaa aina alkuperäisen viestin."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"ROT13 → Текст\" и введите зашифрованный текст. Поскольку ROT13 симметричен, повторное применение всегда возвращает исходное сообщение."
+          }
         }
       }
     },
@@ -3265,6 +3517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda tilaan \"ROT47 → Teksti\" ja kirjoita salattu teksti. Koska ROT47 on myös symmetrinen, sen käyttäminen uudelleen antaa alkuperäisen viestin."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"ROT47 → Текст\" и введите зашифрованный текст. Поскольку ROT47 тоже симметричен, повторное применение возвращает исходное сообщение."
           }
         }
       }
@@ -3342,6 +3600,12 @@
             "state" : "translated",
             "value" : "Vaihda tilaan \"Riimut → Teksti\" ja kirjoita tai liitä riimut saadaksesi vastaavan tekstin."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Руны → Текст\" и введите или вставьте руны, чтобы получить соответствующий текст."
+          }
         }
       }
     },
@@ -3417,6 +3681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda tilaan \"Semafori → Teksti\" ja kirjoita nuolipareja välilyönneillä erotettuina (esim. \"→↘ ↑↗\") saadaksesi vastaavan tekstin."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Семафор → Текст\" и введите пары стрелок через пробел (напр. \"→↘ ↑↗\"), чтобы получить соответствующий текст."
           }
         }
       }
@@ -3494,6 +3764,12 @@
             "state" : "translated",
             "value" : "Vaihda tilaan \"Unicode → Teksti\" välilehdellä \"Unicode\" ja kirjoita koodipisteet välilyönneillä erotettuina (esim. \"U+0048 U+006F U+006C U+0061\") saadaksesi vastaavan tekstin."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переключитесь в режим \"Unicode → Текст\" на вкладке \"Unicode\" и введите кодовые позиции через пробел (напр. \"U+0048 U+006F U+006C U+0061\"), чтобы получить соответствующий текст."
+          }
         }
       }
     },
@@ -3569,6 +3845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vaihda ulkoasu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить оформление"
           }
         }
       }
@@ -3646,6 +3928,12 @@
             "state" : "translated",
             "value" : "Caesar"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цезарь"
+          }
         }
       }
     },
@@ -3721,6 +4009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Caesar-syöte"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод шифра Цезаря"
           }
         }
       }
@@ -3798,6 +4092,12 @@
             "state" : "translated",
             "value" : "Salaa kirjaimet, numerot ja symbolit 47:n kierrolla"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифрует буквы, цифры и символы с поворотом 47"
+          }
         }
       }
     },
@@ -3873,6 +4173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salaa tekstin sumerilaisilla nuolenpääkirjoitusmerkeillä"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифрует текст шумерскими клинописными знаками"
           }
         }
       }
@@ -3950,6 +4256,12 @@
             "state" : "translated",
             "value" : "Salaa teksti oikeilla sumerilaisilla nuolenpääkirjoitusmerkeillä ja pura se takaisin, välilehdellä \"Nuolenpääkirjoitus\"."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифруйте текст настоящими шумерскими клинописными знаками и расшифровывайте обратно на вкладке \"Клинопись\"."
+          }
         }
       }
     },
@@ -4025,6 +4337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salaa tekstin egyptiläisillä hieroglyfeillä"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифрует текст египетскими иероглифами"
           }
         }
       }
@@ -4102,6 +4420,12 @@
             "state" : "translated",
             "value" : "Salaa teksti oikeilla egyptiläisillä hieroglyfeillä ja pura se takaisin, välilehdellä \"Hieroglyfit\"."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифруйте текст настоящими египетскими иероглифами и расшифровывайте обратно на вкладке \"Иероглифы\"."
+          }
         }
       }
     },
@@ -4177,6 +4501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salaa tekstin kiinteällä 13:n siirrolla"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифрует текст с фиксированным сдвигом 13"
           }
         }
       }
@@ -4254,6 +4584,12 @@
             "state" : "translated",
             "value" : "Salaa tekstin siirtämällä aakkosten kirjaimia"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифрует текст, сдвигая буквы алфавита"
+          }
         }
       }
     },
@@ -4329,6 +4665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salaa ja pura teksti Caesar-salauksella, säädettävällä siirrolla 1–25, välilehdellä \"Caesar\"."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифруйте и расшифровывайте текст шифром Цезаря с регулируемым сдвигом от 1 до 25 на вкладке \"Цезарь\"."
           }
         }
       }
@@ -4406,6 +4748,12 @@
             "state" : "translated",
             "value" : "Salaa ja pura teksti ROT13:lla, klassisella kiinteällä 13 paikan siirrolla, välilehdellä \"ROT13\"."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифруйте и расшифровывайте текст с помощью ROT13 — классического фиксированного сдвига на 13 позиций — на вкладке \"ROT13\"."
+          }
         }
       }
     },
@@ -4481,6 +4829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salaa ja pura teksti ROT47:llä, joka kirjainten lisäksi muuntaa myös numerot ja symbolit, välilehdellä \"ROT47\"."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шифруйте и расшифровывайте текст с помощью ROT47, который помимо букв преобразует также цифры и символы, на вкладке \"ROT47\"."
           }
         }
       }
@@ -4558,6 +4912,12 @@
             "state" : "translated",
             "value" : "Salaa teksti Caesarilla"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зашифровать текст шифром Цезаря"
+          }
         }
       }
     },
@@ -4633,6 +4993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salaa teksti nuolenpääkirjoitukseksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зашифровать текст клинописью"
           }
         }
       }
@@ -4710,6 +5076,12 @@
             "state" : "translated",
             "value" : "Salaa teksti hieroglyfeiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зашифровать текст иероглифами"
+          }
         }
       }
     },
@@ -4785,6 +5157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morsekoodisyöte"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод азбуки Морзе"
           }
         }
       }
@@ -4862,6 +5240,12 @@
             "state" : "translated",
             "value" : "Siirrolla 3: \"Hola\" → \"Krod\"\nKäytä samaa lukua salaamiseen ja purkamiseen; numerot ja välimerkit eivät muutu."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Со сдвигом 3: \"Hola\" → \"Krod\"\nИспользуйте одно и то же число для шифрования и расшифровки; цифры и знаки препинания не меняются."
+          }
         }
       }
     },
@@ -4937,6 +5321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Simpukka = 0   Piste (•) = 1   Viiva (▬) = 5\n6 = ▬ + •   19 = 3 viivaa + 4 pistettä\n20-kantainen lukujärjestelmä: 2026 = 5·400 + 1·20 + 6, eli kolme numeroa (5, 1, 6) pinottuna ylhäältä alas. Muuntaa vain lukuja, ei kirjaimia."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Раковина = 0   Точка (•) = 1   Черта (▬) = 5\n6 = ▬ + •   19 = 3 черты + 4 точки\nПозиционная система с основанием 20: 2026 = 5·400 + 1·20 + 6, то есть три цифры (5, 1, 6), расположенные сверху вниз. Преобразует только числа, не буквы."
           }
         }
       }
@@ -5014,6 +5404,12 @@
             "state" : "translated",
             "value" : "Jatka"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
         }
       }
     },
@@ -5089,6 +5485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välitön muunnos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мгновенное преобразование"
           }
         }
       }
@@ -5166,6 +5568,12 @@
             "state" : "translated",
             "value" : "Tekstimuunnin 16 koodilla ja aakkostolla.\nToimii ilman verkkoyhteyttä."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Конвертер текста с 16 кодами и алфавитами.\nРаботает без подключения к интернету."
+          }
         }
       }
     },
@@ -5241,6 +5649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna ASCII tekstiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать ASCII в текст"
           }
         }
       }
@@ -5318,6 +5732,12 @@
             "state" : "translated",
             "value" : "Muunna Base64 tekstiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать Base64 в текст"
+          }
         }
       }
     },
@@ -5393,6 +5813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna binäärikoodi tekstiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать двоичный код в текст"
           }
         }
       }
@@ -5470,6 +5896,12 @@
             "state" : "translated",
             "value" : "Muunna Braille tekstiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать шрифт Брайля в текст"
+          }
         }
       }
     },
@@ -5545,6 +5977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna Maya luvuksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать майя в число"
           }
         }
       }
@@ -5622,6 +6060,12 @@
             "state" : "translated",
             "value" : "Muunna morsekoodi tekstiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать азбуку Морзе в текст"
+          }
         }
       }
     },
@@ -5697,6 +6141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna NATO tekstiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать НАТО в текст"
           }
         }
       }
@@ -5774,6 +6224,12 @@
             "state" : "translated",
             "value" : "Muunna luku Mayaksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать число в майя"
+          }
         }
       }
     },
@@ -5849,6 +6305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna Ogham tekstiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать огам в текст"
           }
         }
       }
@@ -5926,6 +6388,12 @@
             "state" : "translated",
             "value" : "Muunna ROT13 tekstiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать ROT13 в текст"
+          }
         }
       }
     },
@@ -6001,6 +6469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna ROT47 tekstiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать ROT47 в текст"
           }
         }
       }
@@ -6078,6 +6552,12 @@
             "state" : "translated",
             "value" : "Muunna riimut tekstiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать руны в текст"
+          }
         }
       }
     },
@@ -6153,6 +6633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna semafori tekstiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать семафор в текст"
           }
         }
       }
@@ -6230,6 +6716,12 @@
             "state" : "translated",
             "value" : "Muunna teksti muotoon ASCII"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в ASCII"
+          }
         }
       }
     },
@@ -6305,6 +6797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna teksti muotoon Base64"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в Base64"
           }
         }
       }
@@ -6382,6 +6880,12 @@
             "state" : "translated",
             "value" : "Muunna teksti binäärikoodiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в двоичный код"
+          }
         }
       }
     },
@@ -6457,6 +6961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna teksti muotoon Braille"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в шрифт Брайля"
           }
         }
       }
@@ -6534,6 +7044,12 @@
             "state" : "translated",
             "value" : "Muunna teksti morsekoodiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в азбуку Морзе"
+          }
         }
       }
     },
@@ -6609,6 +7125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna teksti muotoon NATO"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в НАТО"
           }
         }
       }
@@ -6686,6 +7208,12 @@
             "state" : "translated",
             "value" : "Muunna teksti muotoon Ogham"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в огам"
+          }
         }
       }
     },
@@ -6761,6 +7289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna teksti muotoon ROT13"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в ROT13"
           }
         }
       }
@@ -6838,6 +7372,12 @@
             "state" : "translated",
             "value" : "Muunna teksti muotoon ROT47"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в ROT47"
+          }
         }
       }
     },
@@ -6913,6 +7453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna teksti riimuiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в руны"
           }
         }
       }
@@ -6990,6 +7536,12 @@
             "state" : "translated",
             "value" : "Muunna teksti semaforiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в семафор"
+          }
         }
       }
     },
@@ -7065,6 +7617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunna teksti muotoon Unicode"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать текст в Unicode"
           }
         }
       }
@@ -7142,6 +7700,12 @@
             "state" : "translated",
             "value" : "Muunna Unicode tekstiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразовать Unicode в текст"
+          }
         }
       }
     },
@@ -7217,6 +7781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin morsekoodiksi tai morsekoodin tekstiksi yhdellä napautuksella."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в азбуку Морзе и азбуку Морзе в текст одним касанием."
           }
         }
       }
@@ -7294,6 +7864,12 @@
             "state" : "translated",
             "value" : "Muuntaa luvut maya-numeroiksi (20-kantainen)"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует числа в цифры майя (основание 20)"
+          }
         }
       }
     },
@@ -7369,6 +7945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa luvut 20-kantaisiksi maya-numeroiksi, piirrettyinä pisteillä, viivoilla ja simpukoilla, ja päinvastoin, välilehdellä \"Maya\"."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует числа в цифры майя с основанием 20, нарисованные точками, чертами и раковинами, и наоборот, на вкладке \"Майя\"."
           }
         }
       }
@@ -7446,6 +8028,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin merisemaforin lipuiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст во флаги морского семафора"
+          }
         }
       }
     },
@@ -7521,6 +8109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin merisemaforin lipuiksi ja päinvastoin ja näyttää nuolilla molempien käsien asennon, välilehdellä \"Semafori\"."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст во флаги морского семафора и наоборот, показывая стрелками положение обеих рук, на вкладке \"Семафор\"."
           }
         }
       }
@@ -7598,6 +8192,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin välittömästi Base64-muotoon"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мгновенно преобразует текст в Base64"
+          }
         }
       }
     },
@@ -7673,6 +8273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin Base64-muotoon ja päinvastoin, ihanteellinen sähköposteihin, URL-osoitteisiin tai JSONiin, välilehdellä \"Base64\"."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в Base64 и наоборот — удобно для электронной почты, URL или JSON — на вкладке \"Base64\"."
           }
         }
       }
@@ -7750,6 +8356,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin välittömästi Unicode-Brailleksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мгновенно преобразует текст в шрифт Брайля Unicode"
+          }
         }
       }
     },
@@ -7825,6 +8437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin Unicode-Brailleksi ja päinvastoin, isot kirjaimet ja numerot mukaan lukien, välilehdellä \"Braille\"."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в шрифт Брайля Unicode и наоборот, включая заглавные буквы и числа, на вкладке \"Брайль\"."
           }
         }
       }
@@ -7902,6 +8520,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin välittömästi binäärikoodiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мгновенно преобразует текст в двоичный код"
+          }
         }
       }
     },
@@ -7977,6 +8601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin 8-bittiseksi binäärikoodiksi ja päinvastoin, välilehdellä \"Binääri\"."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в 8-битный двоичный код и наоборот на вкладке \"Двоичный\"."
           }
         }
       }
@@ -8054,6 +8684,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin välittömästi morsekoodiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мгновенно преобразует текст в азбуку Морзе"
+          }
         }
       }
     },
@@ -8129,6 +8765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin välittömästi ASCII-koodeiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мгновенно преобразует текст в коды ASCII"
           }
         }
       }
@@ -8206,6 +8848,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin desimaalisiksi ASCII-koodeiksi ja päinvastoin, välilehdellä \"ASCII\"."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в десятичные коды ASCII и наоборот на вкладке \"ASCII\"."
+          }
         }
       }
     },
@@ -8281,6 +8929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin Unicode-koodipisteiksi (emojit mukaan lukien) ja päinvastoin, välilehdellä \"Unicode\"."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в кодовые позиции Unicode (включая эмодзи) и наоборот на вкладке \"Unicode\"."
           }
         }
       }
@@ -8358,6 +9012,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin välittömästi Unicode-koodipisteiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мгновенно преобразует текст в кодовые позиции Unicode"
+          }
         }
       }
     },
@@ -8433,6 +9093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin NATOn tavausaakkostoksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в фонетический алфавит НАТО"
           }
         }
       }
@@ -8510,6 +9176,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin NATOn tavausaakkostoksi (Alfa, Bravo, Charlie...) ja päinvastoin, välilehdellä \"NATO\"."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в фонетический алфавит НАТО (Alfa, Bravo, Charlie...) и наоборот на вкладке \"НАТО\"."
+          }
         }
       }
     },
@@ -8585,6 +9257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin Elder Futhark -riimuaakkostoksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в рунический алфавит старший футарк"
           }
         }
       }
@@ -8662,6 +9340,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin Elder Futhark -riimuaakkostoksi, todelliseksi muinaisgermaaniseksi aakkostoksi, välilehdellä \"Riimut\"."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в рунический алфавит старший футарк — настоящий древнегерманский алфавит — на вкладке \"Руны\"."
+          }
         }
       }
     },
@@ -8737,6 +9421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muuntaa tekstin muinaiseksi irlantilaiseksi Ogham-aakkostoksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в древний ирландский алфавит огам"
           }
         }
       }
@@ -8814,6 +9504,12 @@
             "state" : "translated",
             "value" : "Muuntaa tekstin muinaiseksi irlantilaiseksi Ogham-aakkostoksi, välilehdellä \"Ogham\"."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преобразует текст в древний ирландский алфавит огам на вкладке \"Огам\"."
+          }
         }
       }
     },
@@ -8889,6 +9585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopioi tulos leikepöydälle ja liitä se mihin tarvitset."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скопируйте результат в буфер обмена и вставьте его куда нужно."
           }
         }
       }
@@ -8966,6 +9668,12 @@
             "state" : "translated",
             "value" : "Kopioi yhdellä napsautuksella"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копирование в один клик"
+          }
         }
       }
     },
@@ -9041,6 +9749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopioi tulos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копировать результат"
           }
         }
       }
@@ -9118,6 +9832,12 @@
             "state" : "translated",
             "value" : "Kopioi tulos"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копировать результат"
+          }
         }
       }
     },
@@ -9193,6 +9913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nuolenpääkirjoitus"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Клинопись"
           }
         }
       }
@@ -9270,6 +9996,12 @@
             "state" : "translated",
             "value" : "Nuolenpääkirjoitussyöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод клинописи"
+          }
         }
       }
     },
@@ -9345,6 +10077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pura Caesar tekstiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Расшифровать шифр Цезаря в текст"
           }
         }
       }
@@ -9422,6 +10160,12 @@
             "state" : "translated",
             "value" : "Pura nuolenpääkirjoitus tekstiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Расшифровать клинопись в текст"
+          }
         }
       }
     },
@@ -9497,6 +10241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pura hieroglyfit tekstiksi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Расшифровать иероглифы в текст"
           }
         }
       }
@@ -9574,6 +10324,12 @@
             "state" : "translated",
             "value" : "Työkalupalkin aurinko/kuu-kuvakkeella voit valita Järjestelmä, Vaalea tai Tumma."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "С помощью значка солнца/луны на панели инструментов можно выбрать системное, светлое или тёмное оформление."
+          }
         }
       }
     },
@@ -9649,6 +10405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siirto"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сдвиг"
           }
         }
       }
@@ -9726,6 +10488,12 @@
             "state" : "translated",
             "value" : "Molemmat suunnat"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В обоих направлениях"
+          }
         }
       }
     },
@@ -9801,6 +10569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Työkalupalkin kipinäkuvake (✨) näyttää milloin tahansa Signalistin kaikkien toimintojen luettelon."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Значок искры (✨) на панели инструментов в любой момент показывает полный список возможностей Signalist."
           }
         }
       }
@@ -9878,6 +10652,12 @@
             "state" : "translated",
             "value" : "Valitse tila \"Teksti → Morse\", kirjoita mikä tahansa teksti syötekenttään, niin morsekoodi ilmestyy automaattisesti kohtaan \"Tulos\". Sanojen väliset välilyönnit näytetään merkillä \"/\"."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите режим \"Текст → Морзе\", введите любой текст в поле ввода, и код Морзе автоматически появится в разделе \"Результат\". Пробелы между словами отображаются как \"/\"."
+          }
         }
       }
     },
@@ -9953,6 +10733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valitse haluamasi ulkoasu tai anna Signalistin seurata järjestelmää."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите предпочитаемое оформление или позвольте Signalist следовать системному."
           }
         }
       }
@@ -10030,6 +10816,12 @@
             "state" : "translated",
             "value" : "Kirjoita teksti ja saat morsekoodin heti, ilman ylimääräisiä painikkeita."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите текст и мгновенно получите код Морзе без дополнительных кнопок."
+          }
         }
       }
     },
@@ -10105,6 +10897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kuuntele morsekoodia sitä luotaessa, oikeilla radiotelegrafiäänillä. Mykistä ääni milloin tahansa työkalupalkista."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Слушайте код Морзе по мере его создания — с настоящими тонами радиотелеграфа. Отключить звук можно в любой момент на панели инструментов."
           }
         }
       }
@@ -10182,6 +10980,12 @@
             "state" : "translated",
             "value" : "Yleiset"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основные"
+          }
         }
       }
     },
@@ -10257,6 +11061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hieroglyfit"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Иероглифы"
           }
         }
       }
@@ -10334,6 +11144,12 @@
             "state" : "translated",
             "value" : "Hieroglyfisyöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод иероглифов"
+          }
         }
       }
     },
@@ -10409,6 +11225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tyhjennä"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить"
           }
         }
       }
@@ -10486,6 +11308,12 @@
             "state" : "translated",
             "value" : "Valmis"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
         }
       }
     },
@@ -10561,6 +11389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maya"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Майя"
           }
         }
       }
@@ -10638,6 +11472,12 @@
             "state" : "translated",
             "value" : "Tila"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Режим"
+          }
         }
       }
     },
@@ -10714,6 +11554,12 @@
             "state" : "translated",
             "value" : "Vaalea ja tumma tila"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Светлый и тёмный режим"
+          }
         }
       }
     },
@@ -10786,6 +11632,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morse"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morse"
@@ -10866,6 +11718,12 @@
             "state" : "translated",
             "value" : "Näytä uutuudet uudelleen"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать новые функции снова"
+          }
         }
       }
     },
@@ -10938,6 +11796,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NATO"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "NATO"
@@ -11018,6 +11882,12 @@
             "state" : "translated",
             "value" : "NATO-syöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод НАТО"
+          }
         }
       }
     },
@@ -11093,6 +11963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uutta Signalistissa"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что нового в Signalist"
           }
         }
       }
@@ -11170,6 +12046,12 @@
             "state" : "translated",
             "value" : "Uusi välilehti: ASCII"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: ASCII"
+          }
         }
       }
     },
@@ -11245,6 +12127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uusi välilehti: Base64"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Base64"
           }
         }
       }
@@ -11322,6 +12210,12 @@
             "state" : "translated",
             "value" : "Uusi välilehti: Binääri"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Двоичный"
+          }
         }
       }
     },
@@ -11397,6 +12291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uusi välilehti: Braille"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Брайль"
           }
         }
       }
@@ -11474,6 +12374,12 @@
             "state" : "translated",
             "value" : "Uusi välilehti: Caesar"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Цезарь"
+          }
         }
       }
     },
@@ -11549,6 +12455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uusi välilehti: Nuolenpääkirjoitus"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Клинопись"
           }
         }
       }
@@ -11626,6 +12538,12 @@
             "state" : "translated",
             "value" : "Uusi välilehti: Hieroglyfit"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Иероглифы"
+          }
         }
       }
     },
@@ -11701,6 +12619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uusi välilehti: Maya"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Майя"
           }
         }
       }
@@ -11778,6 +12702,12 @@
             "state" : "translated",
             "value" : "Uusi välilehti: NATO"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: НАТО"
+          }
         }
       }
     },
@@ -11853,6 +12783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uusi välilehti: Ogham"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Огам"
           }
         }
       }
@@ -11930,6 +12866,12 @@
             "state" : "translated",
             "value" : "Uusi välilehti: ROT13"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: ROT13"
+          }
         }
       }
     },
@@ -12005,6 +12947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uusi välilehti: ROT47"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: ROT47"
           }
         }
       }
@@ -12082,6 +13030,12 @@
             "state" : "translated",
             "value" : "Uusi välilehti: Riimut"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Руны"
+          }
         }
       }
     },
@@ -12157,6 +13111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uusi välilehti: Semafori"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Семафор"
           }
         }
       }
@@ -12234,6 +13194,12 @@
             "state" : "translated",
             "value" : "Uusi välilehti: Unicode"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая вкладка: Unicode"
+          }
         }
       }
     },
@@ -12309,6 +13275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maya-numeroiden syöte"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод цифр майя"
           }
         }
       }
@@ -12386,6 +13358,12 @@
             "state" : "translated",
             "value" : "Lukusyöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод чисел"
+          }
         }
       }
     },
@@ -12458,6 +13436,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogham"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ogham"
@@ -12538,6 +13522,12 @@
             "state" : "translated",
             "value" : "Ogham-syöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод огама"
+          }
         }
       }
     },
@@ -12613,6 +13603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pikaopas — ASCII"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — ASCII"
           }
         }
       }
@@ -12690,6 +13686,12 @@
             "state" : "translated",
             "value" : "Pikaopas — Base64"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Base64"
+          }
         }
       }
     },
@@ -12765,6 +13767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pikaopas — Binääri"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Двоичный"
           }
         }
       }
@@ -12842,6 +13850,12 @@
             "state" : "translated",
             "value" : "Pikaopas — Braille"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Брайль"
+          }
         }
       }
     },
@@ -12917,6 +13931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pikaopas — Caesar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Цезарь"
           }
         }
       }
@@ -12994,6 +14014,12 @@
             "state" : "translated",
             "value" : "Pikaopas — Nuolenpääkirjoitus"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Клинопись"
+          }
         }
       }
     },
@@ -13069,6 +14095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pikaopas — Hieroglyfit"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Иероглифы"
           }
         }
       }
@@ -13146,6 +14178,12 @@
             "state" : "translated",
             "value" : "Pikaopas — Maya"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Майя"
+          }
         }
       }
     },
@@ -13221,6 +14259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pikaopas — Morse"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Морзе"
           }
         }
       }
@@ -13298,6 +14342,12 @@
             "state" : "translated",
             "value" : "Pikaopas — NATO"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — НАТО"
+          }
         }
       }
     },
@@ -13373,6 +14423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pikaopas — Ogham"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Огам"
           }
         }
       }
@@ -13450,6 +14506,12 @@
             "state" : "translated",
             "value" : "Pikaopas — ROT13"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — ROT13"
+          }
         }
       }
     },
@@ -13525,6 +14587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pikaopas — ROT47"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — ROT47"
           }
         }
       }
@@ -13602,6 +14670,12 @@
             "state" : "translated",
             "value" : "Pikaopas — Riimut"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Руны"
+          }
         }
       }
     },
@@ -13677,6 +14751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pikaopas — Semafori"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Семафор"
           }
         }
       }
@@ -13754,6 +14834,12 @@
             "state" : "translated",
             "value" : "Pikaopas — Unicode"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Краткий справочник — Unicode"
+          }
         }
       }
     },
@@ -13829,6 +14915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toista ääni"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Воспроизвести звук"
           }
         }
       }
@@ -13906,6 +14998,12 @@
             "state" : "translated",
             "value" : "Tulos"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Результат"
+          }
         }
       }
     },
@@ -13978,6 +15076,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT13"
@@ -14058,6 +15162,12 @@
             "state" : "translated",
             "value" : "ROT13-syöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод ROT13"
+          }
         }
       }
     },
@@ -14130,6 +15240,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT47"
@@ -14210,6 +15326,12 @@
             "state" : "translated",
             "value" : "ROT47-syöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод ROT47"
+          }
         }
       }
     },
@@ -14285,6 +15407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Riimut"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Руны"
           }
         }
       }
@@ -14362,6 +15490,12 @@
             "state" : "translated",
             "value" : "Riimusyöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод рун"
+          }
         }
       }
     },
@@ -14437,6 +15571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lopeta Signalist"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завершить Signalist"
           }
         }
       }
@@ -14514,6 +15654,12 @@
             "state" : "translated",
             "value" : "Semafori"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Семафор"
+          }
         }
       }
     },
@@ -14590,6 +15736,12 @@
             "state" : "translated",
             "value" : "Semaforisyöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод семафора"
+          }
         }
       }
     },
@@ -14662,6 +15814,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalist"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Signalist"
@@ -14742,6 +15900,12 @@
             "state" : "translated",
             "value" : "Signalist-ohje"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Справка Signalist"
+          }
         }
       }
     },
@@ -14817,6 +15981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mykistä ääni"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отключить звук"
           }
         }
       }
@@ -14894,6 +16064,12 @@
             "state" : "translated",
             "value" : "Morseääni"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звук азбуки Морзе"
+          }
         }
       }
     },
@@ -14969,6 +16145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekstisyöte"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод текста"
           }
         }
       }
@@ -15046,6 +16228,12 @@
             "state" : "translated",
             "value" : "Kaikki, mitä tarvitset sovelluksen käyttöön"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всё, что нужно знать для работы с приложением"
+          }
         }
       }
     },
@@ -15122,6 +16310,12 @@
             "state" : "translated",
             "value" : "Kaikki, mitä voit tehdä uudella versiolla"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всё, что можно делать в новой версии"
+          }
         }
       }
     },
@@ -15194,6 +16388,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unicode"
@@ -15274,6 +16474,12 @@
             "state" : "translated",
             "value" : "Unicode-syöte"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод Unicode"
+          }
         }
       }
     },
@@ -15349,6 +16555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Käytä painiketta \"Kopioi tulos\" kopioidaksesi muunnetun tekstin leikepöydälle ja liittääksesi sen mihin tarvitset."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Используйте кнопку \"Копировать результат\", чтобы скопировать преобразованный текст в буфер обмена и вставить его куда нужно."
           }
         }
       }
@@ -15426,6 +16638,12 @@
             "state" : "translated",
             "value" : "Siirry välilehdelle \"ASCII\", valitse tila \"Teksti → ASCII\" ja kirjoita mikä tahansa teksti. Jokainen merkki käännetään desimaalikoodikseen (esim. \"A\" = \"65\"), erotettuna välilyönneillä."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"ASCII\", выберите режим \"Текст → ASCII\" и введите любой текст. Каждый символ переводится в свой десятичный код (напр. \"A\" = \"65\"); коды разделяются пробелами."
+          }
         }
       }
     },
@@ -15501,6 +16719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Base64\", valitse tila \"Teksti → Base64\" ja kirjoita mikä tahansa teksti. Tuloksena on Base64-merkkijono, valmiina sähköposteihin, URL-osoitteisiin tai JSONiin."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Base64\", выберите режим \"Текст → Base64\" и введите любой текст. Результат — строка Base64, готовая для электронной почты, URL или JSON."
           }
         }
       }
@@ -15578,6 +16802,12 @@
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Binääri\", valitse tila \"Teksti → Binääri\" ja kirjoita mikä tahansa teksti. Jokainen merkki käännetään 8-bittiseksi tavuksi (esim. \"A\" = \"01000001\"), erotettuna välilyönneillä."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Двоичный\", выберите режим \"Текст → Двоичный\" и введите любой текст. Каждый символ переводится в 8-битный байт (напр. \"A\" = \"01000001\"); байты разделяются пробелами."
+          }
         }
       }
     },
@@ -15653,6 +16883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Braille\", valitse tila \"Teksti → Braille\" ja kirjoita mikä tahansa teksti. Tulos näytetään Unicode-Braille-soluina, isot kirjaimet ja numerot mukaan lukien."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Брайль\", выберите режим \"Текст → Брайль\" и введите любой текст. Результат показывается ячейками шрифта Брайля Unicode, включая заглавные буквы и числа."
           }
         }
       }
@@ -15730,6 +16966,12 @@
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Caesar\", valitse tila \"Teksti → Caesar\", säädä siirto liukusäätimellä (1–25) ja kirjoita mikä tahansa teksti. Jokaista kirjainta siirretään näin monta paikkaa aakkostossa."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Цезарь\", выберите режим \"Текст → Цезарь\", настройте сдвиг ползунком (1–25) и введите любой текст. Каждая буква сдвигается на это число позиций в алфавите."
+          }
         }
       }
     },
@@ -15805,6 +17047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Nuolenpääkirjoitus\", valitse tila \"Teksti → Nuolenpääkirjoitus\" ja kirjoita mikä tahansa teksti. Jokainen kirjain korvataan oikealla sumerilaisella nuolenpääkirjoitusmerkillä, erotettuna välilyönneillä."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Клинопись\", выберите режим \"Текст → Клинопись\" и введите любой текст. Каждая буква заменяется настоящим шумерским клинописным знаком; знаки разделяются пробелами."
           }
         }
       }
@@ -15882,6 +17130,12 @@
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Hieroglyfit\", valitse tila \"Teksti → Hieroglyfit\" ja kirjoita mikä tahansa teksti. Jokainen kirjain korvataan oikealla egyptiläisellä hieroglyfisymbolilla, erotettuna välilyönneillä."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Иероглифы\", выберите режим \"Текст → Иероглифы\" и введите любой текст. Каждая буква заменяется настоящим египетским иероглифом; знаки разделяются пробелами."
+          }
         }
       }
     },
@@ -15957,6 +17211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Maya\", valitse tila \"Luku → Maya\" ja kirjoita yksi tai useampi luku (esim. \"2026\"). Ne piirretään pystysuoraan pinottuina maya-numeroina. Tämä välilehti muuntaa vain lukuja, ei kirjaimia."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Майя\", выберите режим \"Число → Майя\" и введите одно или несколько чисел (напр. \"2026\"). Они рисуются как вертикально сложенные цифры майя. Эта вкладка преобразует только числа, не буквы."
           }
         }
       }
@@ -16034,6 +17294,12 @@
             "state" : "translated",
             "value" : "Siirry välilehdelle \"NATO\", valitse tila \"Teksti → NATO\" ja kirjoita mikä tahansa teksti. Jokainen kirjain ja numero käännetään tavaussanakseen (esim. \"A\" = \"Alfa\"). Sanojen väliset välilyönnit näytetään merkillä \"/\"."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"НАТО\", выберите режим \"Текст → НАТО\" и введите любой текст. Каждая буква и цифра переводится в своё слово фонетического алфавита (напр. \"A\" = \"Alfa\"). Пробелы между словами отображаются как \"/\"."
+          }
         }
       }
     },
@@ -16109,6 +17375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Ogham\", valitse tila \"Teksti → Ogham\" ja kirjoita mikä tahansa teksti. Jokainen kirjain käännetään muinaisen irlantilaisen aakkoston merkiksi, ilman välilyöntejä kirjainten välissä."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Огам\", выберите режим \"Текст → Огам\" и введите любой текст. Каждая буква переводится в свой знак древнего ирландского алфавита, без пробелов между буквами."
           }
         }
       }
@@ -16186,6 +17458,12 @@
             "state" : "translated",
             "value" : "Siirry välilehdelle \"ROT13\", valitse tila \"Teksti → ROT13\" ja kirjoita mikä tahansa teksti. Jokaista kirjainta siirretään aina 13 paikkaa, mitään ei tarvitse määrittää."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"ROT13\", выберите режим \"Текст → ROT13\" и введите любой текст. Каждая буква всегда сдвигается на 13 позиций, ничего настраивать не нужно."
+          }
         }
       }
     },
@@ -16261,6 +17539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siirry välilehdelle \"ROT47\", valitse tila \"Teksti → ROT47\" ja kirjoita mikä tahansa teksti. Toisin kuin ROT13, se muuntaa myös numerot ja välimerkit, ei vain kirjaimia."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"ROT47\", выберите режим \"Текст → ROT47\" и введите любой текст. В отличие от ROT13, он преобразует также цифры и знаки препинания, а не только буквы."
           }
         }
       }
@@ -16338,6 +17622,12 @@
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Riimut\", valitse tila \"Teksti → Riimut\" ja kirjoita mikä tahansa teksti. Jokainen kirjain käännetään Elder Futhark -aakkoston riimuksi, ilman välilyöntejä kirjainten välissä."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Руны\", выберите режим \"Текст → Руны\" и введите любой текст. Каждая буква переводится в свою руну алфавита старший футарк, без пробелов между буквами."
+          }
         }
       }
     },
@@ -16413,6 +17703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Semafori\", valitse tila \"Teksti → Semafori\" ja kirjoita mikä tahansa teksti. Jokainen kirjain näytetään nuolipariksi, joka esittää oikean ja vasemman käden asennon."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Семафор\", выберите режим \"Текст → Семафор\" и введите любой текст. Каждая буква отображается парой стрелок, показывающих положение правой и левой руки."
           }
         }
       }
@@ -16490,6 +17786,12 @@
             "state" : "translated",
             "value" : "Siirry välilehdelle \"Unicode\", valitse tila \"Teksti → Unicode\" ja kirjoita mikä tahansa teksti, myös emojeja. Jokainen merkki käännetään koodipisteekseen (esim. \"A\" = \"U+0041\"), erotettuna välilyönneillä."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на вкладку \"Unicode\", выберите режим \"Текст → Unicode\" и введите любой текст, в том числе эмодзи. Каждый символ переводится в свою кодовую позицию (напр. \"A\" = \"U+0041\"); позиции разделяются пробелами."
+          }
         }
       }
     },
@@ -16565,6 +17867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Näytä uutuudet"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать новые функции"
           }
         }
       }
@@ -16642,6 +17950,12 @@
             "state" : "translated",
             "value" : "Näyttää uutuusikkunan uudelleen, kun seuraavan kerran avaat Signalistin."
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снова показывает окно новых функций при следующем открытии Signalist."
+          }
         }
       }
     },
@@ -16717,6 +18031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muunnostila"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Режим преобразования"
           }
         }
       }
@@ -16794,6 +18114,12 @@
             "state" : "translated",
             "value" : "Valitse, muunnatko tekstin koodiksi vai koodin tekstiksi"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите: преобразовать текст в код или код в текст"
+          }
         }
       }
     },
@@ -16869,6 +18195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kirjoita tai liitä muunnettava sisältö tähän. Tulos päivittyy heti."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите или вставьте сюда содержимое для преобразования. Результат обновляется мгновенно."
           }
         }
       }
@@ -16946,6 +18278,12 @@
             "state" : "translated",
             "value" : "Kopioi tuloksen leikepöydälle"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копирует результат в буфер обмена"
+          }
         }
       }
     },
@@ -17021,6 +18359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tyhjentää kirjoitetun tekstin ja tuloksen"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очищает введённый текст и результат"
           }
         }
       }
@@ -17098,6 +18442,12 @@
             "state" : "translated",
             "value" : "Paikat: %lld"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позиций: %lld"
+          }
         }
       }
     },
@@ -17173,6 +18523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maya-numero: %lld"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цифра майя: %lld"
           }
         }
       }
@@ -17250,6 +18606,12 @@
             "state" : "translated",
             "value" : "Järjestelmä"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Системное"
+          }
         }
       }
     },
@@ -17326,6 +18688,12 @@
             "state" : "translated",
             "value" : "Vaalea"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Светлое"
+          }
         }
       }
     },
@@ -17401,6 +18769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tumma"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тёмное"
           }
         }
       }
@@ -17479,6 +18853,12 @@
             "state" : "translated",
             "value" : "Teksti → ASCII"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → ASCII"
+          }
         }
       }
     },
@@ -17555,6 +18935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ASCII → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASCII → Текст"
           }
         }
       }
@@ -17633,6 +19019,12 @@
             "state" : "translated",
             "value" : "Teksti → Base64"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Base64"
+          }
         }
       }
     },
@@ -17709,6 +19101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Base64 → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64 → Текст"
           }
         }
       }
@@ -17787,6 +19185,12 @@
             "state" : "translated",
             "value" : "Teksti → Binääri"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Двоичный"
+          }
         }
       }
     },
@@ -17863,6 +19267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Binääri → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Двоичный → Текст"
           }
         }
       }
@@ -17941,6 +19351,12 @@
             "state" : "translated",
             "value" : "Teksti → Braille"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Брайль"
+          }
         }
       }
     },
@@ -18017,6 +19433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Braille → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Брайль → Текст"
           }
         }
       }
@@ -18095,6 +19517,12 @@
             "state" : "translated",
             "value" : "Teksti → Caesar"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Цезарь"
+          }
         }
       }
     },
@@ -18171,6 +19599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Caesar → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цезарь → Текст"
           }
         }
       }
@@ -18249,6 +19683,12 @@
             "state" : "translated",
             "value" : "Teksti → Nuolenpääkirjoitus"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Клинопись"
+          }
         }
       }
     },
@@ -18325,6 +19765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nuolenpääkirjoitus → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Клинопись → Текст"
           }
         }
       }
@@ -18403,6 +19849,12 @@
             "state" : "translated",
             "value" : "Teksti → Hieroglyfit"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Иероглифы"
+          }
         }
       }
     },
@@ -18479,6 +19931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hieroglyfit → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Иероглифы → Текст"
           }
         }
       }
@@ -18557,6 +20015,12 @@
             "state" : "translated",
             "value" : "Luku → Maya"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Число → Майя"
+          }
         }
       }
     },
@@ -18633,6 +20097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maya → Luku"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Майя → Число"
           }
         }
       }
@@ -18711,6 +20181,12 @@
             "state" : "translated",
             "value" : "Teksti → Morse"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Морзе"
+          }
         }
       }
     },
@@ -18787,6 +20263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morse → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морзе → Текст"
           }
         }
       }
@@ -18865,6 +20347,12 @@
             "state" : "translated",
             "value" : "Teksti → NATO"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → НАТО"
+          }
         }
       }
     },
@@ -18941,6 +20429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "NATO → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "НАТО → Текст"
           }
         }
       }
@@ -19019,6 +20513,12 @@
             "state" : "translated",
             "value" : "Teksti → Ogham"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Огам"
+          }
         }
       }
     },
@@ -19095,6 +20595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ogham → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Огам → Текст"
           }
         }
       }
@@ -19173,6 +20679,12 @@
             "state" : "translated",
             "value" : "Teksti → ROT13"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → ROT13"
+          }
         }
       }
     },
@@ -19249,6 +20761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT13 → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT13 → Текст"
           }
         }
       }
@@ -19327,6 +20845,12 @@
             "state" : "translated",
             "value" : "Teksti → ROT47"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → ROT47"
+          }
         }
       }
     },
@@ -19403,6 +20927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ROT47 → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ROT47 → Текст"
           }
         }
       }
@@ -19481,6 +21011,12 @@
             "state" : "translated",
             "value" : "Teksti → Riimut"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Руны"
+          }
         }
       }
     },
@@ -19557,6 +21093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Riimut → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Руны → Текст"
           }
         }
       }
@@ -19635,6 +21177,12 @@
             "state" : "translated",
             "value" : "Teksti → Semafori"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Семафор"
+          }
         }
       }
     },
@@ -19711,6 +21259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semafori → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Семафор → Текст"
           }
         }
       }
@@ -19789,6 +21343,12 @@
             "state" : "translated",
             "value" : "Teksti → Unicode"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст → Unicode"
+          }
         }
       }
     },
@@ -19865,6 +21425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unicode → Teksti"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unicode → Текст"
           }
         }
       }
